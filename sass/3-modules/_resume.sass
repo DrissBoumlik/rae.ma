@@ -1,0 +1,434 @@
+
+.resume
+    > .section
+        overflow: hidden
+        padding-bottom: 20px
+        &:not(:first-child)
+            padding-top: 20px!important
+        > .container > .row
+            margin-bottom: 20px
+        &:nth-child(even)
+            background-color: $nice-blue
+            .section-title
+                color: $light
+            .section-title-line
+                background-color: $light
+                border: $light
+        &:nth-child(odd)
+            .section-title
+                color: $nice-blue
+            .section-title-line
+                background-color: $nice-blue
+                border: $nice-blue
+    .section-title-line
+        width: 110px
+        height: 2px
+        margin-bottom: 10px
+    .section-title
+        font-weight: bold
+        margin-bottom: 40px
+        font-size: 2.5rem
+    .progress
+        height: $heigth-line-heigth
+        background-color: #d9d3d3
+        z-index: 1
+        .progress-bar
+            font-weight: bold
+            text-transform: uppercase
+            line-height: $heigth-line-heigth
+            position: relative
+            text-align: left
+            &.padding-left
+                padding-left: 20px
+.block
+    .list-group-item
+        background-color: $light
+        color: $nice-blue
+    p, a
+        color: $dark
+    img
+        background-color: $tiny-blue
+    
+.block-inverse
+    .list-group-item
+        background-color: $nice-blue
+        color: $light
+    p, a
+        color: $light
+    img
+        background-color: $tiny-blue
+
+    
+.timeline
+    .section
+        perspective: 1000px
+        z-index: 1
+
+    .section .content, .section:before
+        opacity: 1
+        transform: rotateY(0deg)
+        transition: transform 1s ease, opacity 2s ease
+    .section:before
+        transition: transform .4s ease, opacity 2s ease
+    .right .content, .left:before
+        transform-origin: left
+    .left .content, .right:before
+        transform-origin: right
+    
+    .left.rotated .content, .left.rotated:before
+        opacity: 0
+        transform: rotateY(-100deg)
+    .right.rotated .content, .right.rotated:before
+        opacity: 0
+        transform: rotateY(100deg)
+
+/* The actual timeline (the vertical ruler) */
+.timeline
+    position: relative
+    max-width: 1200px
+    margin: 0 auto
+    &:after /* The actual timeline (the vertical ruler) */
+        content: ''
+        position: absolute
+        width: 6px
+        background-color: #fff
+        top: -3%
+        bottom: 0
+        border-radius: 5px
+        left: 50%
+        margin-left: -3px
+        z-index: 0
+
+
+    /* Container around content */
+    .section 
+        padding: 10px 40px
+        position: relative
+        background-color: inherit
+        width: 50%
+        display: inline-block
+        &::after /* The circles on the timeline */
+            content: ''
+            position: absolute
+            width: 40px
+            height: 40px
+            right: -20px
+            top: 13px
+            background-color: #fff
+            border: 4px solid #fff
+            border-radius: 50%
+            z-index: 1
+            line-height: 32px // 39px without border
+            color: #fff
+            font-weight: bolder
+            font-size: 1.7rem
+
+    /* Place the section to the left */
+    .left 
+        left: -25%  // 0
+        &:before  /* Add arrows to the left section (pointing right) */
+            content: " "
+            height: 0
+            position: absolute
+            top: 22px
+            width: 0
+            z-index: 1
+            right: 30px
+            border: medium solid #fff
+            border-width: 10px 0 10px 10px
+            border-color: transparent transparent transparent #fff
+
+    /* Place the section to the right */
+    .right 
+        left: 25% //50%
+        &:before  /* Add arrows to the right section (pointing left) */
+            content: " "
+            height: 0
+            position: absolute
+            top: 22px
+            width: 0
+            z-index: 1
+            left: 30px
+            border: medium solid #fff
+            border-width: 10px 10px 10px 0
+            border-color: transparent #fff transparent transparent
+        &:after  /* Fix the circle for sections on the right side */
+            left: -20px
+
+    /* The actual content */
+    .content 
+        text-align: left
+        padding: 20px 30px
+        background-color: #fff
+        position: relative
+        border-radius: 6px
+        h2
+            font-size: 1.5rem
+            margin-bottom: 5px
+            font-weight: 600
+        .function
+            color: $nice-blue
+
+    .wordpress:after
+        font-weight: 100 // exception for the icon look
+        font-family: "Font Awesome\ 5 Brands"
+        content: "\f411" //"\f19a"        
+        background-color: #454442
+    .laravel:after
+        font-family: "Font Awesome\ 5 Brands"
+        content: "\f3bd"        
+        background-color: #FF5050
+    .robot:after
+        font-family: "Font Awesome\ 5 Free"
+        content: "\f544"
+        background-color: #97C024
+    .bootstrap:after
+        font-family: "Font Awesome\ 5 Brands"
+        content: "\f13c"
+        background-color: #21caeb
+    .csharp:after
+        font-family: "Font Awesome\ 5 Free"
+        content: "\f108"
+        background-color: #2F4F4F
+
+.timeline.reversed
+    &:after
+        background-color: $nice-blue
+    .section.left:before
+        border-color: transparent transparent transparent $nice-blue
+    .section.right:before
+        border-color: transparent $nice-blue transparent transparent
+    .content
+        background-color: $nice-blue
+        color: #fff
+    .function
+        color: #fff
+    .graduate:after
+        content: "\f19d"
+        font-family: "Font Awesome\ 5 Free"
+        line-height: 32px
+        background-color: #fff
+        border: 4px solid $nice-blue
+        color: #222
+        font-weight: bolder
+
+    
+.portfolio
+    .box
+        position: relative
+        width: 100%
+        display: inline-block
+        transform: scale(1)
+        transition: transform 0.5s ease
+        &:hover 
+            .tuto-title
+                opacity: 1
+                transform: translateY(-100%) rotateY(0deg) // bottom: -35px
+                z-index: 999
+                background-color: #222
+            .wrapper
+                // filter: blur(25px)
+                transform: rotateY(90deg)
+        .tuto-title
+            border: 5px solid #fff
+            border-radius: 5px
+            opacity: 0
+            color: #fff
+            position: absolute
+            width: 100%
+            height: 100%
+            padding: 20px
+            display: flex
+            justify-content: center
+            flex-direction: column
+            transform: translateY(-100%) rotateY(90deg) // bottom: -170px
+            text-align: center
+            font-size: 3rem
+            transition: transform 0.3s ease
+            a
+                color: $light
+                &:hover
+                    color: $light
+    .container 
+        padding: 0
+        > .row
+            margin-bottom: 20px
+    img
+        width: 100%
+        border: 5px solid #fff
+        border-radius: 5px
+        background-color: $light
+
+.portfolio .box.small, .passion .list-group-item.small, .other-experiences .small
+        transform: scale(0.2)
+
+.recommandations
+    .people-say-carousel
+        .item .col-sm-8
+            padding-top: 25px
+            margin-left: 0
+    blockquote
+        border: none
+        text-align: left
+    .carousel-control
+        background-image: none
+        bottom: auto
+        top: 30%
+    p
+        font-size: 2rem
+    p, small
+        font-family: $my-epic-selfie
+    .control-bg
+        opacity: 0
+        transition: opacity .5s ease
+    a
+        position: relative
+        &:hover .control-bg
+            background-color: #474747
+            opacity: 0.2
+            display: inline-block
+            width: 30px
+            height: 30px
+            position: absolute
+            top: -2px  
+            border-radius: 50%
+        &[data-slide="prev"]:hover .control-bg
+            left: -7px
+        &[data-slide="next"]:hover .control-bg
+            right: -7px
+
+.passion, .other-experiences
+    .container .container
+        text-align: left
+        .row
+            margin-bottom: 20px
+        .has-badge 
+            margin-bottom: 5px
+            img
+                padding: 4px
+                width: 45px
+                border: 1px solid #aaa
+                border-radius: 50%
+            h2
+                position: relative
+                top: -5px
+                margin-left: 5px
+                font-size: 2.5rem
+                display: inline-block
+                font-family: $my-epic-selfie
+        .list-group-item-body
+            margin-top: 10px
+            font-family: $font-base
+            font-size: 1.7rem
+
+.grow
+    +animation(grow, 1s, $direction : forwards)
+
+.contact-me
+    a, a:hover, a:focus
+        color: $light
+        
+    overflow: hidden
+    #contact-message
+        max-width: 100%
+        min-width: 100%
+        min-height: 130px
+        max-height: 130px
+    .img img
+        height: 17em
+            
+    
+.summary-container
+    width: 220px
+    position: fixed
+    top: 50%
+    // left: 20px
+    padding: 0 0 10px
+    // background: $dark
+    border-radius: 5px
+    z-index: 3
+    color: $dark
+    background-color: $light
+    transform: translate(5%, -50%)
+    transition: opacity .5s ease, transform .5s ease
+    &.hide-left
+        opacity: 0.2
+        transform: translate(-80%, -50%)
+    &:hover
+        opacity: 1
+        transform: translate(5%, -50%)
+    .summary-header
+        text-align: center
+        background-color: $blue
+        color: $light
+        padding: 8px 0 6px
+        font-size: 1.8rem
+        border-radius: 5px 5px 0 0
+        font-weight: bolder
+        &:before
+            content: "\f022"
+            position: absolute
+            left: 15px
+            font-family: "Font Awesome 5 Free"
+            font-weight: 400
+    .summary-item
+        cursor: pointer
+        font-size: 1.6rem
+        position: relative
+        &:not(:last-child)
+            margin: 0 0 5px
+    .summary-item
+        padding: 6px 10px 3px 0
+        &.active, &:hover
+            border-radius: 5px
+            background-color: $nice-blue
+            .summary-txt
+                color: $light
+        .summary-txt
+            color: $dark
+            padding-left: 40px
+            font-size: 2rem
+            font-family: $my-epic-selfie
+            &:before
+                position: absolute
+                left: 5px
+                top: 8px
+                font-size: 1.6rem
+                font-family: "Font Awesome 5 Free"
+                font-weight: bold
+
+    .summary-item
+        margin: auto 0 auto 10px
+        padding: 6px 0 3px 10px
+        &:hover
+            .summary-txt
+                color: $light
+        &.active, &:hover
+            border-radius: 0
+            margin: 0
+            padding-left: 20px
+            background-color: $blue
+            &:before
+                content: ""
+                position: absolute
+                height: 100%
+                width: 6px
+                top: 0
+                right: -5px
+                background-color: $blue
+                z-index: 1
+            &:after
+                width: 0
+                border: medium solid
+                border-color: transparent transparent transparent $dark
+                border-width: 5px 0 5px 5px
+                position: absolute
+                bottom: -5px
+                right: -5px
+                content: ""
+            .summary-txt:before
+                left: 15px
+        .summary-txt
+            font-size: 1.7rem
+            padding-left: 35px
+            font-weight: normal

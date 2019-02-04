@@ -1,0 +1,17 @@
+header .progress
+    overflow: unset
+header .progress-bar
+    box-shadow: rgba(18, 74, 138, 1) -1px 4px 8px 0
+    transition: width 0s ease
+    position: relative
+    z-index: 1
+.progress-bar.delay
+    transition: width 2s ease
+
+$index: 40
+@while $index <= 100
+    .width-#{$index}
+        width: $index*1%
+        $index: $index + 5
+
+

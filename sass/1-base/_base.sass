@@ -1,0 +1,139 @@
+//BASE STYLES
+html
+    scroll-behavior: smooth
+
+*
+    outline: none!important
+
+::selection
+    background-color: $nice-blue
+    color: $light
+
+::-webkit-scrollbar 
+    width: 1.2rem
+::-webkit-scrollbar-track 
+    background-color: $light
+    // box-shadow: inset 0 0 5px grey 
+    // border-radius: 10px
+::-webkit-scrollbar-thumb 
+    background-color: $light-blue 
+    box-shadow: inset 0 0 5px grey
+    // border-radius: 10px
+    // &:hover 
+    //     background-color: $nice-blue  
+    
+body
+    z-index: 0
+    // padding-top: 70px
+    font-family: $font-base
+    margin: 0 auto
+    // background-image: url('images/patterns/bg-widget1.png')
+    // min-width: 500px
+    // margin-left: auto
+    // margin-right: auto
+a
+    text-decoration: none!important
+    // color: $light
+.fixed-bg
+    background-attachment: fixed
+.no-margin
+    margin: 0
+    a
+        color: $light
+.text-shadow
+    text-shadow: 2px 2px 5px $dark
+.small
+    font-size: 4rem
+
+.serious-font
+    font-family: $istok-web!important
+.funny-font
+    font-family: $my-epic-selfie!important
+.relative
+    position: relative
+.absolute
+    position: absolute
+.uppercase
+    text-transform: uppercase!important
+.lowercase
+    text-transform: lowercase!important
+.capitalize
+    text-transform: capitalize!important
+
+.v-hidden
+    visibility: hidden
+.v-visible
+    visibility: visible
+
+.opaque
+    opacity: 0!important
+
+.back-to-place-x
+    transform: translateX(0)!important
+.back-to-place-y
+    transform: translateY(0)!important
+
+.go-front
+    z-index: 1!important
+.go-back
+    z-index: -1!important
+
+.dark-blue
+    background-color: $light-blue
+    border-color: $light-blue
+    &:hover
+        background-color: $light-blue-d1
+        border-color: $light-blue-d1
+    &:active
+        background-color: $light-blue-d2
+        border-color: $light-blue-d2
+        &:focus
+            background-color: $light-blue-d2
+            border-color: $light-blue-d2
+    &:focus
+        background-color: $light-blue-d2
+        border-color: $light-blue-d2
+    &:visited
+        background-color: $light-blue
+        border-color: $light-blue
+    &:focus
+            background-color: $light-blue-d2
+            border-color: $light-blue-d2
+
+.bg-dark
+    +bg($dark, $light, 5px)
+    +padding-side(10px, 10px)
+.bg-dark-lighter
+    +bg($dark, $light, 5px, 0.5)
+.bg-light-lighter
+    +bg($light, $dark, 5px, 0.5)
+.bg-light
+    +bg($light, $dark, 5px)
+    +padding-side(10px, 10px)
+
+.round
+    border-radius: 50%
+    width: 150px
+
+.align-center
+    text-align: center
+.align-left
+    text-align: left
+.align-right
+    text-align: right
+.list-inline>li
+    padding-right: 0
+    padding-left: 
+
+
+
+$fa-list: ('fa-facebook-square',#4267B2),('fa-instagram','#C536A4'),('fa-twitter-square','$light-blue'),('fa-youtube-square','#E94639'),('fa-linkedin-square','#0085B2'),('fa-github-square','#3B3B3B')
+
+@each $item in $fa-list
+    .#{nth($item, 1)}
+        color: nth($item, 2)
+
+.height-100
+    height: 100%
+    
+

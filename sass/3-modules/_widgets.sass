@@ -1,0 +1,144 @@
+//SIDEBAR STYLES
+.blog-sidebar
+    ul
+        margin-bottom: 0
+        li:last-child
+            margin-bottom: 0!important
+
+.blog-sidebar
+    // border-radius: 10px
+    padding: 0
+    text-align: center
+
+.sidebar-module
+    // transition: box-shadow 0.3s ease, transform 0.3s ease
+    // &:hover
+    //     box-shadow: 3px 3px 5px #555
+    //     transform: translate(-3px, -3px)
+    .title-widget
+        text-align: left
+        border-radius: 5px 5px 0 0
+        color: $light
+        position: relative
+        padding: 10px
+        background-color: $light-blue
+        &:before
+            content: ""
+            height: 100%
+            width: 100%
+            position: absolute
+            top: 0
+            left: 0
+            background-image: url('images/patterns/pattern.png')
+        h3
+            // text-transform: uppercase
+            font-size: 1.7rem!important
+            margin: 0
+
+.sidebar-module + .sidebar-module
+    margin: 20px 0 0
+
+.sidebar-module
+    text-align: center
+    border-radius: 5px 5px 0 0
+    padding: 15px
+    background-image: url('images/patterns/brushed-alum-dark.png')
+    transform: translate(0,0)
+    transition: all 0.3s ease
+    // box-shadow: 5px 5px 5px rgba(37, 37, 38, .3)
+    &:hover
+        box-shadow: 5px 5px 5px rgba(37, 37, 38, .3) //#252526
+        transform: translate(-5px,-5px)
+    .about-img
+        padding: 20px 0
+        // margin-bottom: 10px
+        img
+            border-radius: 100%
+    .about-txt p
+        font-size: 1.5rem
+    p:hover img, p:hover i
+        // animation: spin 0.5s ease
+        +animation(spin, 0.5s, $count:1)
+    
+
+    .list-widget
+        text-align: left
+        ul.list-items-widget
+            padding: 15px
+            list-style: none
+            // background-color: #f8f9fa
+            // background-size: cover !important
+            // background-position: bottom center
+            li
+                margin: 0 0 20px
+                line-height: 1.2//1.22857143
+                overflow: hidden
+                // float: none
+                // clear: both
+                &:before
+                    content: '\f70e' // '\f129' //'\f05a' //"\2605"
+                    font-family: "Font Awesome 5 Free"
+                    font-size: 1rem
+                    font-weight: bolder
+                    padding-right: 10px
+                    position: absolute
+                    float: left
+                    width: 7%
+                    color: #254e6a
+                a
+                    color: #3978a3
+                    text-decoration: none
+                    // text-transform: uppercase
+                    font-size: 1.3rem
+                    display: block
+                    width: 95%
+                    padding-left: 20px
+                    font-weight: bold
+                    transition: transform 0.5s ease
+                    transform-origin: left
+                    &:hover
+                        transform: scale(1.02)
+                        // font-size: 1.4rem
+    
+    .tags-list
+        padding: 15px 0
+        text-align: center
+        a
+            color: $light
+            font-size: 1.3rem
+            display: inline-block
+            margin: 0 10px 5px 0
+            padding: 5px 10px
+            // font-weight: 700
+            background-color: #3978a3
+            border-radius: 5px
+            // transition: transform 0.3s ease, box-shadow 0.3s ease
+            // &:hover
+            //     transform: scale(1.01) translateY(-1px)
+            //     box-shadow: 0 2px 5px #222
+            
+
+    .people-say-txt
+        font-family: $my-epic-selfie
+        padding-top: 10px
+        text-align: left
+        .blockquote
+            position: relative
+            font-size: 1.4rem
+            padding: 0 0 0 30px
+            &:before
+                content: "\f10d"
+                font-family: 'Fontawesome'
+                position: absolute
+                top: 0
+                left: 0
+                display: block
+            .who-say, .when-say
+                font-size: 1.2rem
+
+    .social-links
+        font-size: 4rem
+        .social-links-icons
+            margin-top: 10px
+    &:nth-child(2)
+        padding-bottom: 0

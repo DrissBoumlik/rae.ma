@@ -1,0 +1,262 @@
+
+
+// Go TOP
+._pulse
+    // animation: _pulse 1.5s infinite
+    +animation(_pulse, 1.5s, $count: infinite)
+
+.adds-container
+    opacity: .2
+    position: fixed
+    bottom: 10px
+    // top: 80px make it fixed to top
+    right: 10px
+    transition: opacity 0.5s
+    height: 50px
+    width: 50px
+    background-color: $light
+    border: 2px solid $nice-blue
+    border-radius: 50%
+    cursor: pointer
+    z-index: 1
+    box-shadow: #fff 0 0 18px 2px
+    &:hover
+        opacity: 1
+        z-index: 2
+    .adds-btn
+        height: 100%
+        text-align: center
+        i
+            color: orangered
+            top: 15px
+            position: relative
+            transition: top 0.3s ease
+    .up-btn:hover i
+        top: 10px
+
+// Pin NavBar
+// checked - before content "\f14a"
+// unchecked - "\f0c8"
+
+body.nav-fixed
+    padding-top: 70px
+header .progress.nav-fixed
+    top: 70px
+    z-index: 1
+    position: fixed
+    right: 0
+    left: 0
+    
+nav.nav-fixed
+    position: fixed
+    margin-bottom: 0
+    top: 0
+    z-index: 30
+    left: 0
+    right: 0
+
+
+
+.fixNav-container
+    // right: 0!important
+    left: 10px
+    i:before
+        // content: "\f14a"
+    // i.fa-unfixed:before
+    //     content: "\f0c8"!important
+
+.adds-btn
+    position: relative
+    // &:before
+    &:before, &:after
+        content: ""
+        opacity: 0
+        visibility: hidden
+    &:hover:before, &:hover:after
+        visibility: visible
+        opacity: 1
+        transition: opacity 0.5s
+    &:hover:after
+        content: ""
+        position: absolute
+        bottom: calc(100% + 5px)
+        left: 40%
+        height: 0
+        width: 0
+        border: 5px solid transparent
+        border-top-color: rgba(0,0,0,0.8)
+        border-bottom-width: 0
+    &:before
+        position: absolute
+        bottom: calc(100% + 10px)
+        width: 120px
+        padding: 5px
+        background-color: $light
+        color: $dark
+        border-radius: 5px
+        border: 2px $dark solid
+
+
+.fixNav-btn:hover:before
+    content: "Toggle Menu"
+    left: 0
+
+.up-btn:hover:before
+    content: "Go Top"
+    right: 0
+    width: 100px
+
+.sl-container
+    z-index: 20!important
+    // top: 20%
+    // top: 50%
+    bottom: 10px
+    right: 10px
+    // transform: translate(60%, -50%) 
+    position: fixed
+    z-index: 1
+    transition: transform .3s ease
+    .list-group
+        margin-bottom: 0
+    .list-group-item
+        text-align: center
+        padding: 5px 
+        padding-bottom: 5px
+        background-color: transparent
+        border: none
+        position: relative
+        // &:before, &:after
+        //     position: absolute
+        //     opacity: 0
+        //     content: ""
+        //     transition: opacity 0.5s ease
+        // &:hover:before
+        //     width: 100px
+        //     background-color: $dark
+        //     left: -105px
+        //     top: 7.5px
+        //     color: $light
+        //     padding: 3px 5px
+        //     border-radius: 5px
+        //     opacity: 1
+        // &:hover:after
+        //     width: 0
+        //     border: medium solid $dark
+        //     border-color: transparent transparent transparent $dark
+        //     border-width: 5px 0 5px 5px
+        //     top: 15px
+        //     left: -4px
+        //     opacity: 1
+
+        img
+            height: 50px
+            width: 50px
+            border-radius: 5px
+
+.modal-bg
+    opacity: 0.4
+    background-color: #474747
+    position: fixed
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    //animation: grow 1s ease
+
+.modal
+    display: block
+    .modal-body
+        top: 50%
+        transform: translateY(-50%)
+        .not-found-container
+            position: relative
+            // transform: scale(1)
+            // animation: grow 1s ease
+            .not-found-header, .not-found-body
+                margin-top: -1px
+            .not-found-body .row:nth-child(2)
+                padding: 0 15px 15px
+            p
+                // font-family: $istok-web
+                // font-family: $my-epic-selfie
+                font-family: 'Caveat'
+                // font-family: 'Shadows Into Light'
+                // font-family: 'Acme'
+                // font-family: 'Gloria Hallelujah'
+            *
+                box-shadow: unset
+            .arrow.to-close
+                position: absolute
+                background-image: url("images/patterns/red_arrow.png")
+                height: 90px
+                width: 100px
+                background-size: cover
+                right: 0
+                // top: 85px
+                transform: translate(70%,70%) rotateX(180deg) rotateY(180deg) rotateZ(-10deg) skew(-40deg, 30deg)
+                // transform: translate(0%,0%) rotateX(180deg) rotateY(180deg) rotateZ(90deg)
+                z-index: 1
+            // .arrow.to-link
+            //     background-image: url("images/patterns/blue_arrow.png")
+            //     position: absolute
+            //     right: -5%
+            //     height: 100px
+            //     width: 175px
+            //     background-size: cover
+            //     transform: translateY(20%) scale(0.6)
+            .not-found-bar
+                height: 30px
+                span
+                    height: 19px
+                    width: 19px
+                    position: relative
+                    &:last-child
+                        background-color: transparent
+                    i
+                        cursor: pointer
+                        color: $light
+                        position: absolute
+                        top: 50%
+                        transform: translate(-50%, -50%)
+                        left: 50%
+                        font-size: 2rem
+                        display: inline-block
+
+.message-container
+    background-color: $light-blue
+    color: $light
+    text-align: center
+    position: fixed
+    bottom: 0
+    width: 100%
+    z-index: 20
+    > i
+        cursor: pointer
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-size: 2rem;
+    .message-header
+        height: 20px
+        background-color: $light-blue
+        color: $light
+        // border-radius: 5px 5px 0 0
+        justify-content: flex-end
+        display: flex
+        align-items: center
+        span
+            height: 8px
+            width: 8px
+            background-color: #fff
+            display: inline-block
+            border-radius: 50%
+            margin-left: 5px
+    .message-body
+        color: $light
+        padding: 5px 0
+        i
+            font-size: 8rem
+            padding: 7px 0
+        p
+            font-family: 'Caveat'
+            font-size: 3rem
