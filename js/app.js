@@ -1,16 +1,23 @@
 jQuery(function ($) {
+    
+    $('.feature-carousel').carousel({
+        pause: false,
+        interval: 5000,
+    })
+    $('.feature-carousel').bsTouchSlider();
+    baguetteBox.run('.tz-gallery');
+    
     $('#sl-container').on('mouseenter', function (){
-        $(this).find('li._hide').removeClass('hidden')
+        $(this).find('.animated').removeClass('bounceOutDown').addClass('bounceInUp');
     })
     $('#sl-container').on('mouseleave', function (){
-        $(this).find('li._hide').addClass('hidden')
+        $(this).find('.animated').addClass('bounceOutDown').removeClass('bounceInUp');
     })
     scrolling();
     $(window).on('scroll', function () {
         scrolling(true);
     });
-    function scrolling(browser_scroll = false) {
-        
+    function scrolling(browser_scroll = false) {        
         var scroll_top = $(document).scrollTop();
         //#region SECTION: Show / Hide the addOns - Contrlling the top bar width
         var total_height = document.body.offsetHeight - window.innerHeight; //document.body.clientHeight;
@@ -21,9 +28,13 @@ jQuery(function ($) {
         //#region SECTION: Fixing / Unfixing the top nav bar of the page
         if (scroll_top <= (document.body.offsetWidth >= 750 ? 170 : 50)) {
             _ToggleClasses(false, 'navbar-fixed-top', ['header .progress'])
+            _ToggleClasses(true, 'bounceOutDown', ['.up-container'])
+            _ToggleClasses(false, 'bounceInUp', ['.up-container'])
         }
         else {
             _ToggleClasses(true, 'navbar-fixed-top', ['header .progress'])
+            _ToggleClasses(false, 'bounceOutDown', ['.up-container'])
+            _ToggleClasses(true, 'bounceInUp', ['.up-container'])
         }
         //#endregion
         function _ToggleClasses(toggle_state, classes, elements) {

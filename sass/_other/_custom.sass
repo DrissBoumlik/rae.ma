@@ -1,14 +1,21 @@
 *
-    font-family: Raleway
+    font-family: 'Raleway'
+body
+    padding: 0
+    background-image: none
 li
     list-style: none
+a
+    color: #fff
+    &:hover
+        color: #fff
 .header
     background-color: rgba(#000, 1)
     > .container
         padding: 10px 0
     .languages
         .list-inline
-            text-align: center
+            // text-align: center
             padding: 30px 0
         .list-inline-item 
             margin: 0 10px
@@ -67,6 +74,25 @@ li
     .progress
         margin-bottom: 0
 
+.carousel-indicators.not-home-page
+    float: none
+    width: auto
+    display: inline-block
+    left: 50%
+    bottom: 5px
+    transform: translateX(-50%)
+    text-align: center
+    li
+        width: 50px
+        height: 10px
+        border-color: #FAFAFA
+        border-radius: 5px
+        background-color: transparent
+        float: none
+        &.active
+            height: 10px
+            background-color: #FAFAFA
+    
 .carousel-txt
     h2
         font-size: 2rem
@@ -99,18 +125,25 @@ li
     height: 260px
     background-size: cover
     background-repeat: no-repeat
-    
-    
-.section
+
+.universities 
+    a:not([class*='btn'])
+        color: #000
     .section-title
-        text-align: center
-        margin: 30px 0 0
+        margin-top: 30px!important
     .row:not(:first-child)
         margin: 25px 0
         > [class*='col-'] .row
             padding: 10px
             border-radius: 5px
             border: 1px solid #ccc
+
+
+.section
+    .section-title
+        text-align: center
+        margin: 30px 0 0
+    
         img
             border: 1px solid #fff
             box-shadow: 2px 2px 0 0 #dadada
@@ -120,23 +153,67 @@ li
 .feature-offer
     background-color: #337AB7
     color: #fff
+    text-align: left
     .section-title
-        margin-top: 20px
+        margin-top: 20px!important
         text-align: center
-    .row div:last-child
+    .row:last-child
         padding-top: 50px
+        padding-bottom: 50px
         font-size: 2rem
     img
-        width: 100%    
+        width: 100%
+    a
+        color: #fff
 
+
+.procedure
+    padding-top: 40px
+    padding-bottom: 40px
+    h2
+        margin-bottom: 30px
+    h4
+        margin-bottom: 20px
+    i
+        font-size: 10rem
+        margin-bottom: 10px
+    .procedure-step
+        text-align: center
+        color: #fff
+        margin: 0 1.5%
+        width: 30%
+        border-radius: 5px
+        border: 1px solid gray
+        padding: 10px 20px
+        height: 320px
+        transform: translate(0,0)
+        transition: all .3s ease
+        h4
+            font-size: 2.5rem
+        p
+            font-size: 1.8rem
+        &:hover
+            transform: translate(-5px,-5px)
+            box-shadow: 5px 5px 5px rgba(37, 37, 38, 0.3)
+        &:first-child
+            background-color: #0768CF
+            // i
+            //     color: #0768CF
+        &:nth-child(2) 
+            background-color: #01A0C7
+            // i
+            //     color: #01A0C7
+        &:last-child 
+            background-color: #067332
+            // i
+            //     color: #067332
     
-    
-    
+      
 .contact-us
     padding: 50px 0 30px
     
     
-.section
+.our-services
     text-align: center
     .section-title
         margin: 0
@@ -162,6 +239,7 @@ li
                 text-align: left
                 cursor: unset
                 white-space: unset
+
 .why-ukraine
     .row:first-child
         margin-top: 30px
@@ -191,16 +269,30 @@ li
     text-align: left
     cursor: unset
     white-space: unset
+    
+.container.gallery-container
+    border-radius: 0
+    box-shadow: none
+    
 .footer
     background-color: #44A2BE
     color: #fff
-    padding: 20px 0 0
-    .list-group-flush li
-        background: transparent
-        border: 0
-        border-bottom: 1px solid #fff
+    padding: 20px 0 
+    text-align: left
+    label
+        line-height: 2.5rem
+    h2
+        margin-bottom: 20px
+    h3
+        text-decoration: underline
+        margin-top: 15px
+        margin-bottom: 15px
+    .about
+        p
+            font-size: 1.8rem
     .infos
         text-align: left
+        font-size: 1.7rem
         i
             margin-right: 10px
 .google-map
@@ -216,3 +308,7 @@ li
         &:before,&:after
             content: ''
             display: none
+
+    
+.register
+    padding: 50px 0

@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500i,600,700,700i,900&subset=latin-ext');
+
+@font-face {
+    font-family: 'MyEpicSelfie';
+    src: url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+}
