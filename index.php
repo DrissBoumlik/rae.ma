@@ -16,7 +16,7 @@
                                 <span class="uppercase">Frais d'études</span>
                             </li>
                             <li data-target="#quote-carousel" data-slide-to="2">
-                                <span class="uppercase">Courses</span>
+                                <span class="uppercase">Cours</span>
                             </li>
                             <li data-target="#quote-carousel" data-slide-to="3">
                                 <span class="uppercase">infos supplémentaire</span>
@@ -34,12 +34,12 @@
                                     <div class="carousel-txt col-sm-12 col-md-12">
                                         <h2 class="uppercase">universities</h2>
                                         <ul class="list-items">
-                                            <li>Famous institutions</li>
-                                            <li>Recognition (who, unesco,European council, mci , sadc)</li>
-                                            <li>Qualified doctors</li>
-                                            <li>Research work</li>
-                                            <li>Hospitals with modern technology</li>
-                                            <li>Advance level of education</li>
+                                            <li>Institutions célèbres</li>
+                                            <li>Reconnaissance (qui, Unesco, Conseil européen, mci, sadc)</li>
+                                            <li>Médecins qualifiés</li>
+                                            <li>Travail de recherche</li>
+                                            <li>Hôpitaux à la technologie moderne</li>
+                                            <li>Niveau d'éducation avancé</li>
                                         </ul>
                                         <a href="#" class="btn btn-primary">Voir plus </a>
                                     </div>
@@ -49,14 +49,10 @@
                             <div class="item">
                                 <div class="row">
                                     <div class="carousel-txt col-sm-12 col-md-12">
-                                        <h2 class="uppercase">universities</h2>
+                                        <h2 class="uppercase">frais d'études</h2>
                                         <ul class="list-items">
-                                            <li>Famous institutions</li>
-                                            <li>Recognition (who, unesco,European council, mci , sadc)</li>
-                                            <li>Qualified doctors</li>
-                                            <li>Research work</li>
-                                            <li>Hospitals with modern technology</li>
-                                            <li>Advance level of education</li>
+                                            <li>Enseignement supérieur, qui coûte en général plusieurs fois moins cher ici qu’en Occident.</li>
+                                            <li>La qualité de l’enseignement dans les principales universités des pays (Ukraine/ Russie)</li>
                                         </ul>
                                         <a href="#" class="btn btn-primary">Voir plus </a>
                                     </div>
@@ -66,14 +62,13 @@
                             <div class="item">
                                 <div class="row">
                                     <div class="carousel-txt col-sm-12 col-md-12">
-                                        <h2 class="uppercase">courses</h2>
+                                        <h2 class="uppercase">cours</h2>
                                         <ul class="list-items">
-                                            <li>Quality Education</li>
-                                            <li>Hightech Universities</li>
-                                            <li>Advance Laboratories</li>
-                                            <li>Exclusive Courses</li>
-                                            <li>Remarkable Creations</li>
-                                            <li>Famous Alumni</li>
+                                            <li>Éducation de qualité</li>
+                                            <li>Universités de haute technologie</li>
+                                            <li>Laboratoires avancés</li>
+                                            <li>Cours exclusifs</li>
+                                            <li>Créations remarquables</li>
                                         </ul>
                                         <a href="#" class="btn btn-primary">Voir plus </a>
                                     </div>
@@ -83,14 +78,11 @@
                             <div class="item">
                                 <div class="row">
                                     <div class="carousel-txt col-sm-12 col-md-12">
-                                        <h2 class="uppercase">universities</h2>
+                                        <h2 class="uppercase">infos supplémentaire</h2>
                                         <ul class="list-items">
-                                            <li>Famous institutions</li>
-                                            <li>Recognition (who, unesco,European council, mci , sadc)</li>
-                                            <li>Qualified doctors</li>
-                                            <li>Research work</li>
-                                            <li>Hospitals with modern technology</li>
-                                            <li>Advance level of education</li>
+                                            <li>Equivalence</li>
+                                            <li>Liens importants</li>
+                                            <li>FAQ</li>
                                         </ul>
                                         <a href="#" class="btn btn-primary">Voir plus </a>
                                     </div>
@@ -101,14 +93,12 @@
                             <div class="item">
                                 <div class="row">
                                     <div class="carousel-txt col-sm-12 col-md-12">
-                                        <h2 class="uppercase">universities</h2>
+                                        <h2 class="uppercase">photos et vidéos</h2>
                                         <ul class="list-items">
-                                            <li>Famous institutions</li>
-                                            <li>Recognition (who, unesco,European council, mci , sadc)</li>
-                                            <li>Qualified doctors</li>
-                                            <li>Research work</li>
-                                            <li>Hospitals with modern technology</li>
-                                            <li>Advance level of education</li>
+                                            <li>1</li>
+                                            <li>1</li>
+                                            <li>1</li>
+                                            <li>1</li>
                                         </ul>
                                         <a href="#" class="btn btn-primary">Voir plus </a>
                                     </div>
@@ -298,9 +288,7 @@
             <div class="row">
                 <div class="col-md-3"><img src="images/headline/medecine.jpeg" alt=""></div>
                 <div class="col-md-9">
-                    <p>Les diplômes médicaux russes et ukrainiens sont mondialement reconnus et répertoriés par des organismes internationaux tels que l’Organisation mondiale de la santé, l’Union européenne, l’Annuaire international de l’éducation médicale, ECFMG, États-Unis, le General Medical Council, le Royaume-Uni et autres.</p>
-                    <p>Le coût pour étudier MBBS en Russie ou en Ukraine est très faible par rapport aux autres pays européens.</p>
-                    <p>Il y a aussi un processus d'admission très facile avec 100% d'admission réussie</p>
+                    <p>Les diplômes médicaux russes et ukrainiens sont mondialement reconnus et répertoriés par des organismes internationaux tels que l’Organisation mondiale de la santé, l’Union européenne, l’Annuaire international de l’éducation médicale, ECFMG, États-Unis, le General Medical Council, le Royaume-Uni et autres.Le coût pour étudier MBBS en Russie ou en Ukraine est très faible par rapport aux autres pays européens.Il y a aussi un processus d'admission très facile avec 100% d'admission réussie</p>
                     <a href='#'>- MBBS IN RUSSIA</a><br>
                     <a href='#'>- MBBS IN UKRAINE</a>
                 </div>
@@ -311,7 +299,7 @@
     <div class="section procedure">
         <div class="container">
             <div class="row">
-                <h2>Quelles démarche sont nécessaire pour etudier en Ukraine/Russie ?</h2>
+                <h2 class="section-title">Quelles démarche sont nécessaire pour etudier en Ukraine/Russie ?</h2>
             </div>
             <div class="row">
                 <div class="col-md-4 procedure-step">

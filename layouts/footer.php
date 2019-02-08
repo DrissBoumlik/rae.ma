@@ -25,7 +25,6 @@
                     <div class="row">
                         <div class="">
                             <h3>heures de travail:</h3>
-                            
                             <label><i class="fas fa-clock"></i>Lundi-vendredi: 9h à 18h</label><br>
                             <label><i class="fas fa-at"></i>7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC</label><br>
                             <h3>contactez Nous:</h3>

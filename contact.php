@@ -29,23 +29,17 @@
                 </div>
                 <div class="col-md-5 col-md-offset-1 col-sm-6">
                     <div class="infos">
-                        <div class="">
-                            <label>RUSSIAN OFFICE</label><br>
-                            <label>Edugain Overseas</label><br>
-                            <label>Obolenskiy lane, 10, Moscow, Russia</label><br>
-                            <label>Ph: +7 910 7416141.</label><br>
-                            <label>Email: edugain@edugainoverseas.com</label><br>
-                            <label>Web-site: www.edugainoverseas.com</label><br>
-                        </div>
-                        <hr>
-                        <div class="">
-                            <label>UKRAINIAN OFFICE</label><br>
-                            <label>Edugain Overseas</label><br>
-                            <label>Mahnitohorska St, 1, Kyiv, Ukraine</label><br>
-                            <label>Ph: +380 63 5738997.</label><br>
-                            <label>Email: edugain@edugainoverseas.com</label><br>
-                            <label>Web-site: www.edugainoverseas.com</label><br>
-                        </div>
+                            <div class="hours">
+                                <h3>heures de travail:</h3>
+                                <label><i class="fas fa-clock"></i>Lundi-vendredi: 9h à 18h</label><br>
+                                <label><i class="fas fa-at"></i>7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC</label>
+                            </div>
+                            <hr>
+                            <div class="contact">
+                                <h3>contactez Nous:</h3>
+                                <label><i class="fas fa-phone"></i>+212-700 175 747 | +212-680 201 404</label><br>
+                                <label><i class="fas fa-envelope"></i>studyabroad@rae.ma</label>
+                            </div>
                     </div>
                 </div>
             </div>

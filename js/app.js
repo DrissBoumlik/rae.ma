@@ -7,12 +7,26 @@ jQuery(function ($) {
     $('.feature-carousel').bsTouchSlider();
     baguetteBox.run('.tz-gallery');
     
+    $(document).keydown(function(e) {
+        if (e.keyCode === 37) {
+            // Previous
+            jQuery(".carousel-control.left a").trigger('click');
+            return false;
+        }
+        if (e.keyCode === 39) {
+            // Next
+            jQuery(".carousel-control.right a").trigger('click');
+            return false;
+        }
+    });
+    
     $('#sl-container').on('mouseenter', function (){
         $(this).find('.animated').removeClass('bounceOutDown').addClass('bounceInUp');
     })
     $('#sl-container').on('mouseleave', function (){
         $(this).find('.animated').addClass('bounceOutDown').removeClass('bounceInUp');
     })
+    var progress_bar_top = $('.progress').offset().top;
     scrolling();
     $(window).on('scroll', function () {
         scrolling(true);
@@ -26,7 +40,7 @@ jQuery(function ($) {
         progress_bar.css('width', width + '%');
         
         //#region SECTION: Fixing / Unfixing the top nav bar of the page
-        if (scroll_top <= (document.body.offsetWidth >= 750 ? 170 : 50)) {
+        if (scroll_top <= progress_bar_top){ //(document.body.offsetWidth >= 750 ? 170 : 50)) {
             _ToggleClasses(false, 'navbar-fixed-top', ['header .progress'])
             _ToggleClasses(true, 'bounceOutDown', ['.up-container'])
             _ToggleClasses(false, 'bounceInUp', ['.up-container'])

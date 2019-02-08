@@ -15,6 +15,7 @@
     <link rel='stylesheet' id='font-awesome-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='use-fontawesome-all-css'  href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' type='text/css' media='all' />
     <link rel='stylesheet' id='animate-css'  href='/css/animate.css' type='text/css' media='all' />  
+    <link rel='stylesheet' id='animate-css'  href='/css/fonts.css' type='text/css' media='all' />
     <link rel="stylesheet" href="/app.css">
     
     <script type='text/javascript' src='/js/jquery.js'></script>
@@ -46,10 +47,10 @@
                         </a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 logo">
+                <div class="col-md-5 logo">
                     <a href="/"><img src="/images/logo.png" alt="RAE"></a>
                 </div>
-                <div class="col-md-5 contact">
+                <div class="col-md-4 contact">
                     <div class="row">
                         <div class="col-md-12 badge">
                             <i class="fas fa-at"></i><span>7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC</span>
