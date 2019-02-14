@@ -18,14 +18,14 @@
             </div>
             <div class="row">
                 <ul class="list-group">
-                    <li class="list-group-item"><a href="universities/donetsk-national-medical-university/" target="blank">Université Nationale de Médecine de Donetsk, ville Kropyvnytsky (Kirovohrad)</a></li>
-                    <li class="list-group-item"><a href="universities/sumy-state-university/" target="blank">Université d'État de Soumy, ville Soumy </a></li>
-                    <li class="list-group-item"><a href="universities/odessa-national-medical-university/" target="blank">Université Nationale de Médecine d'Odessa, ville Odessa</a></li>
+                    <li class="list-group-item"><a href="universities/donetsk-national-medical-university.php" target="blank">Université Nationale de Médecine de Donetsk, ville Kropyvnytsky (Kirovohrad)</a></li>
+                    <li class="list-group-item"><a href="universities/sumy-state-university.php" target="blank">Université d'État de Soumy, ville Soumy </a></li>
+                    <li class="list-group-item"><a href="universities/odessa-national-medical-university.php" target="blank">Université Nationale de Médecine d'Odessa, ville Odessa</a></li>
                     <li class="list-group-item"><a href="" target="blank">Université Internationale Humanitaire, ville d'Odessa</a></li>
-                    <li class="list-group-item"><a href="universities/central-ukrainian-national-technical-university/" target="blank">Université Nationale Central Technique Ukrainienne, ville Kropyvnytsky (Kirovohrad):</a></li>
+                    <li class="list-group-item"><a href="universities/central-ukrainian-national-technical-university.php" target="blank">Université Nationale Central Technique Ukrainienne, ville Kropyvnytsky (Kirovohrad):</a></li>
                     <li class="list-group-item"><a href="universities/state-flight-academy-ukraine-kirovograd.php" target="blank">Académie de Vol  d'État de l’Ukraine, ville Kropyvnytsky (Kirovohrad)</a></li>
                     <li class="list-group-item"><a href="universities/kharkiv-national-aerospace-university-kharkiv-aviation-institute-nau-khai.php" target="blank">Université nationale de l'aérospatiale de Kharkiv, ville de Kharkiv</a></li>
-                    <li class="list-group-item"><a href="universities/bogomolets-national-medical-university/" target="blank">Université médicale nationale OO Bogomolets de Kiev</a></li>
+                    <li class="list-group-item"><a href="universities/bogomolets-national-medical-university.php" target="blank">Université médicale nationale OO Bogomolets de Kiev</a></li>
                     <li class="list-group-item"><a href="" target="blank">Académie Nationale Des Technologies Alimentaires D’Odessa</a></li>
                     <li class="list-group-item"><a href="" target="blank">Université pédagogique nationale d'Ukraine du Sud nommée par K.D. Ushynsky, ville d'Odessa</a></li>
                     <li class="list-group-item"><a href="" target="blank">Académie Maritime d'État de Kherson, ville de Kherson</a></li>
