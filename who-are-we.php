@@ -1,13 +1,16 @@
-<?php include 'layouts/header.php' ?>
+<?php $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path.'/layouts/header.php'  ;
+    title_page('QUI NOUS SOMMES')
+?>
 
     
-<?php include 'layouts/feature.php';
-    feature_txt('QUI NOUS SOMMES ?');
+<?php include $path.'/layouts/feature.php';
+    feature_txt('QUI NOUS SOMMES ?', "");
 ?>
     
 
     <div class="section who-are-we">
-        <div class="container">
+        <div class="">
             <div class="row">
                 <hr class="section-title-line">
                 <h2 class="section-title">QUI NOUS SOMMES ?</h2>
@@ -21,7 +24,7 @@
     </div>
     
     <div class="section our-mission">
-        <div class="container">
+        <div class="">
             <div class="row">
                 <hr class="section-title-line">
                 <h2 class="section-title">Notre Mission</h2>
@@ -35,4 +38,5 @@
     </div>
     
 
-    <?php include 'layouts/footer.php' ?>
+<?php include $path.'/layouts/sidebar.php'; ?>
+<?php include $path.'/layouts/footer.php' ?>

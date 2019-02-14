@@ -2,7 +2,8 @@
     font-family: 'Raleway'
 body
     background-image: url('/images/bg.jpg')
-    background-size: 40px
+    background-size: 400px
+    background-attachment: fixed
     padding: 0
 li
     list-style: none
@@ -10,15 +11,22 @@ a
     color: #fff
     &:hover
         color: #fff
+.header, .footer
+    // background-size: cover
+    // background-attachment: fixed
+    background-color: #02192E
+    &:before
+        content: ""
+        position: absolute
+        background-image: url('/images/bg-header.jpg')
 .header
     // background-color: rgba(#000, 1)
-    background-image: url('/images/bg-header.jpg')
     > .container
         padding: 10px 0
     .languages
         .list-inline
             // text-align: center
-            padding: 30px 0
+            padding: 44px 0
         .list-inline-item 
             margin: 0 10px
             img
@@ -27,6 +35,11 @@ a
                 border-radius: 5px
     .logo 
         padding: 14px 0
+        // .col-md-8 .row
+        //     margin-top: 2%;
+        //     font-size: 2rem;
+        // p
+        //     margin: 0
         img
             width: 100px
             margin: 0 auto
@@ -50,28 +63,47 @@ a
                     white-space: normal
                     line-height: 2rem
     .navbar
+        // background-color: #E8BA4B
+        // background-image: linear-gradient(#E5B547, #FFFC9D, #E5B547)
+        background-image: url('/images/headline/menu-bg.jpg')
+        background-attachment: fixed
+        background-size: cover
         height: auto
         margin-bottom: 0
-        border-radius: 0
+        border-radius: 0 
+        border: none
         padding: 0
+        &.navbar-fixed-top
+            top: 5px
         *
             font-size: 1.4rem
-        .navbar-nav > li
-            position: relative
-            &:hover .submenu
-                top: 50px
-                li
-                    display: block
-            > a
-                padding-right: 18px
-                &.has-submenu:after
-                    content: "\f0d7"
-                    font-family: "Font Awesome 5 Free"
-                    font-weight: 900
-                    position: absolute
-                    right: 5px
+        .navbar-nav 
+            float: none
+            li a
+                color: #444!important
+                &:hover
+                    background-color: #FFCA04 //#E5B547
+            > li
+                position: relative
+                float: none
+                display: inline-block
+                &.active a
+                    background-color: #E8BA4B!important
+                    &:hover
+                        background-color: #E5B547!important
+                &:hover .submenu
+                    top: 50px
+                    li
+                        display: block
+                > a
+                    padding-right: 18px
+                    &.has-submenu:after
+                        content: "\f0d7"
+                        font-family: "Font Awesome 5 Free"
+                        font-weight: 900
+                        position: absolute
+                        right: 5px
         .submenu
-            background-color: black
             padding: 0
             z-index: 1
             // display: none
@@ -82,19 +114,35 @@ a
             li 
                 text-align: left
                 display: none
+                &:last-child a
+                    border-radius: 0 0 5px 5px
                 a
                     display: block
                     padding: 10px
                     color: #fff
-                    background-color: #222!important
+                    background-color: #FFCA04//#E8BA4B!important
                     &:hover
-                        background-color: #333!important
+                        background-color: #FBC501//#E5B547!important
+                    // &:hover
+                    //     background-color: #333!important
     .progress
         margin-bottom: 0
-
+        height: 5px
+        .progress-bar
+            box-shadow: none
+        // .progress-bar
+        //     box-shadow: #E8BA4B -1px 4px 8px 0
+        //     background-color: #E8BA4B
+        // &.navbar-fixed-top
+        //     // top: 50px
+.feature .carousel-indicators
+    bottom: 0
+    padding: 0
+    li.active
+        background-image: url("/images/headline/menu-bg.jpg")
 .carousel-indicators.not-home-page
     float: none
-    width: auto
+    // width: auto
     display: inline-block
     left: 50%
     bottom: 5px
@@ -119,40 +167,59 @@ a
     position: absolute
     background-color: #fff
     width: 30%
-    left: 10%
-    top: 45%
+    left: 2%
+    // top: 0
+    bottom: -5%
     transform: translateY(-50%)
     .list-items
         padding-left: 10px
         li
-            list-style: disc inside
+            list-style: disc outside
 
-.why-study-abroad
-    padding: 40px 0 0
+.welcome-rae
+    padding: 40px 0
+    // background-color: #fff
     .section-title
         text-align: center
-    .row div
-        background-image: url(images/headline/about-us.png)
-        background-attachment: scroll
-        height: 260px
-        background-size: cover
-        background-repeat: no-repeat
-.apply-now .row div
-    background-image: url(images/headline/apply-now.png)
-    background-attachment: scroll
-    height: 260px
-    background-size: cover
-    background-repeat: no-repeat
+        font-size: 3.6rem
+        margin-bottom: 20px
+    
+    .welcome-txt
+        padding: 10px
+        img
+            height: 20px
+        p
+            margin: 0
+            font-size: 2rem
+    .welcome-img img
+        width: 100%
+    // .row div
+    //     background-image: url(images/headline/about-us.png)
+    //     background-attachment: scroll
+    //     height: 260px
+    //     background-size: cover
+    //     background-repeat: no-repeat
+.apply-now .row img
+    width: 100%
+    // background-image: url(images/headline/apply-now.png)
+    // background-attachment: scroll
+    // height: 260px
+    // background-size: cover
+    // background-repeat: no-repeat
 
 .universities 
     a:not([class*='btn'])
         color: #000
     .section-title
         margin-top: 30px!important
+    .row>div
+        margin-bottom: 10px
+    a .row
+        background-color: #fff
     .row:not(:first-child)
         margin: 25px 0
         > [class*='col-'] .row
-            padding: 10px
+            padding: 20px 10px
             border-radius: 5px
             border: 1px solid #ccc
             transition: transform .3s ease
@@ -161,32 +228,42 @@ a
 
 
 .section
+    padding: 40px 20px
+    p
+        font-size: 2rem
     .section-title
         text-align: center
-        margin: 30px 0 0
-    
+        margin: 30px 0
         img
             border: 1px solid #fff
             box-shadow: 2px 2px 0 0 #dadada
     .more
         text-align: center
-
+.our-mission
+    padding-top: 0
 .feature-offer
-    background-color: #337AB7
+    background-color: #081D32 //#337AB7
+    // background-image: url("/images/bg-header.jpg")
+    background-attachment: fixed
+    background-size: 300px
     color: #fff
     text-align: left
     .row:first-child
         text-align: center
     .section-title
-        margin-top: 20px!important
+        margin: 0px!important
         text-align: center
-        padding: 20px;
-        display: inline-block;
-        border-radius: 10px;
-        border: 1px #fff solid;
+        padding: 20px
+        display: inline-block
+        // border-radius: 10px
+        // border: 1px #fff solid
+        letter-spacing: 0.15em
+        text-transform: uppercase
+        width: 70%
+        text-shadow: 1px -1px 0 #dbdbdb,-1px 2px 1px #dbdbdb //, -2px 4px 1px #dbdbdb, -3px 6px 1px #dbdbdb
     .row:last-child
-        padding-top: 50px
-        padding-bottom: 50px
+        // padding-top: 0
+        // padding-bottom: 50px
         font-size: 1.7rem
     img
         width: 100%
@@ -197,9 +274,15 @@ a
 .procedure
     padding-top: 40px
     padding-bottom: 40px
+    text-align: center
     h2.section-title
-        margin: 0
+        margin: 0 5%
         margin-bottom: 30px
+        +text-shadow(1px -1px 0 #585858, -1px 2px 1px #585858)
+        // text-shadow: 1px -1px 0 #585858, -1px 2px 1px #585858 //, -2px 4px 1px #585858, -3px 6px 1px #585858
+        display: inline-block
+        background: white
+        padding: 20px
     h4
         margin-bottom: 20px
     i
@@ -228,15 +311,15 @@ a
             // i
             //     color: #0768CF
         &:nth-child(2) 
-            background-color: #01A0C7
+            background-color: #08519d //#01A0C7
             // i
             //     color: #01A0C7
         &:last-child 
-            background-color: #067332
+            background-color: #0b4178 //#067332
             // i
             //     color: #067332
     
-      
+    
 .contact-us
     padding: 50px 0 30px
     
@@ -244,16 +327,10 @@ a
 .our-services
     text-align: center
     .section-title
-        margin: 0
+        margin: 0 30px 30px
     h3
         margin-top: 10px
-    .section-title-line
-        width: 110px
-        height: 2px
-        margin-bottom: 20px
-        margin-top: 30px
-        background-color: #337AB7
-        border: #337AB7
+    
     p
         font-size: 2rem
     .service-items, .reason-items
@@ -268,11 +345,22 @@ a
                 cursor: unset
                 white-space: unset
 
+.service-items
+    .btn
+        margin-top: 10px
 .why-ukraine
+    .list-group-item
+        display: list-item
     .row:first-child
         margin-top: 30px
         
-
+.section-title-line
+    width: 110px
+    height: 2px
+    margin-bottom: 20px
+    margin-top: 30px
+    background-color: #337AB7
+    border: #337AB7
 .degrees
     text-align: left
     .row
@@ -298,6 +386,17 @@ a
     cursor: unset
     white-space: unset
 
+    
+.about-ukraine, .about-russia, .why-russia, .visa
+    padding: 40px 0
+    .section
+        padding: 0
+.sup-study 
+    padding: 40px 20px
+    .section
+        padding: 0
+    
+    
 .gallery
     padding: 20px 0
     iframe
@@ -327,6 +426,7 @@ a
         padding: 20px
         h2
             margin: 25px 0 20px
+
 .contact-us
     hr
         margin: 15px 0
@@ -338,11 +438,18 @@ a
         font-size: 1.7rem
     i
         margin-right: 10px
+        
+.visa, .briefing
+    h3
+        margin-top: 20px
+        margin-bottom: 20px
+    a
+        color: #337AB7
+
 .footer
     // background-color: #44A2BE
-    background-image: url('/images/bg-header.jpg')
     color: #fff
-    padding: 20px 0 
+    padding: 40px 0 
     text-align: left
     label
         line-height: 2.5rem
@@ -350,11 +457,23 @@ a
         margin-bottom: 20px
     h3
         text-decoration: underline
-        margin-top: 15px
+        // margin-top: 15px
         margin-bottom: 15px
     .about
         p
             font-size: 1.8rem
+    .row.mail
+        position: relative
+        text-align: center
+        img
+            width: 90%
+        span
+            position: absolute
+            left: 50%
+            top: 50%
+            color: #000
+            transform: translate(-50%,-50%)
+            
     .infos
         text-align: left
         font-size: 1.7rem
@@ -377,3 +496,83 @@ a
     
 .register
     padding: 50px 0
+    
+    
+    
+    
+
+// Modal Styles
+
+.modal-bg
+    opacity: 0.4
+    background-color: #474747
+    position: fixed
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    //animation: grow 1s ease
+
+.modal
+    display: block
+    .modal-body
+        top: 50%
+        transform: translateY(-50%)
+        .not-found-container
+            position: relative
+            // transform: scale(1)
+            // animation: grow 1s ease
+            .not-found-header, .not-found-body
+                margin-top: -1px
+            .not-found-body .row:nth-child(2)
+                padding: 0 15px 15px
+            p
+                // font-family: $istok-web
+                // font-family: $my-epic-selfie
+                font-family: 'Caveat'
+                // font-family: 'Shadows Into Light'
+                // font-family: 'Acme'
+                // font-family: 'Gloria Hallelujah'
+            *
+                box-shadow: unset
+            .arrow.to-close
+                position: absolute
+                background-image: url("images/patterns/red_arrow.png")
+                height: 90px
+                width: 100px
+                background-size: cover
+                right: 0
+                // top: 85px
+                transform: translate(70%,70%) rotateX(180deg) rotateY(180deg) rotateZ(-10deg) skew(-40deg, 30deg)
+                // transform: translate(0%,0%) rotateX(180deg) rotateY(180deg) rotateZ(90deg)
+                z-index: 1
+            // .arrow.to-link
+            //     background-image: url("images/patterns/blue_arrow.png")
+            //     position: absolute
+            //     right: -5%
+            //     height: 100px
+            //     width: 175px
+            //     background-size: cover
+            //     transform: translateY(20%) scale(0.6)
+            .not-found-bar
+                height: 30px
+                span
+                    height: 19px
+                    width: 19px
+                    position: relative
+                    &:last-child
+                        background-color: transparent
+                    i
+                        cursor: pointer
+                        color: $light
+                        position: absolute
+                        top: 50%
+                        transform: translate(-50%, -50%)
+                        left: 50%
+                        font-size: 2rem
+                        display: inline-block
+
+
+.universities
+    a
+        color: unset

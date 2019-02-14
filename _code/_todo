@@ -1,0 +1,15 @@
+
+<?php 
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path.'/layouts/header.php'  ;
+    title_page('Université Nationale de Médecine de Donetsk, ville Kropyvnytsky (Kirovohrad)')
+?>
+
+
+<?php include $path.'/layouts/feature.php';
+    feature_txt('Université Nationale de Médecine de Donetsk, ville Kropyvnytsky (Kirovohrad)', "ukraine");
+?>
+
+
+<?php include $path.'/layouts/sidebar.php' ?>
+<?php include $path.'/layouts/footer.php' ?>

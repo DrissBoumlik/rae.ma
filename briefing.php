@@ -1,13 +1,17 @@
-<?php include 'layouts/header.php' ?>
+<?php $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path.'/layouts/header.php'  ;
+    title_page('Briefing')
+?>
 
-<?php include 'layouts/feature.php';
-    feature_txt("briefing");
+<?php include $path.'/layouts/feature.php';
+    feature_txt("briefing", "");
 ?>
 
 <div class="section briefing">
-    <div class="container">
+    <div class="">
         <div class="row">
-            <h2>Briefing avant le départ</h2>
+            <hr class="section-title-line">
+            <h2 class="section-title">Briefing avant le départ</h2>
         </div>
         <div class="row">
             <p>Nous sommes ravis que vous ayez décidé d’étudier en Ukraine / Russie et nous espérons vous voir bientôt.</p>
@@ -22,36 +26,37 @@
         </div>
         <div class="row">
             <h3>S'il vous plaît ne pas apporter:</h3>
-            <ul>
-                <li>Cuiseurs de riz, de la nourriture ou des ustensiles de cuisine avec vous. Votre cas sera trop lourd pour vous porter! Vous pouvez acheter des casseroles, des assiettes et d'autres ustensiles de cuisine à très bon prix dans les supermarchés situés à proximité des résidences universitaires.</li>
-                <li>Vous constaterez que les villes où sont situées les universités comptent de nombreux magasins d’aliments internationaux, ainsi que de grands supermarchés et marchés où vous pourrez trouver de nombreux ingrédients disponibles dans votre pays d’origine. Vous pouvez également utiliser la cantine, le mess ou les restaurants pour vos repas quotidiens.</li>
-                <li>Tout ce que tu détesterais perdre. Laissez à la maison des bijoux précieux ou chers, toutes les cartes de crédit, cartes de bibliothèque et objets similaires inutiles que vous pourriez avoir dans votre portefeuille.</li>
-                <li>Articles de toilette que vous pouvez acheter à l'étranger parce que c'est un poids inutile (shampoing / revitalisant, déodorant, dentifrice).</li>
+            <ul class="list-group">
+                <li class="list-group-item">Cuiseurs de riz, de la nourriture ou des ustensiles de cuisine avec vous. Votre cas sera trop lourd pour vous porter! Vous pouvez acheter des casseroles, des assiettes et d'autres ustensiles de cuisine à très bon prix dans les supermarchés situés à proximité des résidences universitaires.</li>
+                <li class="list-group-item">Vous constaterez que les villes où sont situées les universités comptent de nombreux magasins d’aliments internationaux, ainsi que de grands supermarchés et marchés où vous pourrez trouver de nombreux ingrédients disponibles dans votre pays d’origine. Vous pouvez également utiliser la cantine, le mess ou les restaurants pour vos repas quotidiens.</li>
+                <li class="list-group-item">Tout ce que tu détesterais perdre. Laissez à la maison des bijoux précieux ou chers, toutes les cartes de crédit, cartes de bibliothèque et objets similaires inutiles que vous pourriez avoir dans votre portefeuille.</li>
+                <li class="list-group-item">Articles de toilette que vous pouvez acheter à l'étranger parce que c'est un poids inutile (shampoing / revitalisant, déodorant, dentifrice).</li>
             </ul>
         </div>
-        <span class="btn btn-danger underline">Pour l'Ukraine! Assurez-vous que vous portez votre passeport international et la lettre d'invitation originale dans votre bagage à main</span>
+        <p class="underline">Pour l'Ukraine! Assurez-vous que vous portez votre passeport international et la lettre d'invitation originale dans votre bagage à main !!</p>
         <div class='row'>
             <h3>Documents à apporter en Ukraine:</h3>
-            <ul>
-                <li>Lettre d'invitation originale;</li>
-                <li>Passeport international (valable 2 ans minimum);</li>
-                <li>Acte de naissance (traduit en ukrainien et portant le sceau de l'apôtre du ministère des Affaires étrangères de votre pays). En cas d'absence de certificat de naissance, le demandeur de visa devrait obtenir un affidavit (notarié);</li>
-                <li>Diplôme d'études secondaires (traduit en ukrainien et portant le sceau de l'apôtre du ministère des Affaires extérieures de votre pays d'origine);</li>
-                <li>Certificat médical d'aptitude générale  (traduit en ukrainien et portant le sceau de l'apôtre du ministère des Affaires étrangères de votre pays).</li>
+            <ul class="list-group">
+                <li class="list-group-item">Lettre d'invitation originale;</li>
+                <li class="list-group-item">Passeport international (valable 2 ans minimum);</li>
+                <li class="list-group-item">Acte de naissance (traduit en ukrainien et portant le sceau de l'apôtre du ministère des Affaires étrangères de votre pays). En cas d'absence de certificat de naissance, le demandeur de visa devrait obtenir un affidavit (notarié);</li>
+                <li class="list-group-item">Diplôme d'études secondaires (traduit en ukrainien et portant le sceau de l'apôtre du ministère des Affaires extérieures de votre pays d'origine);</li>
+                <li class="list-group-item">Certificat médical d'aptitude générale  (traduit en ukrainien et portant le sceau de l'apôtre du ministère des Affaires étrangères de votre pays).</li>
 
             </ul>
         </div>
         <div class='row'>
             <h3>Documents à apporter en Russie:</h3>
-            <ul>
-                <li>Passeport international original (valable 2 ans minimum);</li>
-                <li>Diplôme d'études secondaires (attesté par le ministère des Affaires étrangères ou avec le cachet de l'Apostille);</li>
-                <li>Test VIH-SIDA , montrant l'absence de VIH / SIDA;</li>
-                <li>8 photos de format passeport 3,5 x 4,5;</li>
-                <li>Bulletin de versement des frais de première année .</li>
+            <ul class="list-group">
+                <li class="list-group-item">Passeport international original (valable 2 ans minimum);</li>
+                <li class="list-group-item">Diplôme d'études secondaires (attesté par le ministère des Affaires étrangères ou avec le cachet de l'Apostille);</li>
+                <li class="list-group-item">Test VIH-SIDA , montrant l'absence de VIH / SIDA;</li>
+                <li class="list-group-item">8 photos de format passeport 3,5 x 4,5;</li>
+                <li class="list-group-item">Bulletin de versement des frais de première année .</li>
             </ul>
         </div>
     </div>
 </div>
 
-<?php include 'layouts/footer.php' ?>
+<?php include $path.'/layouts/sidebar.php'; ?>
+<?php include $path.'/layouts/footer.php' ?>

@@ -1,8 +1,31 @@
 jQuery(function ($) {
     
+    $('#modal').on('click', function () {
+        $('#modal-bg').fadeOut(100);
+        $('#modal').addClass('bounceOutRight');
+    });
+    feature_width()
+    // Controlling Feature Height by the Width of the document
+    $(window).on('resize', function () {
+        feature_width();
+    });
+    function feature_width() {
+        var offset_width = document.body.offsetWidth;
+        $('.feature > .container > .row').removeClass('no-img no-margin');
+        if (offset_width > 750) $('.feature').css('height', '510px');
+        else if (offset_width > 670) $('.feature').css('height', '400px');
+        // else if(offset_width > 400) $('.feature').css('height', '200px');
+        else {
+            $('.feature').css('height', '350px');
+            if (!$('.feature .row.me').length && offset_width < 500)
+            $('.feature > .container > .row').addClass('no-img');
+            else $('.feature > .container > .row').addClass('no-margin');
+        }
+    }
+    
     $('.feature-carousel').carousel({
         pause: false,
-        interval: 5000,
+        interval: 30000,
     })
     $('.feature-carousel').bsTouchSlider();
     baguetteBox.run('.tz-gallery');
@@ -26,7 +49,7 @@ jQuery(function ($) {
     $('#sl-container').on('mouseleave', function (){
         $(this).find('.animated').addClass('bounceOutDown').removeClass('bounceInUp');
     })
-    var progress_bar_top = $('.progress').offset().top;
+    var progress_bar_top = $('.navbar').offset().top;
     scrolling();
     $(window).on('scroll', function () {
         scrolling(true);
@@ -41,12 +64,12 @@ jQuery(function ($) {
         
         //#region SECTION: Fixing / Unfixing the top nav bar of the page
         if (scroll_top <= progress_bar_top){ //(document.body.offsetWidth >= 750 ? 170 : 50)) {
-            _ToggleClasses(false, 'navbar-fixed-top', ['header .progress'])
+            _ToggleClasses(false, 'navbar-fixed-top', ['header .progress', '.navbar'])
             _ToggleClasses(true, 'bounceOutDown', ['.up-container'])
             _ToggleClasses(false, 'bounceInUp', ['.up-container'])
         }
         else {
-            _ToggleClasses(true, 'navbar-fixed-top', ['header .progress'])
+            _ToggleClasses(true, 'navbar-fixed-top', ['header .progress', '.navbar'])
             _ToggleClasses(false, 'bounceOutDown', ['.up-container'])
             _ToggleClasses(true, 'bounceInUp', ['.up-container'])
         }

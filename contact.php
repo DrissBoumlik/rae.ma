@@ -1,10 +1,13 @@
-<?php include 'layouts/header.php' ?>
+<?php $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path.'/layouts/header.php'  ;
+    title_page('Contact')
+?>
     
-<?php include 'layouts/feature.php';
-    feature_txt("contact");
+<?php include $path.'/layouts/feature.php';
+    feature_txt("contact", "");
 ?>
     <div class="contact-us">
-        <div class="container">
+        <div class="">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="form-container">
@@ -46,15 +49,19 @@
         </div>
     </div>
 
-    <?php include 'layouts/footer.php' ?>
+    <!-- <?php //include $path.'/layouts/sidebar.php'; ?> -->
+<?php include $path.'/layouts/footer.php' ?>
 <?php
 if(isset($_POST['email'])){
     $to         = "boumlik.t@gmail.com";
     $subject    = $_POST['subject'];
     $message    = $_POST['message'];
     $headers    = 'From: ' . $_POST['name'] . ' : ' . $_POST['email'] . "\r\n" .
-        'Reply-To: webmaster@example.com' . "\r\n" .
+        'Reply-To: boumlik.t@gmail.com' . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
-    wp_mail($to, $subject, $message, $headers);
-    //mail($to, $subject, $message, $headers);
+    if(mail($to, $subject, $message, $headers)){
+        include 'layouts/modal.php';
+        modal_message('Votre message à bien été envoyé');
+    }       
+
 }

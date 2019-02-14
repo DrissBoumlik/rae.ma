@@ -1,12 +1,15 @@
-<?php include 'layouts/header.php' ?>
+<?php $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path.'/layouts/header.php'  ;
+    title_page('Gallery')
+?>
 
-<?php include 'layouts/feature.php';
-    feature_txt("gallery");
+<?php include $path.'/layouts/feature.php';
+    feature_txt("gallery", "");
 ?>
 
 
 <div class="gallery">
-    <div class="container">
+    <div class="">
         <div class="row">
             <!-- <div class="col-md-4">
                 <div class="youtube">
@@ -89,53 +92,30 @@
                 <h1>Gallery</h1>
                 <div class="tz-gallery">
                     <div class="row">
+                    <?php for($i=1;$i<=9;$i++){ ?>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="/images/gallery/1 (1).jpg">
-                                <img src="/images/gallery/1 (1).jpg" alt="Park">
+                            <a class="lightbox" href="/images/gallery/1 (<?php echo $i; ?>).jpg">
+                                <img src="/images/gallery/1 (<?php echo $i; ?>).jpg" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="/images/gallery/1 (2).jpg">
-                                <img src="/images/gallery/1 (2).jpg" alt="Bridge">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="/images/gallery/1 (3).jpg">
-                                <img src="/images/gallery/1 (3).jpg" alt="Tunnel">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="/images/gallery/1 (4).jpg">
-                                <img src="/images/gallery/1 (4).jpg" alt="Coast">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="/images/gallery/1 (5).jpg">
-                                <img src="/images/gallery/1 (5).jpg" alt="Rails">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="/images/gallery/1 (6).jpg">
-                                <img src="/images/gallery/1 (6).jpg" alt="Traffic">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="/images/gallery/1 (7).jpg">
-                                <img src="/images/gallery/1 (7).jpg" alt="Rocks">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="/images/gallery/1 (8).jpg">
-                                <img src="/images/gallery/1 (8).jpg" alt="Benches">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="/images/gallery/1 (9).jpg">
-                                <img src="/images/gallery/1 (9).jpg" alt="Sky">
-                            </a>
-                        </div>
+                    <?php } ?>
                     </div>
-
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="gallery-container">
+                <h1>Hébérgement</h1>
+                <div class="tz-gallery">
+                    <div class="row">
+                    <?php for($i=1;$i<=17;$i++){ ?>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="/images/Hebergement/1 (<?php echo $i; ?>).jpg">
+                                <img src="/images/Hebergement/1 (<?php echo $i; ?>).jpg" alt="">
+                            </a>
+                        </div>
+                    <?php } ?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -159,8 +139,11 @@
                 </div>
             </div>
         </div>
+        
+        
     </div>
 </div>
 
 
-<?php include 'layouts/footer.php' ?>
+<?php include $path.'/layouts/sidebar.php'; ?>
+<?php include $path.'/layouts/footer.php' ?>

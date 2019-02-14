@@ -1,12 +1,15 @@
-<?php include '../layouts/header.php' ?>
+<?php $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path.'/layouts/header.php'  ;
+    title_page('Russie')
+?>
 
 
-<?php include '../layouts/feature.php';
-    feature_txt('Pourquoi la Russie ?');
+<?php include $path.'/layouts/feature.php';
+    feature_txt('Pourquoi la Russie ?', "russia");
 ?>
     
-    <div class="section why-ukraine">
-        <div class="container">
+    <div class="section why">
+        <div class="">
             <div class="row">
                 <hr class="section-title-line">
                 <h2 class="section-title">Pourquoi la Russie?</h2>
@@ -20,32 +23,32 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <ul class="reason-items">
-                        <li>Education de qualité avec un personnel enseignant composé à plus de 90% de professeurs et de candidats en sciences;</li>
-                        <li>Medium of Instructions est l'anglais pendant toute la période d'étude;</li>
-                        <li>Processus d'admission facile;</li>
-                        <li>Aucun examen d'entrée;</li>
-                        <li>Accès aux laboratoires, centres techniques et de recherche les plus modernes</li>
-                        <li>Cours reconnus dans le monde entier (Europe, Royaume-Uni, États-Unis, Asie, Afrique);</li>
-                        <li>Diplôme de médecine reconnu par l'OMS, l'UNESCO, le PLAB (Royaume-Uni), USMLE (États-Unis), MCI, PMDC, d'autres organisations internationales et dans l'ensemble de l'UE;</li>
-                        <li>Les certificats IELTS / TOEFL ou autres ne sont pas identiques;</li>
-                        <li>Acceptation mondiale de la méthode d'enseignement et d'apprentissage du russe;</li>
-                        <li>Mess avec cuisinière indienne 3 fois par jour;</li>
-                        <li>Des manuels et du matériel d'étude sont fournis aux étudiants gratuitement;</li>
-                        <li>Cours pratiques d'hôpital à partir de la 2e année;</li>
-                        <li>Coaching de nos étudiants pour les préparer aux examens de licence nationaux et internationaux à partir de la 3ème année (MCI, USMLE, etc.);</li>
-                        <li>Stage dans les plus grands hôpitaux de Russie;</li>
-                        <li>Accent mis sur l'aspect pratique de l'enseignement</li>
-                        <li>L'un des meilleurs systèmes de transport au monde;</li>
-                        <li>Garantie à 100% d'obtenir une LETTRE D'ADMISSION et D'INVITATION.</li>
-                        <li>Visa 100% pour les étudiants méritants;</li>
-                        <li>Meilleures opportunités d’exposition clinique dans les hôpitaux universitaires;</li>
-                        <li>Pas de don;</li>
-                        <li>Toutes nos universités sont des universités publiques russes;</li>
-                        <li>La plus large gamme de programmes éducatifs disponibles;</li>
-                        <li>Grands campus et installations offertes;</li>
-                        <li>Une éducation qui combine les innovations traditionnelles et modernes;</li>
-                        <li>Offre une grande vie sociale pour les étudiants internationaux.</li>
+                    <ul class="reason-items list-group">
+                        <li class="list-group-item">Education de qualité avec un personnel enseignant composé à plus de 90% de professeurs et de candidats en sciences;</li>
+                        <li class="list-group-item">Medium of Instructions est l'anglais pendant toute la période d'étude;</li>
+                        <li class="list-group-item">Processus d'admission facile;</li>
+                        <li class="list-group-item">Aucun examen d'entrée;</li>
+                        <li class="list-group-item">Accès aux laboratoires, centres techniques et de recherche les plus modernes</li>
+                        <li class="list-group-item">Cours reconnus dans le monde entier (Europe, Royaume-Uni, États-Unis, Asie, Afrique);</li>
+                        <li class="list-group-item">Diplôme de médecine reconnu par l'OMS, l'UNESCO, le PLAB (Royaume-Uni), USMLE (États-Unis), MCI, PMDC, d'autres organisations internationales et dans l'ensemble de l'UE;</li>
+                        <li class="list-group-item">Les certificats IELTS / TOEFL ou autres ne sont pas identiques;</li>
+                        <li class="list-group-item">Acceptation mondiale de la méthode d'enseignement et d'apprentissage du russe;</li>
+                        <li class="list-group-item">Mess avec cuisinière indienne 3 fois par jour;</li>
+                        <li class="list-group-item">Des manuels et du matériel d'étude sont fournis aux étudiants gratuitement;</li>
+                        <li class="list-group-item">Cours pratiques d'hôpital à partir de la 2e année;</li>
+                        <li class="list-group-item">Coaching de nos étudiants pour les préparer aux examens de licence nationaux et internationaux à partir de la 3ème année (MCI, USMLE, etc.);</li>
+                        <li class="list-group-item">Stage dans les plus grands hôpitaux de Russie;</li>
+                        <li class="list-group-item">Accent mis sur l'aspect pratique de l'enseignement</li>
+                        <li class="list-group-item">L'un des meilleurs systèmes de transport au monde;</li>
+                        <li class="list-group-item">Garantie à 100% d'obtenir une LETTRE D'ADMISSION et D'INVITATION.</li>
+                        <li class="list-group-item">Visa 100% pour les étudiants méritants;</li>
+                        <li class="list-group-item">Meilleures opportunités d’exposition clinique dans les hôpitaux universitaires;</li>
+                        <li class="list-group-item">Pas de don;</li>
+                        <li class="list-group-item">Toutes nos universités sont des universités publiques russes;</li>
+                        <li class="list-group-item">La plus large gamme de programmes éducatifs disponibles;</li>
+                        <li class="list-group-item">Grands campus et installations offertes;</li>
+                        <li class="list-group-item">Une éducation qui combine les innovations traditionnelles et modernes;</li>
+                        <li class="list-group-item">Offre une grande vie sociale pour les étudiants internationaux.</li>
                     </ul>
                 </div>
             </div>
@@ -56,4 +59,5 @@
     </div>
 
 
-    <?php include '../layouts/footer.php' ?>
+    <?php include $path.'/layouts/sidebar.php'; ?>
+<?php include $path.'/layouts/footer.php' ?>

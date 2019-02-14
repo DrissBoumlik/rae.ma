@@ -1,7 +1,7 @@
 <?php
-    function feature_txt($headline)
+    function feature_txt($headline, $class)
     {
-        echo '<div class="container-fluid feature not">
+        echo '<div class="container-fluid feature not ' . $class . '">
         <div class="_container">
             <!--  -->
             <div class="carousel-container">
@@ -12,8 +12,6 @@
                             <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
                             <li data-target="#quote-carousel" data-slide-to="1"></li>
                             <li data-target="#quote-carousel" data-slide-to="2"></li>
-                            <li data-target="#quote-carousel" data-slide-to="3"></li>
-                            <li data-target="#quote-carousel" data-slide-to="4"></li>
                         </ol>'.
                         /*<!-- Bottom Carousel Indicators -->
                         <ol class="carousel-indicators">
@@ -45,13 +43,7 @@
                             <!-- Quote 3 -->
                             <div class="item">
                             </div>
-                            <!-- Quote 4 -->
-                            <div class="item">
-                            </div>
                             
-                            <!-- Quote 5 -->
-                            <div class="item">
-                            </div>
                             <div class="row static-txt">
                                 <div class="col-md-12 col-sm-12 height-100">
                                     <div class="feature-txt body-txt">
@@ -72,7 +64,8 @@
             </div>
         </div>
     </div>
-    ';
+    <div class="main-content"><div class="container"><div class="row">'.
+    (($headline != 'contact') ? '<div class="col-sm-8 col-md-8">' : '<div class="col-sm-12 col-md-12">');
     }
 
     
