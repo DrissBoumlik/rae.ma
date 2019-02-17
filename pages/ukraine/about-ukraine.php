@@ -4,7 +4,11 @@
 ?>
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("à propos d'Ukraine", "ukraine");
+    $txt = "à propos d'Ukraine";
+    if(isset($_GET['lang'])){
+        $txt = translate_feature_txt("à propos d'Ukraine", "حول اوكرانيا", "about ukraine");
+    }
+    feature_txt($txt, "ukraine");
 ?>
 <div class="about">
     <div class="">

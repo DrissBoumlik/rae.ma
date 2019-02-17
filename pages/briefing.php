@@ -4,7 +4,11 @@
 ?>
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("briefing", "");
+    $txt = "briefing";
+    if(isset($_GET['lang'])){
+        $txt = translate_feature_txt("briefing", "توجيهات", "briefing");
+    }
+    feature_txt($txt, "briefing");
 ?>
 
 <div class="section briefing">

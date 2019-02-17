@@ -5,7 +5,11 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt('Les études supérieures en Ukraine', "ukraine");
+    $txt = "Les études supérieures en Ukraine";
+    if(isset($_GET['lang'])){
+        $txt = translate_feature_txt("Les études supérieures en Ukraine", "الدراسات العليا في أوكرانيا", "Graduate studies in Ukraine");
+    }
+    feature_txt($txt, "ukraine");
 ?>
 
 <div class="sup-study">
@@ -80,11 +84,11 @@
                             <li class="list-group-item">Le diplôme obtenu en Ukraine est directement valable dans 27 pays européens car l’Ukraine est membre de BOLOGNA PROCESS. Par conséquent, vous pouvez vous inquiéter des normes relatives à la qualité du diplôme MBBS fourni en Ukraine.</li>
                             <li class="list-group-item">Les cours MBBS dans les universités ukrainiennes sont mondialement reconnus par l'OMS, le MCI, l'UNESCO, le Conseil européen, etc.</li>
                             <li class="list-group-item">L’Ukraine est un pays européen qui a les normes de vie européennes mais les frais de scolarité et les frais de formation sont très bas par rapport aux autres pays européens. </li>
-                            <li class="list-group-item">Les cours MBBS en Ukraine sont également en anglais. Par conséquent, les étudiants indiens qui ne maîtrisent que l'anglais peuvent facilement étudier MBBS en Ukraine. Même les gens ici parlent anglais et il n’ya aucun problème à résider en Ukraine.</li>
+                            <li class="list-group-item">Les cours MBBS en Ukraine sont également en anglais. Par conséquent, les étudiants marocains qui ne maîtrisent que l'anglais peuvent facilement étudier MBBS en Ukraine. Même les gens ici parlent anglais et il n’ya aucun problème à résider en Ukraine.</li>
                             <li class="list-group-item">Le climat est également modéré, de sorte que les étudiants n’auront aucun problème à s’installer dans des villes ukrainiennes.</li>
                             <li class="list-group-item">Aucun ILETS et TOEFL requis. </li>
                             <li class="list-group-item">MBBS en Ukraine a des frais de scolarité réduits Les universités MBBS ukrainiennes suivent des formations de haut niveau et sont dotées d'enseignants qualifiés.</li>
-                            <li class="list-group-item">Il n’existe pas de tests d’admission comme les tests d’entrée en Inde auxquels la majorité des étudiants peuvent accéder même après avoir obtenu un pourcentage élevé de notes en raison du nombre limité de places.</li>
+                            <li class="list-group-item">Il n’existe pas de tests d’admission.</li>
                             <li class="list-group-item">L’Ukraine faisant partie du processus BOLOGNA, les normes et la qualité de l’éducation sont au même niveau que les normes internationales. </li>
                             <li class="list-group-item">Les universités ukrainiennes ont un bon classement mondial et les diplômes seront disponibles et reconnus.</li>
                             <li class="list-group-item">Presque toutes les universités de médecine de l’Ukraine sont reconnues par l’OMS, FAIMER, IMED < UNESCO, etc.</li>

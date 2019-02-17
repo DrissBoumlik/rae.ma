@@ -5,7 +5,11 @@ include $path.'/layouts/header.php'  ;
 ?>
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt('à propos de Russie', "russia");
+    $txt = "à propos de Russie";
+    if(isset($_GET['lang'])){
+        $txt = translate_feature_txt("briefing", "حول روسيا", "about russia");
+    }
+    feature_txt($txt, "russia");
 ?>
     <div class="about">
         <div class="">

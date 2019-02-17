@@ -5,7 +5,11 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt('L\'éducation en Russie', "russia");
+    $txt = "L'éducation en Russie";
+    if(isset($_GET['lang'])){
+        $txt = translate_feature_txt("L'éducation en Russie", "التعليم في روسيا", "Education in russia");
+    }
+    feature_txt($txt, "russia");
 ?>
 
 <div class="sup-study">

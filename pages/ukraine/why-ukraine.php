@@ -5,7 +5,11 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt('Pourquoi Ukraine ?', "ukraine");
+    $txt = "Pourquoi Ukraine ?";
+    if(isset($_GET['lang'])){
+        $txt = translate_feature_txt("Pourquoi Ukraine ?", "لماذا اوكرانيا ؟", "Why Ukraine?");
+    }
+    feature_txt($txt, "ukraine");
 ?>
     
     <div class="section why">

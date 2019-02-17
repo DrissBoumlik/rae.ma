@@ -4,7 +4,11 @@
 ?>
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("gallery", "gallery");
+        $txt = "galerie";
+        if(isset($_GET['lang'])){
+            $txt = translate_feature_txt("briefing", "رواق", "gallery");
+        }
+        feature_txt($txt, "gallery");
 ?>
 
 

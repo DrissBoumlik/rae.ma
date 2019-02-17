@@ -5,7 +5,11 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt('NOS SERVICES', "");
+        $txt = "NOS SERVICES";
+        if(isset($_GET['lang'])){
+            $txt = translate_feature_txt("NOS SERVICES", "خدماتنا", "our services");
+        }
+        feature_txt($txt, "");
 ?>
     
     <div class="section our-services">

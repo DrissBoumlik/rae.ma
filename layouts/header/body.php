@@ -8,10 +8,10 @@
                         <li class="list-inline-item"><a href="?lang=ar">
                             <img src="/images/flags/ar.png" alt="">
                         </a></li>
-                        <li class="list-inline-item"><a href="?lang=fr" target="_blank">
+                        <li class="list-inline-item"><a href="?lang=fr">
                             <img src="/images/flags/fr.png" alt="">
                         </a></li>
-                        <li class="list-inline-item"><a href="?lang=en" target="_blank">
+                        <li class="list-inline-item"><a href="?lang=en">
                             <img src="/images/flags/uk.png" alt="">
                         </a></li>
                     </ul>

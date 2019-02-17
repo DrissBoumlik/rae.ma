@@ -5,7 +5,11 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("visa", "");
+        $txt = "visa";
+        if(isset($_GET['lang'])){
+            $txt = translate_feature_txt("visa", "تأشيرة دخول", "visa");
+        }
+        feature_txt($txt, "");
 ?>
 
 <div class="visa">

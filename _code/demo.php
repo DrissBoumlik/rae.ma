@@ -61,7 +61,8 @@ else echo '';
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("", "russia");
+    $txt = "";
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">

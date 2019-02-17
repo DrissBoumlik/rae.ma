@@ -4,7 +4,11 @@
 ?>
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("inscription", "");
+        $txt = "inscription";
+        if(isset($_GET['lang'])){
+            $txt = translate_feature_txt("inscription", "تسجيل", "inscription");
+        }
+        feature_txt($txt, "");
 ?>
 <div class="section register">
     <div class="">

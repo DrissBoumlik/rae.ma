@@ -4,7 +4,11 @@
 ?>
     
 <?php include $path.'/layouts/feature.php';
-    feature_txt("contact", "contact");
+    $txt = "contact";
+    if(isset($_GET['lang'])){
+        $txt = translate_feature_txt("contact", "التواصل", "contact");
+    }
+    feature_txt($txt, "contact");
 ?>
     <div class="contact-us">
         <div class="">

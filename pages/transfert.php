@@ -5,7 +5,11 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("Arrivée et transfert", "");
+    $txt = "Arrivée et transfert";
+    if(isset($_GET['lang'])){
+        $txt = translate_feature_txt("Arrivée et transfert", "وصول ونقل", "Arrival and transfer");
+    }
+    feature_txt($txt, "");
 ?>
 
 <div class="section transfer">

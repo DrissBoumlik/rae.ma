@@ -5,7 +5,11 @@
 
     
 <?php include $path.'/layouts/feature.php';
-    feature_txt('QUI NOUS SOMMES ?', "");
+    $txt = "QUI NOUS SOMMES ?";
+    if(isset($_GET['lang'])){
+        $txt = translate_feature_txt("QUI NOUS SOMMES ?", "من نحن ؟", "Who Are We ?");
+    }
+    feature_txt($txt, "");
 ?>
     
 
