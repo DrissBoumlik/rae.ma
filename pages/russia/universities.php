@@ -23,7 +23,7 @@
             <div class="row">
                 <ul class="list-group">
                     <li class="list-group-item"><a href="universities/rybinsk-state-aviation-technical-university.php" target="blank">Université d'État Technique de l'Aviation  de Rybinsk, ville Rybinsk</a></li>
-                    <li class="list-group-item"><a href="universities/kalashnikov-izhevsk-state-technical-university.php" target="blank">Université d'État Technique  Kalachnikov, ville Izhevsk</a></li>
+                    <!-- <li class="list-group-item"><a href="universities/kalashnikov-izhevsk-state-technical-university.php" target="blank">Université d'État Technique  Kalachnikov, ville Izhevsk</a></li> -->
                     <li class="list-group-item"><a href="universities/chechen-state-university.php" target="blank">Université d'État Tchétchéne, ville Grozny</a></li>
                     <!-- <li class="list-group-item"><a href="universities/adyghe-state-university.php" target="blank">Université d’Etat Adyguée, ville Maïkop</a></li> -->
                     <li class="list-group-item"><a href="universities/russian-national-research-medical-university-named-ni-pirogov.php" target="blank">Le Russie Université Nationale de la Recherche Médicale, ville Moscou</a></li>

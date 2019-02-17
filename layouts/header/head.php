@@ -16,14 +16,33 @@
         <link rel='stylesheet' id='use-fontawesome-all-css'  href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' type='text/css' media='all' />
         <link rel='stylesheet' id='animate-css'  href='/css/animate.css' type='text/css' media='all' />  
         <link rel='stylesheet' id='animate-css'  href='/css/fonts.css' type='text/css' media='all' />
+                
+        
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/> -->
+        <link rel="stylesheet" type="text/css" href="/datatable/css/jquery.dataTables.min.css"/>
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css"/> -->
+        <link rel="stylesheet" type="text/css" href="/datatable/css/responsive.dataTables.min.css"/>
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css"/> -->
+        <link rel="stylesheet" type="text/css" href="/datatable/css/dataTables.bootstrap.min.css"/>
+        
+        
         <link rel="stylesheet" href="/css/app.css">
         
-        <script type='text/javascript' src='/js/jquery.js'></script>
+        <!-- <script type='text/javascript' src='/js/jquery.js'></script> -->
+        <script type='text/javascript' src='/datatable/js/jquery.min.js'></script>
         <script type='text/javascript' src='/js/jquery-migrate.min.js'></script>
         <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
         <script type='text/javascript' src='/js/owl.carousel.min.js'></script>
         <script type='text/javascript' src='/js/jquery.touch-slider.min.js'></script>
         <script type='text/javascript' src='/js/typewriter.js'></script>
+        
+        
+        <!-- <script type='text/javascript' src='https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js'></script> -->
+        <script type='text/javascript' src='/datatable/js/jquery.dataTables.min.js'></script>
+        <!-- <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script> -->
+        <script type="text/javascript" src="/datatable/js/dataTables.responsive.min.js"></script>
+        <!-- <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>         -->
+        <script type="text/javascript" charset="utf8" src="/datatable/js/dataTables.bootstrap.min.js"></script>        
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     

@@ -83,7 +83,7 @@
                                                 <li>Liens importants</li>
                                                 <li>FAQ</li>
                                             </ul>
-                                            <a href="#" class="btn btn-primary">Voir plus </a>
+                                            <a href="/pages/additional-infos.php" class="btn btn-primary">Voir plus </a>
                                         </div>
                                     </div>
                                 </div>

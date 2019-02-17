@@ -1,5 +1,39 @@
 jQuery(function ($) {
+    // if($('#table').length>0){
+    //     $('#table').DataTable({
+    //         paging: false,
+    //         ordering:  false,
+            
+    //     }); 
+    //     // $('#table2').DataTable({
+    //     //     paging: false,
+    //     //     ordering:  false,
+            
+    //     // });
+    // }
     
+    // SECTION: Resource page
+    $('.main-content').delegate('.tool-header', 'click', function(){
+        var tool_category = $(this).siblings('.tool-category');
+        if($(tool_category).css('display') === "block"){
+            $(tool_category).slideUp(300)
+            if($(tool_category).hasClass('last-child')){
+                $(this).addClass('last-child');
+                $(tool_category).removeClass('last-child');
+            }
+        }
+        else {
+            if($(this).hasClass('last-child')){
+                $(this).removeClass('last-child');
+                $(tool_category).addClass('last-child');
+            }
+            $('.tool-header').removeClass('fa-minus').addClass('fa-plus');
+            $('.tool-category').slideUp(300)
+            $(tool_category).slideDown(300);
+        }
+        $(this).toggleClass('fa-minus fa-plus');
+    });
+   
     $('#modal').on('click', function () {
         $('#modal-bg').fadeOut(100);
         $('#modal').addClass('bounceOutRight');
