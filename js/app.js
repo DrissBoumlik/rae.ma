@@ -1,16 +1,12 @@
 jQuery(function ($) {
-    // if($('#table').length>0){
-    //     $('#table').DataTable({
-    //         paging: false,
-    //         ordering:  false,
-            
-    //     }); 
+    if($('#table').length>0){
+        $('#table').footable(); 
     //     // $('#table2').DataTable({
     //     //     paging: false,
     //     //     ordering:  false,
             
     //     // });
-    // }
+    }
     
     // SECTION: Resource page
     $('.main-content').delegate('.tool-header', 'click', function(){

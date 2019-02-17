@@ -103,37 +103,6 @@
                 <div class="tool-header fa-plus">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h3 class="capitalize">Médecine générale</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="tool-category">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="tool-txt">
-                                <div class="tool-descr">
-                                    <div class="row">
-                                        <div class="col-md-4 col-xs-4">Durée</div>
-                                        <div class="col-md-7 col-xs-7 col-md-offset-1 col-xs-offset-1">6 ans</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4 col-xs-4">Diplôme délivré</div>
-                                        <div class="col-md-7 col-xs-7 col-md-offset-1 col-xs-offset-1">MD (Doctor of Medicine / MBBS)</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4 col-xs-4">Langue d'enseignement</div>
-                                        <div class="col-md-7 col-xs-7 col-md-offset-1 col-xs-offset-1">anglais / russe / ukrainien</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tool-container">
-                <div class="tool-header fa-plus">
-                    <div class="row">
-                        <div class="col-sm-12">
                             <h3 class="capitalize">Dentisterie</h3>
                         </div>
                     </div>
@@ -419,6 +388,55 @@
     <p>L’Enseignement aux universités ukrainiennes est disponible en anglais et en russe. Si vous choisissez une filière en russe, une année préparatoire d’enseignement de la langue sera nécessaire ils apprennent les matières relatives à leur option d’études. Ainsi pour les étudiants de médecine, ils apprennent la biologie, la chimie, biophysique, etc. </p>
     <p><span class="btn btn-danger">NB :</span> La formation en anglais prévoit les cours obligatoires de la langue russe ce qui nécessaire pour la bonne communication, pour le séjour confortable  et pour la vie quotidienne pendant toute la durée des études aussi que pour la maitrise des ressources  éducatives.</p>
 </div>
-
+<div class="container table-responsive">
+    <table class="table table-striped toggle-circle-filled" id="table">
+        <thead>
+            <tr>
+                <th scope="col" data-toggle="true">#</th>
+                <th scope="col" data-hide="phone">Durée</th>
+                <th scope="col" data-hide="phone">Diplôme délivré</th>
+                <th scope="col">Langue d'enseignement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Médecine générale</th>
+                <td>6 ans</td>
+                <td>MD (Doctor of Medicine / MBBS) </td>
+                <td>anglais / russe / ukrainien</td>
+            </tr>
+            <tr>
+                <th scope="row">Dentisterie</th>
+                <td>5 ans</td>
+                <td>MD (Doctor of Medicine / MBBS) </td>
+                <td>anglais / russe / ukrainien</td>
+            </tr>
+            <tr>
+                <th scope="row">Pédiatrie</th>
+                <td>6 ans</td>
+                <td>MD (Doctor of Medicine / MBBS) </td>
+                <td>anglais / russe / ukrainien</td>
+            </tr>
+            <tr>
+                <th scope="row">Pharmacie</th>
+                <td>5 ans</td>
+                <td>MD (Doctor of Medicine / MBBS) </td>
+                <td>anglais / russe / ukrainien</td>
+            </tr>
+            <tr>
+                <th scope="row">INFIRMERIE</th>
+                <td>4 ans</td>
+                <td>Baccalauréat en sciences infirmières  </td>
+                <td>anglais / russe / ukrainien</td>
+            </tr>
+            <tr>
+                <th scope="row">Formation postdoctorale / résidence clinique</th>
+                <td>2-3 ans</td>
+                <td>Études postdoctorales / Résidence en clinique dans le domaine requis </td>
+                <td>anglais / russe / ukrainien</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 <?php include $path.'/layouts/sidebar.php'; ?>
 <?php include $path.'/layouts/footer.php' ?>
