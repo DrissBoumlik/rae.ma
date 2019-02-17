@@ -25,7 +25,7 @@
                             </li><li data-target="#quote-carousel" data-slide-to="3">
                                 <span class="uppercase">infos supplémentaires</span>
                             </li><li data-target="#quote-carousel" data-slide-to="4">
-                                <span class="uppercase">gallery</span>
+                                <span class="uppercase">galerie</span>
                             </li>
                         </ol>
                         
@@ -101,7 +101,7 @@
                                             <li>Hebergement </li>
                                             <li>Vidéos</li>
                                         </ul>
-                                        <a href="/gallery.php" class="btn btn-primary">Voir plus </a>
+                                        <a href="/pages/gallery.php" class="btn btn-primary">Voir plus </a>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +222,7 @@
                                 </div></a>
                             </div>
                         </div>
-                        <div class="row more"><a href="/ukraine/universities.php" class="btn btn-primary">voir plus ...</a></div>
+                        <div class="row more"><a href="/pages/ukraine/universities.php" class="btn btn-primary">voir plus ...</a></div>
                     </div>
                     <hr>
                     <div class="univ-russia">
@@ -291,7 +291,7 @@
                                 </div></a>
                             </div>
                         </div>
-                        <div class="row more"><a href="/russia/universities.php" class="btn btn-primary">voir plus ...</a></div>
+                        <div class="row more"><a href="/pages/russia/universities.php" class="btn btn-primary">voir plus ...</a></div>
                     </div>
                 </div>
             </div>

@@ -28,7 +28,7 @@
                                 <span class="uppercase">infos supplémentaire</span>
                             </li>
                             <li data-target="#quote-carousel" data-slide-to="4">
-                                <span class="uppercase">gallery</span>
+                                <span class="uppercase">galerie</span>
                             </li>
                         </ol>'.
                         
@@ -104,7 +104,7 @@
                                         <li>Hebergement </li>
                                         <li>Vidéos</li>
                                     </ul>
-                                    <a href="/gallery.php" class="btn btn-primary">Voir plus </a>
+                                    <a href="/pages/gallery.php" class="btn btn-primary">Voir plus </a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
         </div>
     </div>
     <div class="main-content"><div class="container"><div class="row">'.
-    (($headline != 'contact') ? '<div class="col-sm-8 col-md-8">' : '<div class="col-sm-12 col-md-12">');
+    (($class != 'contact' && $class != 'gallery') ? '<div class="col-sm-8 col-md-8">' : '<div class="col-sm-12 col-md-12">');
     }
 
     

@@ -4,7 +4,7 @@
 ?>
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("gallery", "");
+    feature_txt("gallery", "gallery");
 ?>
 
 

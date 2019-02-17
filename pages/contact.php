@@ -4,7 +4,7 @@
 ?>
     
 <?php include $path.'/layouts/feature.php';
-    feature_txt("contact", "");
+    feature_txt("contact", "contact");
 ?>
     <div class="contact-us">
         <div class="">
