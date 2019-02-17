@@ -13,3 +13,27 @@
 
 <?php include $path.'/layouts/sidebar.php' ?>
 <?php include $path.'/layouts/footer.php' ?>
+
+
+<?php 
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path.'/layouts/header.php'  ;
+    title_page("")
+?>
+
+
+<?php include $path.'/layouts/feature.php';
+    feature_txt("", "russia");
+?>
+
+<div class="post">
+    <div class="post-header"><div class="col-sm-12 col-md-12">
+        <h2 class=""></h2>
+    </div></div>
+    <div class="post-img"><img src="/images/universities/ukraine/" alt=""></div>
+    <div class="post-txt"></div>
+</div>
+
+
+<?php include $path.'/layouts/sidebar.php' ?>
+<?php include $path.'/layouts/footer.php' ?>

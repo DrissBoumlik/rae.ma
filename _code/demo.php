@@ -56,12 +56,12 @@ else echo '';
 <?php 
     $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('')
+    title_page("")
 ?>
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt('', "russia");
+    feature_txt("", "russia");
 ?>
 
 <div class="post">

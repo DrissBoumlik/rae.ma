@@ -33,7 +33,6 @@
                         <li class="list-group-item">Diplôme de médecine reconnu par l'OMS, l'UNESCO, le PLAB (Royaume-Uni), USMLE (États-Unis), MCI, PMDC, d'autres organisations internationales et dans l'ensemble de l'UE;</li>
                         <li class="list-group-item">Les certificats IELTS / TOEFL ou autres ne sont pas identiques;</li>
                         <li class="list-group-item">Acceptation mondiale de la méthode d'enseignement et d'apprentissage du russe;</li>
-                        <li class="list-group-item">Mess avec cuisinière indienne 3 fois par jour;</li>
                         <li class="list-group-item">Des manuels et du matériel d'étude sont fournis aux étudiants gratuitement;</li>
                         <li class="list-group-item">Cours pratiques d'hôpital à partir de la 2e année;</li>
                         <li class="list-group-item">Coaching de nos étudiants pour les préparer aux examens de licence nationaux et internationaux à partir de la 3ème année (MCI, USMLE, etc.);</li>
@@ -43,7 +42,6 @@
                         <li class="list-group-item">Garantie à 100% d'obtenir une LETTRE D'ADMISSION et D'INVITATION.</li>
                         <li class="list-group-item">Visa 100% pour les étudiants méritants;</li>
                         <li class="list-group-item">Meilleures opportunités d’exposition clinique dans les hôpitaux universitaires;</li>
-                        <li class="list-group-item">Pas de don;</li>
                         <li class="list-group-item">Toutes nos universités sont des universités publiques russes;</li>
                         <li class="list-group-item">La plus large gamme de programmes éducatifs disponibles;</li>
                         <li class="list-group-item">Grands campus et installations offertes;</li>

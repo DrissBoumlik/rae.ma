@@ -25,7 +25,7 @@
                             </li><li data-target="#quote-carousel" data-slide-to="3">
                                 <span class="uppercase">infos supplémentaires</span>
                             </li><li data-target="#quote-carousel" data-slide-to="4">
-                                <span class="uppercase">Photos et vidéos</span>
+                                <span class="uppercase">gallery</span>
                             </li>
                         </ol>
                         
@@ -97,10 +97,9 @@
                                     <div class="carousel-txt col-sm-12 col-md-12">
                                         <h2 class="uppercase">photos et vidéos</h2>
                                         <ul class="list-items">
-                                            <li>1</li>
-                                            <li>1</li>
-                                            <li>1</li>
-                                            <li>1</li>
+                                            <li>Photos etudiants</li>
+                                            <li>Hebergement </li>
+                                            <li>Vidéos</li>
                                         </ul>
                                         <a href="/gallery.php" class="btn btn-primary">Voir plus </a>
                                     </div>

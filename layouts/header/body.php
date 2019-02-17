@@ -55,33 +55,33 @@
                         <li><a href="/">Accueil</a></li>
                         <li><a class="has-submenu" href="#">A propos de nous</a>
                             <ul class="submenu">
-                                <li><a href="/who-are-we.php">Qui Somme nous</a></li>
-                                <li><a href="/our-services.php">Nos Services</a></li>
+                                <li><a href="/pages/who-are-we.php">Qui Somme nous</a></li>
+                                <li><a href="/pages/our-services.php">Nos Services</a></li>
                             </ul>
                         </li>
                         <li><a class="has-submenu" href="#">Ukraine</a>
                             <ul class="submenu">
-                                <li><a href="/ukraine/about-ukraine.php">A propos de Ukraine</a></li>
-                                <li><a href="/ukraine/why-ukraine.php">Pourquoi Ukraine</a></li>
-                                <li><a href="/ukraine/sup-ukraine.php">Etudes Supérieure en Ukraine</a></li>
+                                <li><a href="/pages/ukraine/about-ukraine.php">A propos de Ukraine</a></li>
+                                <li><a href="/pages/ukraine/why-ukraine.php">Pourquoi Ukraine</a></li>
+                                <li><a href="/pages/ukraine/sup-ukraine.php">Etudes Supérieure en Ukraine</a></li>
                             </ul>
                         </li>
                         <li><a class="has-submenu" href="#">Russie</a>
                             <ul class="submenu">
-                                <li><a href="/russia/about-russia.php">A propos de Russie</a></li>
-                                <li><a href="/russia/why-russia.php">Pourquoi Russie</a></li>
-                                <li><a href="/russia/sup-russia.php">Etudes Supérieure en Russie</a></li>
+                                <li><a href="/pages/russia/about-russia.php">A propos de Russie</a></li>
+                                <li><a href="/pages/russia/why-russia.php">Pourquoi Russie</a></li>
+                                <li><a href="/pages/russia/sup-russia.php">Etudes Supérieure en Russie</a></li>
                             </ul>
                         </li>
-                        <li><a href="/register.php">Comment s'inscrire</a></li>
+                        <li><a href="/pages/register.php">Comment s'inscrire</a></li>
                         <li><a class="has-submenu" href="#">Visa et Arrivée</a>
                             <ul class="submenu">
-                                <li><a href="/visa.php">Visa</a></li>
-                                <li><a href="/briefing.php">Briefing avant</a></li>
-                                <li><a href="/transfert.php">Arrivée et transfert</a></li>
+                                <li><a href="/pages/visa.php">Visa</a></li>
+                                <li><a href="/pages/briefing.php">Briefing avant</a></li>
+                                <li><a href="/pages/transfert.php">Arrivée et transfert</a></li>
                             </ul>
                         </li>
-                        <li><a title="Resume" href="/contact.php">Contact</a></li>
+                        <li><a title="Resume" href="/pages/contact.php">Contact</a></li>
                     </ul>                        
                 </div><!--/.navbar-collapse -->
             </div>

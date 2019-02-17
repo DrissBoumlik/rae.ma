@@ -33,9 +33,6 @@
                         <li class="list-group-item">Diplôme de médecin reconnu par l'OMS, l'UNESCO, le PLAB (Royaume-Uni), USMLE (États-Unis), dans toute l'UE et diverses organisations internationales
                             Les cours de médecine sont les plus populaires en Ukraine parmi les étudiants étrangers. Vous pouvez facilement étudier MBBS en Ukraine, car il sera reconnu partout dans le monde.
                         </li>
-                        <li class="list-group-item">Coaching pour MCI par le médecin indien dès la 1ère année
-                            Nous offrons à nos étudiants indiens une excellente occasion de passer facilement le test de dépistage MCI. Nous effectuons un coaching MCI pour tous les étudiants indiens afin de nous assurer qu'ils pratiqueront dans leur propre pays
-                        </li>
                         <li class="list-group-item">NO JAMB, IJMB, TOEFL, IELTS, CAMBRIDGE A.LEVEL, NABTEB
                             Ces mots font peur pour un grand nombre d'étudiants internationaux. Ils signifient un salaire supplémentaire et une admission difficile. Mais c'est facile en Ukraine. Vous n'avez pas besoin de faire aucun de ces examens.
                         </li>

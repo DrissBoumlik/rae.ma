@@ -16,7 +16,7 @@
         <link rel='stylesheet' id='use-fontawesome-all-css'  href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' type='text/css' media='all' />
         <link rel='stylesheet' id='animate-css'  href='/css/animate.css' type='text/css' media='all' />  
         <link rel='stylesheet' id='animate-css'  href='/css/fonts.css' type='text/css' media='all' />
-        <link rel="stylesheet" href="/app.css">
+        <link rel="stylesheet" href="/css/app.css">
         
         <script type='text/javascript' src='/js/jquery.js'></script>
         <script type='text/javascript' src='/js/jquery-migrate.min.js'></script>
