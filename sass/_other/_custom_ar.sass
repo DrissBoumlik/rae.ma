@@ -1,13 +1,18 @@
 html[lang*='ar']
-    .header .navbar .navbar-nav li a
-        font-size: 1.7rem
-        text-align: right
-    .header .navbar .navbar-nav>li>a
-        padding-left: 18px
-        padding-right: 15px
-    .header .navbar .navbar-nav>li>a.has-submenu:after
-        left: 3px
-        right: unset
+    .header 
+        .navbar 
+            .navbar-nav 
+                li a
+                    font-size: 1.7rem
+                    text-align: right
+                >li>a
+                    padding-left: 18px
+                    padding-right: 15px
+                    &.has-submenu:after
+                        left: 3px
+                        right: unset
+        .header-row
+            display: flex
     .feature
         .carousel-txt
             right: 2%
@@ -20,14 +25,18 @@ html[lang*='ar']
             right: unset
         .carousel-indicators
             display: flex
-            flex-direction: row-reverse
+            // flex-direction: row-reverse
             >li span
                 font-size: 1.7rem
     .welcome-rae .welcome-msg
         display: flex
         // flex-direction: row-reverse
         text-align: right
-        
+    
+    .universities
+        .univ-block .row > [class*=col-] .row
+            display: flex
+            
     .feature-offer .offer-detail
         display: flex
         text-align: right
@@ -35,10 +44,14 @@ html[lang*='ar']
         display: flex
     
     
-    .footer .row
-        text-align: right
-        display: flex
-        // flex-direction: row-reverse
-    .footer .infos i
-        margin-right: 0
-        margin-left: 10px
+    .footer 
+        .row
+            text-align: right
+            display: flex
+            // flex-direction: row-reverse
+        .infos i
+            margin-right: 0
+            margin-left: 10px
+    .sl-container
+        .list-group
+            padding-inline-start: 0

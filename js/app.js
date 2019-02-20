@@ -1,12 +1,19 @@
 jQuery(function ($) {
     if($('#table').length>0){
-        $('#table').footable(); 
-    //     // $('#table2').DataTable({
-    //     //     paging: false,
-    //     //     ordering:  false,
-            
-    //     // });
+        $('#table').DataTable({
+            responsive: true,
+            ordering:  false,
+            paging: false,
+            bInfo : false
+        }); 
     }
+    
+    $('.feature-carousel').carousel({
+        pause: false,
+        interval: 30000,
+    })
+    $('.feature-carousel').bsTouchSlider();
+    baguetteBox.run('.tz-gallery');
     
     // SECTION: Resource page
     $('.main-content').delegate('.tool-header', 'click', function(){
@@ -52,13 +59,6 @@ jQuery(function ($) {
             else $('.feature > .container > .row').addClass('no-margin');
         }
     }
-    
-    $('.feature-carousel').carousel({
-        pause: false,
-        interval: 30000,
-    })
-    $('.feature-carousel').bsTouchSlider();
-    baguetteBox.run('.tz-gallery');
     
     $(document).keydown(function(e) {
         if (e.keyCode === 37) {

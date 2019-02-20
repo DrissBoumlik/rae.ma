@@ -23,3 +23,27 @@
     </div></a>
 </div>
 <!-- #endregion -->
+<style>
+    .sl-container.languages{
+        left: 10px;
+        right: unset;
+        top: 40%;
+        bottom: unset;
+        transform: translateY(-50%);    
+    }
+</style>
+<div class="sl-container languages" id="sl-container">
+    <!-- <div class="arrow hidden"></div> -->
+    <ul class="list-group">
+        <li class="list-group-item"><a href="?lang=ar">
+            <img src="/images/flags/ar.png" alt="">
+        </a></li>
+        <li class="list-group-item"><a href="?lang=fr">
+            <img src="/images/flags/fr.png" alt="">
+        </a></li>
+        <li class="list-group-item"><a href="?lang=en">
+            <img src="/images/flags/uk.png" alt="">
+        </a></li>
+    </ul>
+    
+</div>

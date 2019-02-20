@@ -42,7 +42,7 @@
                                 <!-- Quote 1 -->
                                 <div class="item active">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12" '. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                        <div class="carousel-txt col-sm-12 col-md-12" >
                                             <h2 class="uppercase">'.
                                             (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universitiés')).
                                             '</h2>
@@ -61,7 +61,7 @@
                                 <!-- Quote 2 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12"'. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                        <div class="carousel-txt col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Study fees' : (($lang == 'ar') ? 'رسوم الدراسة' : 'Frais d\'études')).'</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Higher education that usually costs several times cheaper here than in the West' : (($lang == 'ar') ? 'التعليم العالي الذي عادة ما يكلف هنا عدة مرات أرخص مما هو عليه في الغرب' : 'Enseignement supérieur qui coûte en général plusieurs fois moins cher ici qu’en Occident.')).'</li>
@@ -74,7 +74,7 @@
                                 <!-- Quote 3 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12"'. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                        <div class="carousel-txt col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Courses' : (($lang == 'ar') ? 'دروس' : 'Cours')).'</h2>
                                             <ul class="list-items">
                                                 <!-- <li>Éducation de qualité</li> -->
@@ -89,7 +89,7 @@
                                 <!-- Quote 4 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12"'. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                        <div class="carousel-txt col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Additionnal Infos' : (($lang == 'ar') ? 'معلومات إضافية' : 'infos supplémentaire')).'</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Equivalence ' : (($lang == 'ar') ? 'مساواة' : 'Equivalence')).'</li>
@@ -104,7 +104,7 @@
                                 <!-- Quote 5 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12"'. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                        <div class="carousel-txt col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'gallery' : (($lang == 'ar') ? 'صور' : 'galerie')).'</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Student Photos' : (($lang == 'ar') ? 'صور الطلاب' : 'Photos etudiants')).'</li>

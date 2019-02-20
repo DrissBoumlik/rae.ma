@@ -8,7 +8,7 @@ function main_menu($active_page)
     <body>
         <header class="header">
             <div class="container">
-                <div class="row">
+                <div class="row header-row">
                     <div class="col-md-3 languages">
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="?lang=ar">
@@ -28,12 +28,13 @@ function main_menu($active_page)
                     <div class="col-md-4 contact">
                         <div class="row">
                             <div class="col-md-12 col-xs-12 badge">
-                                <i class="fas fa-at"></i><span>7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC</span>
+                                <i class="fas fa-at"></i><span>'. (($lang == 'ar') ? '7 شارع بينزيرتي ، الطابق الثالث ، هاسان الرباط ، المغرب' : (($lang == 'en') ? '7 BENZERTE STREET, 3RD FLOOR, HASSAN RABAT, MOROCCO' : '7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC')) .'                                
+                                </span>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-xs-12 badge">
-                                <i class="fas fa-phone"></i><span>+212-700 175 747 | +212-680 201 404</span>
+                                <i class="fas fa-phone"></i><span>212-700-175-747 | 212-680-201-404</span>
                             </div>
                         </div>
                         <div class="row">
@@ -57,7 +58,7 @@ function main_menu($active_page)
                     
                     <div id="navbar">
                     <!-- . // class="navbar-collapse collapse"> -->
-                        <ul id="menu-main-menu" class="nav navbar-nav" '. (($lang == 'ar') ? 'dir="rtl"' : '') .'>
+                        <ul id="menu-main-menu" class="nav navbar-nav">
                             <li class="' . ($active_page == '1' ? 'active' : '') .'"><a href="/?lang='. $lang .'">'. (($lang == 'ar') ? 'إستقبال' : (($lang == 'en') ? 'Home' : 'Accueil')) .'</a></li>
                             <li class="' . ($active_page == '2' ? 'active' : '') .'"><a class="has-submenu" href="#" >'.(($lang == 'ar') ? 'في ما يخصنا' : (($lang == 'en') ? 'About us' : 'A propos de nous')).'</a>
                                 <ul class="submenu">

@@ -1,7 +1,7 @@
             </div> <!-- container -->
         </div> <!-- main-content -->
     </div> <!-- main-page -->
-    <div class="section footer" dir="rtl">
+    <div class="section footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 about">
@@ -27,10 +27,11 @@
                     <div class="row">
                         <div class="">
                             <h3><?php echo (($lang == 'ar') ? 'ساعات العمل' : (($lang == 'en') ? 'working hours' : 'heures de travail')); ?></h3>
-                            <label><i class="fas fa-clock"></i><span><?php echo (($lang == 'ar') ? '9h - 18h : الاثنين - الجمعة' : (($lang == 'en') ? 'Monday-Friday: 9h - 18h' : 'Lundi-vendredi: 9h - 18h')); ?></span></label><br>
-                            <label><i class="fas fa-at"></i><span>7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC</span></label><br>
+                            <label><i class="fas fa-clock"></i><span><?php echo (($lang == 'ar') ? '18h - 9h : الاثنين - الجمعة' : (($lang == 'en') ? 'Monday-Friday: 9h - 18h' : 'Lundi-vendredi: 9h - 18h')); ?></span></label><br>
+                            <label><i class="fas fa-at"></i><span><?php echo (($lang == 'ar') ? '7 شارع بينزيرتي ، الطابق الثالث ، هاسان الرباط ، المغرب' : (($lang == 'en') ? '7 BENZERTE STREET, 3RD FLOOR, HASSAN RABAT, MOROCCO' : '7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC')); ?></span></label>
+                            <hr/>
                             <h3><?php echo (($lang == 'ar') ? 'اتصل بنا' : (($lang == 'en') ? 'contact Us' : 'contactez Nous')); ?></h3>
-                            <label><i class="fas fa-phone"></i>+212-700 175 747 | +212-680 201 404</label><br>
+                            <label><i class="fas fa-phone"></i>212-700-175-747 | 212-680-201-404</label><br>
                             <label><i class="fas fa-envelope"></i>studyabroad@rae.ma</label><br>
                         </div>
                     </div>                    
