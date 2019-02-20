@@ -1,5 +1,10 @@
+<?php $GLOBALS['lang'] = 'fr'; 
+    if(isset($_GET['lang'])) 
+        $GLOBALS['lang'] = $_GET['lang'];
+    $lang = $GLOBALS['lang'];
+?>
 <!DOCTYPE html>
-    <html id="top-page">
+    <html id="top-page" lang="<?php echo $lang; ?>" >
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">

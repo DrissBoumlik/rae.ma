@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Les études supérieures en Ukraine')
+    title_page('Les études supérieures en Ukraine',3)
 ?>
 
 

@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Arrivée et transfert')
+    title_page('Arrivée et transfert',6)
 ?>
 
 

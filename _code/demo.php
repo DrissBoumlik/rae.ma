@@ -1,4 +1,7 @@
-        
+
+<?php echo (($lang == 'ar') ? '' : (($lang == 'en') ? '' : '')); ?>
+
+
 <div class="carousel-container">
     <div class='row'>
         <div class="carousel slide feature-carousel" data-ride="carousel" id="quote-carousel" data-interval="false">

@@ -1,6 +1,7 @@
 <?php
     function feature_txt($headline, $class)
     {
+        $lang = (!isset($_GET['lang'])) ? 'fr' : $_GET['lang'];
         echo '<div class="container-fluid feature not ' . $class . '">
             <div class="_container">
                 <!--  -->
@@ -10,19 +11,29 @@
                             <!-- Bottom Carousel Indicators -->
                             <ol class="carousel-indicators">
                                 <li data-target="#quote-carousel" data-slide-to="0" class="active">
-                                    <span class="uppercase">Universitiés</span>
+                                    <span class="uppercase">'.
+                                        (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universitiés')).
+                                    '</span>
                                 </li>
                                 <li data-target="#quote-carousel" data-slide-to="1" class="">
-                                    <span class="uppercase">Frais d\'études</span>
+                                    <span class="uppercase">'.
+                                        (($lang == 'en') ? 'Study fees' : (($lang == 'ar') ? 'رسوم الدراسة' : 'Frais d\'études')).
+                                    '</span>
                                 </li>
                                 <li data-target="#quote-carousel" data-slide-to="2">
-                                    <span class="uppercase">Cours</span>
+                                    <span class="uppercase">'.
+                                        (($lang == 'en') ? 'Courses' : (($lang == 'ar') ? 'دروس' : 'Cours')).
+                                    '</span>
                                 </li>
                                 <li data-target="#quote-carousel" data-slide-to="3">
-                                    <span class="uppercase">infos supplémentaire</span>
+                                    <span class="uppercase">'.
+                                        (($lang == 'en') ? 'Additionnal Infos' : (($lang == 'ar') ? 'معلومات إضافية' : 'infos supplémentaire')).
+                                    '</span>
                                 </li>
                                 <li data-target="#quote-carousel" data-slide-to="4">
-                                    <span class="uppercase">galerie</span>
+                                    <span class="uppercase">'.
+                                        (($lang == 'en') ? 'gallery' : (($lang == 'ar') ? 'صور' : 'galerie')).
+                                    '</span>
                                 </li>
                             </ol>'.
                             
@@ -31,59 +42,61 @@
                                 <!-- Quote 1 -->
                                 <div class="item active">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12">
-                                            <h2 class="uppercase">universitiés</h2>
+                                        <div class="carousel-txt col-sm-12 col-md-12" '. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                            <h2 class="uppercase">'.
+                                            (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universitiés')).
+                                            '</h2>
                                             <ul class="list-items">
-                                                <li>Institutions célèbres</li>
-                                                <li>Reconnaissance (qui, Unesco, Conseil européen, mci, sadc)</li>
-                                                <li>Médecins qualifiés</li>
-                                                <li>Travail de recherche</li>
-                                                <li>Hôpitaux à la technologie moderne</li>
-                                                <li>Niveau d\'éducation avancé</li>
+                                                <li>'.(($lang == 'en') ? 'Famous institutions' : (($lang == 'ar') ? 'المؤسسات الشهيرة' : 'Universitiés')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Recognition ()' : (($lang == 'ar') ? 'اعتراف (qui, اليونسكو ,المجلس الأوروبي , mci, sadc)' : 'Reconnaissance (qui, Unesco, Conseil européen, mci, sadc)')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Médecins qualifiés' : (($lang == 'ar') ? 'أطباء مؤهلين' : 'Qualified doctors')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Research work' : (($lang == 'ar') ? 'العمل البحثي' : 'Travail de recherche')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Hospitals with modern technology' : (($lang == 'ar') ? 'المستشفيات ذات التكنولوجيا الحديثة' : 'Hôpitaux à la technologie moderne')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Advanced level of education' : (($lang == 'ar') ? 'مستوى متقدم من التعليم' : 'Niveau d\'éducation avancé')).'</li>
                                             </ul>
-                                            <a href="/pages/universities.php" class="btn btn-primary">Voir plus </a>
+                                            <a href="/pages/universities.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Quote 2 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12">
-                                            <h2 class="uppercase">frais d\'études</h2>
+                                        <div class="carousel-txt col-sm-12 col-md-12"'. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                            <h2 class="uppercase">'.(($lang == 'en') ? 'Study fees' : (($lang == 'ar') ? 'رسوم الدراسة' : 'Frais d\'études')).'</h2>
                                             <ul class="list-items">
-                                                <li>Enseignement supérieur, qui coûte en général plusieurs fois moins cher ici qu’en Occident.</li>
-                                                <li>La qualité de l’enseignement dans les principales universités des pays (Ukraine/ Russie)</li>
+                                                <li>'.(($lang == 'en') ? 'Higher education that usually costs several times cheaper here than in the West' : (($lang == 'ar') ? 'التعليم العالي الذي عادة ما يكلف هنا عدة مرات أرخص مما هو عليه في الغرب' : 'Enseignement supérieur qui coûte en général plusieurs fois moins cher ici qu’en Occident.')).'</li>
+                                                <!-- <li>La qualité de l’enseignement dans les principales universités des pays (Ukraine/ Russie)</li> -->
                                             </ul>
-                                            <a href="/pages/study-fees.php" class="btn btn-primary">Voir plus </a>
+                                            <a href="/pages/study-fees.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Quote 3 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12">
-                                            <h2 class="uppercase">cours</h2>
+                                        <div class="carousel-txt col-sm-12 col-md-12"'. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                            <h2 class="uppercase">'.(($lang == 'en') ? 'Courses' : (($lang == 'ar') ? 'دروس' : 'Cours')).'</h2>
                                             <ul class="list-items">
-                                                <li>Éducation de qualité</li>
-                                                <li>Universités de haute technologie</li>
-                                                <li>Laboratoires avancés</li>
-                                                <li>Meilleur rapport entre le prix et la qualité d\'enseignement</li>
+                                                <!-- <li>Éducation de qualité</li> -->
+                                                <li>'.(($lang == 'en') ? 'Universities of high technology' : (($lang == 'ar') ? 'جامعات التكنولوجيا العالية' : 'Universités de haute technologie')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Advanced laboratories ' : (($lang == 'ar') ? 'معامل متقدمة' : 'Laboratoires avancés')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Better relationship between price and quality of education' : (($lang == 'ar') ? 'علاقة أفضل بين السعر وجودة التعليم' : 'Meilleur rapport entre le prix et la qualité d\'enseignement')).'</li>
                                             </ul>
-                                            <a href="/pages/courses.php" class="btn btn-primary">Voir plus </a>
+                                            <a href="/pages/courses.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Quote 4 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12">
-                                            <h2 class="uppercase">infos supplémentaires</h2>
+                                        <div class="carousel-txt col-sm-12 col-md-12"'. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                            <h2 class="uppercase">'.(($lang == 'en') ? 'Additionnal Infos' : (($lang == 'ar') ? 'معلومات إضافية' : 'infos supplémentaire')).'</h2>
                                             <ul class="list-items">
-                                                <li>Equivalence</li>
-                                                <li>Liens importants</li>
-                                                <li>FAQ</li>
+                                                <li>'.(($lang == 'en') ? 'Equivalence ' : (($lang == 'ar') ? 'مساواة' : 'Equivalence')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Important links' : (($lang == 'ar') ? 'روابط مهمة' : 'Liens importants')).'</li>
+                                                <li>'.(($lang == 'en') ? 'FAQ' : (($lang == 'ar') ? 'التعليمات' : 'FAQ')).'</li>
                                             </ul>
-                                            <a href="/pages/additional-infos.php" class="btn btn-primary">Voir plus </a>
+                                            <a href="/pages/additional-infos.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>
@@ -91,14 +104,14 @@
                                 <!-- Quote 5 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12">
-                                            <h2 class="uppercase">photos et vidéos</h2>
+                                        <div class="carousel-txt col-sm-12 col-md-12"'. (($lang == 'ar') ? 'dir=rtl' : '').'>
+                                            <h2 class="uppercase">'.(($lang == 'en') ? 'gallery' : (($lang == 'ar') ? 'صور' : 'galerie')).'</h2>
                                             <ul class="list-items">
-                                                <li>Photos etudiants</li>
-                                                <li>Hebergement </li>
-                                                <li>Vidéos</li>
+                                                <li>'.(($lang == 'en') ? 'Student Photos' : (($lang == 'ar') ? 'صور الطلاب' : 'Photos etudiants')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Accommodation' : (($lang == 'ar') ? 'الإقامة' : 'Hebergement')).' </li>
+                                                <li>'.(($lang == 'en') ? 'Videos ' : (($lang == 'ar') ? 'فيديو' : 'Vidéos')).'</li>
                                             </ul>
-                                            <a href="/pages/gallery.php" class="btn btn-primary">Voir plus </a>
+                                            <a href="/pages/gallery.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>'.
@@ -124,7 +137,7 @@
             </div>
         </div>'.
         (($class != 'home') ?
-        ('<div class="main-content"><div class="container"><div class="row">'.
+        ('<div class="main-content post-container"><div class="container"><div class="row">'.
         (($class != 'contact' && $class != 'gallery') ? 
         '<div class="col-sm-8 col-md-8">' : '<div class="col-sm-12 col-md-12">')) : '');
     }

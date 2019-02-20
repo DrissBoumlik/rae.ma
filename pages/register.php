@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Inscription')
+    title_page('Inscription',5)
 ?>
 
 <?php include $path.'/layouts/feature.php';
@@ -24,10 +24,9 @@
             <ul class="list-group">
                 <li class="list-group-item">Scan du passeport (Validité du passeport ne doit pas être moins qu’un an) ;</li>
                 <li class="list-group-item">Scan de certificat des études secondaires (Baccalauréat)</li>
-                <li class="list-group-item">Scan de  relevés de notes.
-                    <p class="">Ces derniers  sont nécessaires pour demander une Invitation et qu’elle est obligatoire d’être présenter à l’Ambassade de l’Ukraine pour obtenir le Visa étudiant !!!</p>
-                </li>
+                <li class="list-group-item">Scan de  relevés de notes.</li>
             </ul>
+            <p class="">Ces derniers  sont nécessaires pour demander une Invitation et qu’elle est obligatoire d’être présenter à l’Ambassade de l’Ukraine/Russie pour obtenir le Visa étudiant !!!</p>
             <hr>
             <p>Si le dossier est accepté, l’intéressé doit venir chez nous pour avoir son «Invitation pour études» officielle délivrée à son nom par le Ministère de l’Education et des Sciences de l’Ukraine/Russie.</p>
             <ul class="list-group">

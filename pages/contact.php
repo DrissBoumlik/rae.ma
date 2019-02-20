@@ -1,12 +1,12 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Contact')
+    title_page('Contact',7)
 ?>
     
 <?php include $path.'/layouts/feature.php';
     $txt = "contact";
     if(isset($_GET['lang'])){
-        $txt = translate_feature_txt("contact", "التواصل", "contact");
+        $txt = translate_feature_txt("contact", "تواصل معنا", "contact");
     }
     feature_txt($txt, "contact");
 ?>

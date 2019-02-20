@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('QUI NOUS SOMMES')
+    title_page('QUI NOUS SOMMES', 2)
 ?>
 
     
