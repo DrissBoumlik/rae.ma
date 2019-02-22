@@ -6,7 +6,7 @@
 <?php include $path.'/layouts/feature.php';
         $txt = "galerie";
         if(isset($_GET['lang'])){
-            $txt = translate_feature_txt("briefing", "رواق", "gallery");
+            $txt = translate_feature_txt("galerie", "رواق", "gallery");
         }
         feature_txt($txt, "gallery");
 ?>
@@ -34,7 +34,7 @@
             <div class="col-md-8">
                 <div class="gallery-container">
 
-                    <h1>Gallery</h1>
+                    <h1><?php echo (($lang == 'ar') ? 'رواق' : (($lang == 'en') ? 'Gallery' : 'Galerie')); ?></h1>
 
                     <p class="page-description text-center">Grid Layout With Zoom Effect</p>
                     
@@ -93,7 +93,7 @@
                 </div>
             </div> -->
             <div class="gallery-container">
-                <h1>Gallery</h1>
+                <h1><?php echo (($lang == 'ar') ? 'رواق' : (($lang == 'en') ? 'Gallery' : 'Galerie')); ?></h1>
                 <div class="tz-gallery">
                     <div class="row">
                     <?php for($i=1;$i<=9;$i++){ ?>
@@ -109,7 +109,7 @@
         </div>
         <div class="row">
             <div class="gallery-container">
-                <h1>Hébérgement</h1>
+                <h1><?php echo (($lang == 'ar') ? 'الإقامة' : (($lang == 'en') ? 'accommodation' : 'Hébérgement')); ?></h1>
                 <div class="tz-gallery">
                     <div class="row">
                     <?php for($i=1;$i<=17;$i++){ ?>
@@ -126,7 +126,7 @@
         <div class="row">
             <div class="youtube">
                 <div class="ukraine">
-                    <h2>Ukraine</h2>
+                    <h2><?php echo (($lang == 'ar') ? 'أوكرانيا' : (($lang == 'en') ? 'Ukraine' : 'Ukraine')); ?></h2>
                     <div class="row">
                         <div class="col-md-4"><iframe src="https://www.youtube.com/embed/XpTAlgdgfDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                         <div class="col-md-4"><iframe src="https://www.youtube.com/embed/fBGHdqXuD0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -134,7 +134,7 @@
                     </div>
                 </div>
                 <div class="russia">
-                    <h2>Russia</h2>
+                    <h2><?php echo (($lang == 'ar') ? 'روسيا' : (($lang == 'en') ? 'Russia' : 'Russie')); ?></h2>
                     <div class="row">
                         <div class="col-md-4"><iframe src="https://www.youtube.com/embed/rVuAf-0RpTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                         <div class="col-md-4"><iframe src="https://www.youtube.com/embed/iChZF9MVB4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

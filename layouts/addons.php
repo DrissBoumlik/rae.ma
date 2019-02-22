@@ -23,14 +23,25 @@
     </div></a>
 </div>
 <!-- #endregion -->
+<?php 
+if(true)
+echo '
 <style>
     .sl-container.languages{
-        left: 10px;
         right: unset;
-        top: 40%;
-        bottom: unset;
-        transform: translateY(-50%);    
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);    
     }
+    .sl-container.languages .list-group-item img{
+        height: 50px;
+        width: 50px;
+    }
+    .sl-container.languages .list-group-item {
+        display: inline-block;
+        
+    }
+
 </style>
 <div class="sl-container languages" id="sl-container">
     <!-- <div class="arrow hidden"></div> -->
@@ -47,3 +58,4 @@
     </ul>
     
 </div>
+';

@@ -59,36 +59,30 @@ function main_menu($active_page)
                     <div id="navbar">
                     <!-- . // class="navbar-collapse collapse"> -->
                         <ul id="menu-main-menu" class="nav navbar-nav">
-                            <li class="' . ($active_page == '1' ? 'active' : '') .'"><a href="/?lang='. $lang .'">'. (($lang == 'ar') ? 'إستقبال' : (($lang == 'en') ? 'Home' : 'Accueil')) .'</a></li>
-                            <li class="' . ($active_page == '2' ? 'active' : '') .'"><a class="has-submenu" href="#" >'.(($lang == 'ar') ? 'في ما يخصنا' : (($lang == 'en') ? 'About us' : 'A propos de nous')).'</a>
+                            <li class="' . ($active_page == '1' ? 'active' : '') .'"><a href="/?lang='. $lang .'">'. (($lang == 'ar') ? 'إستقبال' : (($lang == 'en') ? 'Home' : 'Accueil')) .'</a></li><li class="' . ($active_page == '2' ? 'active' : '') .'"><a class="has-submenu" href="#" >'.(($lang == 'ar') ? 'في ما يخصنا' : (($lang == 'en') ? 'About us' : 'A propos de nous')).'</a>
                                 <ul class="submenu">
                                     <li><a href="/pages/who-are-we.php?lang='. $lang .'">'.(($lang == 'ar') ? 'من نحن' : (($lang == 'en') ? 'Who are we' : 'Qui Somme nous')).'</a></li>
                                     <li><a href="/pages/our-services.php?lang='. $lang .'">'.(($lang == 'ar') ? 'خدماتنا' : (($lang == 'en') ? 'Our services' : 'Nos Services')).'</a></li>
                                 </ul>
-                            </li>
-                            <li class="' . ($active_page == '3' ? 'active' : '') .'"><a class="has-submenu" href="#">'.(($lang == 'ar') ? 'أوكرانيا' : (($lang == 'en') ? 'Ukraine' : 'Ukraine')).'</a>
+                            </li><li class="' . ($active_page == '3' ? 'active' : '') .'"><a class="has-submenu" href="#">'.(($lang == 'ar') ? 'أوكرانيا' : (($lang == 'en') ? 'Ukraine' : 'Ukraine')).'</a>
                                 <ul class="submenu">
                                     <li><a href="/pages/ukraine/about-ukraine.php?lang='. $lang .'">'.(($lang == 'ar') ? 'حول أوكرانيا' : (($lang == 'en') ? 'About Ukraine' : 'A propos de Ukraine')).'</a></li>
                                     <li><a href="/pages/ukraine/why-ukraine.php?lang='. $lang .'">'.(($lang == 'ar') ? 'لماذا اوكرانيا' : (($lang == 'en') ? 'Why Ukraine' : 'Pourquoi Ukraine')).'</a></li>
                                     <li><a href="/pages/ukraine/sup-ukraine.php?lang='. $lang .'">'.(($lang == 'ar') ? 'التعليم العالي في أوكرانيا' : (($lang == 'en') ? 'Higher Education in Ukraine' : 'Etudes Supérieure en Ukraine')).'</a></li>
                                 </ul>
-                            </li>
-                            <li class="' . ($active_page == '4' ? 'active' : '') .'"><a class="has-submenu" href="#">'.(($lang == 'ar') ? 'روسيا' : (($lang == 'en') ? 'Russia' : 'Russie')).'</a>
+                            </li><li class="' . ($active_page == '4' ? 'active' : '') .'"><a class="has-submenu" href="#">'.(($lang == 'ar') ? 'روسيا' : (($lang == 'en') ? 'Russia' : 'Russie')).'</a>
                                 <ul class="submenu">
                                     <li><a href="/pages/russia/about-russia.php?lang='. $lang .'">'.(($lang == 'ar') ? 'حول روسيا' : (($lang == 'en') ? 'About Russia' : 'A propos de Russie')).'</a></li>
                                     <li><a href="/pages/russia/why-russia.php?lang='. $lang .'">'.(($lang == 'ar') ? 'لماذا روسيا' : (($lang == 'en') ? 'Why Russia' : 'Pourquoi Russie')).'</a></li>
                                     <li><a href="/pages/russia/sup-russia.php?lang='. $lang .'">'.(($lang == 'ar') ? 'التعليم العالي في روسيا' : (($lang == 'en') ? 'Higher Education in Russia' : 'Etudes Supérieure en Russie')).'</a></li>
                                 </ul>
-                            </li>
-                            <li class="' . ($active_page == '5' ? 'active' : '') .'"><a href="/pages/register.php?lang='. $lang .'">'.(($lang == 'ar') ? 'كيفية التسجيل' : (($lang == 'en') ? 'How to register' : 'Comment s\'inscrire')).'</a></li>
-                            <li class="' . ($active_page == '6' ? 'active' : '') .'"><a class="has-submenu" href="#">'.(($lang == 'ar') ? 'التأشيرة والوصول' : (($lang == 'en') ? 'Visa and Arrival' : 'Visa et Arrivée')).'</a>
+                            </li><li class="' . ($active_page == '5' ? 'active' : '') .'"><a href="/pages/register.php?lang='. $lang .'">'.(($lang == 'ar') ? 'كيفية التسجيل' : (($lang == 'en') ? 'How to register' : 'Comment s\'inscrire')).'</a></li><li class="' . ($active_page == '6' ? 'active' : '') .'"><a class="has-submenu" href="#">'.(($lang == 'ar') ? 'التأشيرة والوصول' : (($lang == 'en') ? 'Visa and Arrival' : 'Visa et Arrivée')).'</a>
                                 <ul class="submenu">
                                     <li><a href="/pages/visa.php?lang='. $lang .'">'.(($lang == 'ar') ? 'تأشيرة' : (($lang == 'en') ? 'Visa' : 'Visa')).'</a></li>
                                     <li><a href="/pages/briefing.php?lang='. $lang .'">'.(($lang == 'ar') ? 'إحاطة من قبل' : (($lang == 'en') ? 'Briefing before' : 'Briefing avant')).'</a></li>
                                     <li><a href="/pages/transfert.php?lang='. $lang .'">'.(($lang == 'ar') ? 'وصول ونقل' : (($lang == 'en') ? 'Arrival and transfer' : 'Arrivée et transfert')).'</a></li>
                                 </ul>
-                            </li>
-                            <li class="' . ($active_page == '7' ? 'active' : '') .'"><a title="Resume" href="/pages/contact.php?lang='. $lang .'">'.(($lang == 'ar') ? 'اتصال' : (($lang == 'en') ? 'Contact' : 'Contact')).'</a></li>
+                            </li><li class="' . ($active_page == '7' ? 'active' : '') .'"><a title="Resume" href="/pages/contact.php?lang='. $lang .'">'.(($lang == 'ar') ? 'اتصال' : (($lang == 'en') ? 'Contact' : 'Contact')).'</a></li>
                         </ul>                        
                     </div><!--/.navbar-collapse -->
                 </div>

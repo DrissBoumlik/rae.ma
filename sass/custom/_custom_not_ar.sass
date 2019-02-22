@@ -1,0 +1,8 @@
+// STYLES FOR FRENCH/ENGLISH - EXCLUDE ARABIC
+html:not([lang*='ar'])
+    .dataTables_wrapper 
+        > .row:first-child
+            display: flex
+            flex-direction: row-reverse
+        .dataTables_filter
+            float: left

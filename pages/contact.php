@@ -17,19 +17,19 @@
                     <div class="form-container">
                         <form class="form" action="/contact.php" method="POST">
                             <div class="form-group">
-                                <input name="name" required="" type="text" class="form-control" id="contact-name" placeholder="name">
+                                <input name="name" required="" type="text" class="form-control" id="contact-name" placeholder="<?php echo (($lang == 'ar') ? 'الإسم' : (($lang == 'en') ? 'Name' : 'Nom')); ?>">
                             </div>
                             <div class="form-group">
-                                <input name="email" required="" type="email" class="form-control" id="contact-email" placeholder="email">
+                                <input name="email" required="" type="email" class="form-control" id="contact-email" placeholder="<?php echo (($lang == 'ar') ? 'البريد الإلكتروني' : (($lang == 'en') ? 'Email' : 'Email')); ?>">
                             </div>
                             <div class="form-group">
-                                <input name="subject" required="" type="text" class="form-control" id="contact-subject" placeholder="Subject">
+                                <input name="subject" required="" type="text" class="form-control" id="contact-subject" placeholder="<?php echo (($lang == 'ar') ? 'موضوع' : (($lang == 'en') ? 'Subject' : 'Sujet')); ?>">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" required="" class="form-control" id="contact-message" placeholder="Message" rows="3"></textarea>
+                                <textarea name="message" required="" class="form-control" id="contact-message" placeholder="<?php echo (($lang == 'ar') ? 'رسالة' : (($lang == 'en') ? 'Message' : 'Message')); ?>" rows="3"></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-send dark-blue btn-primary uppercase"><strong>Send</strong></button>
+                                <button type="submit" class="btn btn-send dark-blue btn-primary uppercase"><strong><?php echo (($lang == 'ar') ? 'أرسل' : (($lang == 'en') ? 'Send' : 'Envoyer')); ?></strong></button>
                             </div>
                         </form>
                     </div>
@@ -37,18 +37,15 @@
                 <div class="col-md-5 col-md-offset-1 col-sm-6">
                     <div class="infos">
                             <div class="hours">
-                                <h3><?php echo (($lang == 'ar') ? 'ساعات العمل' : (($lang == 'en') ? 'Working Hours' : 'heures de travail')); ?></h3>
-                                <label><i class="fas fa-clock"></i>
-                                <?php echo (($lang == 'ar') ? '18h - 9h : الاثنين - الجمعة' : (($lang == 'en') ? 'Monday-Friday: 9h - 18h' : 'Lundi-vendredi: 9h - 18h')); ?></label><br>
-                                <label><i class="fas fa-at"></i>
-                                <?php echo (($lang == 'ar') ? '7 شارع بينزيرتي ، الطابق الثالث ، هاسان الرباط ، المغرب' : (($lang == 'en') ? '7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC' : '7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC')); ?>
-                                </label>
+                                <h3><?php echo (($lang == 'ar') ? 'ساعات العمل' : (($lang == 'en') ? 'Working Hours' : 'Heures de travail')); ?></h3>
+                                <label><i class="fas fa-clock"></i><span><?php echo (($lang == 'ar') ? '18h - 9h : الاثنين - الجمعة' : (($lang == 'en') ? 'Monday-Friday: 9h - 18h' : 'Lundi-vendredi: 9h - 18h')); ?></span></label><br>
+                                <label><i class="fas fa-at"></i><span><?php echo (($lang == 'ar') ? '7 شارع بينزيرتي ، الطابق الثالث ، هاسان الرباط ، المغرب' : (($lang == 'en') ? '7 BENZERTE STREET, 3RD FLOOR, HASSAN RABAT, MOROCCO' : '7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC')); ?></span></label>
                             </div>
                             <hr>
                             <div class="contact">
-                                <h3><?php echo (($lang == 'ar') ? 'اتصل بنا' : (($lang == 'en') ? 'Contact us' : 'contactez Nous')); ?></h3>
-                                <label><i class="fas fa-phone"></i>212-700-175-747 | 212-680-201-404</label><br>
-                                <label><i class="fas fa-envelope"></i>studyabroad@rae.ma</label>
+                                <h3><?php echo (($lang == 'ar') ? 'اتصل بنا' : (($lang == 'en') ? 'Contact us' : 'Contactez Nous')); ?></h3>
+                                <label><i class="fas fa-phone"></i><span>212-700-175-747 | 212-680-201-404</span></label><br>
+                                <label><i class="fas fa-envelope"></i><span>studyabroad@rae.ma</span></label>
                             </div>
                     </div>
                 </div>

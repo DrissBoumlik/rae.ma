@@ -1,3 +1,4 @@
+// STYLES FOR ARABIC ONLY
 html[lang*='ar']
     .header 
         .navbar 
@@ -13,6 +14,16 @@ html[lang*='ar']
                         right: unset
         .header-row
             display: flex
+        
+        .contact .row
+            &:first-child .badge i
+                top: 0
+            .badge span
+                margin-left: 0
+                margin-right: 10px
+            .badge
+                text-align: right
+    
     .feature
         .carousel-txt
             right: 2%
@@ -43,6 +54,9 @@ html[lang*='ar']
     .procedure .steps
         display: flex
     
+    .contact-us i
+        margin-left: 10px
+        margin-right: 0
     
     .footer 
         .row
@@ -55,3 +69,16 @@ html[lang*='ar']
     .sl-container
         .list-group
             padding-inline-start: 0
+
+    .resources 
+        .tool-container .tool-header:before
+            left: 20px;
+            right: unset;
+
+        .tool-descr .row
+            display: flex
+            text-align: right
+            
+    
+    .dataTables_wrapper .table, .table th
+            text-align: right
