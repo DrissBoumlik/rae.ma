@@ -6,7 +6,7 @@ function main_menu($active_page)
     $lang = $GLOBALS['lang'];
     echo ('</head>
     <body>
-        <header class="header">
+        <header class="header"'. (($lang == 'ar') ? 'dir="rtl"' : '') .'>
             <div class="container">
                 <div class="row header-row">
                     <div class="col-md-3 languages">
@@ -92,5 +92,5 @@ function main_menu($active_page)
                 </div>
             </div>
         </header>
-    <div class="main-page">');
+    <div class="main-page" '. (($lang == 'ar') ? 'dir="rtl"' : '') .'>');
 }

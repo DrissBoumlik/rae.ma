@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Gallery')
+    title_page('Gallery', null, $page_id = 'gallery');
 ?>
 
 <?php include $path.'/layouts/feature.php';
@@ -149,5 +149,5 @@
 </div>
 
 
-<?php include $path.'/layouts/sidebar.php'; ?>
+<?php //include $path.'/layouts/sidebar.php'; ?>
 <?php include $path.'/layouts/footer.php' ?>

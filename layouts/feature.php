@@ -14,23 +14,19 @@
                                     <span class="uppercase">'.
                                         (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universitiés')).
                                     '</span>
-                                </li>
-                                <li data-target="#quote-carousel" data-slide-to="1" class="">
+                                </li><li data-target="#quote-carousel" data-slide-to="1" class="">
                                     <span class="uppercase">'.
                                         (($lang == 'en') ? 'Study fees' : (($lang == 'ar') ? 'رسوم الدراسة' : 'Frais d\'études')).
                                     '</span>
-                                </li>
-                                <li data-target="#quote-carousel" data-slide-to="2">
+                                </li><li data-target="#quote-carousel" data-slide-to="2">
                                     <span class="uppercase">'.
                                         (($lang == 'en') ? 'Courses' : (($lang == 'ar') ? 'دروس' : 'Cours')).
                                     '</span>
-                                </li>
-                                <li data-target="#quote-carousel" data-slide-to="3">
+                                </li><li data-target="#quote-carousel" data-slide-to="3">
                                     <span class="uppercase">'.
                                         (($lang == 'en') ? 'Additionnal Infos' : (($lang == 'ar') ? 'معلومات إضافية' : 'infos supplémentaire')).
                                     '</span>
-                                </li>
-                                <li data-target="#quote-carousel" data-slide-to="4">
+                                </li><li data-target="#quote-carousel" data-slide-to="4">
                                     <span class="uppercase">'.
                                         (($lang == 'en') ? 'gallery' : (($lang == 'ar') ? 'صور' : 'galerie')).
                                     '</span>
@@ -139,7 +135,7 @@
         (($class != 'home') ?
         ('<div class="main-content post-container"><div class="container"><div class="row">'.
         (($class != 'contact' && $class != 'gallery') ? 
-        '<div class="col-sm-8 col-md-8">' : '<div class="col-sm-12 col-md-12">')) : '');
+        '<div class="col-sm-8 col-md-8 content">' : '<div class="col-sm-12 col-md-12 content">')) : '');
     }
     
     function translate_feature_txt($fr, $ar, $en)
