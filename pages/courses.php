@@ -11,7 +11,7 @@
     feature_txt($txt, "courses");
 ?>
 
-<div class="section courses resources">
+<div class="section courses diplomas">
     <div class="row">
         <h2>Cours :</h2>
     </div>
@@ -359,57 +359,5 @@
         pendant toute la durée des études aussi que pour la maitrise des ressources éducatives.</p>
 </div>
 
-<div class="_container diplomas">
-    <div class="row">
-        <table class="table table-bordered display" id="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Durée</th>
-                    <th scope="col">Diplôme délivré</th>
-                    <th scope="col">Langue d'enseignement</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Médecine générale</th>
-                    <td>6 ans</td>
-                    <td>MD (Doctor of Medicine / MBBS) </td>
-                    <td>anglais / russe / ukrainien</td>
-                </tr>
-                <tr>
-                    <th scope="row">Dentisterie</th>
-                    <td>5 ans</td>
-                    <td>MD (Doctor of Medicine / MBBS) </td>
-                    <td>anglais / russe / ukrainien</td>
-                </tr>
-                <tr>
-                    <th scope="row">Pédiatrie</th>
-                    <td>6 ans</td>
-                    <td>MD (Doctor of Medicine / MBBS) </td>
-                    <td>anglais / russe / ukrainien</td>
-                </tr>
-                <tr>
-                    <th scope="row">Pharmacie</th>
-                    <td>5 ans</td>
-                    <td>MD (Doctor of Medicine / MBBS) </td>
-                    <td>anglais / russe / ukrainien</td>
-                </tr>
-                <tr>
-                    <th scope="row">INFIRMERIE</th>
-                    <td>4 ans</td>
-                    <td>Baccalauréat en sciences infirmières  </td>
-                    <td>anglais / russe / ukrainien</td>
-                </tr>
-                <tr>
-                    <th scope="row">Formation postdoctorale / résidence clinique</th>
-                    <td>2-3 ans</td>
-                    <td>Études postdoctorales / Résidence en clinique dans le domaine requis </td>
-                    <td>anglais / russe / ukrainien</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
 <?php include $path.'/layouts/sidebar.php'; ?>
 <?php include $path.'/layouts/footer.php' ?>

@@ -1,16 +1,4 @@
 jQuery(function ($) {
-    if($('#table').length>0){
-        var lang = $('html').attr('lang');
-        $('#table').DataTable({
-            responsive: true,
-            // ordering:  false,
-            paging: false,
-            bInfo : false,
-            language: {
-                search: (lang == 'ar' ? "للبحث : " : (lang == 'en' ? "Search : " : "Rechercher : "))//"Search in table:"
-            }
-        }); 
-    }
     
     $('.feature-carousel').carousel({
         pause: false,

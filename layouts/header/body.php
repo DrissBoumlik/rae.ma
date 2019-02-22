@@ -23,7 +23,7 @@ function main_menu($active_page)
                         </ul>
                     </div>
                     <div class="col-md-5 logo">
-                        <a href="/"><img src="/images/logo.png" alt="RAE"></a>
+                        <a href="/?lang=' . $lang . '"><img src="/images/logo.png" alt="RAE"></a>
                     </div>
                     <div class="col-md-4 contact">
                         <div class="row">

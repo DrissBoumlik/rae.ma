@@ -64,7 +64,30 @@ html[lang*='ar']
     
     .gallery
         direction: rtl
-
+    
+    .sidebar .sidebar-module
+        .title-widget
+            text-align: right
+        .summary-item
+            text-align: right
+        // &.apply .body-widget
+        //     img
+        //         transform: rotateZ(45deg)
+        //     .row
+        //         text-align: center
+        //         display: flex
+            
+        &.quick-links 
+            .summary-item
+                margin: auto 10px auto 0
+                padding: 6px 10px 3px 0
+                .summary-txt
+                    padding-right: 20px
+                    padding-left: 0
+                    &:before
+                        right: 5px
+                        left: unset
+            
     .footer 
         .row
             text-align: right
@@ -77,7 +100,7 @@ html[lang*='ar']
         .list-group
             padding-inline-start: 0
 
-    .resources 
+    .diplomas 
         .tool-container .tool-header:before
             left: 20px;
             right: unset;
