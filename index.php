@@ -77,10 +77,10 @@
                     <div class="univ-block">
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="/pages/ukraine/universities/donetsk-national-medical-university.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img
-                                                src="images/universities/ukraine/Donetsk-National-Medical-University-4.jpg"
+                                                src="/images/universities/ukraine/Donetsk-National-Medical-University-4.jpg"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
                                             <span><?php echo (($lang == 'ar') ? 'الجامعة الوطنية للطب' : (($lang == 'en') ? 'National University of Medicine' : 'Université Nationale de Médecine')); ?></span>
@@ -91,10 +91,10 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="/pages/ukraine/universities/central-ukrainian-national-technical-university.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img
-                                                src="images/universities/ukraine/kntu_01.jpg" alt=""></div>
+                                                src="/images/universities/ukraine/kntu_01.jpg" alt=""></div>
                                         <div class="col-md-7 col-xs-7">
                                             <span><?php echo (($lang == 'ar') ? 'الجامعة الوطنية المركزية التقنية' : (($lang == 'en') ? 'National Central Technical University' : 'Université Nationale Central Technique')); ?></span>
                                             <span>-</span>
@@ -104,7 +104,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="/pages/ukraine/universities/kharkiv-national-aerospace-university-kharkiv-aviation-institute-nau-khai.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img
                                                 src="/images/universities/ukraine/20180215151923.jpg" alt=""></div>
@@ -119,7 +119,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <a href='#'>
+                                <a href="/pages/ukraine/universities/national-academy-food-technology.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/21.png"
                                                 alt=""></div>
@@ -132,7 +132,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href='#'>
+                                <a href="/pages/ukraine/universities/kherson-state-maritime-academy.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/24.png"
                                                 alt=""></div>
@@ -145,7 +145,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href='#'>
+                                <a href='/pages/ukraine/universities/state-academy-civil-engineering-architecture.php?lang=<?php echo $lang;?>'>
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/25.png"
                                                 alt=""></div>
@@ -173,7 +173,7 @@
                     <div class="univ-block">
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="/pages/russia/universities/first-moscow-state-medical-university-named-m-sechenova.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/55.jpg"
                                                 alt=""></div>
@@ -186,7 +186,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="/pages/russia/universities/russian-national-research-medical-university-named-ni-pirogov.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/95.jpg"
                                                 alt=""></div>
@@ -199,7 +199,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="/pages/russia/universities/Polytechnic-University-Tomsk.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/3.png"
                                                 alt=""></div>
@@ -214,7 +214,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <a href='#'>
+                                <a href="/pages/russia/universities/rybinsk-state-aviation-technical-university.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/40.jpg"
                                                 alt=""></div>
@@ -227,7 +227,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href='#'>
+                                <a href="/pages/russia/universities/chechen-state-university.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img
                                                 src="/images/universities/russia/edugain_chesu.jpg" alt=""></div>
@@ -240,7 +240,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href='#'>
+                                <a href="/pages/russia/universities/moscow-institute-physics-technology.php?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/1.png"
                                                 alt=""></div>
