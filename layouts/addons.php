@@ -43,7 +43,7 @@ echo '
     }
 
 </style>
-<div class="sl-container languages" id="sl-container">
+<div class="sl-container languages" id="sl-container-languages">
     <!-- <div class="arrow hidden"></div> -->
     <ul class="list-group">
         <li class="list-group-item"><a href="?lang=ar">

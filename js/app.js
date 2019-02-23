@@ -50,6 +50,8 @@ jQuery(function ($) {
             $('.feature > .container > .row').addClass('no-img');
             else $('.feature > .container > .row').addClass('no-margin');
         }
+        if (offset_width < 670) $('#sl-container-languages').css('display', 'none');
+        console.log(offset_width);
     }
     
     $(document).keydown(function(e) {

@@ -1,5 +1,5 @@
 
-<?php echo (($lang == 'ar') ? '' : (($lang == 'en') ? '' : '')); ?>
+<?php echo (($lang == 'ar') ? "" : (($lang == 'en') ? "" : "")); ?>
 
 
 <div class="carousel-container">
