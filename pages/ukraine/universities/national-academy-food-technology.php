@@ -8,7 +8,8 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("Académie Nationale Des Technologies Alimentaires D’Odessa", "russia");
+    $txt = get_lang_text();
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">

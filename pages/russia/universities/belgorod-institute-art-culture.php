@@ -7,7 +7,8 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("Institut des Arts et de la Culture de Belgorod, ville Belgorod", "russia");
+    $txt = get_lang_text("Institut des Arts et de la Culture de Belgorod, ville Belgorod","Institut des Arts et de la Culture de Belgorod, ville Belgorod","Institut des Arts et de la Culture de Belgorod, ville Belgorod");
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">

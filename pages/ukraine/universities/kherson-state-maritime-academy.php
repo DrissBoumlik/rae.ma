@@ -7,7 +7,8 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("Académie Maritime d'État de Kherson, ville de Kherson", "russia");
+    $txt = get_lang_text();
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">

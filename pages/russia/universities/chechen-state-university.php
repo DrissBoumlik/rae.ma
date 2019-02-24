@@ -2,17 +2,19 @@
 <?php 
     $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page("Université d'État Tchétchéne, ville Grozny")
+    $title = get_lang_text("جامعة ولاية الشيشان ، مدينة غروزني","Chechen State University, Grozny city","Université d'État Tchétchéne, ville Grozny");
+    title_page($title);
 ?>
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("Université d'État Tchétchéne, ville Grozny", "russia");
+    $txt = get_lang_text("جامعة ولاية الشيشان ، مدينة غروزني","Chechen State University, Grozny city","Université d'État Tchétchéne, ville Grozny");
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">
     <div class="post-header"><div class="col-sm-12 col-md-12">
-        <h2 class="">Université d'État Tchétchéne, ville Grozny</h2>
+        <h2 class=""><?php echo (($lang == 'ar') ? "جامعة ولاية الشيشان ، مدينة غروزني" : (($lang == 'en') ? "Chechen State University, Grozny city" : "Université d'État Tchétchéne, ville Grozny")); ?></h2>
     </div></div>
     <div class="post-img"><img src="/images/universities/russia/edugain_chesu.jpg" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p><strong>حول CheSU</strong></p><strong>

@@ -2,17 +2,19 @@
 <?php 
     $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Université d’Etat Adyguée, ville Maïkop')
+    $title = get_lang_text("جامعة أديغيا الحكومية ، مدينة مايكوب","Adygea State University, Maïkop City","Université d’Etat Adyguée, ville Maïkop");
+    title_page($title);
 ?>
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt('Université d’Etat Adyguée, ville Maïkop', "russia");
+    $txt = get_lang_text("جامعة أديغيا الحكومية ، مدينة مايكوب","Adygea State University, Maïkop City","Université d’Etat Adyguée, ville Maïkop");
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">
     <div class="post-header"><div class="col-sm-12 col-md-12">
-        <h2 class="">Université d’Etat Adyguée, ville Maïkop</h2>
+        <h2 class=""><?php echo (($lang == 'ar') ? "جامعة أديغيا الحكومية ، مدينة مايكوب" : (($lang == 'en') ? "Adygea State University, Maïkop City" : "Université d’Etat Adyguée, ville Maïkop")); ?></h2>
     </div></div>
     <div class="post-img"><img src="/images/universities/russia/41.jpg" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p>تعد جامعة Adyghe State University مركزًا رائدًا للتعليم والأبحاث في جمهورية Adygea. يعود تاريخ جامعة ولاية أريزونا إلى عام 1940 ، عندما افتتحت مدينة مايكوب ، معهد المعلمين ، الذي أصبح في عام 1952 معهد أديغي التربوي ، وفي عام 1993 - جامعة الولاية. كان افتتاح الجامعة بمثابة بداية التعليم العالي في أديغيا ، وخلق الظروف اللازمة لظهور مؤسسات تعليمية وبحثية أخرى في المنطقة.</p>

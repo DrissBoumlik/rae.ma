@@ -1,14 +1,12 @@
 <?php $GLOBALS['lang'] = 'fr'; 
     if(isset($_GET['lang'])) 
         $GLOBALS['lang'] = $_GET['lang'];
-    $lang = $GLOBALS['lang'];
 
 
     function head_section($id_page = null)
     {
         global $lang;
-        $rtl = ($lang == 'ar');
-        if($id_page && $id_page == 'gallery') $rtl = false;
+        $lang =  $GLOBALS['lang'];
         echo ('
 <!DOCTYPE html>
     <html id="top-page" lang="'.$lang.'">

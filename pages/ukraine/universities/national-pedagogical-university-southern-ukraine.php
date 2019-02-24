@@ -8,7 +8,8 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("Université pédagogique nationale d'Ukraine du Sud nommée par K.D. Ushynsky, ville d'Odessa", "russia");
+    $txt = get_lang_text();
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">

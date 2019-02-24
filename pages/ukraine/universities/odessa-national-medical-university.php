@@ -7,7 +7,8 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("Université Nationale de Médecine d'Odessa, ville Odessa", "ukraine");
+    $txt = get_lang_text();
+    feature_txt($txt, "ukraine");
 ?>
 
 <div class="post">

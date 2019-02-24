@@ -1,4 +1,5 @@
 <?php
+    
     function feature_txt($headline, $class)
     {
         echo '<div class="container-fluid feature not ' . $class . '">
@@ -57,9 +58,9 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="main-content"><div class="container"><div class="row">'.
-    (($headline != 'contact') ? '<div class="col-sm-8 col-md-8">' : '<div class="col-sm-12 col-md-12">');
+        </div>
+        <div class="main-content"><div class="container"><div class="row">'.
+        (($headline != 'contact') ? '<div class="col-sm-8 col-md-8">' : '<div class="col-sm-12 col-md-12">');
     }
 
     

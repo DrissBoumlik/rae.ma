@@ -1,5 +1,12 @@
 
 <?php
+    function get_lang_text($ar, $en, $fr)
+    {
+        $lang = $_GET['lang'];
+        return ($lang == 'ar') ? $ar
+            : ( ($lang == 'en') ? $en : $fr);
+    }
+    
     function title_page($title_page, $active_page = null, $page_id = null)
     {
         include 'header/head.php';

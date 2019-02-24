@@ -2,17 +2,19 @@
 <?php 
     $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page("Université d'État Technique Kalachnikov, ville Izhevsk")
+    $title = get_lang_text("جامعة كلاشينكوف التقنية الحكومية ، مدينة إيجيفسك","Kalashnikov Technical State University, Izhevsk city","Université d'État Technique Kalachnikov, ville Izhevsk");
+    title_page($title);
 ?>
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("Université d'État Technique Kalachnikov, ville Izhevsk", "russia");
+    $txt = get_lang_text("جامعة كلاشينكوف التقنية الحكومية ، مدينة إيجيفسك","Kalashnikov Technical State University, Izhevsk city","Université d'État Technique Kalachnikov, ville Izhevsk");
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">
     <div class="post-header"><div class="col-sm-12 col-md-12">
-        <h2 class="">Université d'État Technique Kalachnikov, ville Izhevsk</h2>
+        <h2 class=""><?php echo (($lang == 'ar') ? "جامعة كلاشينكوف التقنية الحكومية ، مدينة إيجيفسك" : (($lang == 'en') ? "Kalashnikov Technical State University, Izhevsk city" : "Université d'État Technique Kalachnikov, ville Izhevsk")); ?></h2>
     </div></div>
     <div class="post-img"><img src="/images/universities/russia/izhgtu-s.jpg" alt=""></div>
     <div class="post-txt">

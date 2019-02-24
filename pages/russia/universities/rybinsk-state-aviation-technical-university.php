@@ -2,17 +2,19 @@
 <?php 
     $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page("Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk")
+    $title = get_lang_text("جامعة التقنية التقنية في Rybinsk Aviation بمدينة Rybinsk","State Technical University of Rybinsk Aviation, Rybinsk City","Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk");
+    title_page($title);
 ?>
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt("Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk", "russia");
+    $txt = get_lang_text("جامعة التقنية التقنية في Rybinsk Aviation بمدينة Rybinsk","State Technical University of Rybinsk Aviation, Rybinsk City","Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk");
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">
     <div class="post-header"><div class="col-sm-12 col-md-12">
-        <h2 class="">Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk</h2>
+        <h2 class=""><?php echo (($lang == 'ar') ? "جامعة التقنية التقنية في Rybinsk Aviation بمدينة Rybinsk" : (($lang == 'en') ? "State Technical University of Rybinsk Aviation, Rybinsk City" : "Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk")); ?></h2>
     </div></div>
     <div class="post-img"><img src="/images/universities/russia/40.jpg" alt=""></div>
     <div class="post-txt">

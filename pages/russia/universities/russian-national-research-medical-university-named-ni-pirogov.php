@@ -2,17 +2,19 @@
 <?php 
     $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Le Russie Université Nationale de la Recherche Médicale, ville Moscou')
+    $title = get_lang_text("جامعة روسيا الوطنية للبحوث الطبية ، مدينة موسكو","Russia National University of Medical Research, Moscow City","Le Russie Université Nationale de la Recherche Médicale, ville Moscou");
+    title_page($title);
 ?>
 
 
 <?php include $path.'/layouts/feature.php';
-    feature_txt('Le Russie Université Nationale de la Recherche Médicale, ville Moscou', "russia");
+    $txt = get_lang_text("جامعة روسيا الوطنية للبحوث الطبية ، مدينة موسكو","Russia National University of Medical Research, Moscow City","Le Russie Université Nationale de la Recherche Médicale, ville Moscou");
+    feature_txt($txt, "russia");
 ?>
 
 <div class="post">
     <div class="post-header"><div class="col-sm-12 col-md-12">
-        <h2 class="">Le Russie Université Nationale de la Recherche Médicale, ville Moscou</h2>
+        <h2 class=""><?php echo (($lang == 'ar') ? "جامعة روسيا الوطنية للبحوث الطبية ، مدينة موسكو" : (($lang == 'en') ? "Russia National University of Medical Research, Moscow City" : "Le Russie Université Nationale de la Recherche Médicale, ville Moscou")); ?></h2>
     </div></div>
     <div class="post-img"><img src="/images/universities/russia/95.jpg" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p>جامعة روسية الوطنية للبحوث الطبية سميت NI Pirogov أو المعروفة سابقا باسم الجامعة الطبية الحكومية الروسية (RSMU) هو معهد تعليمي يقع في موسكو ، روسيا. sوهو معتمد بالكامل ومعترف به من قبل وزارة التعليم والعلوم في روسيا وهو يخضع حاليًا لسلطة وزارة الصحة والتنمية الاجتماعية في الاتحاد الروسي. sباعتبارها واحدة من أكبر المؤسسات الطبية في روسيا وأوروبا ، يوجد حالياً أكثر من 9200 شخص في ما يقرب من 115 قسمًا أكاديميًا مختلفًا في هذه الجامعة.</p>
