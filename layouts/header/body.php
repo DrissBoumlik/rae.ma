@@ -28,7 +28,7 @@ function main_menu($active_page)
                     <div class="col-md-4 contact">
                         <div class="row">
                             <div class="col-md-12 col-xs-12 badge">
-                                <i class="fas fa-at"></i><span>'. (($lang == 'ar') ? '7 شارع بينزيرتي ، الطابق الثالث ، هاسان الرباط ، المغرب' : (($lang == 'en') ? '7 BENZERTE STREET, 3RD FLOOR, HASSAN RABAT, MOROCCO' : '7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC')) .'                                
+                                <i class="fas fa-at"></i><span>'. (($lang == 'ar') ? '7 شارع بينزيرتي ، الطابق الثالث ، حسان الرباط ، المغرب' : (($lang == 'en') ? '7 BENZERTE STREET, 3RD FLOOR, HASSAN RABAT, MOROCCO' : '7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC')) .'                                
                                 </span>
                             </div>
                         </div>

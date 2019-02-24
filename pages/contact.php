@@ -39,7 +39,7 @@
                             <div class="hours">
                                 <h3><?php echo (($lang == 'ar') ? 'ساعات العمل' : (($lang == 'en') ? 'Working Hours' : 'Heures de travail')); ?></h3>
                                 <label><i class="fas fa-clock"></i><span><?php echo (($lang == 'ar') ? '18h - 9h : الاثنين - الجمعة' : (($lang == 'en') ? 'Monday-Friday: 9h - 18h' : 'Lundi-vendredi: 9h - 18h')); ?></span></label><br>
-                                <label><i class="fas fa-at"></i><span><?php echo (($lang == 'ar') ? '7 شارع بينزيرتي ، الطابق الثالث ، هاسان الرباط ، المغرب' : (($lang == 'en') ? '7 BENZERTE STREET, 3RD FLOOR, HASSAN RABAT, MOROCCO' : '7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC')); ?></span></label>
+                                <label><i class="fas fa-at"></i><span><?php echo (($lang == 'ar') ? '7 شارع بينزيرتي ، الطابق الثالث ، حسان الرباط ، المغرب' : (($lang == 'en') ? '7 BENZERTE STREET, 3RD FLOOR, HASSAN RABAT, MOROCCO' : '7 RUE BENZERTE, 3 EME ETAGE, HASSAN RABAT, MAROC')); ?></span></label>
                             </div>
                             <hr>
                             <div class="contact">
