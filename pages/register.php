@@ -1,13 +1,13 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    $title = get_lang_text("تسجيل", "inscription","inscription");
+    $title = get_lang_text("تسجيل", "Register","Inscription");
     title_page($title ,5)
 ?>
 
 <?php include $path.'/layouts/feature.php';
         $txt = "inscription";
         if(isset($_GET['lang'])){
-            $txt = translate_feature_txt("inscription", "تسجيل", "inscription");
+            $txt = translate_feature_txt("inscription", "تسجيل", "Register");
         }
         feature_txt($txt, "");
 ?>

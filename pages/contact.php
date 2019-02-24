@@ -15,6 +15,12 @@
         <div class="">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
+                    <div class="row">
+                        <hr class="section-title-line">
+                        <h2 class="capitalize section-title">
+                            <?php echo (($lang == 'ar') ? 'تقديم الطلب' : (($lang == 'en') ? 'Apply online' : 'Postuler en ligne')); ?>
+                        </h2>
+                    </div>
                     <div class="form-container">
                         <form class="form" action="/pages/contact.php" method="POST">
                             <div class="form-group">
@@ -70,7 +76,7 @@ if(isset($_POST['email'])){
     $headers    .= 'X-Mailer: PHP/' . phpversion();
         
     if(mail($to, $subject, $message, $headers)){
-        include 'layouts/modal.php';
+        include $path.'/layouts/modal.php';
         modal_message('Votre message à bien été envoyé');
     }       
 

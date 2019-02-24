@@ -136,7 +136,7 @@ if(isset($_POST['email'])){
     // $message    .= '<p>Nationality : ' . $_POST['nationality'].'</p>';
     // $message    .= '<p>Birth : ' . $_POST['birth'].'</p>';
     if(mail($to, $subject, $message, $headers)){
-        include 'layouts/modal.php';
+        include $path.'/layouts/modal.php';
         modal_message('Votre Application à bien été envoyé');
     }       
 

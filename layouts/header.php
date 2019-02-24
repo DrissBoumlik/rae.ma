@@ -2,7 +2,7 @@
 <?php
     function get_lang_text($ar, $en, $fr)
     {
-        $lang = $_GET['lang'];
+        $lang = isset($_GET['lang']) ? $_GET['lang'] : 'fr';
         return ($lang == 'ar') ? $ar
             : ( ($lang == 'en') ? $en : $fr);
     }
