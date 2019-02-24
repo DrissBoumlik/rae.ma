@@ -2,7 +2,7 @@
 <?php 
     $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Sumy State University')
+    title_page('Sumy State University');
 ?>
 
 

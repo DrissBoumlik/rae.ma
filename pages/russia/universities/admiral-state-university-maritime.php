@@ -12,7 +12,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_textget_lang_text("جامعة ولاية البحرية الأدميرال أوشاكوف ، مدينة نوفوروسيي","Maritime State University of Admiral Ushakov, Novorossiysh City","Université Maritime d'État Admiral Ushakov, ville de Novorossiysk");
+    $txt = get_lang_text("جامعة ولاية البحرية الأدميرال أوشاكوف ، مدينة نوفوروسيي","Maritime State University of Admiral Ushakov, Novorossiysh City","Université Maritime d'État Admiral Ushakov, ville de Novorossiysk");
     feature_txt($txt, "russia");
 ?>
 <?php echo $lang; ?>

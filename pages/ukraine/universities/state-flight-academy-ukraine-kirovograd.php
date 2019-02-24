@@ -7,8 +7,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text();
-    feature_txt($txt, "ukraine");
+    feature_txt("Académie de Vol d'État de l’Ukraine, ville Kropyvnytsky (Kirovohrad)", "ukraine");
 ?>
 
 <div class="post">
