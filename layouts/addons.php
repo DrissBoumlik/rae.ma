@@ -24,7 +24,7 @@
 </div>
 <!-- #endregion -->
 <?php 
-if(true)
+if(false)
 echo '
 <style>
     .sl-container.languages{

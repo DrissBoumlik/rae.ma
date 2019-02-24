@@ -57,12 +57,17 @@
 <?php include $path.'/layouts/footer.php' ?>
 <?php
 if(isset($_POST['email'])){
-    $to         = "boumlik.t@gmail.com";
+    $to         = "drissboumlik.test@gmail.com";
     $subject    = $_POST['subject'];
-    $message    = $_POST['message'];
-    $headers    = 'From: ' . $_POST['name'] . ' : ' . $_POST['email'] . "\r\n" .
-        'Reply-To: boumlik.t@gmail.com' . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+    $message = '<p>'.$_POST['message'].'</p>';
+    $headers    = "";
+    $headers    .= 'From: Contact - ' . $_POST['name'] . ' : ' . $_POST['email'] . "\r\n";
+    $headers    .= 'Reply-To: drissboumlik.test@gmail.com' . "\r\n";
+    $headers    .= "Return-Path: " . $_POST['fullname'] . ' : ' . $_POST['email'] . "\r\n";
+    $headers    .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+    $headers    .= "MIME-Version: 1.0\r\n";
+    $headers    .= 'X-Mailer: PHP/' . phpversion();
+        
     if(mail($to, $subject, $message, $headers)){
         include 'layouts/modal.php';
         modal_message('Votre message à bien été envoyé');
