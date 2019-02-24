@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Les études supérieures en Ukraine',3)
+    $title = get_lang_text("الدراسات العليا في أوكرانيا","Graduate studies in Ukraine","Les études supérieures en Ukraine");
+    title_page($title,3)
 ?>
 
 

@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php';
-    title_page('Universités Russes')
+    $title = get_lang_text("الجامعات الروسية","Russian Universities","Universités Russes");
+    title_page($title,4);
 ?>
 
 

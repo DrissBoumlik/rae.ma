@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Gallery', null, $page_id = 'gallery');
+    $title = get_lang_text("رواق", "Gallery","Galerie");
+    title_page($title, null, $page_id = 'gallery');
 ?>
 
 <?php include $path.'/layouts/feature.php';

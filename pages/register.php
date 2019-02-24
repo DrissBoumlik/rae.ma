@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Inscription',5)
+    $title = get_lang_text("تسجيل", "inscription","inscription");
+    title_page($title ,5)
 ?>
 
 <?php include $path.'/layouts/feature.php';

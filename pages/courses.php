@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page("Cours")
+    $title = get_lang_text( "الدورات", "Courses", "Cours");
+    title_page($title)
 ?>
 
 <?php include $path.'/layouts/feature.php';

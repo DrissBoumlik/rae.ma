@@ -1,3 +1,6 @@
+$title = get_lang_text("",""," ");
+    title_page($title)
+
 
 <?php echo (($lang == 'ar') ? "" : (($lang == 'en') ? "" : "")); ?>
 

@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Postuler en ligne')
+    $title = get_lang_text("تقديم الطلب عبر الإنترنت","Apply online","Postuler en ligne");
+    title_page($title)
 ?>
 
 <?php include $path.'/layouts/feature.php';

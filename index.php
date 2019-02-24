@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Accueil', 1)
+    $title = get_lang_text("إستقبال","Home","Accueil");
+    title_page($title, 1)
 ?>
 
 <?php 

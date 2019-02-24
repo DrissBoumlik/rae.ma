@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Visa',6)
+    $title = get_lang_text("تأشيرة دخول", "visa","Visa");
+    title_page($title,6)
 ?>
 
 

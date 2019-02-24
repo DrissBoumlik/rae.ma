@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('Contact',7)
+    $title = get_lang_text( "تواصل معنا", "Contact","Contact");
+    title_page($title,7)
 ?>
     
 <?php include $path.'/layouts/feature.php';

@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page("FRAIS D'ÉTUDES")
+    $title = get_lang_text("رسوم الدراسة", "Study Fees","FRAIS D'ÉTUDES");
+    title_page($title)
 ?>
     
 <?php include $path.'/layouts/feature.php';

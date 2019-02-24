@@ -1,13 +1,14 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    title_page('QUI NOUS SOMMES', 2)
+    $title = get_lang_text("من نحن ؟", "Who Are We ?","QUI NOUS SOMMES");
+    title_page($title, 2)
 ?>
 
     
 <?php include $path.'/layouts/feature.php';
     $txt = "QUI NOUS SOMMES ?";
     if(isset($_GET['lang'])){
-        $txt = translate_feature_txt("QUI NOUS SOMMES ?", "من نحن ؟", "Who Are We ?");
+        $txt = translate_feature_txt("QUI NOUS SOMMES ?","من نحن ؟", "Who Are We ?");
     }
     feature_txt($txt, "");
 ?>

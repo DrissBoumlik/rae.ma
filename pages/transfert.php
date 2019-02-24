@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
-    include $path.'/layouts/header.php'  ;
-    title_page('Arrivée et transfert',6)
+	include $path.'/layouts/header.php'  ;
+	$title = get_lang_text("وصول ونقل", "Arrival and transfer","Arrivée et transfert");
+    title_page($title ,6)
 ?>
 
 
