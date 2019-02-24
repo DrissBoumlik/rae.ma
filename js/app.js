@@ -32,7 +32,7 @@ jQuery(function ($) {
                 $(tool_category).addClass('last-child');
             }
             $('.tool-header').removeClass('fa-minus').addClass('fa-plus');
-            // $('.tool-category').slideUp(300)
+            $('.tool-category').slideUp(300)
             $(tool_category).slideDown(300);
         }
         $(this).toggleClass('fa-minus fa-plus');

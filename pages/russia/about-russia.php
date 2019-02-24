@@ -93,7 +93,7 @@ include $path.'/layouts/header.php'  ;
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "طبخ" : (($lang == 'en') ? "cooking" : "")); ?>CUISINE</h2>
+                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "طبخ" : (($lang == 'en') ? "cooking" : "CUISINE")); ?></h2>
                         <h3><?php echo (($lang == 'ar') ? "تذوق النكهات المختلفة من المطبخ الروسي. لن تكون قادرا على مقاومة!" : (($lang == 'en') ? "Taste the different flavors of Russian cuisine. You will not be able to resist!" : "Goûtez les différentes saveurs de la cuisine russe. Vous ne pourrez pas résister!")); ?></h3>
                     </div>
                     <div class="row">

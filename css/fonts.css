@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500i,600,700,700i,900&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Acme|Gloria+Hallelujah|Kalam:400,700|Caveat:400,700|Shadows+Into+Light&subset=devanagari,cyrillic,latin-ext');
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+}
 
 @font-face {
     font-family: 'MyEpicSelfie';
-    src: url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    src: url('../fonts/My Epic Selfie.woff2') format('woff2'), 
+    url('../fonts/My Epic Selfie.woff') format('woff'), 
+    url('../fonts/My Epic Selfie.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IstokWeb';
+    src: url('../fonts/istokweb.woff2') format('woff2');
 }
