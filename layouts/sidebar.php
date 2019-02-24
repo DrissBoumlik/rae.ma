@@ -25,7 +25,7 @@
     <div class="sidebar-module quick-links">
         <div class="apply-widget">
             <div class="title-widget">
-                <h3 class="uppercase"><?php echo (($lang == 'ar') ? 'روابط <strong>مفيدة</strong>' : (($lang == 'en') ? 'Liens <strong>Utiles</strong>' : '<strong>Useful</strong> links')); ?></h3>
+                <h3 class="uppercase"><?php echo (($lang == 'ar') ? 'روابط <strong>مهمة</strong>' : (($lang == 'en') ? '<strong>Important </strong> links' : 'Liens  <strong>importants</strong>')); ?></h3>
             </div>
             <div class="body-widget">
                 <a href="/pages/ukraine/sup-ukraine.php?lang=<?php echo $lang; ?>">
