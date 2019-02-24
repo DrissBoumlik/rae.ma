@@ -15,8 +15,35 @@
         <h2 class="">Université d'État Tchétchéne, ville Grozny</h2>
     </div></div>
     <div class="post-img"><img src="/images/universities/russia/edugain_chesu.jpg" alt=""></div>
-    <div class="post-txt">
-    <p></p><p><strong>About CheSU</strong></p><strong>
+    <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p><strong>حول CheSU</strong></p><strong>
+                    </strong><p><strong></strong></p>
+                    <p>يعود تاريخ جامعة الشيشان إلى 7 فبراير عام 1938 ، وهو عام تأسيس معهد تدريب المعلم غروزني ، والذي استمر عامين. أعيد تنظيم المعهد في جامعة الشيشان إنغوش الحكومية في 9 مارس 1971 ، واسمه الجديد ليف نيكولاييفيتش تولستوي. وفي ٢٨ شباط / فبراير ١٩٩٥ ، أعيدت تسمية جامعة وﻻية الشيشان - إنغوش ، التي سميت باسم ليف نيكولاييفيتش تولستوي ، بجامعة ولاية الشيشان.&nbsp;<br>
+                        حاليا حوالي 15000 طالب بدوام كامل يأخذون دورات في جامعة ولاية الشيشان ، 10 كليات و 4 معاهد تقود عملية التعلم.<br>
+                        يخدم مركز الاستخدام الجماعي للجامعة كنقطة انطلاق للموظفين والطلاب لتمكينهم من إجراء البحوث في المجالات ذات الأولوية للتنمية العلمية والتكنولوجية.&nbsp;<br>
+                        التدريس في جامعة ولاية الشيشان يمثل بداية مسار كبير إلى وظيفة واعدة (قابلة للحياة) ومستقبل مهني ناجح. يتم تنفيذ عملية التدريس في الجامعة (المقدمة) في تسع كليات وخمس معاهد. <br>
+                        يتم تنظيم العملية التعليمية باستخدام التقنيات الحديثة. تم تجهيز الفصول الدراسية بلوحات بيضاء تفاعلية ، وهي ضرورية لعقد مؤتمرات الفيديو.يمتلك الطلاب موارد واسعة من المكتبات عبر الإنترنت وقواعد البيانات الروسية والدولية. تولي إدارة الجامعة أهمية كبيرة لتطوير الحركة الأكاديمية للمحاضرين وتشارك بنشاط في دعوة المستكشفين الأجانب والأجانب (العلماء) المعترف بهم في البيئة العلمية والتعليمية. <br>
+                        تقدم الجامعة مجالات مختلفة من التدريب في التخصص ، برامج البكالوريوس والماجستير ، بالإضافة إلى دورات الدراسات العليا.</p>
+                        <p><strong><br>
+                            المعاهد والكليات</strong></p><strong>
+                            </strong><p><strong></strong></p>
+                            <p>معهد الطب <br>
+                                كلية تكنولوجيا <br>
+                                المعلومات <br>
+                                معهد تكنولوجيا الزراعية معهد الاقتصاد ومعهد المالية في <br>
+                                الأحياء والكيمياء كلية الفيزياء وتكنولوجيا المعلومات والاتصالات <br>
+                                كلية الرياضيات وعلوم الحاسبات <br>
+                                كلية الجغرافيا والجيولوجيا <br>
+                                قسم القانون الدولي</p>
+                                <p><strong><br>
+                                    عن المدينة</strong></p><strong>
+                                    </strong><p><strong></strong></p>
+                                    <p>غروزني ، كما وردت غروزني ، مدينة وعاصمة جمهورية الشيشان ، روسيا.&nbsp;<br>
+                                        غروزني هي مدينة في روسيا ، عاصمة جمهورية الشيشان ، وتقع على ضفتي نهر سونزها ، أحد روافد نهر تيريك. <br>
+                                        مناخ مدينة غروزني هو طقس قاري معتدل مع شتاء معتدل وصيف طويل حار. متوسط &#8203;&#8203;درجة الحرارة في يناير هو -2 درجة ، في يوليو - +24 درجة. <br>
+                                        وقد تم الانتهاء من إعادة بناء المدينة على نطاق واسع في السنوات الأخيرة. يقدم المطار 'جروزني' رحلات إلى موسكو.<br>
+                                        في وسط المدينة ، يمكنك رؤية مجمع إسلامي كبير بمساحة إجمالية تبلغ 14 هكتار تقريبًا. <br>
+                                        على أرضه هو مسجد 'قلب 'الشيشان' (الأكبر في أوروبا). <br>
+                                        غروزني هي مسقط رأس نادي كرة القدم الروسي 'إف سي تيريك' الذي يلعب في ملعب سلطان بليمخانوف.</p>" : (($lang == 'en') ? "<p></p><p><strong>About CheSU</strong></p><strong>
 </strong><p><strong></strong></p>
 <p>Chechen State University dates back to 7 February 1938 when Grozny Teacher Training Institute was founded with a two-year study period. The Institute was reorganized into Chechen-Ingush State University on 9 March 1971 and the new place received the name of Lev Nikolayevich Tolstoy. On 28 February 1995, Chechen-Ingush State University named after Lev Nikolayevich Tolstoy was renamed into Chechen State University.&nbsp;<br>
     Currently around 15000 full-time students are receiving education at the Chechen State University, 10 Faculties and 4 Institutes lead the learning process.<br>
@@ -44,7 +71,35 @@
                     Large-scale reconstruction of the city was carried out in recent years. The airport “Grozny” offers flights to Moscow.<br>
                     In the center of the city, you can see a large Islamic complex with a total area of almost 14 hectares.<br>
                     On its territory, there are the mosque “Heart of Chechnya” (the largest in Europe).<br>
-                    Grozny is the home city of the Russian Premier League football club “FC Terek” playing in Sultan Bilimkhanov stadium.</p>
+                    Grozny is the home city of the Russian Premier League football club “FC Terek” playing in Sultan Bilimkhanov stadium.</p>" : "<p></p><p><strong>À propos de CheSU</strong></p><strong>
+                    </strong><p><strong></strong></p>
+                    <p>L’Université d’État tchétchène remonte au 7 février 1938, année de la fondation de l’Institut de formation des enseignants de Grozny, qui durait deux ans. L'institut a été réorganisé en université d'État tchétchène-ingouche le 9 mars 1971 et le nouveau lieu a reçu le nom de Lev Nikolayevich Tolstoy. Le 28 février 1995, l'Université d'État tchétchène-ingouche, baptisée Lev Nikolayevich Tolstoï, a été renommée Université d'État tchétchène.&nbsp;<br>
+                        Actuellement, environ 15 000 étudiants à plein temps suivent des cours à l'université d'État tchétchène, 10 facultés et 4 instituts dirigent le processus d'apprentissage. <br>
+                        Le Centre d’utilisation collective de l’Université sert de tremplin au personnel et aux étudiants pour leur permettre de mener des recherches dans les domaines prioritaires du développement scientifique et technologique.&nbsp;<br>
+                        L’enseignement à l’Université d’État tchétchène marque le début d’un grand chemin vers un emploi prometteur (viable) et une carrière réussie. Le processus d’enseignement à l’Université est mis en œuvre (fourni) dans neuf facultés et cinq instituts. <br>
+                        Le processus éducatif est organisé à l'aide de technologies modernes. Les salles de classe sont équipées de tableaux blancs interactifs, matériel indispensable aux vidéoconférences. Les étudiants disposent de vastes ressources de bibliothèques en ligne, de bases de données russes et internationales. L’administration de l’université attache une grande importance au développement de la mobilité universitaire des conférenciers et s’emploie activement à inviter des explorateurs russes et étrangers (scientifiques) reconnus dans l’environnement scientifique et éducatif.<br>
+                        L'université propose différents domaines de formation dans les programmes de spécialisation, de baccalauréat et de maîtrise, ainsi que des cours de troisième cycle.</p>
+                        <p><strong><br>
+                            Instituts et facultés</strong></p><strong>
+                            </strong><p><strong></strong></p>
+                            <p>Institut de médecine <br>
+                                Faculté des technologies de <br>
+                                l'information <br>
+                                Institut de technologie agricole Institut d'économie et finances Institut de <br>
+                                biologie et de chimie Faculté de physique et des technologies de l'information et de la communication <br>
+                                Faculté de mathématiques et d'informatique <br>
+                                Faculté de géographie et géoécologie <br>
+                                Département de droit international</p>
+                                <p><strong><br>
+                                    À propos de la ville</strong></p><strong>
+                                    </strong><p><strong></strong></p>
+                                    <p>Grozny, également orthographié Groznyy, ville et capitale de la république de Tchétchénie, en Russie.&nbsp;<br>
+                                        Grozny est une ville de Russie, capitale de la République tchétchène, située sur les deux rives du fleuve Sunzha, affluent du fleuve Terek. <br>
+                                        Le climat de la ville de Grozny est continental tempéré avec des hivers doux et des étés longs et chauds. La température moyenne en janvier est de -2 degrés, en juillet - +24 degrés. <br>
+                                        Une reconstruction à grande échelle de la ville a été réalisée ces dernières années. L'aéroport 'Grozny' propose des vols pour Moscou. <br>
+                                        Au centre de la ville, vous pouvez voir un grand complexe islamique d'une superficie totale de près de 14 hectares.<br>
+                                        Sur son territoire se trouve la mosquée 'Cœur de la Tchétchénie' (la plus grande d'Europe). <br>
+                                        Grozny est la ville natale du club de football russe «FC Terek», qui évolue dans le stade Sultan Bilimkhanov.</p>")); ?>
     </div>
 </div>
 
