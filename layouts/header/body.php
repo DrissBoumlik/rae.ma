@@ -34,7 +34,7 @@ function main_menu($active_page)
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-xs-12 badge">
-                                <i class="fas fa-phone"></i><span>212-700-175-747 | 212-680-201-404</span>
+                                <i class="fas fa-phone"></i><span>212-666-030-081 | 212-662-187-074</span>
                             </div>
                         </div>
                         <div class="row">

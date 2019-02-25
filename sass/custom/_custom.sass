@@ -1,6 +1,7 @@
 *
     font-family: 'Raleway'
 body
+    color: #000
     background-image: url('/images/bg.jpg')
     background-size: 400px
     background-attachment: fixed
@@ -18,14 +19,25 @@ a
     // background-size: cover
     // background-attachment: fixed
     background-color: #02192E
-    &:before
-        content: ""
-        position: absolute
-        background-image: url('/images/bg-header.jpg')
 .header
     // background-color: rgba(#000, 1)
+    // background-image: url('/images/bg-header.jpg')
+    position: relative // for the position: absolute of >container:before
+    background-size: contain
     > .container
         padding: 10px 0
+        &:before
+            content: ""
+            position: absolute
+            background-image: url('/images/bg-header.jpg')
+            background-size: 200px
+            
+            top: 0
+            bottom: 0
+            right: 0
+            left: 0
+            display: block
+            opacity: .4
     .languages
         .list-inline
             // text-align: center
@@ -39,8 +51,8 @@ a
     .logo 
         padding: 14px 0
         // .col-md-8 .row
-        //     margin-top: 2%;
-        //     font-size: 2rem;
+        //     margin-top: 2%
+        //     font-size: 2rem
         // p
         //     margin: 0
         img
@@ -94,7 +106,7 @@ a
                     > a
                         background-image: url('/images/headline/active-menu.jpg')
                         background-color: transparent!important
-                        // background-size: cover;
+                        // background-size: cover
                     // .submenu li a
                     //     background-color: #E8BA4B!important
                     &:hover
@@ -349,10 +361,10 @@ a
         border-radius: 5px
         padding: 20px
         textarea
-            max-width: 100% !important;
-            min-width: 100% !important;
-            max-height: 200px !important;
-            min-height: 200px !important;
+            max-width: 100% !important
+            min-width: 100% !important
+            max-height: 200px !important
+            min-height: 200px !important
     
 .our-services
     text-align: center
@@ -554,10 +566,10 @@ a
     form
         // padding: 10px 40px
         textarea
-            min-width: 100%;
-            min-height: 170px;
-            max-width: 100%;
-            max-height: 170px;
+            min-width: 100%
+            min-height: 170px
+            max-width: 100%
+            max-height: 170px
 .apply .form-container
     border: 1px solid #eee
     border-radius: 5px
@@ -566,11 +578,12 @@ a
     .tool-descr > .row
         text-align: left
         border-bottom: 1px solid #c4c4c4
-        margin-bottom: 5px;    
+        margin-bottom: 5px    
     
     ._container
         background-color: #fff
-
+    .list-group
+        margin-bottom: 0
 // Modal Styles
 
 .modal-bg

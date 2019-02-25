@@ -88,6 +88,7 @@
                                         <div class="carousel-txt col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Additionnal Infos' : (($lang == 'ar') ? 'معلومات إضافية' : 'infos supplémentaire')).'</h2>
                                             <ul class="list-items">
+                                                <li>'.(($lang == 'en') ? 'Accommodation' : (($lang == 'ar') ? 'الإقامة' : 'Hébérgement')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Equivalence ' : (($lang == 'ar') ? 'مساواة' : 'Equivalence')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Important links' : (($lang == 'ar') ? 'روابط مهمة' : 'Liens importants')).'</li>
                                                 <li>'.(($lang == 'en') ? 'FAQ' : (($lang == 'ar') ? 'التعليمات' : 'FAQ')).'</li>

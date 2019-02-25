@@ -51,7 +51,7 @@
                             <hr>
                             <div class="contact">
                                 <h3><?php echo (($lang == 'ar') ? 'اتصل بنا' : (($lang == 'en') ? 'Contact us' : 'Contactez Nous')); ?></h3>
-                                <label><i class="fas fa-phone"></i><span>212-700-175-747 | 212-680-201-404</span></label><br>
+                                <label><i class="fas fa-phone"></i><span>212-666-030-081 | 212-662-187-074</span></label><br>
                                 <label><i class="fas fa-envelope"></i><span>studyabroad@rae.ma</span></label>
                             </div>
                     </div>

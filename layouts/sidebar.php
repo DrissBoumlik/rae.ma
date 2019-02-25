@@ -6,15 +6,11 @@
     <div class="sidebar-module apply">
         <div class="apply-widget">
             <div class="title-widget">
-                <h3 class="uppercase"><strong><?php echo (($lang == 'ar') ? 'انتباه' : (($lang == 'en') ? 'Attention' : 'Attention')); ?></strong></h3>
+                <h3 class="uppercase"><strong><?php echo (($lang == 'ar') ? 'تسجيل' : (($lang == 'en') ? 'Admission' : 'Admission')); ?></strong></h3>
             </div>
             <div class="body-widget">
                 <a href="/pages/apply.php?lang=<?php echo $lang;?>">
                     <div class="row">
-                        <!-- <div class="col-md-4 col-xs-4"><img src="/images/sidebar/graduate_widget.png" alt=""></div>
-                        <div class="col-md-8 col-xs-8">
-                            <p><?php echo (($lang == 'ar') ? 'تسجيل 2019/2020 مفتوح' : (($lang == 'en') ? 'Admission 2019/2020 is Open' : 'Admission 2019/2020 est Ouverte')); ?></p>
-                        </div> -->
                         <img src="/images/headline/apply-now<?php echo (($lang == 'ar') ? '-ar' : (($lang == 'en') ? '-en' : '')); ?>.png"
                             alt="">
                     </div>
@@ -23,7 +19,7 @@
         </div>
     </div>
     <div class="sidebar-module quick-links">
-        <div class="apply-widget">
+        <div class="quick-links-widget">
             <div class="title-widget">
                 <h3 class="uppercase"><?php echo (($lang == 'ar') ? 'روابط <strong>مهمة</strong>' : (($lang == 'en') ? '<strong>Important </strong> links' : 'Liens  <strong>importants</strong>')); ?></h3>
             </div>

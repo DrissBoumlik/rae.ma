@@ -1,23 +1,11 @@
-.ukraine 
-    .item:nth-child(1)
-        background-image: url(/images/headline/ukraine/1.jpeg)
-    .item:nth-child(2)
-        background-image: url(/images/headline/ukraine/2.jpeg)
-    .item:nth-child(3)
-        background-image: url(/images/headline/ukraine/3.jpeg)
-    .item:nth-child(4)
-        background-image: url(/images/headline/ukraine/3.jpeg)
-    .item:nth-child(5)
-        background-image: url(/images/headline/ukraine/3.jpeg)
 
-.russia 
-    .item:nth-child(1)
-        background-image: url(/images/headline/russia/1.jpg)
-    .item:nth-child(2)
-        background-image: url(/images/headline/russia/2.jpg)
-    .item:nth-child(3)
-        background-image: url(/images/headline/russia/3.jpg)
-    .item:nth-child(4)
-        background-image: url(/images/headline/russia/4.jpg)
-    .item:nth-child(5)
-        background-image: url(/images/headline/russia/5.jpg)
+$index: 1
+@while $index <= 5
+    .feature .item:nth-child(#{$index})
+        background-image: url(/images/headline/#{$index}.jpg)
+    .ukraine .item:nth-child(#{$index})
+        background-image: url(/images/headline/ukraine/#{$index}.jpg)
+    .russia .item:nth-child(#{$index})
+        background-image: url(/images/headline/russia/#{$index}.jpg)
+    $index: $index + 1
+
