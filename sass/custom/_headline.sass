@@ -1,11 +1,18 @@
-
-$index: 1
-@while $index <= 5
-    .feature .item:nth-child(#{$index})
-        background-image: url(/images/headline/#{$index}.jpg)
-    .ukraine .item:nth-child(#{$index})
-        background-image: url(/images/headline/ukraine/#{$index}.jpg)
-    .russia .item:nth-child(#{$index})
-        background-image: url(/images/headline/russia/#{$index}.jpg)
-    $index: $index + 1
+.feature
+    .item
+        height: 100%
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: right 0 top 10% //calc(100% - 20px) calc(100% - 10px); 
+        background-attachment: fixed
+        
+    $index: 1
+    @while $index <= 5
+        .item:nth-child(#{$index})
+            background-image: url(/images/headline/#{$index}.jpg)
+        &.ukraine .item:nth-child(#{$index})
+            background-image: url(/images/headline/ukraine/#{$index}.jpg)
+        &.russia .item:nth-child(#{$index})
+            background-image: url(/images/headline/russia/#{$index}.jpg)
+        $index: $index + 1
 

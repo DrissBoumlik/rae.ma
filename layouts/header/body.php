@@ -1,9 +1,9 @@
 <?php
 
-function main_menu($active_page)
+function main_menu($active_page, $_lang = null)
 {
     global $lang;
-    $lang = $GLOBALS['lang'];
+    $lang = $_lang != null ? $_lang : $GLOBALS['lang'];
     echo ('</head>
     <body>
         <header class="header"'. (($lang == 'ar') ? 'dir="rtl"' : '') .'>

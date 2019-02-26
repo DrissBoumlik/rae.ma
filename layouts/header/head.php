@@ -3,10 +3,10 @@
         $GLOBALS['lang'] = $_GET['lang'];
 
 
-    function head_section($id_page = null)
+    function head_section($id_page = null, $_lang = null)
     {
         global $lang;
-        $lang =  $GLOBALS['lang'];
+        $lang =  $_lang != null ? $_lang : $GLOBALS['lang'];
         echo ('
 <!DOCTYPE html>
     <html id="top-page" lang="'.$lang.'">

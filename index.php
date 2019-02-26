@@ -266,7 +266,7 @@
             <div class="">
                 <div class="row">
                     <h2 class="section-title">
-                        <?php echo (($lang == 'ar') ? 'لماذا تم دراسة الطب في روسيا أو أوكرانيا؟' : (($lang == 'en') ? 'Why study medicine in Russia or Ukraine ?' : 'Pourquoi étudier la médecine en Russie ou en Ukraine ?')); ?>
+                        <?php echo (($lang == 'ar') ? 'لماذا دراسة الطب في روسيا أو أوكرانيا؟' : (($lang == 'en') ? 'Why study medicine in Russia or Ukraine ?' : 'Pourquoi étudier la médecine en Russie ou en Ukraine ?')); ?>
                     </h2>
                 </div>
                 <div class="row offer-detail">
@@ -327,7 +327,7 @@
                                 <h4><?php echo (($lang == 'en') ? 'Arrival and reception in Ukraine / Russia' : (($lang == 'ar') ? 'وصول واستقبال في أوكرانيا / روسيا' : 'Arrivée et accueil en Ukraine/Russie')); ?>
                                 </h4>
                                 <p><?php echo (($lang == 'en') ? 'Royal Alliance Educative accompanies you on your arrival in Ukraine / Russia' 
-                                    : (($lang == 'ar') ? 'أليانس الملكية التعليمية يرافقك عند وصولك إلى أوكرانيا / روسيا' 
+                                    : (($lang == 'ar') ? 'أليانس التعليمية ترافقك عند وصولك إلى أوكرانيا / روسيا' 
                                     : 'La société Royal Alliance Educative vous accompagne à votre arrivée en Ukraine/Russie')); ?>
                                 </p>
                             </div>

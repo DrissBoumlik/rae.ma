@@ -1,7 +1,7 @@
 <?php
-    function feature_txt($headline, $class)
+    function feature_txt($headline, $class, $_lang = null)
     {
-        $lang = (!isset($_GET['lang'])) ? 'fr' : $_GET['lang'];
+        $lang = $_lang != null ? $_lang : ((!isset($_GET['lang'])) ? 'fr' : $_GET['lang']);
         echo '<div class="container-fluid feature not ' . $class . '">
             <div class="_container">
                 <!--  -->
@@ -38,13 +38,13 @@
                                 <!-- Quote 1 -->
                                 <div class="item active">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12" >
+                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12" >
                                             <h2 class="uppercase">'.
                                             (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universitiés')).
                                             '</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Famous institutions' : (($lang == 'ar') ? 'المؤسسات الشهيرة' : 'Universitiés')).'</li>
-                                                <li>'.(($lang == 'en') ? 'Recognition (Unesco, European Council, mci, sadc)' : (($lang == 'ar') ? 'اعتراف (اليونسكو ,المجلس الأوروبي , mci, sadc)' : 'Reconnaissance (Unesco, Conseil européen, mci, sadc)')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Recognition (UNESCO, European Council, SADC ...)' : (($lang == 'ar') ? 'اعتراف (اليونسكو ,المجلس الأوروبي, SADC ...)' : 'Reconnaissance (UNESCO, Conseil européen, SADC ...)')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Médecins qualifiés' : (($lang == 'ar') ? 'أطباء مؤهلين' : 'Qualified doctors')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Research work' : (($lang == 'ar') ? 'العمل البحثي' : 'Travail de recherche')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Hospitals with modern technology' : (($lang == 'ar') ? 'المستشفيات ذات التكنولوجيا الحديثة' : 'Hôpitaux à la technologie moderne')).'</li>
@@ -57,7 +57,7 @@
                                 <!-- Quote 2 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12">
+                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Study fees' : (($lang == 'ar') ? 'رسوم الدراسة' : 'Frais d\'études')).'</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Higher education that usually costs several times cheaper here than in the West' : (($lang == 'ar') ? 'التعليم العالي الذي عادة ما يكلف هنا عدة مرات أرخص مما هو عليه في الغرب' : 'Enseignement supérieur qui coûte en général plusieurs fois moins cher ici qu’en Occident.')).'</li>
@@ -70,7 +70,7 @@
                                 <!-- Quote 3 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12">
+                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Courses' : (($lang == 'ar') ? 'دروس' : 'Cours')).'</h2>
                                             <ul class="list-items">
                                                 <!-- <li>Éducation de qualité</li> -->
@@ -85,7 +85,7 @@
                                 <!-- Quote 4 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12">
+                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Additionnal Infos' : (($lang == 'ar') ? 'معلومات إضافية' : 'infos supplémentaire')).'</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Accommodation' : (($lang == 'ar') ? 'الإقامة' : 'Hébérgement')).'</li>
@@ -101,7 +101,7 @@
                                 <!-- Quote 5 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt col-sm-12 col-md-12">
+                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'gallery' : (($lang == 'ar') ? 'صور' : 'galerie')).'</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Student Photos' : (($lang == 'ar') ? 'صور الطلاب' : 'Photos etudiants')).'</li>
@@ -139,9 +139,9 @@
         '<div class="col-sm-8 col-md-8 content">' : '<div class="col-sm-12 col-md-12 content">')) : '');
     }
     
-    function translate_feature_txt($fr, $ar, $en)
+    function translate_feature_txt($fr, $ar, $en, $_lang = null)
     {
-        $lang = $_GET['lang'];
+        $lang = $_lang != null ? $_lang : $_GET['lang'];
         return ($lang == 'ar') ? $ar
             : ( ($lang == 'en') ? $en : $fr);
     }

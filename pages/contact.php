@@ -14,7 +14,7 @@
     <div class="contact-us">
         <div class="">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <div class="contact-form col-md-6 col-sm-6 ">
                     <div class="row">
                         <hr class="section-title-line">
                         <h2 class="capitalize section-title">
@@ -41,7 +41,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-md-5 col-md-offset-1 col-sm-6">
+                <div class="contact-infos col-md-5 col-md-offset-1 col-sm-6">
                     <div class="infos">
                             <div class="hours">
                                 <h3><?php echo (($lang == 'ar') ? 'ساعات العمل' : (($lang == 'en') ? 'Working Hours' : 'Heures de travail')); ?></h3>
