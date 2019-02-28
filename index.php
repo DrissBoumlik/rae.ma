@@ -84,9 +84,7 @@
                                                 src="/images/universities/ukraine/Donetsk-National-Medical-University-4.jpg"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'الجامعة الوطنية للطب' : (($lang == 'en') ? 'National University of Medicine' : 'Université Nationale de Médecine')); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'دونيتسك' : 'Donetsk') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "جامعة دونيتسك الطبية الوطنية ، كروبيفنيتسكي (كيروفوهراد)" : (($lang == 'en') ? "Donetsk National Medical University, Kropyvnytsky (Kirovohrad)" : "Université Nationale de Médecine de Donetsk, ville Kropyvnytsky (Kirovohrad)")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -97,9 +95,7 @@
                                         <div class="col-md-5 col-xs-5"><img
                                                 src="/images/universities/ukraine/kntu_01.jpg" alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'الجامعة الوطنية المركزية التقنية' : (($lang == 'en') ? 'National Central Technical University' : 'Université Nationale Central Technique')); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'كيروفوهراد' : 'Kirovohrad') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "الجامعة الوطنية التقنية الأوكرانية المركزية ، مدينة كروبيفنيتسكي (كيروفوهراد):" : (($lang == 'en') ? "Ukrainian Central Technical National University, Kropyvnytsky city (Kirovohrad):" : "Université Nationale Central Technique Ukrainienne, ville Kropyvnytsky (Kirovohrad):")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -107,12 +103,9 @@
                             <div class="col-md-4">
                                 <a href="/pages/ukraine/universities/kharkiv-national-aerospace-university-kharkiv-aviation-institute-nau-khai.php?lang=<?php echo $lang;?>">
                                     <div class="row">
-                                        <div class="col-md-5 col-xs-5"><img
-                                                src="/images/universities/ukraine/20180215151923.jpg" alt=""></div>
+                                        <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/20180215151923.jpg" alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'الجامعة الوطنية للطيران' : (($lang == 'en') ? 'National University of Aerospace' : "Université nationale de l'aérospatiale")); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'خاركيف' : 'Kharkiv') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "جامعة الطيران الوطنية N.E. جوكوفسكي 'معهد خاركيف للطيران'" : (($lang == 'en') ? "National Aerospace University N.E. Zhukovsky 'Kharkiv Aviation Institute'" : "Université Nationale Aérospatiale N.E. Joukovski 'Institut d'Aviation de Kharkiv'")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -125,9 +118,7 @@
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/21.png"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'الأكاديمية الوطنية لتكنولوجيات الغذاء' : (($lang == 'en') ? 'National Academy of Food Technologies' : 'Académie Nationale Des Technologies Alimentaires')); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'أوديسا' : 'Odessa') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "الأكاديمية الوطنية لتكنولوجيات الأغذية أوديسا" : (($lang == 'en') ? "National Academy of Food Technologies Odessa" : "Académie Nationale Des Technologies Alimentaires D’Odessa")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -138,9 +129,7 @@
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/24.png"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'أكاديمية خيرسون البحرية' : (($lang == 'en') ? 'Kherson State Maritime Academy' : "Académie Maritime d'État de Kherson")); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'خيرسون' : 'Kherson') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "أكاديمية خيرسون البحرية، مدينة خيرسون" : (($lang == 'en') ? "Kherson State Maritime Academy, Kherson City" : "Académie Maritime d'État de Kherson, ville de Kherson")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -151,9 +140,7 @@
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/25.png"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'أكاديمية الدولة للهندسة المدنية والهندسة المعمارية' : (($lang == 'en') ? 'State Academy of Civil Engineering and Architecture' : "Académie d'état de génie civil et d'architecture")); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'أوديسا' : 'Odessa') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "أكاديمية الدولة للهندسة المدنية والهندسة المعمارية في أوديسا" : (($lang == 'en') ? "State Academy of Civil Engineering and Architecture of Odessa" : "Académie d'État de Génie Civil et d’Architecture d’Odessa")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -179,9 +166,7 @@
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/55.jpg"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'جامعة الولاية الأولى للطب' : (($lang == 'en') ? 'First State University of Medicine' : "Première Université d'État de Médecine")); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'موسكو' : 'Moscou') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "أول جامعة موسكو الطبية الحكومية ، مدينة موسكو" : (($lang == 'en') ? "First Moscow State Medical University, Moscow City" : "Première Université d'État de Médecine de Moscou, ville Moscou")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -192,9 +177,7 @@
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/95.jpg"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'جامعة روسيا الوطنية للبحوث الطبية' : (($lang == 'en') ? 'Russia National University of Medical Research' : 'Le Russie Université Nationale de la Recherche Médicale')); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'موسكو' : 'Moscou') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "جامعة روسيا الوطنية للبحوث الطبية ، مدينة موسكو" : (($lang == 'en') ? "Russia National University of Medical Research, Moscow City" : "Le Russie Université Nationale de la Recherche Médicale, ville Moscou")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -205,9 +188,7 @@
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/3.png"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'جامعة البوليتكنيك' : (($lang == 'en') ? 'Polytechnic University' : 'Université Polytechnique')); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'تومسك' : 'Tomsk') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "جامعة البوليتكنيك في تومسك ، تومسك سيتي" : (($lang == 'en') ? "Polytechnic University of Tomsk, Tomsk City" : "Université Polytechnique de Tomsk, ville Tomsk")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -220,9 +201,7 @@
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/40.jpg"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'الجامعة التقنية الحكومية للطيران' : (($lang == 'en') ? 'State University of Aviation Engineering' : "Université d'État Technique de l'Aviation")); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'رايبنسك' : 'Rybinsk') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "جامعة التقنية التقنية في Rybinsk Aviation بمدينة Rybinsk" : (($lang == 'en') ? "State Technical University of Rybinsk Aviation, Rybinsk City" : "Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -233,9 +212,7 @@
                                         <div class="col-md-5 col-xs-5"><img
                                                 src="/images/universities/russia/edugain_chesu.jpg" alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'جامعة ولاية الشيشان' : (($lang == 'en') ? 'Chechen State University' : "Université d'État Tchétchéne")); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'غروزني' : 'Grozny') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "جامعة ولاية الشيشان ، مدينة غروزني" : (($lang == 'en') ? "Chechen State University, Grozny city" : "Université d'État Tchétchéne, ville Grozny")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -246,9 +223,7 @@
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/1.png"
                                                 alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? 'معهد الفيزياء والتكنولوجيا' : (($lang == 'en') ? 'Institute of Physics and Technology' : 'Institut de Physique et de Technologie')); ?></span>
-                                            <span>-</span>
-                                            <span><?php echo (($lang == 'ar') ? 'موسكو' : 'Moscou') ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "معهد موسكو للفيزياء والتكنولوجيا ، مدينة موسكو" : (($lang == 'en') ? "Moscow Institute of Physics and Technology, Moscow City" : "Institut de Physique et de Technologie de Moscou, ville Moscou")); ?></span>
                                         </div>
                                     </div>
                                 </a>
