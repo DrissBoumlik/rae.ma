@@ -1,5 +1,5 @@
 *
-    font-family: 'Raleway'
+    font-family: $font-base
 body
     color: #000
     background-image: url('/images/bg.jpg')
@@ -21,16 +21,23 @@ a
     background-color: #02192E
 .header
     // background-color: rgba(#000, 1)
-    // background-image: url('/images/bg-header.jpg')
+    background-image: url('/images/header/oly5140501855.jpg')
+    // background-image: url('/images/header/_1.jpg')
+    // background-image: url('/images/header/1.jpg')
+    // background-image: url('/images/header/blue-color-background-wallpapers-13-hd-desktop-wallpapers.jpg')
+    // background-image: url('/images/header/blue-370127_960_720.png')
+    // background-image: url('/images/header/5673954_VideoFuel_0040N.jpg')
+    // background-image: url('/images/header/iridescentroyalbluedelayedswirllongplay.jpg')
+    // background-image: url('/images/header/bg-header.jpg')
+    background-size: cover
     position: relative // for the position: absolute of >container:before
-    background-size: contain
     > .container
         padding: 10px 0
         &:before
             content: ""
             position: absolute
             background-image: url('/images/patterns/header-bg.png')
-            background-size: 120px
+            background-size: 100px
             top: 0
             bottom: 10px
             right: 0
@@ -157,7 +164,7 @@ a
 .feature 
     .feature-txt
         top: unset
-        bottom: 10%
+        bottom: 5%
     .static-txt
         right: 0
         left: unset
@@ -200,8 +207,8 @@ a
     // transform: translateY(-50%)
     color: #fff
     font-weight: bolder
-    .btn
-        font-weight: bolder
+    // .btn
+    //     font-weight: bolder
     h2
         font-size: 1.7rem
         font-weight: bolder
@@ -366,8 +373,8 @@ a
     .contact-form
         text-align: center
         hr
-            margin-bottom: 20px;
-            margin-top: 30px;
+            margin-bottom: 20px
+            margin-top: 30px
     .form-container
         border: 1px solid #eee
         border-radius: 5px
@@ -469,7 +476,7 @@ a
         box-shadow: none
         h1
             margin-top: 20px
-            font-family: 'Raleway'
+            font-family: $font-base
             font-weight: normal
         .tz-gallery
             padding: 20px 0
@@ -501,6 +508,11 @@ a
         margin-bottom: 20px
     a
         color: #337AB7
+        
+.visa .list-group-item
+        list-style-position: inside
+        list-style-type: unset
+        display: list-item
 
 .footer
     // background-color: #44A2BE

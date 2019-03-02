@@ -21,7 +21,7 @@
             <h2 class='section-title uppercase'>رسوم الدراسة في 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>القطاعات الطبية</h2>
+                <h2 class='section-title uppercase bold'>القطاعات الطبية</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>الطب العام - 6 سنوات</li>
@@ -411,7 +411,7 @@
             <h2 class='section-title uppercase'>رسوم الدراسة في 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>الأقسام الهندسية والفنية والاقتصادية والعلمية والإنسانية</h2>
+                <h2 class='section-title uppercase bold'>الأقسام الهندسية والفنية والاقتصادية والعلمية والإنسانية</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>بكالوريوس - 4 سنوات</li>
@@ -793,7 +793,7 @@
             <h2 class='section-title uppercase'>STUDY FEES IN 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>Medical sectors</h2>
+                <h2 class='section-title uppercase bold'>Medical sectors</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>General Medicine - 6 years</li>
@@ -1183,7 +1183,7 @@
             <h2 class='section-title uppercase'>STUDY FEES IN 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>Engineering and Technical, Economic, Scientific and Human Sciences Divisions
+                <h2 class='section-title uppercase bold'>Engineering and Technical, Economic, Scientific and Human Sciences Divisions
                 </h2>
             </div>
             <ul class='list-group'>
@@ -1567,7 +1567,7 @@
             <h2 class='section-title uppercase'>FRAIS D’ETUDE EN 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>Filières Médicales</h2>
+                <h2 class='section-title uppercase bold'>Filières Médicales</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>Médecine Générale - 6 ans</li>
@@ -1957,7 +1957,7 @@
             <h2 class='section-title uppercase'>FRAIS D’ETUDE EN 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>Filières d’Ingénierie et Techniques, Economiques, Scientifiques et Sciences Humaines</h2>
+                <h2 class='section-title uppercase bold'>Filières d’Ingénierie et Techniques, Economiques, Scientifiques et Sciences Humaines</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>Licence- 4 ans</li>
@@ -2347,7 +2347,7 @@
             <h2 class='section-title uppercase'>رسوم الدراسة في 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>القطاعات الطبية</h2>
+                <h2 class='section-title uppercase  bold'>القطاعات الطبية</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>الطب العام - 6 سنوات</li>
@@ -2540,7 +2540,7 @@
             <h2 class='section-title uppercase'>رسوم الدراسة في 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>الأقسام الهندسية والفنية والاقتصادية والعلمية والإنسانية</h2>
+                <h2 class='section-title uppercase bold'>الأقسام الهندسية والفنية والاقتصادية والعلمية والإنسانية</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>بكالوريوس - 4 سنوات</li>
@@ -2933,7 +2933,7 @@
             <h2 class='section-title uppercase'>STUDY FEES IN 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>Medical sectors</h2>
+                <h2 class='section-title uppercase bold'>Medical sectors</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>General Medicine - 6 years</li>
@@ -3126,7 +3126,7 @@
             <h2 class='section-title uppercase'>STUDY FEES IN 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>Engineering and Technical, Economic, Scientific and Human Sciences Divisions
+                <h2 class='section-title uppercase bold'>Engineering and Technical, Economic, Scientific and Human Sciences Divisions
                 </h2>
             </div>
             <ul class='list-group'>
@@ -3143,7 +3143,7 @@
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
-                                        1. Institute of Physics and Technology of Moscow (Moscow)
+                                        Institute of Physics and Technology of Moscow (Moscow)
                                     </h3>
                                 </div>
                             </div>
@@ -3168,7 +3168,7 @@
                                                 </div>
                                                 <div class='row'>
                                                     <div class='col-md-4 col-45'>In English 1-4th year:</div>
-                                                    <div class='col-md-8 col-55'>$ 800</div>
+                                                    <div class='col-md-8 col-55'>$ 8000</div>
                                                 </div>
                                             </div>
                                             <div class='row wrapper'>
@@ -3514,7 +3514,7 @@
             <h2 class='section-title uppercase'>FRAIS D’ETUDE EN 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>Filières Médicales</h2>
+                <h2 class='section-title uppercase bold'>Filières Médicales</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>Médecine Générale - 6 ans</li>
@@ -3708,7 +3708,7 @@
             <h2 class='section-title uppercase'>FRAIS D’ETUDE EN 2019/2020</h2>
             <div class='row'>
                 <hr class='section-title-line'>
-                <h2 class='section-title uppercase'>Filières d’Ingénierie et Techniques, Economiques, Scientifiques et Sciences Humaines</h2>
+                <h2 class='section-title uppercase bold'>Filières d’Ingénierie et Techniques, Economiques, Scientifiques et Sciences Humaines</h2>
             </div>
             <ul class='list-group'>
                 <li class='list-group-item'>Licence- 4 ans</li>

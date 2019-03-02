@@ -12,7 +12,7 @@
                             <ol class="carousel-indicators">
                                 <li data-target="#quote-carousel" data-slide-to="0" class="active">
                                     <span class="uppercase">'.
-                                        (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universitiés')).
+                                        (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universités')).
                                     '</span>
                                 </li><li data-target="#quote-carousel" data-slide-to="1" class="">
                                     <span class="uppercase">'.
@@ -40,10 +40,10 @@
                                     <div class="row">
                                         <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12" >
                                             <h2 class="uppercase">'.
-                                            (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universitiés')).
+                                            (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universités')).
                                             '</h2>
                                             <ul class="list-items">
-                                                <li>'.(($lang == 'en') ? 'Famous institutions' : (($lang == 'ar') ? 'المؤسسات الشهيرة' : 'Universitiés')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Famous institutions' : (($lang == 'ar') ? 'المؤسسات الشهيرة' : 'Universités')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Recognition (UNESCO, European Council, SADC ...)' : (($lang == 'ar') ? 'اعتراف (اليونسكو ,المجلس الأوروبي, SADC ...)' : 'Reconnaissance (UNESCO, Conseil européen, SADC ...)')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Médecins qualifiés' : (($lang == 'ar') ? 'أطباء مؤهلين' : 'Qualified doctors')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Research work' : (($lang == 'ar') ? 'العمل البحثي' : 'Travail de recherche')).'</li>

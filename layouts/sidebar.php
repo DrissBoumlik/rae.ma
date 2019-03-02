@@ -5,7 +5,7 @@
     <!--// col-sm-offset-1 col-md-offset-1 -->
     <div class="sidebar-module apply">
         <div class="apply-widget">
-            <div class="title-widget">
+            <div class="title-widget italic">
                 <h3 class="uppercase"><strong><?php echo (($lang == 'ar') ? 'تسجيل' : (($lang == 'en') ? 'Admission' : 'Admission')); ?></strong></h3>
             </div>
             <div class="body-widget">
@@ -20,7 +20,7 @@
     </div>
     <div class="sidebar-module quick-links">
         <div class="quick-links-widget">
-            <div class="title-widget">
+            <div class="title-widget italic">
                 <h3 class="uppercase"><?php echo (($lang == 'ar') ? 'روابط <strong>مهمة</strong>' : (($lang == 'en') ? '<strong>Important </strong> links' : 'Liens  <strong>importants</strong>')); ?></h3>
             </div>
             <div class="body-widget">
