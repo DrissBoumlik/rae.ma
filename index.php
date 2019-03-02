@@ -95,7 +95,7 @@
                                         <div class="col-md-5 col-xs-5"><img
                                                 src="/images/universities/ukraine/kntu_01.jpg" alt=""></div>
                                         <div class="col-md-7 col-xs-7">
-                                            <span><?php echo (($lang == 'ar') ? "الجامعة الوطنية التقنية الأوكرانية المركزية ، مدينة كروبيفنيتسكي (كيروفوهراد):" : (($lang == 'en') ? "Ukrainian Central Technical National University, Kropyvnytsky city (Kirovohrad):" : "Université Nationale Central Technique Ukrainienne, <span class='italic'>ville Kropyvnytsky (Kirovohrad)</span>")); ?></span>
+                                            <span><?php echo (($lang == 'ar') ? "الجامعة الوطنية التقنية الأوكرانية المركزية ، مدينة كروبيفنيتسكي (كيروفوهراد)" : (($lang == 'en') ? "Ukrainian Central Technical National University, Kropyvnytsky city (Kirovohrad)" : "Université Nationale Central Technique Ukrainienne, <span class='italic'>ville Kropyvnytsky (Kirovohrad)</span>")); ?></span>
                                         </div>
                                     </div>
                                 </a>
@@ -312,4 +312,5 @@
             </div>
         </div>
 
-        <?php include $path.'/layouts/footer.php' ?>
+        <?php include $path.'/layouts/footer.php';
+footer(); ?>

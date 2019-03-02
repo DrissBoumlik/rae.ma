@@ -135,7 +135,7 @@
         </div>'.
         (($class != 'home') ?
         ('<div class="main-content post-container"><div class="container"><div class="row">'.
-        (($class != 'contact' && $class != 'gallery') ? 
+        (($class != 'gallery') ? 
         '<div class="col-sm-8 col-md-8 content">' : '<div class="col-sm-12 col-md-12 content">')) : '');
     }
     

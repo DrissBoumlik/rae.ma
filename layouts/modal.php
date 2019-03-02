@@ -1,6 +1,6 @@
 <?php
 
-    function modal_message($message)
+    function modal_message($message, $sent = false)
     {
         echo '
         <!-- #region SECTION: Modal for message -->
@@ -17,9 +17,10 @@
                                 <span class="_close"><i class="far fa-times-circle"></i></span>
                             </div>
                             <div class="not-found-header"></div>
-                            <div class="not-found-body">
-                                <div class="row"><i class="far fa-smile-beam"></i></div>
-                                <div class="row">
+                            <div class="not-found-body">'.
+                            (!$sent ? '<div class="row"><i class="far fa-dizzy"></i></div>' 
+                            : '<div class="row"><img src="/images/owl.png"/></div>')
+                                .'<div class="row">
                                     <p>' . $message . '</p>
                                     <!-- <p>Click anywhere to close this window !!</p> -->
                                 </div>

@@ -16,4 +16,5 @@
 <?php include $path.'/layouts/ukraine/universities.php'; ?>
 
 <?php include $path.'/layouts/sidebar.php'; ?>
-<?php include $path.'/layouts/footer.php' ?>
+<?php include $path.'/layouts/footer.php';
+footer(); ?>

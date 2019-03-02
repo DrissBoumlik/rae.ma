@@ -146,4 +146,5 @@ include $path.'/layouts/header.php'  ;
 
 
 <?php include $path.'/layouts/sidebar.php'; ?>
-<?php include $path.'/layouts/footer.php' ?>
+<?php include $path.'/layouts/footer.php';
+footer(); ?>

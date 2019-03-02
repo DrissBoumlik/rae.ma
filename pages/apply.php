@@ -24,7 +24,7 @@
         </div>
         <div class="row">
             <div class="form-container">
-                <form class="form" action="/pages/apply.php" method="POST">
+                <form class="form" action="/pages/apply.php?lang=<?php echo $lang ?>" method="POST">
                     <div class="form-group">
                         <label
                             for="fullname"><?php echo (($lang == 'ar') ? "الاسم الكامل" : (($lang == 'en') ? "Full Name" : "Nom complet")); ?></label>
@@ -93,7 +93,8 @@
 </div>
 
 <?php include $path.'/layouts/sidebar.php'; ?>
-<?php include $path.'/layouts/footer.php' ?>
+<?php include $path.'/layouts/footer.php';
+footer(); ?>
 
 <?php
 if(isset($_POST['email'])){
@@ -137,7 +138,8 @@ if(isset($_POST['email'])){
     // $message    .= '<p>Birth : ' . $_POST['birth'].'</p>';
     if(mail($to, $subject, $message, $headers)){
         include $path.'/layouts/modal.php';
-        modal_message('Votre Application à bien été envoyé');
+        $message = $lang == 'ar' ? 'تم إرسال طلبك بنجاح' : (($lang == 'en') ? 'Your Application has been successfully sent' : 'Votre message à bien été envoyé');
+        modal_message($message);
     }       
 
 }
