@@ -2556,7 +2556,7 @@
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
-                                        1. معهد الفيزياء والتكنولوجيا في موسكو (موسكو)
+                                        معهد الفيزياء والتكنولوجيا في موسكو (موسكو)
                                     </h3>
                                 </div>
                             </div>
@@ -3724,7 +3724,7 @@
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
-                                        1.	Institut de Physique et de Technologie de Moscou (Moscou)
+                                        Institut de Physique et de Technologie de Moscou (Moscou)
                                     </h3>
                                 </div>
                             </div>

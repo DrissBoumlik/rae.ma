@@ -8,7 +8,9 @@ body
     padding: 0
 li
     list-style: none
-
+.alert-danger
+    padding: 3px 5px 3px 10px
+    margin-right: 5px
 .list-group
     padding-inline-start: 0
 a
@@ -511,10 +513,16 @@ a
     a
         color: #337AB7
         
-.visa .list-group-item
+.visa 
+    .list-group-item
         list-style-position: inside
         list-style-type: unset
         display: list-item
+    .note > .alert
+        font-size: 2rem
+        margin-right: 0
+        margin-bottom: 5px
+        display: inline-block
 
 .footer
     // background-color: #44A2BE
