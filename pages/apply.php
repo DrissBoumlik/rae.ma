@@ -108,22 +108,51 @@ if(isset($_POST['email'])){
     $headers    .= "MIME-Version: 1.0\r\n";
     $headers    .= 'X-Mailer: PHP/' . phpversion();
     
-    $message    ='<table class="table">
-            <thead></thead>
-            <tbody>
-                <tr><td>Full name :</td><td>' . $_POST['fullname'].'</td></tr>
-                <tr><td>Email : </td><td>' . $_POST['email'].'</td></tr>
-                <tr><td>Program : </td><td>' . $_POST['program'].'</td></tr>
-                <tr><td>University : </td><td>' . $_POST['university'].'</td></tr>
-                <tr><td>Education background : </td><td>' . $_POST['educ-bg'].'</td></tr>
-                <tr><td>Passport : </td><td>' . $_POST['passport'].'</td></tr>
-                <tr><td>Phone : </td><td>' . $_POST['phone'].'</td></tr>
-                <tr><td>Address : </td><td>' . $_POST['address'].'</td></tr>
-                <tr><td>Country : </td><td>' . $_POST['country'].'</td></tr>
-                <tr><td>Nationality : </td><td>' . $_POST['nationality'].'</td></tr>
-                <tr><td>Birth : </td><td>' . $_POST['birth'].'</td></tr>
-            </tbody>
-        </table>';
+    $message    ='
+    <html>
+        <head>
+            <style>
+                table{
+                    text-align: left;
+                    margin: 20px auto;
+                    width: 50%;
+                    max-width: 100%;
+                    border-collapse: collapse !important;
+                    border-bottom: 1px solid #ddd;
+                }
+                table td,
+                table th {
+                    background-color: #fff !important;
+                }
+                table > thead > tr > th,
+                table > tbody > tr > th,
+                table > thead > tr > td,
+                table > tbody > tr > td{
+                    padding: 8px;
+                    line-height: 1.42857143;
+                    vertical-align: top;
+                    border-top: 1px solid #ddd;
+                }
+            </style>
+        </head>
+        <body>
+                <table class="table">
+                    <tbody>
+                        <tr><td>Full name :</td><td>' . $_POST['fullname'].'</td></tr>
+                        <tr><td>Email : </td><td>' . $_POST['email'].'</td></tr>
+                        <tr><td>Program : </td><td>' . $_POST['program'].'</td></tr>
+                        <tr><td>University : </td><td>' . $_POST['university'].'</td></tr>
+                        <tr><td>Education background : </td><td>' . $_POST['educ-bg'].'</td></tr>
+                        <tr><td>Passport : </td><td>' . $_POST['passport'].'</td></tr>
+                        <tr><td>Phone : </td><td>' . $_POST['phone'].'</td></tr>
+                        <tr><td>Address : </td><td>' . $_POST['address'].'</td></tr>
+                        <tr><td>Country : </td><td>' . $_POST['country'].'</td></tr>
+                        <tr><td>Nationality : </td><td>' . $_POST['nationality'].'</td></tr>
+                        <tr><td>Birth : </td><td>' . $_POST['birth'].'</td></tr>
+                    </tbody>
+                </table>
+        </body>
+        </html>';
     
     // $message    = '<p>Full name : ' . $_POST['fullname'].'</p>';
     // $message    .= '<p>Email : ' . $_POST['email'].'</p>';
@@ -138,8 +167,12 @@ if(isset($_POST['email'])){
     // $message    .= '<p>Birth : ' . $_POST['birth'].'</p>';
     if(mail($to, $subject, $message, $headers)){
         include $path.'/layouts/modal.php';
-        $message = $lang == 'ar' ? 'تم إرسال طلبك بنجاح' : (($lang == 'en') ? 'Your Application has been successfully sent' : 'Votre message à bien été envoyé');
-        modal_message($message);
-    }       
+        $message = $lang == 'ar' ? 'تم إرسال طلبك بنجاح' : (($lang == 'en') ? 'Your Application has been successfully sent' : 'Votre demande a été envoyée avec succès');
+        modal_message($message, true);
+    } else {
+        include $path.'/layouts/modal.php';
+        $message =  $lang == 'ar' ? 'لم يتم إرسال طلبك' : (($lang == 'en') ? 'Your Application has not been sent' : 'Votre demande n\'a pas été envoyé');
+        modal_message($message, false);
+    }
 
 }

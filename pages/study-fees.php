@@ -2286,7 +2286,7 @@
                                 <div class='row'>
                                     <div class='col-sm-12'>
                                         <h3 class='capitalize'>
-                                            Université Nationale Aérospatiale N.E. Joukovski \'Institut d'aviation de Kharkiv\' Spécialités d'ingénierie
+                                            Université Nationale Aérospatiale N.E. Joukovski \"Institut d'aviation de Kharkiv\" Spécialités d'ingénierie
                                         </h3>
                                     </div>
                                 </div>
