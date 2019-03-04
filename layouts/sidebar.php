@@ -39,12 +39,12 @@
                         <span class="summary-txt fas fa-info-circle capitalize"><?php echo (($lang == 'ar') ? 'الدورات' : (($lang == 'en') ? 'Courses' : 'Cours')); ?></span>
                     </div>
                 </a>
-                <a href="/pages/ukraine/universities?lang=<?php echo $lang; ?>">
+                <a href="/pages/ukraine/ukrainian-universities?lang=<?php echo $lang; ?>">
                     <div class="summary-item">
                         <span class="summary-txt fas fa-info-circle capitalize"><?php echo (($lang == 'ar') ? 'الجامعات الأوكرانية' : (($lang == 'en') ? 'Ukrainian Universities' : 'Universités Ukrainiennes')); ?></span>
                     </div>
                 </a>
-                <a href="/pages/russia/universities?lang=<?php echo $lang; ?>">
+                <a href="/pages/russia/russian-universities?lang=<?php echo $lang; ?>">
                     <div class="summary-item">
                         <span class="summary-txt fas fa-info-circle capitalize"><?php echo (($lang == 'ar') ? 'الجامعات الروسية' : (($lang == 'en') ? 'Russian Universities' : 'Universités Russes')); ?></span>
                     </div>

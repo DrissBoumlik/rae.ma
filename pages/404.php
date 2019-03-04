@@ -28,7 +28,7 @@
                 <div class="not-found-body">
                     <div class="row"><i class="far fa-dizzy"></i></div>
                     <div class="row"><p>
-                    <?php echo (($lang == 'ar') ? "هل أنت تائه, توجه إلى <span class='bg-dark'>القائمة</span> أو حاول <br>واحد من روابط <span class='bg-dark'>الشريط الجانبي</span>." : (($lang == 'en') ? "Are you lost, head to the <span class='bg-dark'>menu</span> or try <br>one of the <span class='bg-dark'>sidebar</span> links." : "Es-tu perdu, rendez-vous au <span class='bg-dark'>menu</span> ou essayez <br>un des liens de la <span class='bg-dark'>barre latérale</span>.")); ?>
+                    <?php echo (($lang == 'ar') ? "هل أنت تائه, توجه إلى <span class='bg-dark'>القائمة</span> أو حاول <br>أحد روابط <span class='bg-dark'>الشريط الجانبي</span>." : (($lang == 'en') ? "Are you lost, head to the <span class='bg-dark'>menu</span> or try <br>one of the <span class='bg-dark'>sidebar</span> links." : "Es-tu perdu, rendez-vous au <span class='bg-dark'>menu</span> ou essayez <br>un des liens de la <span class='bg-dark'>barre latérale</span>.")); ?>
                     </p></div>
                 </div>
             </div>
