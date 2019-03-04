@@ -55,7 +55,7 @@
 
         <div class="apply-now">
             <div class="">
-                <a href="/pages/apply.php?lang=<?php echo $lang;?>">
+                <a href="/pages/apply?lang=<?php echo $lang;?>">
                     <div class="row">
                         <!-- <div class="col-md-12">
                         <img src="/images/headline/apply-now.png" alt="">
@@ -78,7 +78,7 @@
                     <div class="univ-block">
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="/pages/ukraine/universities/donetsk-national-medical-university.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/ukraine/universities/donetsk-national-medical-university?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img
                                                 src="/images/universities/ukraine/Donetsk-National-Medical-University-4.jpg"
@@ -90,7 +90,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="/pages/ukraine/universities/central-ukrainian-national-technical-university.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/ukraine/universities/central-ukrainian-national-technical-university?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img
                                                 src="/images/universities/ukraine/kntu_01.jpg" alt=""></div>
@@ -101,7 +101,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="/pages/ukraine/universities/kharkiv-national-aerospace-university-kharkiv-aviation-institute-nau-khai.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/ukraine/universities/kharkiv-national-aerospace-university-kharkiv-aviation-institute-nau-khai?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/20180215151923.jpg" alt=""></div>
                                         <div class="col-md-7 col-xs-7">
@@ -113,7 +113,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="/pages/ukraine/universities/national-academy-food-technology.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/ukraine/universities/national-academy-food-technology?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/21.png"
                                                 alt=""></div>
@@ -124,7 +124,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="/pages/ukraine/universities/kherson-state-maritime-academy.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/ukraine/universities/kherson-state-maritime-academy?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/24.png"
                                                 alt=""></div>
@@ -135,7 +135,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href='/pages/ukraine/universities/state-academy-civil-engineering-architecture.php?lang=<?php echo $lang;?>'>
+                                <a href='/pages/ukraine/universities/state-academy-civil-engineering-architecture?lang=<?php echo $lang;?>'>
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/ukraine/25.png"
                                                 alt=""></div>
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row more"><a href="/pages/ukraine/universities.php?lang=<?php echo $lang;?>"
+                    <div class="row more"><a href="/pages/ukraine/universities?lang=<?php echo $lang;?>"
                             class="btn btn-primary"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                     <div class="univ-block">
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="/pages/russia/universities/first-moscow-state-medical-university-named-m-sechenova.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/russia/universities/first-moscow-state-medical-university-named-m-sechenova?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/55.jpg"
                                                 alt=""></div>
@@ -172,7 +172,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="/pages/russia/universities/russian-national-research-medical-university-named-ni-pirogov.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/russia/universities/russian-national-research-medical-university-named-ni-pirogov?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/95.jpg"
                                                 alt=""></div>
@@ -183,7 +183,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="/pages/russia/universities/Polytechnic-University-Tomsk.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/russia/universities/Polytechnic-University-Tomsk?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/3.png"
                                                 alt=""></div>
@@ -196,7 +196,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="/pages/russia/universities/rybinsk-state-aviation-technical-university.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/russia/universities/rybinsk-state-aviation-technical-university?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/40.jpg"
                                                 alt=""></div>
@@ -207,7 +207,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="/pages/russia/universities/chechen-state-university.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/russia/universities/chechen-state-university?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img
                                                 src="/images/universities/russia/edugain_chesu.jpg" alt=""></div>
@@ -218,7 +218,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="/pages/russia/universities/moscow-institute-physics-technology.php?lang=<?php echo $lang;?>">
+                                <a href="/pages/russia/universities/moscow-institute-physics-technology?lang=<?php echo $lang;?>">
                                     <div class="row">
                                         <div class="col-md-5 col-xs-5"><img src="/images/universities/russia/1.png"
                                                 alt=""></div>
@@ -230,7 +230,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row more"><a href="/pages/russia/universities.php?lang=<?php echo $lang;?>"
+                    <div class="row more"><a href="/pages/russia/universities?lang=<?php echo $lang;?>"
                             class="btn btn-primary"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                 </div>
                 <div class="row steps">
                     <div class="col-md-4 col-xs-12 procedure-step">
-                        <a href="/pages/register.php?lang=<?php echo $lang;?>">
+                        <a href="/pages/register?lang=<?php echo $lang;?>">
                             <div class="row"><i class="fas fa-envelope"></i></div>
                             <div class="row">
                                 <h4><?php echo (($lang == 'en') ? 'The invitation' : (($lang == 'ar') ? 'الدعوة' : 'L\'invitation')); ?>
@@ -285,7 +285,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-xs-12 procedure-step">
-                        <a href="/pages/visa.php?lang=<?php echo $lang;?>">
+                        <a href="/pages/visa?lang=<?php echo $lang;?>">
                             <div class="row"><i class="fas fa-globe-americas"></i></div>
                             <div class="row">
                                 <h4><?php echo (($lang == 'en') ? 'Visa' : (($lang == 'ar') ? 'تأشيرة' : 'visa')); ?>
@@ -296,7 +296,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-xs-12 procedure-step">
-                        <a href="/pages/transfert.php?lang=<?php echo $lang;?>">
+                        <a href="/pages/transfert?lang=<?php echo $lang;?>">
                             <div class="row"><i class="fas fa-map-marked-alt"></i></div>
                             <div class="row">
                                 <h4><?php echo (($lang == 'en') ? 'Arrival and reception in Ukraine / Russia' : (($lang == 'ar') ? 'وصول واستقبال في أوكرانيا / روسيا' : 'Arrivée et accueil en Ukraine/Russie')); ?>

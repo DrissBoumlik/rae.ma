@@ -49,7 +49,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -127,7 +127,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -173,7 +173,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -258,7 +258,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -356,7 +356,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -436,7 +436,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -495,7 +495,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -559,7 +559,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -618,7 +618,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -678,11 +678,11 @@
                                     <div class='col-md-12 col-sm-12'>
                                         <div class='tool-txt'>
                                             <div class='tool-descr'>
-                                                <div class='row'>
+                                                <div class='row flex'>
                                                     <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
-                                                    <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة
-                                                        والتأمين الطبي ...</div>
-                                                </div>
+                                                    <div class='col-md-8'>
+                                                    تتضمن الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...</div>
+                                                    </div>
                                                 <div class='row wrapper'>
                                                     <div class='row'>
                                                         <div class='col-md-4'>الترخيص: </div>
@@ -746,7 +746,7 @@
                                     <div class='col-md-12 col-sm-12'>
                                         <div class='tool-txt'>
                                             <div class='tool-descr'>
-                                                <div class='row'>
+                                                <div class='row flex'>
                                                     <div class='col-md-4'>السنة التحضيرية: 3300 دولار</div>
                                                     <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة
                                                         والتأمين الطبي ...</div>
@@ -772,7 +772,7 @@
                                     <div class='col-md-12 col-sm-12'>
                                         <div class='tool-txt'>
                                             <div class='tool-descr'>
-                                                <div class='row'>
+                                                <div class='row flex'>
                                                     <div class='col-md-4'>السنة التحضيرية: 2500 دولار</div>
                                                     <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة
                                                         والتأمين الطبي ...</div>
@@ -2374,8 +2374,8 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
-                                                <div class='col-md-12'>السنة التحضيرية: 4800 دولار</div>
+                                            <div class='row flex'>
+                                                <div class='col-md-4'>السنة التحضيرية: 4800 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
                                             </div>
@@ -2437,8 +2437,8 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
-                                                <div class='col-md-12'>السنة التحضيرية: 2800 دولار</div>
+                                            <div class='row flex'>
+                                                <div class='col-md-4'>السنة التحضيرية: 2800 دولار</div>
                                                 <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة والتأمين
                                                     الطبي ...</div>
                                             </div>
@@ -2491,8 +2491,8 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
-                                                <div class='col-md-12'>السنة التحضيرية: 3900 دولار</div>
+                                            <div class='row flex'>
+                                                <div class='col-md-4'>السنة التحضيرية: 3900 دولار</div>
                                                 <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة والتأمين
                                                     الطبي ...</div>
                                             </div>
@@ -2566,7 +2566,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 4400 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -2581,7 +2581,7 @@
                                                 </div>
                                                 <div class='row'>
                                                     <div class='col-md-4 col-45'>في اللغة الإنجليزية 1-4 سنة:</div>
-                                                    <div class='col-md-8 col-55'>800 دولار</div>
+                                                    <div class='col-md-8 col-55'>8000 دولار</div>
                                                 </div>
                                             </div>
                                             <div class='row wrapper'>
@@ -2629,7 +2629,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 4800 دولار</div>
                                                 <div class='col-md-8'>تشمل الحزمة الكاملة: الدراسة والإقامة والتأمين الطبي ...
                                                 </div>
@@ -2700,7 +2700,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 4500 دولار</div>
                                                 <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة والتأمين
                                                     الطبي ...</div>
@@ -2763,7 +2763,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 2800 دولار</div>
                                                 <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة والتأمين
                                                     الطبي ...</div>
@@ -2834,7 +2834,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 4300 دولار</div>
                                                 <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة والتأمين
                                                     الطبي ...</div>
@@ -2905,7 +2905,7 @@
                                 <div class='col-md-12 col-sm-12'>
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
-                                            <div class='row'>
+                                            <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 3500 دولار</div>
                                                 <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة والتأمين
                                                     الطبي ...</div>
@@ -3749,7 +3749,7 @@
                                                 </div>
                                                 <div class='row'>
                                                     <div class='col-md-4 col-45'>En anglais 1-4ème année:</div>
-                                                    <div class='col-md-8 col-55'>800 $</div>
+                                                    <div class='col-md-8 col-55'>8000 $</div>
                                                 </div>
                                             </div>
                                             <div class='row wrapper'>

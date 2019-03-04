@@ -24,7 +24,7 @@
         </div>
         <div class="row">
             <div class="form-container">
-                <form class="form" action="/pages/apply.php?lang=<?php echo $lang ?>" method="POST">
+                <form class="form" action="/pages/apply?lang=<?php echo $lang ?>" method="POST">
                     <div class="form-group">
                         <label
                             for="fullname"><?php echo (($lang == 'ar') ? "الاسم الكامل" : (($lang == 'en') ? "Full Name" : "Nom complet")); ?></label>
