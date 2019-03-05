@@ -11,7 +11,7 @@
             <div class="body-widget">
                 <a href="/pages/apply?lang=<?php echo $lang;?>">
                     <div class="row">
-                        <img src="/images/headline/sidebar-apply-now<?php echo (($lang == 'ar') ? '-ar' : (($lang == 'en') ? '-en' : '')); ?>.png"
+                        <img src="/images/headline/apply-now<?php echo (($lang == 'ar') ? '-ar' : (($lang == 'en') ? '-en' : '-fr')); ?>.png"
                             alt="">
                     </div>
                 </a>

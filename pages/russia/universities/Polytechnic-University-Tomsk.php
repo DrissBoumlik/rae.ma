@@ -8,7 +8,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("جامعة البوليتكنيك في تومسك ، تومسك سيتي","Polytechnic University of Tomsk, Tomsk City","Université Polytechnique de Tomsk");
+    $txt = get_lang_text("الجامعات الروسية", "russian universities", "Universités Russes");
     feature_txt($txt, "russia");
 ?>
 

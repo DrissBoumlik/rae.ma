@@ -52,6 +52,10 @@
         <script type="text/javascript" src="/js/jquery.touch-slider.min.js"></script>
         <script type="text/javascript" src="/js/typewriter.js"></script>
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css" rel="stylesheet" />
+        
+        
         
         <!-- <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script> -->
         <!-- <script type="text/javascript" src="/datatable/js/jquery.dataTables.min.js"></script> -->

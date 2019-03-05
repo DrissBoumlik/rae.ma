@@ -8,7 +8,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("جامعة داغستان الطبية الحكومية ، مدينة ماخاتشكالا","Dagestan State Medical University, Makhachkala City","Université d'État de Médecine du Daghestan, ville Makhatchkala");
+    $txt = get_lang_text("الجامعات الروسية", "russian universities", "Universités Russes");
     feature_txt($txt, "russia");
 ?>
 

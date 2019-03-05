@@ -8,7 +8,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("جامعة التقنية التقنية في Rybinsk Aviation بمدينة Rybinsk","State Technical University of Rybinsk Aviation, Rybinsk City","Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk");
+    $txt = get_lang_text("الجامعات الروسية", "russian universities", "Universités Russes");
     feature_txt($txt, "russia");
 ?>
 

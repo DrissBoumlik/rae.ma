@@ -7,7 +7,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("أكاديمية الدولة للهندسة المدنية والهندسة المعمارية في أوديسا","State Academy of Civil Engineering and Architecture of Odessa","Académie d'état de génie civil et d'architecture d’Odessa");
+    $txt = get_lang_text("الجامعات الأوكرانية", "Ukrainian universities", "Universités Ukraniennes");
     feature_txt($txt, "ukraine");
 ?>
 

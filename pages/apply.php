@@ -11,9 +11,6 @@
     }
     feature_txt($txt, "apply online");
 ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css"
-    rel="stylesheet" />
 <div class="apply">
     <div class="">
         <div class="row">

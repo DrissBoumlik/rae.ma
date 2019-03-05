@@ -8,7 +8,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("جامعة أديغيا الحكومية ، مدينة مايكوب","Adygea State University, Maïkop City","Université d’Etat Adyguée, ville Maïkop");
+    $txt = get_lang_text("الجامعات الروسية", "russian universities", "Universités Russes");
     feature_txt($txt, "russia");
 ?>
 

@@ -8,7 +8,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("الجامعة الوطنية المركزية الأوكرانية التقنية ، مدينة كروبيفنيتسكي (كيروفوهراد)","National Central Technical Ukrainian University, Kropyvnytsky (Kirovohrad)","Université Nationale Central Technique Ukrainienne, ville Kropyvnytsky (Kirovohrad)");
+    $txt = get_lang_text("الجامعات الأوكرانية", "Ukrainian universities", "Universités Ukraniennes");
     feature_txt($txt, "ukraine");
 ?>
 

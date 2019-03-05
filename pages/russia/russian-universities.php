@@ -8,7 +8,7 @@
 <?php include $path.'/layouts/feature.php';
         $txt = "Universités Russes";
         if(isset($_GET['lang'])){
-            $txt = translate_feature_txt("Universités Russes", "الجامعات الروسية", "rissuan universities");
+            $txt = translate_feature_txt("Universités Russes", "الجامعات الروسية", "russian universities");
         }
         feature_txt($txt, "russia");
 ?>

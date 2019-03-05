@@ -8,7 +8,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("أكاديمية خيرسون البحرية، مدينة خيرسون","Kherson State Maritime Academy, Kherson City","Académie Maritime d'État de Kherson, ville de Kherson");
+    $txt = get_lang_text("الجامعات الأوكرانية", "Ukrainian universities", "Universités Ukraniennes");
     feature_txt($txt, "ukraine");
 ?>
 

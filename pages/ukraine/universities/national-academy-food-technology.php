@@ -9,7 +9,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("الأكاديمية الوطنية لتكنولوجيات الأغذية أوديسا","National Academy of Food Technologies Odessa","Académie Nationale Des Technologies Alimentaires D’Odessa");
+    $txt = get_lang_text("الجامعات الأوكرانية", "Ukrainian universities", "Universités Ukraniennes");
     feature_txt($txt, "ukraine");
 ?>
 

@@ -8,7 +8,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("جامعة Mordovia State NPOgaraev ، مدينة سارانسك","Mordovia State University NPOgaraev, Saransk city","Université d’Etat N.P. Ogarev Mordovia");
+    $txt = get_lang_text("الجامعات الروسية", "russian universities", "Universités Russes");
     feature_txt($txt, "russia");
 ?>
 

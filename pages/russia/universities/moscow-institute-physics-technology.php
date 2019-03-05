@@ -8,7 +8,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("معهد موسكو للفيزياء والتكنولوجيا ، مدينة موسكو","Moscow Institute of Physics and Technology, Moscow City","Institut de Physique et de Technologie de Moscou, ville Moscou");
+    $txt = get_lang_text("الجامعات الروسية", "russian universities", "Universités Russes");
     feature_txt($txt, "russia");
 ?>
 

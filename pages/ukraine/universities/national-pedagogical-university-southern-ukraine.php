@@ -9,7 +9,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("الجامعة الوطنية التربوية في جنوب أوكرانيا التي عينتها ك. أو. Ushynsky ، مدينة أوديسا","National Pedagogical University of Southern Ukraine appointed by K.D. Ushynsky, City of Odessa","Université pédagogique nationale d'Ukraine du Sud nommée par K.D. Ushynsky, ville d'Odessa");
+    $txt = get_lang_text("الجامعات الأوكرانية", "Ukrainian universities", "Universités Ukraniennes");
     feature_txt($txt, "ukraine");
 ?>
 

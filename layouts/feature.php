@@ -38,7 +38,7 @@
                                 <!-- Quote 1 -->
                                 <div class="item active">
                                     <div class="row">
-                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12" >
+                                        <div class="carousel-txt bg-dark-lighter col-sm-12 col-md-12" >
                                             <h2 class="uppercase">'.
                                             (($lang == 'en') ? 'Universities' : (($lang == 'ar') ? 'الجامعات' : 'Universités')).
                                             '</h2>
@@ -57,7 +57,7 @@
                                 <!-- Quote 2 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12">
+                                        <div class="carousel-txt bg-dark-lighter col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Study fees' : (($lang == 'ar') ? 'رسوم الدراسة' : 'Frais d\'études')).'</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Higher education that usually costs several times cheaper here than in the West' : (($lang == 'ar') ? 'التعليم العالي الذي عادة ما يكلف هنا عدة مرات أرخص مما هو عليه في الغرب' : 'Enseignement supérieur qui coûte en général plusieurs fois moins cher ici qu’en Occident.')).'</li>
@@ -70,7 +70,7 @@
                                 <!-- Quote 3 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12">
+                                        <div class="carousel-txt bg-dark-lighter col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Courses' : (($lang == 'ar') ? 'دروس' : 'Cours')).'</h2>
                                             <ul class="list-items">
                                                 <!-- <li>Éducation de qualité</li> -->
@@ -85,7 +85,7 @@
                                 <!-- Quote 4 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12">
+                                        <div class="carousel-txt bg-dark-lighter col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'Additionnal Infos' : (($lang == 'ar') ? 'معلومات إضافية' : 'infos supplémentaire')).'</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Accommodation' : (($lang == 'ar') ? 'الإقامة' : 'Hébérgement')).'</li>
@@ -101,7 +101,7 @@
                                 <!-- Quote 5 -->
                                 <div class="item">
                                     <div class="row">
-                                        <div class="carousel-txt bg-dark-lighter bg-dark-lighter col-sm-12 col-md-12">
+                                        <div class="carousel-txt bg-dark-lighter col-sm-12 col-md-12">
                                             <h2 class="uppercase">'.(($lang == 'en') ? 'gallery' : (($lang == 'ar') ? 'صور' : 'galerie')).'</h2>
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Student Photos' : (($lang == 'ar') ? 'صور الطلاب' : 'Photos etudiants')).'</li>
@@ -116,7 +116,7 @@
                                 '<div class="row static-txt">
                                     <div class="col-md-12 col-sm-12 height-100">
                                         <div class="feature-txt body-txt">
-                                            <h1 class="bg-dark-lighter uppercase">' . $headline .'</h1><br/>
+                                            <h1 class="bg-dark-lighter-4 uppercase">' . $headline .'</h1><br/>
                                         </div>                                
                                     </div>
                                 </div>' : '').

@@ -147,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row more"><a href="/pages/ukraine/universities?lang=<?php echo $lang;?>"
+                    <div class="row more"><a href="/pages/ukraine/ukrainian-universities.php?lang=<?php echo $lang;?>"
                             class="btn btn-primary"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row more"><a href="/pages/russia/universities?lang=<?php echo $lang;?>"
+                    <div class="row more"><a href="/pages/russia/russian-universities.php?lang=<?php echo $lang;?>"
                             class="btn btn-primary"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                     </div>
                 </div>

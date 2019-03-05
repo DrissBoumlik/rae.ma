@@ -7,7 +7,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("جامعة دونيتسك الطبية الوطنية (حرم كيروفوهراد)","Donetsk National Medical University (Kirovohrad Campus)","Donetsk National Medical University (Kirovohrad Campus)");
+    $txt = get_lang_text("الجامعات الأوكرانية", "Ukrainian universities", "Universités Ukraniennes");
     feature_txt($txt, "ukraine");
 ?>
 

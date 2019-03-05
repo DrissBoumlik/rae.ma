@@ -8,7 +8,7 @@
 
 
 <?php include $path.'/layouts/feature.php';
-    $txt = get_lang_text("أول جامعة موسكو الطبية الحكومية ، مدينة موسكو","First Moscow State Medical University, Moscow City","Première Université d'État de Médecine de Moscou, ville Moscou");
+    $txt = get_lang_text("الجامعات الروسية", "russian universities", "Universités Russes");
     feature_txt($txt, "russia");
 ?>
 
