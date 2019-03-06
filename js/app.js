@@ -1,5 +1,11 @@
 jQuery(function ($) {
     
+    // SideBar Text To pay Attention
+    setTimeout(function (){
+        $('.apply-txt').slideDown();
+    }, 1000);
+    
+    // #region Apply Page - Select with Search functionnality
     var countries = [
         "Afghanistan","Albanie","Algérie","Andorre","Angola","Antigua-et-Barbuda","Argentine","Arménie","Australie","L'Autriche","Azerbaïdjan","Bahamas","Bahrein","Bangladesh","Barbade","Biélorussie","Belgique","Belize","Bénin","Bhoutan","Bolivie","Bosnie Herzégovine","Botswana","Brésil","Brunei","Bulgarie","Burkina Faso","Burundi","Cabo Verde","Cambodge","Cameroun","Canada","République centrafricaine","Tchad","Chili","Chine","Colombie","Les Comores","Congo, République du","Congo, République Démocratique du","Costa Rica","Cote d'Ivoire","Croatie","Cuba","Chypre","République Tchèque","Danemark","Djibouti","La Dominique","République Dominicaine","Équateur","Egypte","Le Salvador","Guinée Équatoriale","Erythrée","Estonie","Ethiopie","Fidji","Finlande","France","Gabon","Gambie","Géorgie","Allemagne","Ghana","Grèce","Grenade","Guatemala","Guinée","Guinée Bissau","Guyane","Haïti","Honduras","Hongrie","Islande","Inde","Indonésie","Iran","Irak","Irlande","Israël","Italie","Jamaïque","Japon","Jordan","Kazakhstan","Kenya","Kiribati","Kosovo","Koweit","Kirghizistan","Laos","Lettonie","Liban","Lesotho","Libéria","Libye","Liechtenstein","Lituanie","Luxembourg","Macédoine","Madagascar","Malawi","Malaisie","Maldives","Mali","Malte","Iles Marshall","Mauritanie","Maurice","Mexique","Micronésie","La Moldavie","Monaco","Mongolie","Monténégro","Maroc","Mozambique","Myanmar (Birmanie)","Namibie","Nauru","Népal","Pays-Bas","Nouvelle-Zélande","Nicaragua","Niger","Nigeria","Corée du Nord","Norvège","Oman","Pakistan","Palau","Palestine","Panama","Papouasie Nouvelle Guinée","Le Paraguay","Pérou","Philippines","Pologne","le Portugal","Qatar","Roumanie","Russie","Rwanda","Saint-Kitts-et-Nevis","Sainte Lucie","valeurSt. Vincent et les Grenadines","Samoa","Saint Marin","Sao Tomé et Principe","Arabie Saoudite","Sénégal","Serbie","les Seychelles","Sierra Leone","Singapour","Slovaquie","La Slovénie","îles Salomon","Somalie","Afrique du Sud","Corée du Sud","Soudan du sud","Espagne","Sri Lanka","Soudan","Suriname","Swaziland","Suède","Suisse","Syrie","Taïwan","Tadjikistan","Tanzanie","Thaïlande","Timor-Leste","Aller","Tonga","Trinité-et-Tobago","Tunisie","dinde","Turkménistan","Tuvalu","Ouganda","Ukraine","Emirats Arabes Unis","Royaume-Uni (UK)","Etats-Unis d'Amérique (USA)","Uruguay","Ouzbekistan","Vanuatu","Cité du Vatican (Saint-Siège)","Venezuela","Vietnam","Yémen","Zambie","Zimbabwe"];
         
@@ -19,15 +25,18 @@ jQuery(function ($) {
         });
         country.selectpicker();
     }
+    //#endregion
     
+    //#region Carousel / Gallery Init
     $('.feature-carousel').carousel({
         pause: false,
         interval: 30000,
     })
     $('.feature-carousel').bsTouchSlider();
     baguetteBox.run('.tz-gallery');
+    //#endregion
     
-    // SECTION: Resource page
+    //#region SECTION: Courses / Study Fees pages
     $('.main-content').delegate('.tool-header', 'click', function(){
         var tool_category = $(this).siblings('.tool-category');
         if($(tool_category).css('display') === "block"){
@@ -48,7 +57,8 @@ jQuery(function ($) {
         }
         $(this).toggleClass('fa-minus fa-plus');
     });
-   
+   //#endregion
+    
     $('#modal').on('click', function () {
         $('#modal-bg').fadeOut(100);
         $('#modal').addClass('bounceOutRight');
@@ -72,7 +82,7 @@ jQuery(function ($) {
         }
         if (offset_width < 670) $('#sl-container-languages').css('display', 'none');
     }
-    
+    //#region Carousel controlled by keyboard
     $(document).keydown(function(e) {
         if (e.keyCode === 37) {
             // Previous
@@ -85,6 +95,7 @@ jQuery(function ($) {
             return false;
         }
     });
+    //#endregion
     
     $('#sl-container').on('mouseenter', function (){
         $(this).find('.animated').removeClass('bounceOutDown').addClass('bounceInUp');

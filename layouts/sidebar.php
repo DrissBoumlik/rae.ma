@@ -10,9 +10,11 @@
             </div>
             <div class="body-widget">
                 <a href="/pages/apply?lang=<?php echo $lang;?>">
-                    <div class="row">
-                        <img src="/images/headline/apply-now<?php echo (($lang == 'ar') ? '-ar' : (($lang == 'en') ? '-en' : '-fr')); ?>.png"
-                            alt="">
+                    <div class="row apply-img">
+                        <img src="/images/headline/apply-now<?php echo (($lang == 'ar') ? '-ar' : (($lang == 'en') ? '-en' : '-fr')); ?>.png" alt="">
+                    </div>
+                    <div class="row apply-txt">
+                        <p><?php echo (($lang == 'ar') ? 'أماكن للطلاب الدوليين محدودة.<br>لا تؤجل تسجيلك !!!' : (($lang == 'en') ? 'Places for international students are limited.<br>Do not delay your registration !!!' : 'Les places pour les étudiants internationaux sont limitées.<br>Ne retardez pas votre inscription !!!')); ?></p>
                     </div>
                 </a>
             </div>

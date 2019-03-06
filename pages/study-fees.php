@@ -342,7 +342,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header fa-plus'>
+                        <div class='tool-header last-child fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -758,7 +758,7 @@
                             </div>
                         </div>
                         <div class='tool-container'>
-                            <div class='tool-header fa-plus'>
+                            <div class='tool-header last-child fa-plus'>
                                 <div class='row'>
                                     <div class='col-sm-12'>
                                         <h3 class='capitalize'>
@@ -1114,7 +1114,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header fa-plus'>
+                        <div class='tool-header last-child fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -1532,7 +1532,7 @@
                             </div>
                         </div>
                         <div class='tool-container'>
-                            <div class='tool-header fa-plus'>
+                            <div class='tool-header last-child fa-plus'>
                                 <div class='row'>
                                     <div class='col-sm-12'>
                                         <h3 class='capitalize'>
@@ -1888,7 +1888,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header fa-plus'>
+                        <div class='tool-header last-child fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -2308,7 +2308,7 @@
                             </div>
                         </div>
                         <div class='tool-container'>
-                            <div class='tool-header fa-plus'>
+                            <div class='tool-header last-child fa-plus'>
                                 <div class='row'>
                                     <div class='col-sm-12'>
                                         <h3 class='capitalize'>
@@ -2477,7 +2477,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header fa-plus'>
+                        <div class='tool-header last-child fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -2891,7 +2891,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header fa-plus'>
+                        <div class='tool-header last-child fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -3063,7 +3063,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header fa-plus'>
+                        <div class='tool-header last-child fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -3473,7 +3473,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header fa-plus'>
+                        <div class='tool-header last-child fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -3644,7 +3644,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header fa-plus'>
+                        <div class='tool-header last-child fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -4065,7 +4065,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header fa-plus'>
+                        <div class='tool-header last-child fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
