@@ -2324,8 +2324,7 @@
                                             <div class='tool-descr'>
                                                 <div class='row'>
                                                     <div class='col-md-4'>L’année préparatoire: 2500 $</div>
-                                                    <div class='col-md-8'>Le pack complet inclut: étude, hébergement,
-                                                        séjour, assurance médicale…</div>
+                                                    <div class='col-md-8'>Le pack complet inclut: étude, hébergement, séjour, assurance médicale…</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2495,6 +2494,9 @@
                                                 <div class='col-md-4'>السنة التحضيرية: 3900 دولار</div>
                                                 <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة والتأمين
                                                     الطبي ...</div>
+                                            </div>                                            
+                                            <div class='row'>
+                                                <div class='col-md-12'>السنة التحضيرية: 3000 دولار</div>
                                             </div>
                                             <div class='row wrapper'>
                                                 <div class='row'>
@@ -2907,8 +2909,10 @@
                                         <div class='tool-descr'>
                                             <div class='row flex'>
                                                 <div class='col-md-4'>السنة التحضيرية: 3500 دولار</div>
-                                                <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة والتأمين
-                                                    الطبي ...</div>
+                                                <div class='col-md-8'>تتضمن الحزمة الكاملة: الدراسة والإقامة والإقامة والتأمين الطبي ...</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>السنة التحضيرية: 2500 دولار</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>رسوم الإقامة: 500 دولار (في السنة) ؛</div>
@@ -3078,9 +3082,11 @@
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
                                             <div class='row'>
-                                                <div class='col-md-12'>Preparatory year: $ 3900</div>
-                                                <div class='col-md-8'>The complete pack includes: study, accommodation, stay,
-                                                    medical insurance ...</div>
+                                                <div class='col-md-4'>Preparatory year: $ 3900</div>
+                                                <div class='col-md-8'>The complete pack includes: study, accommodation, stay, medical insurance ...</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>Preparatory year: $ 3000</div>
                                             </div>
                                             <div class='row wrapper'>
                                                 <div class='row'>
@@ -3489,8 +3495,10 @@
                                         <div class='tool-descr'>
                                             <div class='row'>
                                                 <div class='col-md-4'>The preparatory year: $ 3500</div>
-                                                <div class='col-md-8'>The complete pack includes: study, accommodation, stay,
-                                                    medical insurance ...</div>
+                                                <div class='col-md-8'>The complete pack includes: study, accommodation, stay, medical insurance ...</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>The preparatory year: 2500 $</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Accommodation fee: $ 500 (per year);</div>
@@ -3659,14 +3667,15 @@
                                     <div class='tool-txt'>
                                         <div class='tool-descr'>
                                             <div class='row'>
-                                                <div class='col-md-12'>L’année préparatoire: 3900 $</div>
-                                                <div class='col-md-8'>Le pack complet inclut: étude, hébergement,
-                                                    séjour, assurance médicale…</div>
+                                                <div class='col-md-4'>L’année préparatoire: 3900 $</div>
+                                                <div class='col-md-8'>Le pack complet inclut: étude, hébergement, séjour, assurance médicale…</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>L’année préparatoire: 3000 $</div>
                                             </div>
                                             <div class='row wrapper'>
                                                 <div class='row'>
-                                                    <div class='col-md-4'>Médecine générale /
-                                                        Dentaire/Pharmacie/Infirmier :</div>
+                                                    <div class='col-md-4'>Médecine générale / Dentaire/Pharmacie/Infirmier :</div>
                                                 </div>
                                                 <div class='row'>
                                                     <div class='col-md-4 col-45'>En russe: 1-6ème année:</div>
@@ -4081,9 +4090,10 @@
                                         <div class='tool-descr'>
                                             <div class='row'>
                                                 <div class='col-md-4'>L’année préparatoire: 3500 $</div>
-                                                <div class='col-md-8'>Le pack complet inclut: étude, hébergement,
-                                                    séjour,
-                                                    assurance médicale…</div>
+                                                <div class='col-md-8'>Le pack complet inclut: étude, hébergement, séjour, assurance médicale…</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>L'année préparatoire: 2500 $</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Frais d’hébergement: 500 $ (par ans);</div>
