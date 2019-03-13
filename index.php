@@ -60,7 +60,7 @@
                         <!-- <div class="col-md-12">
                         <img src="/images/headline/apply-now.png" alt="">
                         </div> -->
-                        <img src="/images/headline/apply-now<?php echo (($lang == 'ar') ? '-ar' : (($lang == 'en') ? '-en' : '')); ?>.png"
+                        <img src="/images/headline/apply-now<?php echo (($lang == 'ar') ? '-ar' : (($lang == 'en') ? '-en' : '-fr')); ?>.png"
                             alt="">
                     </div>
                 </a>
