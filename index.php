@@ -268,7 +268,7 @@ feature_txt($txt, "home");
                     <h2 class="section-title uppercase">
                         <?php echo (($lang == 'ar') ? 'ما هي الخطوات اللازمة للدراسة في أوكرانيا / روسيا ؟' 
     : (($lang == 'en') ? 'What steps are needed to study in Ukraine / Russia ?' 
-    : 'Quelles démarche sont nécessaire pour etudier en Ukraine/Russie ?')); ?>
+    : 'Quelles démarches sont nécessaire pour etudier en Ukraine/Russie ?')); ?>
                     </h2>
                 </div>
                 <div class="row steps">
