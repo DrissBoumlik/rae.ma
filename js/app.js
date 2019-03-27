@@ -97,6 +97,12 @@ jQuery(function ($) {
     });
     //#endregion
     
+    $('#message-container > i').on('click', function (){
+        $(this).parent().addClass('hidden');
+        console.log("hi");
+        
+    });
+    
     $('#sl-container').on('mouseenter', function (){
         $(this).find('.animated').removeClass('bounceOutDown').addClass('bounceInUp');
     })

@@ -36,7 +36,7 @@ feature_txt($txt, "home");
             </div>
         </div>
 
-        <hr class="section-title-line w-50">
+        <!-- <hr class="section-title-line w-50">
         <div class="section forum">
             <div>
                 <p>ALLIANCE ÉDUCATIVE viendra à la rencontre des étudiants marocains et non marocain par ses participations aux forums_Régionaux_Etudiant_2019 suivants : </p>
@@ -48,16 +48,15 @@ feature_txt($txt, "home");
                 <p>nous nous réjouissons si vous soyez venus si nombreux à cet important rendez-vous 😍😃, Merci !!!</p>
             </div>
         </div>
-        <hr class="section-title-line w-50">
+        <hr class="section-title-line w-50"> -->
         <div class="apply-now">
             <div class="">
                 <a href="/pages/apply?lang=<?php echo $lang;?>">
                     <div class="row">
                         <!-- <div class="col-md-12">
-    <img src="/images/headline/apply-now.png" alt="">
-    </div> -->
-                        <img src="/images/headline/apply-now<?php echo (($lang == 'ar') ? '-ar' : (($lang == 'en') ? '-en' : '-fr')); ?>.png"
-                            alt="">
+                        <img src="/images/headline/apply-now.png" alt="">
+                        </div> -->
+                        <img src="/images/headline/apply-now<?php echo (($lang == 'ar') ? '-ar' : (($lang == 'en') ? '-en' : '-fr')); ?>.png" alt="">
                     </div>
                 </a>
             </div>
