@@ -40,10 +40,10 @@
 			<h2><?php echo (($lang == 'ar') ? "لماذا هو مهم؟" : (($lang == 'en') ? "WHY IT'S IMPORTANT?" : "POURQUOI C'EST IMPORTANT?")); ?></h2>
 			<p><?php echo (($lang == 'ar') ? "شروط التعامل الرسمي في المطار هي الأولى:" : (($lang == 'en') ? "The terms of official handling at the airport are first:" : "Les modalités de prise en charge officielle à l’aéroport sont d’abord:")); ?></p>
 			<ul class="list-group">
-				<li class="list-group-item"><?php echo (($lang == 'ar') ? "أمنك" : (($lang == 'en') ? "your security;" : "votre sécurité ;")); ?></li>
-				<li class="list-group-item"><?php echo (($lang == 'ar') ? "ضمان 100٪ لنجاح معبرك عند الوصول إلى أوكرانيا ؛" : (($lang == 'en') ? "100% guarantee of the success of your crossing on arrival to Ukraine;" : "Garantie de 100% de la réussite de votre traversée à l'arrivée à l'Ukraine;")); ?></li>
-				<li class="list-group-item"><?php echo (($lang == 'ar') ? "نقل مريح إلى الجامعة التي تختارها ؛" : (($lang == 'en') ? "comfortable transfer to the university of your choice;" : "transfert confortable à l'université de votre choix;")); ?></li>
-				<li class="list-group-item"><?php echo (($lang == 'ar') ? "القبول والتنسيب السريع في نزل الجامعة." : (($lang == 'en') ? "admission and quick placement at the university hostel." : "admission et placement rapide à l'auberge de l'université.")); ?></li>
+				<li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "أمنك" : (($lang == 'en') ? "your security;" : "votre sécurité ;")); ?></li>
+				<li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "ضمان 100٪ لنجاح معبرك عند الوصول إلى أوكرانيا ؛" : (($lang == 'en') ? "100% guarantee of the success of your crossing on arrival to Ukraine;" : "Garantie de 100% de la réussite de votre traversée à l'arrivée à l'Ukraine;")); ?></li>
+				<li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "نقل مريح إلى الجامعة التي تختارها ؛" : (($lang == 'en') ? "comfortable transfer to the university of your choice;" : "transfert confortable à l'université de votre choix;")); ?></li>
+				<li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "القبول والتنسيب السريع في نزل الجامعة." : (($lang == 'en') ? "admission and quick placement at the university hostel." : "admission et placement rapide à l'auberge de l'université.")); ?></li>
 			</ul>
 			<p><?php echo (($lang == 'ar') ? "لا تتردد في الكتابة إلينا لمزيد من التفاصيل" : (($lang == 'en') ? "Do not hesitate to write to us for more details" : "N'hésitez pas à nous écrire pour plus de détails")); ?></p>
 			<p><?php echo (($lang == 'ar') ? "نتمنى لك رحلة ممتعة وآمنة للغاية!" : (($lang == 'en') ? "We wish you a very pleasant and safe flight!" : "Nous vous souhaitons un vol très agréable et sûr!")); ?></p>

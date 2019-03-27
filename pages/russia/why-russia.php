@@ -30,7 +30,7 @@
                 <div class="col-md-12">
                     <ul class="reason-items list-group">
                         <li class="list-group-item">Education de qualité avec un personnel enseignant composé à plus de 90% de professeurs et de candidats en sciences;</li>
-                        <li class="list-group-item">Medium of Instructions est l'anglais pendant toute la période d'étude;</li>
+                        <li class="list-group-item">La langue d'enseignement est l'anglais pendant toute la période d'étude;</li>
                         <li class="list-group-item">Processus d'admission facile;</li>
                         <li class="list-group-item">Aucun examen d'entrée;</li>
                         <li class="list-group-item">Accès aux laboratoires, centres techniques et de recherche les plus modernes</li>
@@ -40,7 +40,7 @@
                         <li class="list-group-item">Acceptation mondiale de la méthode d'enseignement et d'apprentissage du russe;</li>
                         <li class="list-group-item">Des manuels et du matériel d'étude sont fournis aux étudiants gratuitement;</li>
                         <li class="list-group-item">Cours pratiques d'hôpital à partir de la 2e année;</li>
-                        <li class="list-group-item">Coaching de nos étudiants pour les préparer aux examens de licence nationaux et internationaux à partir de la 3ème année (MCI, USMLE, etc.);</li>
+                        <li class="list-group-item">Formation de nos étudiants pour les préparer aux examens de licence nationaux et internationaux à partir de la 3ème année (MCI, USMLE, etc.);</li>
                         <li class="list-group-item">Stage dans les plus grands hôpitaux de Russie;</li>
                         <li class="list-group-item">Accent mis sur l'aspect pratique de l'enseignement</li>
                         <li class="list-group-item">L'un des meilleurs systèmes de transport au monde;</li>

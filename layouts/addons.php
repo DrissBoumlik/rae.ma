@@ -2,7 +2,7 @@
 <div class="sl-container" id="sl-container">
     <!-- <div class="arrow hidden"></div> -->
     <ul class="list-group">
-        <li class="list-group-item"><a href="https://api.whatsapp.com/send?phone=212700175747" target="_blank">
+        <li class="list-group-item"><a href="https://api.whatsapp.com/send?phone=212662187074" target="_blank">
             <img src="/images/social/Whatsapp.png" alt="">
         </a></li>
         <li class="list-group-item"><a href="https://facebook.com/messages" target="_blank">
@@ -29,12 +29,12 @@
     <div class="container">
         <div class="message-body">
             <div class="row">
-                <div class="col-sm-12">
-                    <p>ALLIANCE ÉDUCATIVE annonce  ses participations aux forums de l'Etudiant 2019.<br>Horaire : de 9h30 à 19h<br>
-                    Fés (Marriott Hôtel Jnan Palace): jeudi 21 au samedi 23 Mars<br>
-                    Tanger ( Centre Culturel Ahmed boukmakh ): jeudi 28 au samedi 30 Mars<br>
-                    Casablanca( à la Foire Internationale de Casablanca ) : Jeudi 18 au Dimanche<br>
-                    nous nous réjouissons si vous soyez venus si nombreux à cet important rendez-vous 😍😃,</p>
+                <div class="col-sm-8 col-md-offset-2">
+                    <p>ALLIANCE ÉDUCATIVE annonce  ses participations aux forums de l'Etudiant 2019. | Horaire : de 9h30 à 19h<br>
+                    <!-- - <span class="_bounce_2 bg-light bold">Fés</span> (Marriott Hôtel Jnan Palace): jeudi 21 au samedi 23 Mars<br> -->
+                    - <span class="_bounce_reverse_2 bg-light bold">Tanger</span> ( Centre Culturel Ahmed boukmakh ): jeudi 28 au samedi 30 Mars<br>
+                    - <span class="_bounce_2 bg-light bold">Casablanca</span>( à la Foire Internationale de Casablanca ) : Jeudi 18 au Dimanche 21 Avril<br>
+                    nous nous réjouissons si vous soyez venus si nombreux à cet important rendez-vous 😍😃.</p>
                 </div>
                 <!-- <div class="col-sm-2"><i class="far fa-smile-beam"></i></div> -->
             </div>
