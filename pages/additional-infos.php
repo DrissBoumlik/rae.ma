@@ -66,11 +66,11 @@
         <h2 class="section-title"><?php echo (($lang == 'ar') ? "ماذا يمكن أن آخذ معي؟" : (($lang == 'en') ? "What can I take with me?" : "Qu’est ce que je peux prendre avec moi?")); ?></h2>
         
         <ul class="list-group">
-            <li class="list-group-item"><?php echo (($lang == 'ar') ? "حقائب اليد (عادة 8 كجم)" : (($lang == 'en') ? "Hand luggage (normally 8 kg):" : "Bagage à main (normalement 8 kg):")); ?></li>
-            <li class="list-group-item"><?php echo (($lang == 'ar') ? "جواز سفر" : (($lang == 'en') ? "passport" : "passeport")); ?></li>
-            <li class="list-group-item"><?php echo (($lang == 'ar') ? "المغلف مع جميع الوثائق" : (($lang == 'en') ? "envelope with all documents" : "enveloppe avec tous les documents")); ?></li>
-            <li class="list-group-item"><?php echo (($lang == 'ar') ? "كمبيوتر محمول / هاتف / لوحي" : (($lang == 'en') ? "laptop / phone / tablet" : "ordinateur portable/téléphone/tablette")); ?></li>
-            <li class="list-group-item"><?php echo (($lang == 'ar') ? "نقداً ، حوالي 500 دولار أمريكي أو يورو" : (($lang == 'en') ? "cash, about 500 USD or Euro" : "argent liquide, environ 500 USD ou Euro")); ?></li>
+            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "حقائب اليد (عادة 8 كجم)" : (($lang == 'en') ? "Hand luggage (normally 8 kg):" : "Bagage à main (normalement 8 kg):")); ?></li>
+            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "جواز سفر" : (($lang == 'en') ? "passport" : "passeport")); ?></li>
+            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "المغلف مع جميع الوثائق" : (($lang == 'en') ? "envelope with all documents" : "enveloppe avec tous les documents")); ?></li>
+            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "كمبيوتر محمول / هاتف / لوحي" : (($lang == 'en') ? "laptop / phone / tablet" : "ordinateur portable/téléphone/tablette")); ?></li>
+            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "نقداً ، حوالي 500 دولار أمريكي أو يورو" : (($lang == 'en') ? "cash, about 500 USD or Euro" : "argent liquide, environ 500 USD ou Euro")); ?></li>
         </ul>
         <p><?php echo (($lang == 'ar') ? "بالنسبة للأمتعة ، عادة ما تكون الرحلات المحلية والدولية 23 كيلو. من الأفضل أن تخبر الشركة عن كمية الأمتعة التي يمكنك الحصول عليها" : (($lang == 'en') ? "For luggage, normally it is 23 kilo domestic and international flights. It is better to tell the airline how much luggage you can take." : "Pour bagage, normalement c’est 23 kilo les vols intérieurs et internationaux. Il vaut mieux préciser auprès de la compagnie aérienne combien de bagage maximum vous pouvez prendre.")); ?></p>
     </div>
@@ -158,10 +158,10 @@
 <div class="section universities">
     <div class="row">
         <hr class="section-title-line">
-        <h2 class="section-title"><?php echo (($lang == 'ar') ? "الإقامة في أوكرانيا وروسيا" : (($lang == 'en') ? "Accommodation in Ukraine and Russia" : "Hébergement en Ukraine et en Russie ")); ?></h2>
+        <h2 class="section-title"><?php echo (($lang == 'ar') ? "الإقامة في أوكرانيا وروسيا." : (($lang == 'en') ? "Accommodation in Ukraine and Russia." : "Hébergement en Ukraine et en Russie.")); ?></h2>
     </div>
     <div class="row">
-        <p><?php echo (($lang == 'ar') ? "هي أرخص وفقا لدول أوروبية أخرى ، الأسعار تختلف وفقا لأولوياتك الخاصة ، الأمر متروك تماما لاختيارك والمطالبة بما تحبه وما يجعلك مرتاحا. عادة ، نوصي بالعيش في بيت الشباب للطلاب الجدد." : (($lang == 'en') ? "are cheaper according to other European states, prices vary according to your own priorities, it is totally up to your choice and demand what you like and what makes you comfortable. Normally, we recommend living in the hostel for new students to come." : "sont moins cher selon les autres États européens, les prix varient en fonction de vos propres priorités, il est totalement à votre choix et la demande ce que vous aimez et ce qui vous rend le confort. Normalement, nous recommandons de vivre dans l’auberge pour les nouveaux étudiants à venir.")); ?></p>
+        <p><?php echo (($lang == 'ar') ? "الإقامة في أوكرانيا وروسيا هي أرخص وفقا لدول أوروبية أخرى ، الأسعار تختلف وفقا لأولوياتك الخاصة ، الأمر متروك تماما لاختيارك والمطالبة بما تحبه وما يجعلك مرتاحا. عادة ، نوصي بالعيش في بيت الشباب للطلاب الجدد." : (($lang == 'en') ? "Accommodation in Ukraine and Russia are cheaper according to other European states, prices vary according to your own priorities, it is totally up to your choice and demand what you like and what makes you comfortable. Normally, we recommend living in the hostel for new students to come." : "Hébergement en Ukraine et en Russie sont moins cher selon les autres États européens, les prix varient en fonction de vos propres priorités, il est totalement à votre choix et la demande ce que vous aimez et ce qui vous rend le confort. Normalement, nous recommandons de vivre dans l’auberge pour les nouveaux étudiants à venir.")); ?></p>
         <p><?php echo (($lang == 'ar') ? "لأن" : (($lang == 'en') ? "Because;" : "Parce que;")); ?></p>
         <p><?php echo (($lang == 'ar') ? "انهم لا يعرفون لغة التواصل مع السكان" : (($lang == 'en') ? "They do not know the language of communication with the inhabitants" : "Ils ne savent pas la langue de communication avec les habitants")); ?></p>
         <p><?php echo (($lang == 'ar') ? "انهم لا يعرفون جذور الحافلة في المدينة خارج حرم الجامعة" : (($lang == 'en') ? "They do not know the city's bus roots outside the university campus" : "Ils ne savent pas les racines de bus de la ville à l’extérieur du campus universitaire")); ?></p>

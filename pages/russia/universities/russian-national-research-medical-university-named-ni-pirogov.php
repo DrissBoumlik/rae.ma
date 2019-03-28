@@ -2,7 +2,7 @@
 <?php 
     $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    $title = get_lang_text("جامعة روسيا الوطنية للبحوث الطبية ، مدينة موسكو","Russia National University of Medical Research, Moscow City","Le Russie Université Nationale de la Recherche Médicale, ville Moscou");
+    $title = get_lang_text("جامعة روسيا الوطنية للبحوث الطبية ، مدينة موسكو","Russia National University of Medical Research, Moscow City","l’Université nationale russe médicale de la recherche N.I.Pirogov, ville Moscou");
     title_page($title);
 ?>
 
@@ -14,10 +14,10 @@
 
 <div class="post">
     <div class="post-header"><div class="col-sm-12 col-md-12">
-        <h2 class=""><?php echo (($lang == 'ar') ? "جامعة روسيا الوطنية للبحوث الطبية ، مدينة موسكو" : (($lang == 'en') ? "Russia National University of Medical Research, Moscow City" : "Le Russie Université Nationale de la Recherche Médicale, ville Moscou")); ?></h2>
+        <h2 class=""><?php echo (($lang == 'ar') ? "جامعة روسيا الوطنية للبحوث الطبية ، مدينة موسكو" : (($lang == 'en') ? "Russia National University of Medical Research, Moscow City" : "l’Université nationale russe médicale de la recherche N.I.Pirogov, ville Moscou")); ?></h2>
     </div></div>
     <div class="post-img"><img src="/images/universities/russia/95.jpg" alt=""></div>
-    <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p>جامعة روسية الوطنية للبحوث الطبية سميت NI Pirogov أو المعروفة سابقا باسم الجامعة الطبية الحكومية الروسية (RSMU) هو معهد تعليمي يقع في موسكو ، روسيا. sوهو معتمد بالكامل ومعترف به من قبل وزارة التعليم والعلوم في روسيا وهو يخضع حاليًا لسلطة وزارة الصحة والتنمية الاجتماعية في الاتحاد الروسي. sباعتبارها واحدة من أكبر المؤسسات الطبية في روسيا وأوروبا ، يوجد حالياً أكثر من 9200 شخص في ما يقرب من 115 قسمًا أكاديميًا مختلفًا في هذه الجامعة.</p>
+    <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p>جامعة روسية الوطنية للبحوث الطبية سميت N.I. Pirogov أو المعروفة سابقا باسم الجامعة الطبية الحكومية الروسية (RSMU) هو معهد تعليمي يقع في موسكو ، روسيا. sوهو معتمد بالكامل ومعترف به من قبل وزارة التعليم والعلوم في روسيا وهو يخضع حاليًا لسلطة وزارة الصحة والتنمية الاجتماعية في الاتحاد الروسي. sباعتبارها واحدة من أكبر المؤسسات الطبية في روسيا وأوروبا ، يوجد حالياً أكثر من 9200 شخص في ما يقرب من 115 قسمًا أكاديميًا مختلفًا في هذه الجامعة.</p>
 <p>أكثر من 2000 أساتذة يعملون في 115 قسم يقدمون محاضرات وندوات وجلسات مخبرية عملية في العلوم في أكثر من 250 دورة. sتمتلك الجامعة شبكة من أكبر المستشفيات السريرية في موسكو والتي تخدم مئات الآلاف من الأشخاص الذين يعانون من أمراض مختلفة. sترتبط وحدة RSMU ارتباطًا وثيقًا بالرعاية الصحية العملية. sتمتلك الجامعة قواعدها في 38 مستشفى مدينة كبرى ، وبعض المستوصفات ومنازل الأمومة ، ومن بينها مستشفى الأطفال الجمهوري السريري المجهز بالمرافق الطبية الحديثة ومركز الكمبيوتر. sفي هذه المستشفيات ، يمتلك الأطباء المستقبليون ممارستهم السريرية تحت إشراف المعلمين ذوي الخبرة.&nbsp;</p>
 <p>سيكون لديك فرصة فريدة للحصول على أيدي على معرفة كيفية تشخيص المرضى الحقيقيين ، وعلاجها وتشغيلها وكيفية تعافيها. sالمشاركة النشطة في تصميم وتنفيذ استراتيجيات العلاج للمرضى الحقيقيين في العيادات تحت إشراف كبار الأساتذة هي واحدة من مزايانا التنافسية المميزة.</p>
 <p>&nbsp;</p>
@@ -55,7 +55,7 @@
 <p><strong>كلية الطب (THERAPEUTIC)</strong></p>
 <p>تأسست الكلية العلاجية (الطبية) في عام 1906. كانت&nbsp; <strong>أول</strong> &nbsp;مؤسسة تعليمية طبية <strong>sروسية</strong>s للنساء. sعلى مدار فترة وجوده ، كان هناك أكثر من 30000 من المعالجين المدربين.</p>
 <p>حاليا ، لا تزال هيئة التدريس العلاجية أكبر كلية جامعية - 4630 طالب جامعي متخصصون في «العلاج السريري». sكما هو الحال في السنوات السابقة ، ترتبط إدارات هيئة التدريس ارتباطًا وثيقًا بمؤسسات موسكو للعلاج الصحي من الناحية العملية ، مثل: المستشفيات السريرية الكبيرة التابعة للدولة ، ومستشفيات الولادة ، والعيادات الخارجية والعيادات التي تشكل الأساس السريري.</p>
-<p>الجامعة الوطنية للبحوث الطبية الروسية المسمى بعد NI بيروغوف تدرب الأطباء المؤهلين تأهيلا عاليا في مجالات رئيسية من النشاط الطبي: المعالجين والجراحين وغيرهم. sتتكون الكلية من أربعين قسمًا تزود خريجينا بمستوى عالٍ في النظريات العامة والتدريب الطبي السريري والطبي.</p>
+<p>الجامعة الوطنية للبحوث الطبية الروسية المسمى بعد N.I. بيروغوف تدرب الأطباء المؤهلين تأهيلا عاليا في مجالات رئيسية من النشاط الطبي: المعالجين والجراحين وغيرهم. sتتكون الكلية من أربعين قسمًا تزود خريجينا بمستوى عالٍ في النظريات العامة والتدريب الطبي السريري والطبي.</p>
 <p>&nbsp;</p>
 <p><strong>كلية طب الأطفال</strong></p>
 <p>في عام 1930 ، افتتحت كلية فريدريش للأدوية (RNRMU) (وهي كلية طب الأطفال الآن) الكلية الفريدة في العالم ولأميرنا ، وهي كلية للرضاعة والأطفال.</p>
@@ -64,7 +64,7 @@
 <p>على مدى فترة وجود هيئة التدريس في طب الأطفال كان هناك 75 بدوام كامل و 37 دورة مسائية للدراسة ، تم تدريب أكثر من 25000 طبيب أطفال.</p>
 <p>&nbsp;</p>
 <p><strong>كلية طب الأسنان</strong></p>
-<p>الجامعة الوطنية للبحوث الطبية الروسية سميت NI Pirogov افتتحت مسار الدراسات في كلية طب الأسنان في عام 2008. تقدم الجامعة الوطنية الروسية للبحوث الطبية التي تحمل اسم NI Pirogov تعليمًا عالي الجودة للطلاب الأجانب في مجال طب الأسنان مع متخصصين مؤهلين على التخصصات والمعدات الحديثة اللازمة للإجراءات التربوية ، وتوسيع مكتبة الأوراق المالية.</p>
+<p>الجامعة الوطنية للبحوث الطبية الروسية سميت N.I. Pirogov افتتحت مسار الدراسات في كلية طب الأسنان في عام 2008. تقدم الجامعة الوطنية الروسية للبحوث الطبية التي تحمل اسم N.I. Pirogov تعليمًا عالي الجودة للطلاب الأجانب في مجال طب الأسنان مع متخصصين مؤهلين على التخصصات والمعدات الحديثة اللازمة للإجراءات التربوية ، وتوسيع مكتبة الأوراق المالية.</p>
 <p>&nbsp;</p>
 <p><strong>المجمع السريري. </strong>بعد التخرج من الجامعة والحصول على درجة التعليم العالي يمكن أن يتحقق الطلاب في الإقامة السريرية (سنتين من التدريب) على التخصصات التالية:</p>
 <ul>
@@ -201,7 +201,7 @@
     <li>الطب النفسي</li>
     <li>العملية الجراحية</li>
 </ul>
-<p>سوف توفر لك الجامعة الوطنية الروسية للبحث الطبي التي تحمل اسم NI Pirogov ظروف مثالية للدراسة الفعالة في جامعتنا. sهناك صالة نوم مشتركة مريحة للطلاب ، ومركز رياضي رائع ، ومكتبة ، والتي توفر الوصول إلى المواد الدراسية والإنترنت الزائد ، حيث يمكنك الحصول على جميع المعلومات الطبية اللازمة على الإنترنت. sالجامعة الوطنية للبحوث الطبية الروسية سميت NI Pirogov لديها أيضا معسكر ترفيه لطيف جدا يقع على نهر الفولغا حيث يمكنك قضاء عطلات رائعة في الشتاء والصيف.</p>" : (($lang == 'en') ? "<p></p><p>Russian National Research Medical University named after N.I. Pirogov or formerly known as Russian State Medical University (RSMU) is an educational institute located in Moscow, Russia. It is fully accredited and recognized by the Ministry of Education and Science of Russia and is currently under the authority of the Ministry of Health and Social Development of the Russian Federation. As one of the largest medical institution in Russia and Europe, currently more than 9200 people are enrolling in almost 115 different academic departments in this university.</p>
+<p>سوف توفر لك الجامعة الوطنية الروسية للبحث الطبي التي تحمل اسم N.I. Pirogov ظروف مثالية للدراسة الفعالة في جامعتنا. sهناك صالة نوم مشتركة مريحة للطلاب ، ومركز رياضي رائع ، ومكتبة ، والتي توفر الوصول إلى المواد الدراسية والإنترنت الزائد ، حيث يمكنك الحصول على جميع المعلومات الطبية اللازمة على الإنترنت. sالجامعة الوطنية للبحوث الطبية الروسية سميت N.I. Pirogov لديها أيضا معسكر ترفيه لطيف جدا يقع على نهر الفولغا حيث يمكنك قضاء عطلات رائعة في الشتاء والصيف.</p>" : (($lang == 'en') ? "<p></p><p>Russian National Research Medical University named after N.I. Pirogov or formerly known as Russian State Medical University (RSMU) is an educational institute located in Moscow, Russia. It is fully accredited and recognized by the Ministry of Education and Science of Russia and is currently under the authority of the Ministry of Health and Social Development of the Russian Federation. As one of the largest medical institution in Russia and Europe, currently more than 9200 people are enrolling in almost 115 different academic departments in this university.</p>
 <p>More than 2000 professors are working in 115 departments offer lectures, seminars and practical laboratory sessions in the sciences in more than 250 courses. University has аn established network of the biggest Moscow state clinical hospitals which service hundreds of thousands people with various pathologies. The RSMU is closely connected with practical health care. The University has its bases in 38 largest city hospitals, some dispensaries and maternity homes, among which is the Republican Children’s Clinical Hospital equipped with the modern medical facilities and a computer centre. In these hospitals the future doctors have their clinical practice under the supervision of experienced teachers.&nbsp;</p>
 <p>You will have а unique opportunity to acquire hands оn knowledge of how real patients are diagnosed, treated, operated and how they recover. Active participation in design and carrying out of therapy strategies for real patients at clinics under guidance of senior professors is оnе of our distinctive competitive advantages.</p>
 <p>&nbsp;</p>
@@ -385,11 +385,11 @@
     <li>Psychiatry</li>
     <li>urgery</li>
 </ul>
-<p>Russian National Research Medical University named after N.I. Pirogov will provide you with optimal conditions for efficient studying at our University. There is а comfortable dormitory for our students, wonderful sport center, library, which provides access to study materials and Internet excess, where you саn get all the needed medical information on-line. Russian National Research Medical University named after N.I. Pirogov also has а very nice recreation camp located оn the Volga where you can spend wonderful holidays in the winter and the summer.</p>" : "<p></p><p>L’Université de médecine nationale russe, nommée en référence à NI Pirogov ou anciennement Université de médecine d’État russe (RSMU), est un établissement d’enseignement situé à Moscou, en Russie. >Il est entièrement accrédité et reconnu par le ministère de l'Éducation et des Sciences de Russie et relève actuellement du ministère de la Santé et du Développement social de la Fédération de Russie. >En tant que l'une des plus grandes institutions médicales en Russie et en Europe, plus de 9200 personnes s'inscrivent actuellement dans près de 115 départements universitaires différents de cette université.</p>
-<p>Plus de 2000 professeurs travaillant dans 115 départements proposent des conférences, des séminaires et des travaux pratiques en laboratoire sur les sciences dans plus de 250 cours. >L'université dispose d'un réseau établi des plus grands hôpitaux cliniques de l'état de Moscou, qui desservent des centaines de milliers de personnes atteintes de diverses pathologies. >La RSMU est étroitement liée aux soins de santé pratiques. >L'Université est implantée dans 38 des plus grands hôpitaux de la ville, des dispensaires et des maternités, parmi lesquels l'hôpital républicain pour enfants, doté d'installations médicales modernes et d'un centre informatique. >Dans ces hôpitaux, la pratique clinique des futurs médecins est supervisée par des enseignants expérimentés.&nbsp;</p>
-<p>Vous aurez une occasion unique d’acquérir des connaissances sur la façon dont les patients sont diagnostiqués, traités, opérés et comment ils se rétablissent. >La participation active à la conception et à la mise en œuvre de stratégies thérapeutiques pour de vrais patients dans des cliniques sous la direction de professeurs expérimentés est l’un de nos avantages concurrentiels distinctifs.</p>
+<p>Russian National Research Medical University named after N.I. Pirogov will provide you with optimal conditions for efficient studying at our University. There is а comfortable dormitory for our students, wonderful sport center, library, which provides access to study materials and Internet excess, where you саn get all the needed medical information on-line. Russian National Research Medical University named after N.I. Pirogov also has а very nice recreation camp located оn the Volga where you can spend wonderful holidays in the winter and the summer.</p>" : "<p></p><p>L’Université de médecine nationale russe, nommée en référence à N.I. Pirogov ou anciennement Université de médecine d’État russe (RSMU), est un établissement d’enseignement situé à Moscou, en Russie. Il est entièrement accrédité et reconnu par le ministère de l'Éducation et des Sciences de Russie et relève actuellement du ministère de la Santé et du Développement social de la Fédération de Russie. En tant que l'une des plus grandes institutions médicales en Russie et en Europe, plus de 9200 personnes s'inscrivent actuellement dans près de 115 départements universitaires différents de cette université.</p>
+<p>Plus de 2000 professeurs travaillant dans 115 départements proposent des conférences, des séminaires et des travaux pratiques en laboratoire sur les sciences dans plus de 250 cours. L'université dispose d'un réseau établi des plus grands hôpitaux cliniques de l'état de Moscou, qui desservent des centaines de milliers de personnes atteintes de diverses pathologies. La RSMU est étroitement liée aux soins de santé pratiques. L'Université est implantée dans 38 des plus grands hôpitaux de la ville, des dispensaires et des maternités, parmi lesquels l'hôpital républicain pour enfants, doté d'installations médicales modernes et d'un centre informatique. Dans ces hôpitaux, la pratique clinique des futurs médecins est supervisée par des enseignants expérimentés.&nbsp;</p>
+<p>Vous aurez une occasion unique d’acquérir des connaissances sur la façon dont les patients sont diagnostiqués, traités, opérés et comment ils se rétablissent. La participation active à la conception et à la mise en œuvre de stratégies thérapeutiques pour de vrais patients dans des cliniques sous la direction de professeurs expérimentés est l’un de nos avantages concurrentiels distinctifs.</p>
 <p>&nbsp;</p>
-<table>
+<table class='table bordered'>
     <tbody>
         <tr>
             <td><strong>Programme éducatif</strong></td>
@@ -398,41 +398,41 @@
         </tr>
         <tr>
             <td>Médecine générale</td>
-            <td>Une maîtrise</td>
+            <td>Master</td>
             <td>6 ans</td>
         </tr>
         <tr>
             <td>Pédiatrie</td>
-            <td>Une maîtrise</td>
+            <td>Master</td>
             <td>6 ans</td>
         </tr>
         <tr>
             <td>Dentisterie</td>
-            <td>Une maîtrise</td>
+            <td>Master</td>
             <td>5 années</td>
         </tr>
         <tr>
             <td>Pharmacie</td>
-            <td>Une maîtrise</td>
+            <td>Master</td>
             <td>5 années</td>
         </tr>
     </tbody>
 </table>
-<p>Selon les règles d'admission des citoyens étrangers au RSMU, l'admission en première année est réalisée sur la base du certificat de fin d'études secondaires. >La légalisation des documents (la preuve de leur authenticité) et leur correspondance aux normes éducatives russes sont nécessaires lors de la soumission des documents pour admission.</p>
+<p>Selon les règles d'admission des citoyens étrangers au RSMU, l'admission en première année est réalisée sur la base du certificat de fin d'études secondaires.La légalisation des documents (la preuve de leur authenticité) et leur correspondance aux normes éducatives russes sont nécessaires lors de la soumission des documents pour admission.</p>
 <p>&nbsp;</p>
 <p><strong>FACULTE MEDICALE (THERAPEUTIQUE)</strong></p>
-<p>La faculté thérapeutique (médecine) a été fondée en 1906. Il s'agissait du&nbsp; <strong>premier</strong> &nbsp;établissement d'enseignement médical supérieur pour femmes en <strong>>Russie</strong>> . >Au cours de sa période d'existence, plus de 30000 thérapeutes ont été formés.</p>
-<p>Actuellement, la faculté de thérapie reste la plus grande faculté universitaire - 4630 étudiants universitaires sont spécialisés en «thérapie clinique». >Comme les années précédentes, les facultés sont étroitement liées aux institutions moscovites de traitement médical, telles que les grands hôpitaux cliniques d’État, les maternités, les établissements de soins ambulatoires et polycliniques qui constituent la base clinique.</p>
-<p>L'université médicale nationale de recherche russe nommée d'après NI Pirogov forme des médecins hautement qualifiés dans les principaux domaines de l'activité médicale: thérapeutes, chirurgiens et autres. >La faculté comprend 40 départements qui fournissent à nos diplômés un niveau élevé de théories générales, de formation médico-biologique et clinique.</p>
+<p>La faculté thérapeutique (médecine) a été fondée en 1906. Il s'agissait du&nbsp; <strong>premier</strong> &nbsp;établissement d'enseignement médical supérieur pour femmes en <strong>Russie</strong> .Au cours de sa période d'existence, plus de 30000 thérapeutes ont été formés.</p>
+<p>Actuellement, la faculté de thérapie reste la plus grande faculté universitaire - 4630 étudiants universitaires sont spécialisés en «thérapie clinique».Comme les années précédentes, les facultés sont étroitement liées aux institutions moscovites de traitement médical, telles que les grands hôpitaux cliniques d’État, les maternités, les établissements de soins ambulatoires et polycliniques qui constituent la base clinique.</p>
+<p>L'université médicale nationale de recherche russe nommée d'après N.I. Pirogov forme des médecins hautement qualifiés dans les principaux domaines de l'activité médicale: thérapeutes, chirurgiens et autres. La faculté comprend 40 départements qui fournissent à nos diplômés un niveau élevé de théories générales, de formation médico-biologique et clinique.</p>
 <p>&nbsp;</p>
 <p><strong>FACULTÉ PÉDIATRIQUE</strong></p>
 <p>En 1930, la faculté de traitement de la maternité, de la maternité et du traitement des enfants, unique au monde et dans notre pays, a été créée à la RNRMU (aujourd'hui faculté de pédiatrie).</p>
-<p>Dès le jour de la formation du corps professoral, les futurs pédiatres ont été formés conformément aux règlements du lycée et aux exigences pratiques en matière de traitement médical. >Les départements de la faculté de pédiatrie sont étroitement liés aux services de santé de Moscou et possèdent un stock d'hôpitaux de plus de 10000 lits.</p>
-<p>22 académiciens et associés RAMS ainsi que 20 académiciens et associés d'autres académies, plus de 130 docteurs en sciences médicales dont 96 professeurs dont 53 à la tête des départements travaillent dans les départements et forment les étudiants de la faculté de pédiatrie. >Plus de 400 conférenciers ont des diplômes universitaires de candidat en sciences médicales, plus de 190 ont un diplôme de professeur agrégé.</p>
+<p>Dès le jour de la formation du corps professoral, les futurs pédiatres ont été formés conformément aux règlements du lycée et aux exigences pratiques en matière de traitement médical.Les départements de la faculté de pédiatrie sont étroitement liés aux services de santé de Moscou et possèdent un stock d'hôpitaux de plus de 10000 lits.</p>
+<p>22 académiciens et associés RAMS ainsi que 20 académiciens et associés d'autres académies, plus de 130 docteurs en sciences médicales dont 96 professeurs dont 53 à la tête des départements travaillent dans les départements et forment les étudiants de la faculté de pédiatrie.Plus de 400 conférenciers ont des diplômes universitaires de candidat en sciences médicales, plus de 190 ont un diplôme de professeur agrégé.</p>
 <p>Au cours de la période d'existence du corps professoral en pédiatrie, il y avait 75 cours à temps plein et 37 cours du soir, plus de 25 000 pédiatres ont été formés.</p>
 <p>&nbsp;</p>
 <p><strong>FACULTÉ DE DENTISTERIE</strong></p>
-<p>L’Université de médecine nationale russe nommée d'après NI Pirogov a ouvert le programme d’études à la faculté de dentisterie en 2008. L’Université de médecine nationale russe nommée d'après NI Pirogov dispense aux étudiants étrangers une formation de haute qualité dans le domaine de la dentisterie, ainsi que des spécialistes qualifiés. disciplines, équipement moderne nécessaire aux procédures pédagogiques, augmenter le stock de la bibliothèque.</p>
+<p>L’Université de médecine nationale russe nommée d'après N.I. Pirogov a ouvert le programme d’études à la faculté de dentisterie en 2008. L’Université de médecine nationale russe nommée d'après N.I. Pirogov dispense aux étudiants étrangers une formation de haute qualité dans le domaine de la dentisterie, ainsi que des spécialistes qualifiés. disciplines, équipement moderne nécessaire aux procédures pédagogiques, augmenter le stock de la bibliothèque.</p>
 <p>&nbsp;</p>
 <p><strong>RÉSIDENCE CLINIQUE. </strong>Après avoir obtenu son diplôme de l’Université et obtenu un diplôme d’enseignement supérieur, les étudiants peuvent obtenir une résidence en clinique (2 années de formation) dans les spécialités suivantes:</p>
 <ul>
@@ -569,7 +569,7 @@
     <li>Psychiatrie</li>
     <li>Chirurgie</li>
 </ul>
-<p>L’Université de médecine nationale russe nommée d'après NI Pirogov vous fournira les conditions optimales pour des études efficaces dans notre université. >Il existe un dortoir confortable pour nos étudiants, un magnifique centre sportif, une bibliothèque, qui permet d’accéder au matériel d’étude et aux excès Internet, où vous pouvez obtenir toutes les informations médicales nécessaires en ligne. >L’université de médecine nationale russe nommée d'après NI Pirogov possède également un très beau camp de loisirs situé sur la Volga, où vous pourrez passer de merveilleuses vacances en hiver et en été.</p>")); ?>
+<p>L’Université de médecine nationale russe nommée d'après N.I. Pirogov vous fournira les conditions optimales pour des études efficaces dans notre université. >Il existe un dortoir confortable pour nos étudiants, un magnifique centre sportif, une bibliothèque, qui permet d’accéder au matériel d’étude et aux excès Internet, où vous pouvez obtenir toutes les informations médicales nécessaires en ligne. >L’université de médecine nationale russe nommée d'après N.I. Pirogov possède également un très beau camp de loisirs situé sur la Volga, où vous pourrez passer de merveilleuses vacances en hiver et en été.</p>")); ?>
     </div>
 </div>
 

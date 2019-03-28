@@ -2,7 +2,7 @@
 <?php 
     $path = $_SERVER['DOCUMENT_ROOT'];
     include $path.'/layouts/header.php'  ;
-    $title = get_lang_text("الجامعة الطبية الوطنية OO Bogomolets من كييف","National Medical University OO Bogomolets of Kiev","Université médicale nationale OO Bogomolets de Kiev");;
+    $title = get_lang_text("الجامعة الطبية الوطنية O.O. Bogomolets من كييف","National Medical University O.O. Bogomolets of Kiev","Université médicale nationale O.O. Bogomolets de Kiev");;
     title_page($title);
 ?>
 
@@ -14,7 +14,7 @@
 
 <div class="post">
     <div class="post-header"><div class="col-sm-12 col-md-12">
-        <h2 class=""><?php echo (($lang == 'ar') ? "الجامعة الطبية الوطنية OO Bogomolets من كييف" : (($lang == 'en') ? "National Medical University OO Bogomolets of Kiev" : "Université médicale nationale OO Bogomolets de Kiev")); ?></h2>
+        <h2 class=""><?php echo (($lang == 'ar') ? "الجامعة الطبية الوطنية O.O. Bogomolets من كييف" : (($lang == 'en') ? "National Medical University O.O. Bogomolets of Kiev" : "Université médicale nationale O.O. Bogomolets de Kiev")); ?></h2>
     </div></div>
     <div class="post-img"><img src="/images/universities/ukraine/Bogomolets-National-Medical-University-770x447.jpg" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p>جامعة Bogomelets الطبية الوطنية كييف هي أقدم جامعة في أوكرانيا ، مع بيئة ثقافية عالمية وحياة طلابية رائعة. مع أكثر من 13000 طالب ، أطباء متدربين ، أساتذة ، خريجين وشخصيات تعمل للحصول على درجة الدكتوراه وحوالي 1300 طالب أجنبي كانت جامعة BNMU دائما واحدة من أكبر المعاهد التي تخدم في مجال الطب لأكثر من قرن من الزمان.</p>
@@ -35,17 +35,17 @@
 <p>1840</p>
 <p>صاحبة السمو الإمبراطور ميكولا لقد وقّعت على أعلى نصّ حول فتح كلية الطب في جامعة سانت فولوديمير.</p>
 <p>1841</p>
-<p>وافق مجلس جامعة سانت فولوديمير على قرار حول افتتاح كلية الطب الأولى في سبتمبر 1841. أول دخول - 29 طالبا. في 23 (9) ، سبتمبر ، قرأ الأستاذ مي كوزلوف المحاضرة الأولى عن التشريح ، وفي 26 (12) ، سبتمبر ، البروفيسور VO كارافاييف - المحاضرة الأولى عن الموسوعة ومنهجية الطب.</p>
+<p>وافق مجلس جامعة سانت فولوديمير على قرار حول افتتاح كلية الطب الأولى في سبتمبر 1841. أول دخول - 29 طالبا. في 23 (9) ، سبتمبر ، قرأ الأستاذ مي كوزلوف المحاضرة الأولى عن التشريح ، وفي 26 (12) ، سبتمبر ، البروفيسور V.O. كارافاييف - المحاضرة الأولى عن الموسوعة ومنهجية الطب.</p>
 <p>1921</p>
 <p>تمت إعادة تسمية معهد كييف للرعاية الصحية إلى أكاديمية كييف الحكومية الطبية ، والتي أصبحت فيما بعد مؤسسة كييف الطبية</p>
 <p>1946</p>
-<p>أعطيت معهد كييف الطبي مع اسم رئيس أكاديمية العلوم في UkrSSR OO Bogomolets.</p>
+<p>أعطيت معهد كييف الطبي مع اسم رئيس أكاديمية العلوم في UkrSSR O.O. Bogomolets.</p>
 <p>1965</p>
 <p>تم تنظيم المتحف التاريخي للطب على أساس المعهد (منذ عام 1982 - المتحف الوطني للطب في أوكرانيا).</p>
 <p>1992</p>
-<p>أعيد تنظيم المعهد في الجامعة الطبية الأوكرانية OO Bogomolets.</p>
+<p>أعيد تنظيم المعهد في الجامعة الطبية الأوكرانية O.O. Bogomolets.</p>
 <p>1995</p>
-<p>بموجب المرسوم الصادر من رئيس أوكرانيا ، حصلت الجامعة على مركز جامعة OO Bogomolets الوطنية الطبية.</p>
+<p>بموجب المرسوم الصادر من رئيس أوكرانيا ، حصلت الجامعة على مركز جامعة O.O. Bogomolets الوطنية الطبية.</p>
 <p>2003</p>
 <p>تم تأسيس رمزية الجامعة - الشارة ، النشيد والعلم - وأُقرت لأول مرة في تاريخ إنشاء <br>
     إعادة تنظيم مجمع طب الأسنان MHC في أوكرانيا في NMU إلى مركز طب الأسنان الطبي في <br>
@@ -61,15 +61,15 @@
         <p>2005</p>
         <p>إنشاء شبكة الجامعات الأوروبية الشرقية ، التي تضم 35 مدرسة عليا من 7 بلدان ، تحت إشراف الجامعة من أجل تكثيف التعاون الدولي ، الموجه نحو تحقيق مبادئ إعلان بولونيا.</p>
         <p>2006</p>
-        <p>احتفلت جامعة OO Bogomolets الطبية الوطنية بالذكرى 165 منذ تأسيسها ، <br>
-            عيد ميلاد 125 من الأكاديمية OO Bogomolets ، <br>
+        <p>احتفلت جامعة O.O. Bogomolets الطبية الوطنية بالذكرى 165 منذ تأسيسها ، <br>
+            عيد ميلاد 125 من الأكاديمية O.O. Bogomolets ، <br>
             الذكرى 125 منذ إنشاء المجتمع العلمي للطلاب OO Kysil ، <br>
-            عيد ميلاد 115 من الخريجين من مؤسسة MO Bulgakov. <br>
+            عيد ميلاد 115 من الخريجين من مؤسسة M.O. Bulgakov. <br>
             بدأ بناء المجمع الأكاديمي الحديث الحديث للجامعة مع المكتبة.</p>
             <p>2007</p>
             <p>وفقا لتصنيف الدولة من وزارة الرعاية الصحية في أوكرانيا - المركز الأول بين المدارس العليا من مستويات الاعتماد III-IV بسبب اتجاه الرعاية الصحية ؛ <br>
                 الميدالية الذهبية في المعرض الدولي 'التعليم الحديث في أوكرانيا' في ترشيح 'دمج العلم والتعليم في المدارس العليا' ؛ <br>
-                الوحيد في ولاية الكلية لتدريب الأطباء في مجال الثقافة البدنية والرياضة في جامعة OO Bogomolets الوطنية والجامعة الوطنية للتربية البدنية والرياضة في أوكرانيا ؛</p>
+                الوحيد في ولاية الكلية لتدريب الأطباء في مجال الثقافة البدنية والرياضة في جامعة O.O. Bogomolets الوطنية والجامعة الوطنية للتربية البدنية والرياضة في أوكرانيا ؛</p>
                 <p>2008</p>
                 <p>المركز الأول في التصنيف من وزارة الرعاية الصحية في أوكرانيا بين المدارس العليا من مستويات الاعتماد III-IV بسبب اتجاه 'الرعاية الصحية' ؛ <br>
                     المركز الثالث في تصنيف الدولة من وزارة الرعاية الصحية الأوكرانية 'TOP-200 أوكرانيا' <br>
@@ -81,16 +81,16 @@
                         <p>منحت الجامعة 4 ميدالية ذهبية في المعارض الدولية المتخصصة 'التعليم والمهنة' ، 'الدراسات المبتكرة في التعليم' من أجل 'تطوير أعمال البحث العلمي للطلاب' ، 'توجيه العمل بين الشباب' ، 'الدراسات المبتكرة في التعليم العالي' ، 'دراسات مبتكرة في المدرسة الشاملة' ، 'التعاون الدولي في مجال التعليم والعلوم' ؛ <br>
                             عقد الاجتماع الرسمي ، المكرسة لتخريج الأطباء والصيادلة ، في القصر الوطني للفنون 'أوكرانيا' بمشاركة رئيس وزراء أوكرانيا ، رئيس المجلس الإشرافي للجامعة ميكولا يانوفيتش أزاروف.<br>
                             تم انتخاب البروفيسور ف. ف. موسكالينكو ، نائب رئيس NAMS في أوكرانيا ، وأكاديمي NAMS والعضو المناظرة في NAPS في أوكرانيا ، والعامل الفخري في العلوم والتكنولوجيا في أوكرانيا ، والطبيب الفخري في أوكرانيا ، ورئيس قسم الطب الاجتماعي والرعاية الصحية ، منصب رئيس الجامعة بالإجماع للمرة الثانية من قبل مؤتمر ممثلي الجمعية العمالية للجامعة.<br>
-                            تم افتتاح قاعة المحاضرات الحديثة رقم 3 ، والتي سميت على اسم VF Voyno-Yasenetskyy ، والتي أصبحت الفائز في المسابقات الدولية بين دول رابطة الدول المستقلة 'جوائز التفويض لعام 2010'. زادت وحدة الأشخاص الذين يدرسون في الجامعة إلى 10 THS. اشخاص. تم إطلاق برنامج التدريب الخاص للأطباء على حساب إدارة الدولة الإقليمية في كييف لأول مرة بين كليات الطب العليا في أوكرانيا.</p>
+                            تم افتتاح قاعة المحاضرات الحديثة رقم 3 ، والتي سميت على اسم V.F. Voyno-Yasenetskyy ، والتي أصبحت الفائز في المسابقات الدولية بين دول رابطة الدول المستقلة 'جوائز التفويض لعام 2010'. زادت وحدة الأشخاص الذين يدرسون في الجامعة إلى 10 THS. اشخاص. تم إطلاق برنامج التدريب الخاص للأطباء على حساب إدارة الدولة الإقليمية في كييف لأول مرة بين كليات الطب العليا في أوكرانيا.</p>
                             <p>2011</p>
                             <p>هنأ رئيس أوكرانيا فيكتور فيدوروفيتش يانوكوفيتش ومتروبسك كييف وكافة أوكرانيا ، رئيسات الكنيسة الأرثوذكسية الأوكرانية VOLODYMYR الخريجين من الجامعة. <br>
-                                احتفلت جامعة OO Bogomolets الطبية الوطنية بالذكرى 170 لتأسيسها منذ تأسيسها ، عيد ميلاد 200 للأستاذ فولوديمير Opanasovych Karavayev ، عيد ميلاد 130 للأكاديمي Oleksander Oleksandrovych Bogomolets ، الذكرى 130 لتأسيس الجمعية العلمية لطلاب OA Kysil ، عيد ميلاد 120 لـ Mykhaylo Afanasiyovych Bulgakov ، الذكرى العشرون منذ التأسيس من lyceum الطبية الأوكرانية في OO Bogomolets NMU؛<br>
+                                احتفلت جامعة O.O. Bogomolets الطبية الوطنية بالذكرى 170 لتأسيسها منذ تأسيسها ، عيد ميلاد 200 للأستاذ فولوديمير Opanasovych Karavayev ، عيد ميلاد 130 للأكاديمي Oleksander Oleksandrovych Bogomolets ، الذكرى 130 لتأسيس الجمعية العلمية لطلاب O.A. Kysil ، عيد ميلاد 120 لـ Mykhaylo Afanasiyovych Bulgakov ، الذكرى العشرون منذ التأسيس من lyceum الطبية الأوكرانية في O.O. Bogomolets NMU؛<br>
                                 برنامج تدريب خاص بالمدينة من الأطباء لمؤسسات الرعاية الصحية في ج. نفذت كييف للفترة 2011-2017 لأول مرة بين المدارس العليا في أوكرانيا. <br>
                                 الميدالية الذهبية في المعرض الدولي للمؤسسات التعليمية 'التعليم الحديث في أوكرانيا' في ترشيح 'التطوير الروحي للشباب والتحسينات المادية' ؛ <br>
                                 المركز الأول في التصنيف من وزارة التعليم والعلوم والشباب والرياضة في أوكرانيا بين المدارس العليا من مستويات الاعتماد III-IV في ترشيح 'الرعاية الصحية' ؛ <br>
                                 المركز الرابع في تصنيف الولاية بين المدارس العليا ضمن مشروع اليونسكو 'TOP-200 أوكرانيا' ؛<br>
                                 وضعت خطة معقدة المنظور لتطوير الجامعة للفترة 2011-2017 والتي وافق عليها المجلس العلمي <br>
-                                لوحات تذكارية تكريما لأول عميد كلية الطب في جامعة سانت فولوديمير ، والبروفيسور VO كارافاييف ، الخريجين الشهيرة VF Voyno-Yasenetskyy (سانت لوكا أقيمت الكاتبة والكاتبة والكاتب MA Bulgakov في المباني الإدارية والمورفولوجية للجامعة ؛ <br>
+                                لوحات تذكارية تكريما لأول عميد كلية الطب في جامعة سانت فولوديمير ، والبروفيسور V.O. كارافاييف ، الخريجين الشهيرة V.F. Voyno-Yasenetskyy (سانت لوكا أقيمت الكاتبة والكاتبة والكاتب MA Bulgakov في المباني الإدارية والمورفولوجية للجامعة ؛ <br>
                                 حصل خريجو الجامعة على شهادة الدبلوم الدولي 'ملحق دبلوم' لأول مرة.<br>
                                 تم الاعتراف بالجامعة كقائد للتعليم الحديث -2011 ، منحت الجائزة الكبرى والميدالية الذهبية في المعرض الدولي 'المؤسسات التعليمية الحديثة' ؛ <br>
                                 انضمت الجامعة إلى جمعية الميثاق العظيم لجامعات رائدة في العالم (Magna Charta Universitatum)، c. بولونيا ، إيطاليا.</p>
@@ -118,13 +118,13 @@
                                     <li>تم البدء في بناء المبنى الأسترالي الجديد الذي يضم ستة وعشرين طابقا وبيت ضيافة النخبة في عام 2006 ؛</li>
                                     <li>22 مجموعة من مواهب الهواة ، من بينها 5 تتمتع بوضع الأشخاص الشعبيين ؛ 9 نوادي رياضية</li>
                                     <li>الرياضيون المشهورون ، أبطال أوروبا والعالم ، الفائزون في جميع الألعاب الأولمبية والأوكرانية الدولية ومسابقات الدراسة في الجامعة ؛</li>
-                                    <li>إن الحكم الذاتي للطلاب ومجتمع الطلاب العلمي ، الذي سمي على اسم OA Kysil ، يعمل بكفاءة على جميع المستويات ؛</li>
+                                    <li>إن الحكم الذاتي للطلاب ومجتمع الطلاب العلمي ، الذي سمي على اسم O.A. Kysil ، يعمل بكفاءة على جميع المستويات ؛</li>
                                     <li>وفقا لتصنيف الدولة من وزارة التعليم وعلم أوكرانيا ، تأخذ الجامعة المركز الأول بين كليات الطب العليا من مستويات الاعتماد III-IV والمركز الرابع بين المدارس العليا في أوكرانيا.</li>
                                     <li>اللقب الفخري 'الحائز على الجائزة في الترشيحات' دمج التعليم في أوكرانيا في المجتمع الأوروبي 'و' الابتكارات في تنفيذ تكنولوجيات الاتصال المعلوماتي في الممارسة التعليمية '.</li>
                                     <li>تُمنح الجامعة بالميداليات الذهبية في المعارض الدولية للمؤسسات التعليمية 'التعليم الحديث في أوكرانيا' في ترشيحات مختلفة لسنوات عديدة متتالية.</li>
-                                    <li>تم افتتاح قاعة المحاضرات الحديثة الجديدة رقم 3 ، والتي سميت باسم VF Voyno-Yasenetsky ، والتي منحت الجامعة من خلالها دبلوم الجائزة الوطنية 'جوائز التفويض لعام 2010' في ترشيح 'أفضل حل للقطاع التعليمي' ؛</li>
+                                    <li>تم افتتاح قاعة المحاضرات الحديثة الجديدة رقم 3 ، والتي سميت باسم V.F. Voyno-Yasenetsky ، والتي منحت الجامعة من خلالها دبلوم الجائزة الوطنية 'جوائز التفويض لعام 2010' في ترشيح 'أفضل حل للقطاع التعليمي' ؛</li>
                                     <li>لأول مرة شاركت الجامعة في برنامج المدينة الخاص بتدريب الطاقم الطبي لمؤسسات الرعاية الصحية في ج. كييف للفترة 2011-2017 ؛</li>
-                                    <li>أقيمت اللوحات التذكارية تكريما لأول عميد كلية الطب في جامعة سانت فولوديمير ، والبروفيسور VO كارافاييف ، والخريجين المشهورين VF Voyno-Yasenetskyy (سانت لوكا) والكاتب المسرحي والكاتب MA Bulgakov.</li>
+                                    <li>أقيمت اللوحات التذكارية تكريما لأول عميد كلية الطب في جامعة سانت فولوديمير ، والبروفيسور V.O. كارافاييف ، والخريجين المشهورين V.F. Voyno-Yasenetskyy (سانت لوكا) والكاتب المسرحي والكاتب MA Bulgakov.</li>
                                     <li>خريجو الجامعة يحصلون على دبلوم 'استمارة دبلوم' دولية</li>
                                     <li>المؤسسة هي الشريك في اتحاد الجامعات الأوروبية: في سبتمبر 2011 ، انضمت إلى Magna Charta Universitatum.</li>
                                 </ul>
@@ -250,7 +250,7 @@
                                     <li>بالطبع المقدمة - B.Pharm</li>
                                     <li>المدة - 5 سنوات</li>
                                 </ul>
-                                <p>تقدم دورة في الصيدلة OO Bogomolets تم تصميم الجامعة الطبية الوطنية للطلاب الذين يرغبون في التخصص والتدريب على الاستخدام الفعال للأدوية الطبية. تشمل الدراسات الصيدلانية دراسة العلوم الكيميائية مع العلوم الصحية. فهو يساعد على ضمان الاستخدام الآمن وإدارة العقاقير الدوائية. تشمل ممارسة الصيدلة الأدوار الحديثة في الرعاية الصحية والخدمات السريرية وكذلك مراجعة الأدوية للحصول على المزيد من الخدمات التقليدية مثل توزيع الأدوية وتكثيفها.</p>" : (($lang == 'en') ? "<p></p><p>Bogomelets National Medical University Kiev Is the oldest university in Ukraine, with a global cultural environment and a fantastic student life. With over 13,000 students, doctors-interns, masters, post-graduates and people working for Ph.D degree and about 1300 foreign students BNMU has always been one of the biggest institute serving in the field of medicine for over a century.</p>
+                                <p>تقدم دورة في الصيدلة O.O. Bogomolets تم تصميم الجامعة الطبية الوطنية للطلاب الذين يرغبون في التخصص والتدريب على الاستخدام الفعال للأدوية الطبية. تشمل الدراسات الصيدلانية دراسة العلوم الكيميائية مع العلوم الصحية. فهو يساعد على ضمان الاستخدام الآمن وإدارة العقاقير الدوائية. تشمل ممارسة الصيدلة الأدوار الحديثة في الرعاية الصحية والخدمات السريرية وكذلك مراجعة الأدوية للحصول على المزيد من الخدمات التقليدية مثل توزيع الأدوية وتكثيفها.</p>" : (($lang == 'en') ? "<p></p><p>Bogomelets National Medical University Kiev Is the oldest university in Ukraine, with a global cultural environment and a fantastic student life. With over 13,000 students, doctors-interns, masters, post-graduates and people working for Ph.D degree and about 1300 foreign students BNMU has always been one of the biggest institute serving in the field of medicine for over a century.</p>
 <p>The university is characterized by a great history and innumerable achievements and a great cultural fusion with students coming from over 53 countries around the globe to pursue their dream career in various fields both at graduate and post-graduate level offered at the university.</p>
 <p>With 12 faculties, 78 departments, more than 1200 scientific and pedagogical professionals including 31 academicians and members of National Academy of Sciences and National Academy of Medical Sciences, 34 academicians of public academies, 42 members of International Organizations and Associations, 99 honored members of Science and technology, 189 Doctors of Sciences, 137 Professors, 720 Candidates of science, 338 Associate Professors, 139 Clinical bases with 8100 beds and 250 thousand patients treated every year and more than 70,000 surgeries conducted every year BNMU is the first choice for students not only from Ukraine but from countries like Poland, Belarus, Russia, Spain, Hungary, Czech, Turkmenistan etc. for their career in medicine with limitless education offerings at both undergraduate and Masters Level.</p>
 <ul>
@@ -484,8 +484,8 @@
                                     <li>Duration – 5 years</li>
                                 </ul>
                                 <p>The course in Pharmacy offered O.O Bogomolets National Medical university is designed for students who would like to specialize and be trained in the effective use of medicinal drugs. Pharmaceutical studies involve the study of chemical sciences together with health sciences. It helps ensure safe use and administration of pharmaceutical drugs.&nbsp; Practicing pharmacy includes modern roles in health care and clinical services as well as reviewing drugs for more traditional services like dispensing and compounding medication.</p>" : "<p></p><p>Université nationale de médecine Bogomelets Kiev est la plus ancienne université d'Ukraine, dotée d'un environnement culturel mondial et d'une vie étudiante fantastique. Avec plus de 13 000 étudiants, docteurs stagiaires, masters, doctorants et diplômés en doctorat et environ 1 300 étudiants étrangers, BNMU a toujours été l’un des plus grands instituts actifs dans le domaine de la médecine depuis plus d’un siècle.</p>
-                            <p>L'université est caractérisée par une grande histoire et d'innombrables réalisations et une grande fusion culturelle avec des étudiants venant de plus de 53 pays du monde entier afin de poursuivre leur carrière de rêve dans divers domaines, tant au niveau de la maîtrise que de la postuniversitaire.</p>
-                            <p>Avec 12 facultés, 78 départements, plus de 1200 professionnels scientifiques et pédagogiques dont 31 académiciens et membres de l'Académie nationale des sciences et de l'Académie des sciences médicales, 34 académiciens des académies publiques, 42 membres des organisations et associations internationales, 99 membres honorés de la Science et technologie, 189 docteurs en sciences, 137 professeurs, 720 candidats en sciences, 338 professeurs associés, 139 bases cliniques avec 8100 lits et 250 000 patients traités chaque année et plus de 70 000 chirurgies effectuées chaque année, BNMU est le premier choix pour les étudiants non seulement d’Ukraine mais de pays comme la Pologne, la Biélorussie, la Russie, l’Espagne, la Hongrie, la République tchèque, le Turkménistan, etc. pour leur carrière dans le domaine de la médecine avec des offres d’éducation illimitées, tant au niveau du premier cycle que de la maîtrise.</p>
+                            <p>L'université est caractérisée par une grande histoire et d'innombrables réalisations et une grande fusion culturelle avec des étudiants venant de plus de 53 pays du monde entier afin de poursuivre leur carrière de rêve dans divers domaines, tant au niveau de la Master que de la postuniversitaire.</p>
+                            <p>Avec 12 facultés, 78 départements, plus de 1200 professionnels scientifiques et pédagogiques dont 31 académiciens et membres de l'Académie nationale des sciences et de l'Académie des sciences médicales, 34 académiciens des académies publiques, 42 membres des organisations et associations internationales, 99 membres honorés de la Science et technologie, 189 docteurs en sciences, 137 professeurs, 720 candidats en sciences, 338 professeurs associés, 139 bases cliniques avec 8100 lits et 250 000 patients traités chaque année et plus de 70 000 chirurgies effectuées chaque année, BNMU est le premier choix pour les étudiants non seulement d’Ukraine mais de pays comme la Pologne, la Biélorussie, la Russie, l’Espagne, la Hongrie, la République tchèque, le Turkménistan, etc. pour leur carrière dans le domaine de la médecine avec des offres d’éducation illimitées, tant au niveau du premier cycle que de la Master.</p>
                             <ul>
                                 <li>L'une des universités les mieux classées d'Europe de l'Est</li>
                                 <li>Diversité et expansion - éducation et recherche dans 12 facultés.</li>
@@ -501,17 +501,17 @@
                             <p>1840</p>
                             <p>Son empereur, Mykola, a signé le plus haut rescrit sur l’ouverture de la faculté de médecine de l’Université Saint-Volodymyr.</p>
                             <p>1841</p>
-                            <p>Le Conseil de l'Université Saint-Volodymyr approuva la décision d'ouvrir la 1re faculté de médecine en septembre 1841. Première admission - 29 étudiants. Le 23 (9) septembre, le professeur MI Kozlov a lu la première conférence sur l'anatomie et le 26 (12) septembre, le professeur VO Karavayev - première conférence sur l'encyclopédie et la méthodologie de la médecine.</p>
+                            <p>Le Conseil de l'Université Saint-Volodymyr approuva la décision d'ouvrir la 1re faculté de médecine en septembre 1841. Première admission - 29 étudiants. Le 23 (9) septembre, le professeur M.I. Kozlov a lu la première conférence sur l'anatomie et le 26 (12) septembre, le professeur V.O. Karavayev - première conférence sur l'encyclopédie et la méthodologie de la médecine.</p>
                             <p>1921</p>
                             <p>L’Institut des soins de santé de Kiev a été rebaptisé l’Académie de médecine de l’État de Kiev, qui est ensuite devenue l’institut de médecine de Kiev</p>
                             <p>1946</p>
-                            <p>L’Institut médical de Kiev a été désigné sous le nom de président de l’Académie des sciences d’UkrSSR OO Bogomolets.</p>
+                            <p>L’Institut médical de Kiev a été désigné sous le nom de président de l’Académie des sciences d’USSR O.O. Bogomolets.</p>
                             <p>1965</p>
                             <p>Le musée historique de la médecine a été organisé sur la base de l'institut (depuis 1982 - Musée national de la médecine d'Ukraine).</p>
                             <p>1992</p>
-                            <p>L'institut a été réorganisé en université de médecine publique ukrainienne OO Bogomolets.</p>
+                            <p>L'institut a été réorganisé en université de médecine publique ukrainienne O.O. Bogomolets.</p>
                             <p>1995</p>
-                            <p>Par décret du président de l'Ukraine, l'université a reçu le statut d'Université de médecine nationale OO Bogomolets.</p>
+                            <p>Par décret du président de l'Ukraine, l'université a reçu le statut d'Université de médecine nationale O.O. Bogomolets.</p>
                             <p>2003</p>
                             <p>La symbolique de l'Université - emblème, hymne et drapeau - a été établie et approuvée pour la première fois de l'histoire de l'établissement. <br>
                                 Réorganisation de la polyclinique stomatologique du MHC d'Ukraine à la NMU en centre médical stomatologique de l'Université. <br>
@@ -527,10 +527,10 @@
                                     <p>2005</p>
                                     <p>Création d'un réseau d'universités d'Europe orientale, comprenant 35 établissements d'enseignement supérieur de 7 pays, sous l'égide de l'université, afin d'intensifier la coopération internationale en vue de la réalisation des principes de la déclaration de Bologne.</p>
                                     <p>2006</p>
-                                    <p>L'université de médecine nationale OO Bogomolets a célébré le 165e anniversaire de sa fondation, le <br>
-                                        125e &#8203;&#8203;anniversaire de l'académicien OO Bogomolets, le <br>
-                                        125e &#8203;&#8203;anniversaire de la création de la société scientifique étudiante OO Kysil, le <br>
-                                        115e anniversaire du diplômé de l'établissement MO Boulgakov. <br>
+                                    <p>L'université de médecine nationale O.O. Bogomolets a célébré le 165e anniversaire de sa fondation, le <br>
+                                        125e &#8203;&#8203;anniversaire de l'académicien O.O. Bogomolets, le <br>
+                                        125e &#8203;&#8203;anniversaire de la création de la société scientifique étudiante O.O. Kysil, le <br>
+                                        115e anniversaire du diplômé de l'établissement M.O. Boulgakov. <br>
                                         La construction du nouveau complexe de laboratoires universitaires modernes de l'Université avec la bibliothèque a été lancée.</p>
                                         <p>2007</p>
                                         <p>selon le classement officiel du ministère de la Santé de l'Ukraine - première place parmi les écoles supérieures d'accréditation III-IV en raison de l'orientation des soins de santé; <br>
@@ -546,17 +546,17 @@
                                                     <p>2010</p>
                                                     <p>l’Université a reçu 4 médailles d’or aux expositions internationales spécialisées «Education et carrière», «Études innovantes en éducation» pour «Développement du travail de recherche scientifique des étudiants», «Orientation professionnelle des jeunes», «Études innovantes en enseignement supérieur», «Études novatrices dans les écoles polyvalentes», «Coopération internationale dans les domaines de l’éducation et des sciences»; <br>
                                                         La réunion solennelle, consacrée à la graduation des médecins et des pharmaciens, s'est déroulée au Palais national des arts «Ukraine» avec la participation du Premier ministre de l'Ukraine, président du conseil de surveillance de l'Université Mykola Yanovych Azarov.<br>
-                                                        Le professeur VF Moskalenko, vice-président du NAMS d'Ukraine, académicien du NAMS et membre correspondant du NAPS d'Ukraine, travailleur honoraire en sciences et technologies de l'Ukraine, docteur honoraire de l'Ukraine, chef du département de médecine sociale et des soins de santé, a été élu le poste de recteur à l'unanimité pour la deuxième fois par la conférence des représentants du collectif de travail de l'Université.<br>
-                                                        La salle de conférence moderne n ° 3, nommée en l'honneur de VF Voyno-Yasenetskyy, qui est devenue le lauréat du concours international «Prointegration awards 2010» organisé dans les pays de la CEI, a été ouverte. Le contingent de personnes qui étudient à l’Université est passé à 10 th. personnes. Le programme de formation spéciale pour les médecins aux dépens de l'administration publique régionale de Kiev a été lancé pour la première fois parmi les écoles de médecine supérieures d'Ukraine.</p>
+                                                        Le professeur V.F. Moskalenko, vice-président du NAMS d'Ukraine, académicien du NAMS et membre correspondant du NAPS d'Ukraine, travailleur honoraire en sciences et technologies de l'Ukraine, docteur honoraire de l'Ukraine, chef du département de médecine sociale et des soins de santé, a été élu le poste de recteur à l'unanimité pour la deuxième fois par la conférence des représentants du collectif de travail de l'Université.<br>
+                                                        La salle de conférence moderne n ° 3, nommée en l'honneur de V.F. Voyno-Yasenetskyy, qui est devenue le lauréat du concours international «Prointegration awards 2010» organisé dans les pays de la CEI, a été ouverte. Le contingent de personnes qui étudient à l’Université est passé à 10 th. personnes. Le programme de formation spéciale pour les médecins aux dépens de l'administration publique régionale de Kiev a été lancé pour la première fois parmi les écoles de médecine supérieures d'Ukraine.</p>
                                                         <p>2011</p>
                                                         <p>Président de l'Ukraine Victor Fedorovich Yanukovich et métropolite de Kiev et de toute l'Ukraine, primat de l'Église orthodoxe ukrainienne VOLODYMYR a félicité les diplômés de l'université. <br>
-                                                            L'université de médecine nationale OO Bogomolets a célébré son 170e anniversaire depuis sa fondation, le professeur Volodymyr Opanasovych Karavayev, son 130e anniversaire et son académicien Oleksander Oleksandrovych Bogomolets, son 130e anniversaire de l'établissement de la société scientifique des étudiants OA Kysil, son 120e anniversaire de Mykhaylo Afanasiyov du lycée médical ukrainien à OO Bogomolets NMU;<br>
+                                                            L'université de médecine nationale O.O. Bogomolets a célébré son 170e anniversaire depuis sa fondation, le professeur Volodymyr Opanasovych Karavayev, son 130e anniversaire et son académicien Oleksander Oleksandrovych Bogomolets, son 130e anniversaire de l'établissement de la société scientifique des étudiants O.A. Kysil, son 120e anniversaire de Mykhaylo Afanasiyov du lycée médical ukrainien à O.O. Bogomolets NMU;<br>
                                                             Programme municipal spécial de formation de médecins pour les établissements de santé c. Kiev pour 2011-2017 a été mis en œuvre pour la première fois parmi les écoles supérieures d'Ukraine; <br>
                                                             Médaille d'or au salon international des établissements d'enseignement «L'éducation moderne en Ukraine» en nomination «Développement spirituel de la jeunesse et améliorations physiques»; <br>
                                                             1ère place du ministère de l'Education et des Sciences, de la Jeunesse et des Sports de l'Ukraine parmi les écoles supérieures des niveaux d'accréditation III-IV dans la proposition de candidature «Soins de santé»; <br>
                                                             4ème place parmi les établissements d'enseignement supérieur dans le cadre du projet «TOP-200 Ukraine» de l'UNESCO;<br><br>
                                                             Le 
-                                                            Conseil scientifique a élaboré et approuvé le plan complexe de perspectives pour le développement de l'université pour 2011-2017. Les plaques commémoratives en l'honneur du premier doyen de la faculté de médecine de l'université Saint-Volodymyr, le professeur VO Karavayev, de célèbres diplômés du VF Voyno-Yasenetskyy (St. Luka). ) et le scénariste et écrivain MA Boulgakov ont été érigés dans les locaux administratifs et morphologiques de l’Université; <br>
+                                                            Conseil scientifique a élaboré et approuvé le plan complexe de perspectives pour le développement de l'université pour 2011-2017. Les plaques commémoratives en l'honneur du premier doyen de la faculté de médecine de l'université Saint-Volodymyr, le professeur V.O. Karavayev, de célèbres diplômés du V.F. Voyno-Yasenetskyy (St. Luka). ) et le scénariste et écrivain MA Boulgakov ont été érigés dans les locaux administratifs et morphologiques de l’Université; <br>
                                                             Les diplômés de l’Université ont reçu pour la première fois le diplôme de forme internationale «Supplément au diplôme»;<br>
                                                             L'Université a été reconnue comme le leader de l'éducation moderne 2011, récompensée par le Grand Prix et la médaille d'or du salon international «Institutions d'enseignement modernes»; <br>
                                                             L'université a adhéré à l'association de la Grande Charte des plus grandes universités du monde (Magna Charta Universitatum), v. Bologne, Italie.</p>
@@ -584,13 +584,13 @@
                                                                 <li>La construction du nouveau bâtiment universitaire de vingt-six étages et des auberges d'élite a débuté en 2006;</li>
                                                                 <li>22 groupes de talents amateurs, dont 5 ont le statut de Peuple; 9 clubs de sport;</li>
                                                                 <li>Des sportifs célèbres, champions d'Europe et du monde, vainqueurs des Olympiades ukrainiennes et internationales et des concours organisés à l'université;</li>
-                                                                <li>La société autonome des étudiants et la société scientifique des étudiants, nommée d'après OA Kysil, fonctionne efficacement à tous les niveaux.</li>
+                                                                <li>La société autonome des étudiants et la société scientifique des étudiants, nommée d'après O.A. Kysil, fonctionne efficacement à tous les niveaux.</li>
                                                                 <li>Selon les résultats du ministère de l’éducation et des sciences de l’Ukraine, l’Université occupe la première place parmi les écoles de médecine supérieures du niveau d’accréditation III-IV et la quatrième place parmi les écoles supérieures d’Ukraine;</li>
                                                                 <li>Titre honorifique «Lauréat du concours de candidatures« Intégration de l'éducation de l'Ukraine dans la communauté européenne »et« Innovations dans la mise en œuvre de technologies de communication de l'information dans les pratiques éducatives ».</li>
                                                                 <li>L'université est récompensée par les médailles d'or aux expositions internationales d'établissements d'enseignement «L'éducation moderne en Ukraine» dans différentes nominations pour de nombreuses années consécutives.</li>
-                                                                <li>La nouvelle salle de conférence moderne n ° 3, nommée d'après VF Voyno-Yasenetsky, a été ouverte. L'université a été récompensée par le diplôme du prix national «Prointegration Awards 2010» en nomination «Meilleure solution pour le secteur de l'éducation»;</li>
+                                                                <li>La nouvelle salle de conférence moderne n ° 3, nommée d'après V.F. Voyno-Yasenetsky, a été ouverte. L'université a été récompensée par le diplôme du prix national «Prointegration Awards 2010» en nomination «Meilleure solution pour le secteur de l'éducation»;</li>
                                                                 <li>Pour la première fois, l'université a participé au programme spécial de la ville sur la formation du personnel médical pour les établissements de soins de santé du c. Kiev pour 2011-2017;</li>
-                                                                <li>Les plaques commémoratives ont été érigées en l'honneur du premier doyen de la faculté de médecine de l'Université Saint-Volodymyr, le professeur VO Karavayev, des célèbres diplômés VF Voyno-Yasenetskyy (Saint-Luka) et du scénariste et écrivain MA Boulgakov;</li>
+                                                                <li>Les plaques commémoratives ont été érigées en l'honneur du premier doyen de la faculté de médecine de l'Université Saint-Volodymyr, le professeur V.O. Karavayev, des célèbres diplômés V.F. Voyno-Yasenetskyy (Saint-Luka) et du scénariste et écrivain MA Boulgakov;</li>
                                                                 <li>Les diplômés de l'université ont reçu le diplôme de formulaire international «Supplément au diplôme»</li>
                                                                 <li>L'établissement est le partenaire d'un consortium d'universités européennes: en septembre 2011, il s'est associé à la Magna Charta Universitatum.</li>
                                                             </ul>
@@ -622,7 +622,7 @@
                                                                 <li>Cours de doctorat.</li>
                                                             </ul>
                                                             <p>La durée de chaque cours dépend de la décision du candidat et du temps pris par celui-ci pour compléter le programme avec le nombre requis d'heures de crédit et d'expérience.</p>
-                                                            <p>Un niveau approprié de maîtrise du russe est indispensable pour acquérir les compétences pratiques et réussir le cours.</p>
+                                                            <p>Un niveau approprié de Master du russe est indispensable pour acquérir les compétences pratiques et réussir le cours.</p>
                                                             <p>La plupart des étudiants internationaux rejoignent la résidence clinique après avoir terminé leur cours de médecin MD, qui dure généralement de deux à trois ans.</p>
                                                             <p>Les résidences cliniques sont disponibles dans les spécialités suivantes chez BNMU.</p>
                                                             <ul>
@@ -655,13 +655,13 @@
                                                                 <li>Radiologie</li>
                                                                 <li>ENT</li>
                                                             </ul>
-                                                            <p>L’objectif principal de la formation postdoctorale est de permettre aux étudiants des institutions médicales de poursuivre leurs études et aux omnipraticiens d’améliorer leurs compétences pour obtenir une certification plus poussée. Le corps professoral vise à la formation et à l’amélioration des qualifications et des compétences des spécialistes afin de les maîtriser. informations médicales à jour, mais les nouvelles technologies modernes d’aujourd’hui et de demain.</p>
+                                                            <p>L’objectif principal de la formation postdoctorale est de permettre aux étudiants des institutions médicales de poursuivre leurs études et aux omnipraticiens d’améliorer leurs compétences pour obtenir une certification plus poussée. Le corps professoral vise à la formation et à l’amélioration des qualifications et des compétences des spécialistes afin de les Masterr. informations médicales à jour, mais les nouvelles technologies modernes d’aujourd’hui et de demain.</p>
                                                             <p>La faculté de médecine de BNMU, ainsi que sa base clinique d'enseignement de 135 hôpitaux et autres organisations de santé en Ukraine et à l'étranger, fourniront les ressources physiques et humaines nécessaires pour créer un environnement universitaire propice à la formation des diplômés en médecine afin qu'ils acquièrent les connaissances , les compétences et les attitudes pour devenir des médecins et des chirurgiens accomplis avec les normes morales et éthiques les plus élevées.</p>
                                                             <p>La forme individuelle de formation est basée sur les caractéristiques de qualification, les exigences professionnelles et de poste, les principes de la perspective réalisée et les prétentions du médecin.</p>
                                                             <p>Une formation théorique détaillée est associée à l'acquisition de compétences pratiques, d'une technique opératoire et d'opérations typiques et complexes.</p>
                                                             <p><strong>2. Faculté De Stomatologie: -</strong></p>
                                                             <ul>
-                                                                <li>Cours offert - Baccalauréat en sciences dentaires (BDS)</li>
+                                                                <li>Cours offert - Licence en sciences dentaires (BDS)</li>
                                                                 <li>Durée - 5 ans</li>
                                                             </ul>
                                                             <p>La faculté de stomatologie / médecine dentaire de BNMU propose des cours de premier cycle d'une durée de 5 ans. Le cours est offert en russe, ukrainien et anglais.</p>
@@ -675,9 +675,9 @@
                                                             <p>Ce cours enseigne des matières telles que les sciences physiologiques, les fondements de la pratique dentaire, la biochimie dentaire, l'anatomie et l'histologie buccales, les sujets abordés en dentisterie clinique, la dentisterie (endodontique, prothétique et opératoire) et les sujets avancés en dentisterie clinique, la pratique clinique dentaire, la médecine dentaire et la chirurgie pour la pratique dentaire, la santé publique dentaire et la dentisterie pour besoins spéciaux.</p>
                                                             <p>A propos du cours</p>
                                                             <p>Le cours à BNMU vise à préparer les étudiants à l’industrie en les dotant de toutes les connaissances théoriques et pratiques nécessaires. Cela augmentera le nombre et la qualité des professionnels formés qui constituent une partie importante de tous les organismes et instituts de soins de santé.</p>
-                                                            <p>À la faculté de médecine dentaire, le programme est élaboré pour cinq années universitaires. Les étudiants maîtrisent les matières de base du profil médical et biologique, ainsi que diverses disciplines cliniques indispensables au dentiste. À condition de réussir leurs études, les diplômés reçoivent le diplôme de médecin-dentiste. Le programme prévoit la formation postdoctorale ultérieure. Le diplôme délivré est BDS.</p>
+                                                            <p>À la faculté de médecine dentaire, le programme est élaboré pour cinq années universitaires. Les étudiants Masternt les matières de base du profil médical et biologique, ainsi que diverses disciplines cliniques indispensables au dentiste. À condition de réussir leurs études, les diplômés reçoivent le diplôme de médecin-dentiste. Le programme prévoit la formation postdoctorale ultérieure. Le diplôme délivré est BDS.</p>
                                                             <p>Pour les cours juniors, les étudiants étudient des disciplines théoriques et à partir du quatrième cours, ils commencent à étudier des disciplines cliniques. Dans les cours de niveau junior, les étudiants étudient des disciplines théoriques et, à partir du quatrième cours, ils commencent à étudier des disciplines cliniques. Parmi eux, il y a la stomatologie thérapeutique et orthopédique. Les chaires d'anatomie, d'histologie, de physiologie normale, de biochimie, de chimie générale, dotées de merveilleuses traditions d'organisation du processus éducatif et d'enseignants hautement qualifiés, pourraient établir des profils pour l'enseignement de leurs disciplines, en tenant compte de la spécificité de la faculté.</p>
-                                                            <p>Pour la maîtrise du cours de propédeutique par les étudiants, les départements étaient des locaux supplémentaires bien équipés, dotés de la quantité nécessaire d’aides visuelles et d’appareils spéciaux. Tous les employés des chaires et les étudiants ont pris une part active à la rédaction des manuels pédagogiques. Un laboratoire métallo-céramique et un laboratoire pour la fusion et le moulage à haute fréquence de prothèses dentaires sont spécialement organisés.</p>
+                                                            <p>Pour la Master du cours de propédeutique par les étudiants, les départements étaient des locaux supplémentaires bien équipés, dotés de la quantité nécessaire d’aides visuelles et d’appareils spéciaux. Tous les employés des chaires et les étudiants ont pris une part active à la rédaction des manuels pédagogiques. Un laboratoire métallo-céramique et un laboratoire pour la fusion et le moulage à haute fréquence de prothèses dentaires sont spécialement organisés.</p>
                                                             <p>Dans des services dentaires spécialisés, les étudiants étudient les principaux problèmes actuels de l'art dentaire: caries, parodonthose, maladies de la membrane muqueuse de la cavité buccale. La tâche principale de la faculté de médecine dentaire est de perfectionner la formation supérieure en dentisterie et d’améliorer la qualité de la formation des médecins dentaires.</p>
                                                             <p>À la faculté, ils ont élaboré et appliqué l'ensemble des méthodes méthodiques d'optimisation du processus pédagogique, qui visent à activer l'activité cognitive des étudiants, à développer des habitudes pour le travail éducatif et de recherche, à former la méthode d'approche créative à l'activité professionnelle. La faculté de stomatologie aide les étudiants à acquérir de bonnes connaissances dans le domaine dentaire. Il grandit et se développe, tirant le meilleur parti de l'expérience des travaux de l'Université.</p>
                                                             <p>Le cours étudie la dentisterie dans une perspective internationale et prépare les étudiants à une carrière réussie dans l'industrie. Certains des modules enseignés dans ce programme comprennent:</p>
@@ -716,7 +716,7 @@
                                                                 <li>Cours offert - B.Pharm</li>
                                                                 <li>Durée - 5 ans</li>
                                                             </ul>
-                                                            <p>Le cours de pharmacie proposé par l’université médicale nationale OO Bogomolets est destiné aux étudiants qui souhaitent se spécialiser et être formés à l’utilisation efficace des médicaments. Les études pharmaceutiques comprennent l’étude des sciences chimiques et des sciences de la santé. Il aide à garantir une utilisation et une administration sûres des médicaments pharmaceutiques. La pratique de la pharmacie comprend des rôles modernes dans les soins de santé et les services cliniques, ainsi que la révision des médicaments pour des services plus traditionnels tels que la distribution et la préparation de médicaments.</p>")); ?>
+                                                            <p>Le cours de pharmacie proposé par l’université médicale nationale de O.O. Bogomolets est destiné aux étudiants qui souhaitent se spécialiser et être formés à l’utilisation efficace des médicaments. Les études pharmaceutiques comprennent l’étude des sciences chimiques et des sciences de la santé. Il aide à garantir une utilisation et une administration sûres des médicaments pharmaceutiques. La pratique de la pharmacie comprend des rôles modernes dans les soins de santé et les services cliniques, ainsi que la révision des médicaments pour des services plus traditionnels tels que la distribution et la préparation de médicaments.</p>")); ?>
     
     </div>
 </div>
