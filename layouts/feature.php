@@ -45,7 +45,7 @@
                                             <ul class="list-items">
                                                 <li>'.(($lang == 'en') ? 'Famous institutions' : (($lang == 'ar') ? 'المؤسسات الشهيرة' : 'Universités')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Recognition (UNESCO, European Council, SADC ...)' : (($lang == 'ar') ? 'اعتراف (اليونسكو ,المجلس الأوروبي, SADC ...)' : 'Reconnaissance (UNESCO, Conseil européen, SADC ...)')).'</li>
-                                                <li>'.(($lang == 'en') ? 'Médecins qualifiés' : (($lang == 'ar') ? 'أطباء مؤهلين' : 'Qualified doctors')).'</li>
+                                                <li>'.(($lang == 'en') ? 'Qualified doctors' : (($lang == 'ar') ? 'أطباء مؤهلين' : 'Médecins qualifiés')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Research work' : (($lang == 'ar') ? 'العمل البحثي' : 'Travail de recherche')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Hospitals with modern technology' : (($lang == 'ar') ? 'المستشفيات ذات التكنولوجيا الحديثة' : 'Hôpitaux à la technologie moderne')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Advanced level of education' : (($lang == 'ar') ? 'مستوى متقدم من التعليم' : 'Niveau d\'éducation avancé')).'</li>

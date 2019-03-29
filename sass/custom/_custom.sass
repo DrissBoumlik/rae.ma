@@ -21,7 +21,7 @@ a
     // background-size: cover
     // background-attachment: fixed
     background-color: #02192E
-.header
+.header, .footer
     // background-color: rgba(#000, 1)
     background-image: url('/images/header/oly5140501855.jpg')
     // background-image: url('/images/header/_1.jpg')
@@ -173,6 +173,7 @@ a
         bottom: 5%
         h1
             font-weight: normal
+            font-size: 4.8rem
     .static-txt
         right: 0
         left: unset
@@ -720,12 +721,52 @@ a
     padding-top: 50px
     
 .message-container
+    background-image: url(/images/sidebar/bg-title.jpg)
+    background-size: cover
     text-align: left
+    &:before
+        text-align: center
+        background-color: #ff5050
+        color: #fafafa
+        content: "\f0f3"
+        font-family: "Font Awesome 5 Free"
+        font-size: 2rem
+        z-index: 1
+        position: absolute
+        top: -20px
+        right: 20px
+        -webkit-border-radius: 50%
+        border-radius: 50%
+        width: 40px
+        height: 40px
+        line-height: 40px
+        -webkit-animation: flash 2s ease infinite
+        animation: flash 2s ease infinite
     .container
         padding: 10px 5px
     > i
-        left: unset
-        right: 10px
+        right: unset
+        left: 10px
     .message-body p
         font-family: Georgia 
-        font-size: 2rem
+        margin: 0
+        font-size: 1.5rem
+
+
+._bounce_2 
+    position: relative
+    animation-name: _bounce_2
+    animation-duration: 1s
+    animation-timing-function: ease
+    animation-delay: 0s
+    animation-iteration-count: infinite
+    animation-fill-mode: none
+
+._bounce_reverse_2 
+    position: relative
+    animation-name: _bounce_reverse_2
+    animation-duration: 1s
+    animation-timing-function: ease
+    animation-delay: 0s
+    animation-iteration-count: infinite
+    animation-fill-mode: none

@@ -66,11 +66,11 @@
         <h2 class="section-title"><?php echo (($lang == 'ar') ? "ماذا يمكن أن آخذ معي؟" : (($lang == 'en') ? "What can I take with me?" : "Qu’est ce que je peux prendre avec moi?")); ?></h2>
         
         <ul class="list-group">
-            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "حقائب اليد (عادة 8 كجم)" : (($lang == 'en') ? "Hand luggage (normally 8 kg):" : "Bagage à main (normalement 8 kg):")); ?></li>
-            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "جواز سفر" : (($lang == 'en') ? "passport" : "passeport")); ?></li>
-            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "المغلف مع جميع الوثائق" : (($lang == 'en') ? "envelope with all documents" : "enveloppe avec tous les documents")); ?></li>
-            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "كمبيوتر محمول / هاتف / لوحي" : (($lang == 'en') ? "laptop / phone / tablet" : "ordinateur portable/téléphone/tablette")); ?></li>
-            <li class="list-group-item capitalize"><?php echo (($lang == 'ar') ? "نقداً ، حوالي 500 دولار أمريكي أو يورو" : (($lang == 'en') ? "cash, about 500 USD or Euro" : "argent liquide, environ 500 USD ou Euro")); ?></li>
+            <li class="list-group-item"><?php echo (($lang == 'ar') ? "حقائب اليد (عادة 8 كجم)" : (($lang == 'en') ? "Hand luggage (normally 8 kg):" : "Bagage à main (normalement 8 kg):")); ?></li>
+            <li class="list-group-item"><?php echo (($lang == 'ar') ? "جواز سفر" : (($lang == 'en') ? "Passport" : "Passeport")); ?></li>
+            <li class="list-group-item"><?php echo (($lang == 'ar') ? "المغلف مع جميع الوثائق" : (($lang == 'en') ? "Envelope with all documents" : "Enveloppe avec tous les documents")); ?></li>
+            <li class="list-group-item"><?php echo (($lang == 'ar') ? "كمبيوتر محمول / هاتف / لوحي" : (($lang == 'en') ? "Laptop / phone / tablet" : "Ordinateur portable/téléphone/tablette")); ?></li>
+            <li class="list-group-item"><?php echo (($lang == 'ar') ? "نقداً ، حوالي 500 دولار أمريكي أو يورو" : (($lang == 'en') ? "Cash, about 500 USD or Euro" : "Argent liquide, environ 500 USD ou Euro")); ?></li>
         </ul>
         <p><?php echo (($lang == 'ar') ? "بالنسبة للأمتعة ، عادة ما تكون الرحلات المحلية والدولية 23 كيلو. من الأفضل أن تخبر الشركة عن كمية الأمتعة التي يمكنك الحصول عليها" : (($lang == 'en') ? "For luggage, normally it is 23 kilo domestic and international flights. It is better to tell the airline how much luggage you can take." : "Pour bagage, normalement c’est 23 kilo les vols intérieurs et internationaux. Il vaut mieux préciser auprès de la compagnie aérienne combien de bagage maximum vous pouvez prendre.")); ?></p>
     </div>
