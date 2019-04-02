@@ -99,8 +99,6 @@ jQuery(function ($) {
     
     $('#message-container > i').on('click', function (){
         $(this).parent().addClass('hidden');
-        console.log("hi");
-        
     });
     
     $('#sl-container').on('mouseenter', function (){

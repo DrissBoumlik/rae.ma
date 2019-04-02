@@ -29,10 +29,10 @@
     <div class="container">
         <div class="message-body">
             <div class="row">
-                <div class="col-sm-8 col-md-offset-2">
+                <div class="col-sm-12 col-md-offset-0">
                     <p>ALLIANCE ÉDUCATIVE annonce  ses participations aux forums de l'Etudiant 2019. | Horaire : de 9h30 à 19h<br>
                     <!-- - <span class="_bounce_2 bg-light bold">Fés</span> (Marriott Hôtel Jnan Palace): jeudi 21 au samedi 23 Mars<br> -->
-                    - <span class="_bounce_reverse_2 bg-light bold">Tanger</span> ( Centre Culturel Ahmed boukmakh ): jeudi 28 au samedi 30 Mars<br>
+                    <!-- - <span class="_bounce_reverse_2 bg-light bold">Tanger</span> ( Centre Culturel Ahmed boukmakh ): jeudi 28 au samedi 30 Mars<br> -->
                     - <span class="_bounce_2 bg-light bold">Casablanca</span>( à la Foire Internationale de Casablanca ) : Jeudi 18 au Dimanche 21 Avril<br>
                     nous nous réjouissons si vous soyez venus si nombreux à cet important rendez-vous 😍😃.</p>
                 </div>
