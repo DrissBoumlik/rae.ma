@@ -6,7 +6,7 @@
             <img src="/images/social/Whatsapp.png" alt="">
         </a></li>
         <li class="list-group-item"><a href="https://facebook.com/messages" target="_blank">
-            <img src="/images/social/F Messenger.png" alt="">
+            <img src="/images/social/F-Messenger.png" alt="">
         </a></li>
         <li class="list-group-item"><a href="https://facebook.com/" target="_blank">
             <img src="/images/social/facebook.png" alt="">
