@@ -79,7 +79,7 @@ function main_menu($active_page, $_lang = null)
                             </li><li class="' . ($active_page == '5' ? 'active' : '') .'"><a href="/pages/register?lang='. $lang .'">'.(($lang == 'ar') ? 'كيفية التسجيل' : (($lang == 'en') ? 'How to register' : 'Comment s\'inscrire')).'</a></li><li class="' . ($active_page == '6' ? 'active' : '') .'"><a class="has-submenu" >'.(($lang == 'ar') ? 'التأشيرة والوصول' : (($lang == 'en') ? 'Visa and Arrival' : 'Visa et Arrivée')).'</a>
                                 <ul class="submenu">
                                     <li><a href="/pages/visa?lang='. $lang .'">'.(($lang == 'ar') ? 'تأشيرة' : (($lang == 'en') ? 'Visa' : 'Visa')).'</a></li>
-                                    <li><a href="/pages/briefing?lang='. $lang .'">'.(($lang == 'ar') ? 'إحاطة من قبل' : (($lang == 'en') ? 'Briefing before' : 'Briefing avant')).'</a></li>
+                                    <li><a href="/pages/briefing?lang='. $lang .'">'.(($lang == 'ar') ? 'إحاطة من قبل' : (($lang == 'en') ? 'Briefing before' : 'LES PREPARATIFS AVANT DEPART')).'</a></li>
                                     <li><a href="/pages/transfert?lang='. $lang .'">'.(($lang == 'ar') ? 'وصول ونقل' : (($lang == 'en') ? 'Arrival and transfer' : 'Arrivée et transfert')).'</a></li>
                                 </ul>
                             </li><li class="' . ($active_page == '7' ? 'active' : '') .'"><a title="Resume" href="/pages/contact?lang='. $lang .'">'.(($lang == 'ar') ? 'اتصال' : (($lang == 'en') ? 'Contact' : 'Contact')).'</a></li>

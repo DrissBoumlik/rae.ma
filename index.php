@@ -254,7 +254,7 @@ feature_txt($txt, "home");
                 <div class="row offer-detail">
                     <div class="col-md-3 col-xs-12"><img src="images/headline/medecine.jpeg" alt=""></div>
                     <div class="col-md-9 col-xs-12">
-                        <?php echo (($lang == 'ar') ? '<p>إن الشهادات الطبية الروسية والأوكرانية معترف بها دوليا ومدرجة من قبل المنظمات الدولية مثل منظمة الصحة العالمية ، الاتحاد الأوروبي ، الكتاب السنوي الدولي للتعليم الطبي ، ECFMG ، الولايات المتحدة ، المجلس الطبي العام تعتبر تكلفة دراسة MBBS في روسيا أو أوكرانيا منخفضة للغاية مقارنة بالدول الأوروبية الأخرى. هناك أيضًا عملية قبول سهلة للغاية مع قبول ناجح بنسبة 100٪</p><a href="#">- MBBS في روسيا</a><br><a href="#">- MBBS في أوكرانيا</a>' : (($lang == 'en') ? '<p>The Russian and Ukrainian medical degrees are internationally recognized and listed by international organizations such as the World Health Organization, the European Union, the International Yearbook of Medical Education, ECFMG, United States, the General Medical Council , the UK and others.The cost to study MBBS in Russia or Ukraine is very low compared to other European countries.There is also a very easy admission process with 100% successful admission</p><a href="#">- MBBS IN RUSSIA</a><br><a href="#">- MBBS IN UKRAINE</a>' : '<p>Les diplômes médicaux russes et ukrainiens sont mondialement reconnus et répertoriés par des organismes internationaux tels que l’Organisation mondiale de la santé, l’Union européenne, l’Annuaire international de l’éducation médicale, ECFMG, États-Unis, le General Medical Council, le Royaume-Uni et autres.Le coût pour étudier MBBS en Russie ou en Ukraine est très faible par rapport aux autres pays européens.Il y a aussi un processus d\'admission très facile avec 100% d\'admission réussie</p><a href="#">- MBBS en Russie</a><br><a href="#">- MBBS en Ukraine</a>')); ?>
+                        <?php echo (($lang == 'ar') ? '<p>إن الشهادات الطبية الروسية والأوكرانية معترف بها دوليا ومدرجة من قبل المنظمات الدولية مثل منظمة الصحة العالمية ، الاتحاد الأوروبي ، الكتاب السنوي الدولي للتعليم الطبي ، ECFMG ، الولايات المتحدة ، المجلس الطبي العام تعتبر تكلفة دراسة MBBS في روسيا أو أوكرانيا منخفضة للغاية مقارنة بالدول الأوروبية الأخرى. هناك أيضًا عملية قبول سهلة للغاية مع قبول ناجح بنسبة 100٪</p><a href="#">- MBBS في روسيا</a><br><a href="#">- MBBS في أوكرانيا</a>' : (($lang == 'en') ? '<p>The Russian and Ukrainian medical degrees are internationally recognized and listed by international organizations such as the World Health Organization, the European Union, the International Yearbook of Medical Education, ECFMG, United States, the General Medical Council , the UK and others.The cost to study MBBS in Russia or Ukraine is very low compared to other European countries.There is also a very easy admission process with 100% successful admission</p><a href="#">- MBBS IN RUSSIA</a><br><a href="#">- MBBS IN UKRAINE</a>' : '<p>Les diplômes médicaux russes et ukrainiens sont mondialement reconnus et répertoriés par des organismes internationaux tels que l’Organisation mondiale de la santé, l’Union européenne, l’Annuaire international de l’éducation médicale, ECFMG, États-Unis, le General Medical Council, le Royaume-Uni et autres.Le coût pour étudier MBBS en Russie ou en Ukraine est très faible par rapport aux autres pays européens. Il y a aussi un processus d\'admission très facile avec 100% d\'admission réussie</p><a href="#">- MBBS en Russie</a><br><a href="#">- MBBS en Ukraine</a>')); ?>
 
 
                     </div>
@@ -267,8 +267,8 @@ feature_txt($txt, "home");
                 <div class="row">
                     <h2 class="section-title uppercase">
                         <?php echo (($lang == 'ar') ? 'ما هي الخطوات اللازمة للدراسة في أوكرانيا / روسيا ؟' 
-    : (($lang == 'en') ? 'What steps are needed to study in Ukraine / Russia ?' 
-    : 'Quelles démarches sont nécessaire pour etudier en Ukraine/Russie ?')); ?>
+            : (($lang == 'en') ? 'What steps are needed to study in Ukraine / Russia ?' 
+            : 'Quelles démarches sont nécessaire pour etudier en Ukraine/Russie ?')); ?>
                     </h2>
                 </div>
                 <div class="row steps">
@@ -300,7 +300,7 @@ feature_txt($txt, "home");
                             <div class="row">
                                 <h4><?php echo (($lang == 'en') ? 'Arrival and reception in Ukraine / Russia' : (($lang == 'ar') ? 'وصول واستقبال في أوكرانيا / روسيا' : 'Arrivée et accueil en Ukraine/Russie')); ?>
                                 </h4>
-                                <p><?php echo (($lang == 'en') ? 'Royal Alliance Educative accompanies you on your arrival in Ukraine / Russia' : (($lang == 'ar') ? 'أليانس التعليمية ترافقك عند وصولك إلى أوكرانيا / روسيا' : 'La société Royal Alliance Educative vous accompagne à votre arrivée en Ukraine/Russie')); ?>
+                                <p><?php echo (($lang == 'en') ? 'Royal Alliance Educative accompanies you on your arrival in Ukraine / Russia' : (($lang == 'ar') ? 'أليانس التعليمية ترافقك عند وصولك إلى أوكرانيا / روسيا' : 'La société Alliance Educative vous accompagne à votre arrivée en Ukraine/Russie')); ?>
                                 </p>
                             </div>
                         </a>

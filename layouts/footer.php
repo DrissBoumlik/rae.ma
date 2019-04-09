@@ -12,7 +12,7 @@
                                     <h2 class="uppercase v-hidden">à propos</h2>
                                 </div> -->
                                 <div class="row">
-                                    <p>' . (($lang == 'ar') ? 'أليانس التعليمية هي شركة أوكرانية روسية مغربية تقدم أفضل خدمة دعم للطلاب لجميع عمليات التسجيل في الجامعات الأوكرانية والروسية من الألف إلى الياء' : (($lang == 'en') ? 'Alliance Educative is an Ukrainian-Russian-Moroccan company that offers the best student support service for all registration processes at Ukrainian and Russian universities from A to Z.' : 'Alliance Educative est une société Ukrainien-Russe-Marocaine qui offre le bon service d’accompagnement des étudiants pour toutes les démarches d’inscription aux universités ukraniennes et Russes de A a Z.')).'</p>
+                                    <p>' . (($lang == 'ar') ? 'أليانس التعليمية هي شركة أوكرانية روسية مغربية تقدم أفضل خدمة دعم للطلاب لجميع عمليات التسجيل في الجامعات الأوكرانية والروسية من الألف إلى الياء' : (($lang == 'en') ? 'Alliance Educative is an Ukrainian-Russian-Moroccan company that offers the best student support service for all registration processes at Ukrainian and Russian universities from A to Z.' : 'Alliance Educative est une société Ukrainien-Russe-Marocaine qui offre le bon service d’accompagnement des étudiants pour toutes les démarches d’inscription aux universités ukraniennes et Russes de A à Z.')).'</p>
                                 </div>
                             </div>
                             <div class="col-md-4 location">

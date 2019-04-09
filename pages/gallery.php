@@ -65,8 +65,8 @@
                     <h1 class="section-title uppercase"><?php echo (($lang == 'ar') ? 'روسيا' : (($lang == 'en') ? 'Russia' : 'Russie')); ?></h2>
                     <div class="row">
                         <div class="col-md-4"><iframe src="https://www.youtube.com/embed/rVuAf-0RpTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                        <div class="col-md-4"><iframe src="https://www.youtube.com/embed/iChZF9MVB4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                        <div class="col-md-4"><iframe src="https://www.youtube.com/embed/WD54QDyRwoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="col-md-4"><iframe src="https://www.youtube.com/embed/Ln6hsUN_vx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="col-md-4"><iframe src="https://www.youtube.com/embed/S_dfq9rFWAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     </div>
                 </div>
             </div>

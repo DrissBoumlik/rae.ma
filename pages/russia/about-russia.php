@@ -18,7 +18,7 @@ include $path.'/layouts/header.php'  ;
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "حول روسيا" : (($lang == 'en') ? "About Russia" : "à propos de Russie")); ?></h2>
+                        <h2 class="uppercase section-title"><?php echo (($lang == 'ar') ? "حول روسيا" : (($lang == 'en') ? "About Russia" : "à propos de Russie")); ?></h2>
                     </div>
                     <div class="row">
                         <p><?php echo (($lang == 'ar') ? "العيش في روسيا هو تجربة فريدة من نوعها. مع النظام التعليمي الصحيح سوف تجد روسيا منهجية ومتحضرة للغاية. الشعب الروسى متعلمون جيدا ، ونوع ومفيدون. بغض النظر عن العرق أو البلد الذي تنتمي إليه ، سوف يرحب بك قلبًا واحترامًا. هذا هو السبب في أن معظم الطلاب الذين يرغبون في العيش خارج الحرم الجامعي يؤجرون غرفة في شقة عائلية. مقارنة مع الدول الأوروبية الأخرى ، الحياة في روسيا أرخص." : (($lang == 'en') ? "Living in Russia is a totally unique experience. With the right educational system you will find Russia very systematic and civilized. The Russian people are well educated, kind and helpful. No matter what race or country you belong to, they will welcome you with heart and respect. That's why most students who want to live off campus rent a room in a family apartment. Compared with other European countries, life in Russia is cheaper." : "Vivre en Russie est une expérience totalement unique. Avec le bon système éducatif, vous trouverez la Russie très systématique et civilisée. Les peuples russes sont bien élevés, gentils et serviables. Peu importe la race ou le pays auquel vous appartenez, ils vous accueilleront avec cœur et respect. C'est pourquoi la plupart des étudiants qui souhaitent vivre hors campus louent une chambre dans un appartement familial. En comparaison avec d’autres pays européens, la vie en Russie est moins chère.")); ?></p>
@@ -29,7 +29,7 @@ include $path.'/layouts/header.php'  ;
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "معلومات عامة" : (($lang == 'en') ? "GENERAL INFORMATIONS" : "INFORMATIONS GÉNÉRALES")); ?></h2>
+                        <h2 class="uppercase section-title"><?php echo (($lang == 'ar') ? "معلومات عامة" : (($lang == 'en') ? "GENERAL INFORMATIONS" : "INFORMATIONS GÉNÉRALES")); ?></h2>
                     </div>
                     <div class="row">
                         <?php echo (($lang == 'ar') ? "<p>روسيا أو روسيا هي دولة ذات تاريخ عظيم ، موطن للعلماء المشهورين وأرض الجمال الطبيعي. رأس المال: موسكو الرئيس: فلاديمير بوتين روسيا تغطي مساحة 17،075500 كيلومتر مربع ، مما يجعل روسيا أكبر دولة في العالم.</p>
@@ -41,7 +41,7 @@ include $path.'/layouts/header.php'  ;
                         <p>The Russian education system is considered the best system in the world. Today, Russia has a maximum number of scientists in the field of medicine and technology.</p>
                         <p>Higher education in Russia is affordable unlike other countries.</p>
                         <p>The world-class education that Russia attracts many foreign students who wish to study the MBB in Russia. In addition, the low tuition fees and low cost of living make Russia the preferred choice of MBBS courses and degree programs around the world.</p>" : "<p>La Russie ou  la Fédération de Russie  est un pays avec une grande histoire, la maison de scientifiques célèbres et une terre de beauté naturelle.  
-                        Capitale : Moscou
+                        Capitale : Moscou,
                         Président : Vladimir Poutine
                         La Russie couvre une superficie de 17 075 500 km2, faisant de la Russie le plus grand pays du monde .</p>
                         <p>Depuis des décennies, la Russie était un centre de recherche et d’éducation. La Russie est le lieu où un nombre maximum d'étudiants étrangers arrivent chaque année dans l'enseignement supérieur dans les domaines de la médecine, de l'ingénierie, de l'économie, des sciences naturelles et sociales.</p>
@@ -55,7 +55,7 @@ include $path.'/layouts/header.php'  ;
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "المناخ والطبيعة" : (($lang == 'en') ? "Climate And Nature" : "climat et nature")); ?></h2>
+                        <h2 class="uppercase section-title"><?php echo (($lang == 'ar') ? "المناخ والطبيعة" : (($lang == 'en') ? "Climate And Nature" : "climat et nature")); ?></h2>
                         <h3><?php echo (($lang == 'ar') ? "جمال المناظر الطبيعية في روسيا سوف يريحك!" : (($lang == 'en') ? "The beauty of the natural landscapes of Russia will take your breath away!" : "La beauté des paysages naturels de la Russie va vous couper le souffle!")); ?></h3>
                     </div>
                     <div class="row">
@@ -68,7 +68,7 @@ include $path.'/layouts/header.php'  ;
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "السكان والمجتمع" : (($lang == 'en') ? "POPULATION AND SOCIETY" : "")); ?>POPULATION ET SOCIETE</h2>
+                        <h2 class="uppercase section-title"><?php echo (($lang == 'ar') ? "السكان والمجتمع" : (($lang == 'en') ? "POPULATION AND SOCIETY" : "")); ?>POPULATION ET SOCIETE</h2>
                         <h3><?php echo (($lang == 'ar') ? "لديك وقت مذهلة حول الناس ودية ودافئة!" : (($lang == 'en') ? "Have an amazing time around a friendly and warm people!" : "Passez un moment incroyable autour d'un peuple amical et chaleureux!")); ?></h3>
                     </div>
                     <div class="row">
@@ -81,7 +81,7 @@ include $path.'/layouts/header.php'  ;
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "الأمان" : (($lang == 'en') ? "SECURITY" : "SÉCURITÉ")); ?></h2>
+                        <h2 class="uppercase section-title"><?php echo (($lang == 'ar') ? "الأمان" : (($lang == 'en') ? "SECURITY" : "SÉCURITÉ")); ?></h2>
                         <h3><?php echo (($lang == 'ar') ? "أشعر بالأمان والهدوء!" : (($lang == 'en') ? "Feel safe and calm!" : "Sentez-vous en sécurité et calme!")); ?></h3>
                     </div>
                     <div class="row">
@@ -93,11 +93,11 @@ include $path.'/layouts/header.php'  ;
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "طبخ" : (($lang == 'en') ? "cooking" : "CUISINE")); ?></h2>
+                        <h2 class="uppercase section-title"><?php echo (($lang == 'ar') ? "طبخ" : (($lang == 'en') ? "cooking" : "CUISINE")); ?></h2>
                         <h3><?php echo (($lang == 'ar') ? "تذوق النكهات المختلفة من المطبخ الروسي. لن تكون قادرا على مقاومة!" : (($lang == 'en') ? "Taste the different flavors of Russian cuisine. You will not be able to resist!" : "Goûtez les différentes saveurs de la cuisine russe. Vous ne pourrez pas résister!")); ?></h3>
                     </div>
                     <div class="row">
-                        <p><?php echo (($lang == 'ar') ? "المطبخ الروسي مميز وفريد ​​، وشأنه شأن أي مأكولات وطنية أخرى ، فقد تم تشكيله تحت تأثير مختلف العوامل البيئية والاجتماعية والجغرافية والاقتصادية والتاريخية. يتميز المطبخ الروسي من وفرة ومتنوعة من المنتجات المستخدمة للطهي. يقدم المطبخ الروسي تشكيلة واسعة من الأطباق النباتية ، بما في ذلك الفطر والمخللات ، إلخ. كما أن لوحة الطهي الروسية غنية بأطباق اللحوم والدواجن والأسماك التي يتم تقديمها في مناسبات مختلفة." : (($lang == 'en') ? "Russian cuisine is distinctive and unique and, like any other national cuisine, it has been formed under the influence of various environmental, social, geographical, economic and historical factors. Russian cuisine is characterized by an abundance and variety of products used for cooking. Russian cuisine offers a wide variety of vegetarian dishes, including mushrooms, pickles, etc. The Russian culinary palette is also rich in meat, poultry and fish dishes, served on various occasions." : "La cuisine russe est distinctive et unique et, comme toute autre cuisine nationale, elle a été formée sous l’influence de différents facteurs environnementaux, sociaux, géographiques, économiques et historiques. La cuisine russe se caractérise par une abondance et une variété de produits utilisés pour la cuisine. La cuisine russe propose un grand nombre de plats végétariens, notamment des champignons, des cornichons, etc. La palette culinaire russe est également riche en plats à base de viande, de volaille et de poisson, servis à diverses occasions.")); ?></p>
+                        <p><?php echo (($lang == 'ar') ? "المطبخ الروسي مميز وفريد ​​، وشأنه شأن أي مأكولات وطنية أخرى ، فقد تم تشكيله تحت تأثير مختلف العوامل البيئية والاجتماعية والجغرافية والاقتصادية والتاريخية. يتميز المطبخ الروسي من وفرة ومتنوعة من المنتجات المستخدمة للطهي. يقدم المطبخ الروسي تشكيلة واسعة من الأطباق النباتية ، بما في ذلك الفطر والمخللات ، إلخ. كما أن لوحة الطهي الروسية غنية بأطباق اللحوم والدواجن والأسماك التي يتم تقديمها في مناسبات مختلفة." : (($lang == 'en') ? "Russian cuisine is distinctive and unique and, like any other national cuisine, it has been formed under the influence of various environmental, social, geographical, economic and historical factors. Russian cuisine is characterized by an abundance and variety of products used for cooking. Russian cuisine offers a wide variety of vegetarian dishes, including mushrooms, pickles, etc. The Russian culinary palette is also rich in meat, poultry and fish dishes, served on various occasions." : "La cuisine russe est distinctive et unique ,et comme toute autre cuisine nationale, elle a été formée sous l’influence de différents facteurs environnementaux, sociaux, géographiques, économiques et historiques. La cuisine russe se caractérise par une abondance et une variété de produits utilisés pour la cuisine. La cuisine russe propose un grand nombre de plats végétariens, notamment des champignons, des cornichons, etc. La palette culinaire russe est également riche en plats à base de viande, de volaille et de poisson, servis à diverses occasions.")); ?></p>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@ include $path.'/layouts/header.php'  ;
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "الثقافة والفن" : (($lang == 'en') ? "CULTURE AND ART" : "CULTURE ET ART")); ?></h2>
+                        <h2 class="uppercase section-title"><?php echo (($lang == 'ar') ? "الثقافة والفن" : (($lang == 'en') ? "CULTURE AND ART" : "CULTURE ET ART")); ?></h2>
                         <h3><?php echo (($lang == 'ar') ? "سوف تكون بالتأكيد مستوحاة من التراث الثقافي والفن الحديث!" : (($lang == 'en') ? "You will certainly be inspired by cultural heritage and modern art!" : "Vous serez certainement inspiré par le patrimoine culturel et l'art moderne!")); ?></h3>
                     </div>
                     <div class="row">
@@ -117,26 +117,25 @@ include $path.'/layouts/header.php'  ;
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "العلوم والتكنولوجيا" : (($lang == 'en') ? "SCIENCE AND TECHNOLOGY" : "SCIENCE ET TECHNOLOGIES")); ?></h2>
+                        <h2 class="uppercase section-title"><?php echo (($lang == 'ar') ? "العلوم والتكنولوجيا" : (($lang == 'en') ? "SCIENCE AND TECHNOLOGY" : "SCIENCE ET TECHNOLOGIES")); ?></h2>
                         <h3><?php echo (($lang == 'ar') ? "اكتشف أحدث الأبحاث العلمية والتقنية والاختراعات الشهيرة للعلماء الروس البارزين!" : (($lang == 'en') ? "Discover the latest scientific and technical research and the famous inventions of outstanding Russian scientists!" : "Découvrez les recherches scientifiques et techniques les plus récentes et les célèbres inventions de scientifiques russes remarquables!")); ?></h3>
                     </div>
                     <div class="row">
-                        <p><?php echo (($lang == 'ar') ? "وكانت روسيا أول من وضع واستكشاف العديد من فروع البحث العلمي وإنجازاته: الاختراعات الرئيسية: لأول مرة في العالم: المصباح الكهربائي، الإذاعة والتلفزيون، وطائرات الهليكوبتر، صاروخ فضائي، ومسجل فيديو، قاطرة رئيسية، لون التصوير الفوتوغرافي ، والترفيه، وأشباه الموصلات وتوليد زيادة، جنبا إلى جنب بناء آلة، آلة اختيار الحبوب، نموذج القلب الميكانيكية والقنابل الحرارية، محرك البنزين وغيرها الكثير في روسيا، حوالي 4000 المنظمات العاملة في مجال البحوث والتطوير العلمي. حوالي 70 ٪ من هذه المنظمات تنتمي إلى الحكومة." : (($lang == 'en') ? "Russia was the first to develop and explore many branches of scientific research and its achievements: Main inventions: first in the world: light bulb, radio, television, helicopter, space rocket, video recorder, main locomotive, color photography , animation, semiconductor device strengthening and generating, combined machine building, cereal picking machine, mechanical heart model, thermonuclear and atomic bomb, gasoline engine and many more In Russia, about 4,000 organizations participate in research and scientific development. About 70% of these organizations belong to the government." : "La Russie a été la première à développer et à explorer de nombreuses branches de la recherche scientifique et de ses réalisations: 
+                        <p><?php echo (($lang == 'ar') ? "وكانت روسيا أول من وضع واستكشاف العديد من فروع البحث العلمي وإنجازاته: الاختراعات الرئيسية: لأول مرة في العالم: المصباح الكهربائي، الإذاعة والتلفزيون، وطائرات الهليكوبتر، صاروخ فضائي، ومسجل فيديو، قاطرة رئيسية، لون التصوير الفوتوغرافي ، والترفيه، وأشباه الموصلات وتوليد زيادة، جنبا إلى جنب بناء آلة، آلة اختيار الحبوب، نموذج القلب الميكانيكية والقنابل الحرارية، محرك البنزين وغيرها الكثير في روسيا، حوالي 4000 المنظمات العاملة في مجال البحوث والتطوير العلمي. حوالي 70 ٪ من هذه المنظمات تنتمي إلى الحكومة." : (($lang == 'en') ? "Russia was the first to develop and explore many branches of scientific research and its achievements: Main inventions: first in the world: light bulb, radio, television, helicopter, space rocket, video recorder, main locomotive, color photography , animation, semiconductor device strengthening and generating, combined machine building, cereal picking machine, mechanical heart model, thermonuclear and atomic bomb, gasoline engine and many more In Russia, about 4,000 organizations participate in research and scientific development. About 70% of these organizations belong to the government." : "La Russie a été la première à développer et à explorer de nombreuses branches de la recherche scientifique et de ses réalisations.
                         Principales inventions:  première au monde: ampoule électrique, radio, télévision, hélicoptère, fusée spatiale, enregistreur vidéo, locomotive principale, photographie couleur, animation, dispositif semi-conducteur renforçant et générant, machine combinée bâtiment, machine à cueillir les céréales, modèle de cœur mécanique, bombe thermonucléaire et atomique, moteur à essence et bien d'autres
                         En Russie, environ 4 000 organisations participent à la recherche et au développement scientifiques. Environ 70% de ces organisations appartiennent au gouvernement.")); ?></p>
                     </div>
                 </div>
             </div>
-            
             <div class="section">
                 <div class="">
                     <div class="row">
                         <hr class="section-title-line">
-                        <h2 class="capitalize section-title"><?php echo (($lang == 'ar') ? "حياة الطالب" : (($lang == 'en') ? "STUDENT LIFE" : "VIE ÉTUDIANTE")); ?></h2>
+                        <h2 class="uppercase section-title"><?php echo (($lang == 'ar') ? "حياة الطالب" : (($lang == 'en') ? "STUDENT LIFE" : "VIE ÉTUDIANTE")); ?></h2>
                         <h3><?php echo (($lang == 'ar') ? "كن طالبًا في جامعة حكومية مرموقة وعش حياة مستقلة مليئة بانطباعات وانفعالات وأصدقاء جدد!" : (($lang == 'en') ? "Become a student of a prestigious state university and live an independent life full of new impressions, emotions and friends!" : "Devenez étudiant d'une prestigieuse université d'État et vivez une vie indépendante pleine de nouvelles impressions, d'émotions et d'amis!")); ?></h3>
                     </div>
                     <div class="row">
-                        <p><?php echo (($lang == 'ar') ? "الحياة الطلابية ... لا يتعلق الأمر بالدراسة فقط. سوف تزور المتاحف ودور السينما والحفلات الموسيقية المثيرة والعروض والعروض. سوف تقابل أصدقاء جدد من جميع مناطق العالم. إنها تجربة ممتعة ومجزية ومثيرة. خلال دراستهم في روسيا ، لا يفوت الطلاب الأجانب فرصة لتجربة الضيافة الروسية الفريدة ، وتاريخ وثقافة البلاد التي تنعكس في التراث المقدس الموروث للأجيال القادمة ، أن تكون مسحورا بالجمال الأصيل للطبيعة الروسية ، فضلا عن البلدات والقرى مع الأساليب المعمارية القديمة والحديثة." : (($lang == 'en') ? "Student life ... it's not just about studying. You will visit museums, cinemas, interesting concerts, shows and performances. you will meet new friends from all regions of our globe. It's a fun, rewarding and exciting experience. During their studies in Russia, foreign students do not miss an opportunity to experience the unique Russian hospitality, history and culture of the country reflected in the sacred heritage bequeathed to future generations, to be enchanted by the authentic beauty of Russian nature, as well as its towns and villages with ancient and modern architectural styles." : "La vie étudiante… il ne s'agit pas que d'étude. Vous visiterez des musées, des cinémas, des concerts intéressants, des spectacles et des performances. vous allez rencontrer de nouveaux amis de toutes les régions de notre globe. C'est une expérience amusante, enrichissante et excitante.
+                        <p><?php echo (($lang == 'ar') ? "الحياة الطلابية ... لا يتعلق الأمر بالدراسة فقط. سوف تزور المتاحف ودور السينما والحفلات الموسيقية المثيرة والعروض والعروض. سوف تقابل أصدقاء جدد من جميع مناطق العالم. إنها تجربة ممتعة ومجزية ومثيرة. خلال دراستهم في روسيا ، لا يفوت الطلاب الأجانب فرصة لتجربة الضيافة الروسية الفريدة ، وتاريخ وثقافة البلاد التي تنعكس في التراث المقدس الموروث للأجيال القادمة ، أن تكون مسحورا بالجمال الأصيل للطبيعة الروسية ، فضلا عن البلدات والقرى مع الأساليب المعمارية القديمة والحديثة." : (($lang == 'en') ? "Student life ... it's not just about studying. You will visit museums, cinemas, interesting concerts, shows and performances. you will meet new friends from all regions of our globe. It's a fun, rewarding and exciting experience. During their studies in Russia, foreign students do not miss an opportunity to experience the unique Russian hospitality, history and culture of the country reflected in the sacred heritage bequeathed to future generations, to be enchanted by the authentic beauty of Russian nature, as well as its towns and villages with ancient and modern architectural styles." : "La vie étudiante… il ne s'agit pas que d'étude. Vous visiterez des musées, des cinémas, des concerts intéressants, des spectacles et des performances, vous allez rencontrer de nouveaux amis de toutes les régions de notre globe. C'est une expérience amusante, enrichissante et excitante.
                         Au cours de leurs études en Russie, les étudiants étrangers ne manquent pas une occasion de faire l'expérience de l'hospitalité russe unique, de l'histoire et de la culture du pays reflétées dans l'héritage sacré légué aux générations futures, pour être enchantés par la beauté authentique de la nature russe, ainsi que ses villes et villages comprenant des styles architecturaux anciens et modernes.")); ?></p>
                     </div>
                 </div>
