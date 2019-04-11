@@ -69,12 +69,12 @@ footer(); ?>
 <?php
 
     if(isset($_POST['email'])){
-        $to         = "drissboumlik.test@gmail.com";
+        $to         = "studyabroad@rae.ma";
         $subject    = $_POST['subject'];
         $message = '<p>'.$_POST['message'].'</p>';
         $headers    = "";
         $headers    .= 'From: Contact - ' . $_POST['name'] . ' : ' . $_POST['email'] . "\r\n";
-        $headers    .= 'Reply-To: drissboumlik.test@gmail.com' . "\r\n";
+        $headers    .= 'Reply-To: studyabroad@rae.ma' . "\r\n";
         $headers    .= "Return-Path: " . $_POST['name'] . ' : ' . $_POST['email'] . "\r\n";
         $headers    .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
         $headers    .= "MIME-Version: 1.0\r\n";

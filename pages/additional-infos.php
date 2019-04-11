@@ -158,6 +158,19 @@
 <div class="section universities">
     <div class="row">
         <hr class="section-title-line">
+        <h2 class="section-title"><?php echo (($lang == 'ar') ? "السكن الجامعي" : (($lang == 'en') ? "UNIVERSITY ACCOMMODATION" : "HÉBERGEMENT UNIVERSITAIRE")); ?></h2>
+    </div>
+    <div class="row">
+        <p><?php echo (($lang == 'ar') ? "خيار رخيص وجيد للطلاب الجدد القادمين ، التي تقدمها الجامعة. تختلف الأسعار وفقًا للأولويات الخاصة بك ، ويعود الأمر تمامًا إلى اختيارك ويسأل عما تحب وما الذي يجعلك مرتاحًا. عادة ، نوصي بالعيش في النزل للطلاب الجدد." : (($lang == 'en') ? "Cheap and good option for new upcoming students, provided by the University. Prices vary according to your own priorities, it is totally up to your choice and asks what you like and what makes you comfortable. Normally, we recommend living in the hostel for new students to come." : "Option pas cher et bon pour les nouveaux étudiants à venir, fournies par l’Université. Les prix varient en fonction de vos propres priorités, il est totalement à votre choix et la demande ce que vous aimez et ce qui vous rend le confort. Normalement, nous recommandons de vivre dans l’auberge pour les nouveaux étudiants à venir.")); ?></p>
+        <p><?php echo (($lang == 'ar') ? "لأن" : (($lang == 'en') ? "Because;" : "Parce que;")); ?></p>
+        <p><?php echo (($lang == 'ar') ? "إنهم لا يعرفون لغة التواصل مع السكان." : (($lang == 'en') ? "They do not know the language of communication with the inhabitants." : "Ils ne savent pas la langue de communication avec les habitants.")); ?></p>
+        <p><?php echo (($lang == 'ar') ? "إنهم لا يعرفون جذور الحافلات في المدينة خارج الحرم الجامعي." : (($lang == 'en') ? "They do not know the city's bus roots outside the university campus." : "Ils ne savent pas les racines de bus de la ville à l’extérieur du campus universitaire.")); ?></p>
+        <p><?php echo (($lang == 'ar') ? "نحن نساعد الطالب طوال الوقت ، لكن إذا كانوا يعيشون خارج الحرم الجامعي فلا يمكننا الاقتراب منهم ، لذلك من الصعب مساعدتهم." : (($lang == 'en') ? "We help the student throughout, but if they live outside the university campus we can not approach them, so it is difficult to help them." : "Nous aidons l’étudiant tout au long mais si ils vivent en dehors du campus universitaire nous ne pouvons pas les approcher, il est donc difficile de les aider.")); ?></p>
+        <p><?php echo (($lang == 'ar') ? "الحرم الجامعي هو أفضل مكان للقاء أشخاص جدد واكتساب تجارب جديدة وتكوين صداقات جديدة تعيش مدى الحياة." : (($lang == 'en') ? "The university campus is the best place to meet new people, gain new experiences and make new friends who live for life." : "Le campus universitaire est le meilleur endroit pour rencontrer de nouvelles personnes, acquérir de nouvelles expériences et faire de nouveaux amis qui vit pour la vie.")); ?></p>
+        <p><?php echo (($lang == 'ar') ? "<span class='alert alert-danger'>ملاحظة :</span>  يمكن استيعاب الطلاب الأجانب في منازل الطلاب ، ولكن يمكنك أيضًا العثور على شقق للإيجار." : (($lang == 'en') ? "<span class='alert alert-danger'>NB :</span> Foreign students can be accommodated in student homes, but you can also find apartments for rent." : "<span class='alert alert-danger'>NB :</span> Les étudiants étrangers peuvent être logés dans des foyers d’étudiants, mais ils peuvent également, trouver des appartements à louer.")); ?></p>
+    </div>
+    <!-- <div class="row">
+        <hr class="section-title-line">
         <h2 class="section-title"><?php echo (($lang == 'ar') ? "الإقامة في أوكرانيا وروسيا." : (($lang == 'en') ? "Accommodation in Ukraine and Russia." : "Hébergement en Ukraine et en Russie.")); ?></h2>
     </div>
     <div class="row">
@@ -178,7 +191,7 @@
         <p><?php echo (($lang == 'ar') ? "الغرفة من شخصين إلى ثلاثة أشخاص: رسوم مكان واحد - 1000 دولار - 1200 دولار مع تجديد ممتاز (يشمل جميع المعدات اللازمة للعيش في سهولة)." : (($lang == 'en') ? "The room of two to three people: one place charges - $ 1000- $ 1200 with excellent renovation (includes all the necessary equipment to live at ease)." : "La chambre de deux à trois personnes: charges d’une place – 1000 $-1200 $ avec une excellent rénovation (comprend tous les équipements nécessaires pour vivre à l’aise).")); ?></p>
         <p><?php echo (($lang == 'ar') ? "يتم تصنيف تكاليف الشقة وفقا لمساحتها ، وحالتها ومكانها." : (($lang == 'en') ? "The costs of the apartment are classified according to their space, their state and their place." : "Les frais de l’appartement sont classés selon leur espace, leur état et leur lieu.")); ?></p>
         <p><?php echo (($lang == 'ar') ? "<span class='alert alert-danger'>ملاحظة :</span>  يمكن استيعاب الطلاب الأجانب في منازل الطلاب ، ولكن يمكنك أيضًا العثور على شقق للإيجار." : (($lang == 'en') ? "<span class='alert alert-danger'>NB :</span> Foreign students can be accommodated in student homes, but you can also find apartments for rent." : "<span class='alert alert-danger'>NB :</span> Les étudiants étrangers peuvent être logés dans des foyers d’étudiants, mais vous pouvez également, trouver des appartements à louer.")); ?></p>
-    </div>
+    </div> -->
 </div>
 
 <?php include $path.'/layouts/sidebar.php'; ?>
