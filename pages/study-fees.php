@@ -786,7 +786,8 @@
                     </div>
                 </div>
             </div>
-        </div>" : (($lang == 'en') ? "
+        </div>" 
+        : (($lang == 'en') ? "
         <div class='sector'>
             <hr class='section-title-line'>
             <h2 class='section-title uppercase'>COURSES IN UKRAINE STATE UNIVERSITIES</h2>
@@ -1560,7 +1561,8 @@
                     </div>
                 </div>
             </div>
-        </div>" : "
+        </div>" 
+        : "
         <div class='sector'>
             <hr class='section-title-line'>
             <h2 class='section-title uppercase'>LES COURS DANS LES UNIVERSITÉS D'ÉTAT D’UKRAINE</h2>
@@ -1888,7 +1890,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header last-child fa-plus'>
+                        <div class='tool-header fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -1946,6 +1948,234 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+    
+                    
+                    <div class='tool-container'>
+                        <div class='tool-header fa-plus'>
+                            <div class='row'>
+                                <div class='col-sm-12'>
+                                    <h3 class='capitalize'>
+                                        Université de Médecine Nationale de Lviv (ville de Lvive)  
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='tool-category'>
+                            <div class='row'>
+                                <div class='col-md-12 col-sm-12'>
+                                    <div class='tool-txt'>
+                                        <div class='tool-descr'>
+                                            <div class='row'>
+                                                <div class='col-md-4'>L’année préparatoire: 2500 $</div>
+                                                <div class='col-md-8'>Le pack complet inclut: étude, hébergement, séjour, assurance médicale…</div>
+                                            </div>
+                                            <div class='row wrapper'>
+                                                <div class='row'>
+                                                    <div class='col-md-4'>Médecine générale: </div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En russe :</div>
+                                                    <div class='col-md-8 col-55'>4000 $</div>
+                                                </div>                                                
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En anglais :</div>
+                                                    <div class='col-md-8 col-55'>4900 $</div>
+                                                </div>
+                                            </div>
+                                            <div class='row wrapper'>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-55'>Médecine dentaire :</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En russe :</div>
+                                                    <div class='col-md-8 col-55'>4300 $</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En anglais :</div>
+                                                    <div class='col-md-8 col-55'>5200 $</div>
+                                                </div>
+                                            </div>
+                                            <div class='row wrapper'>
+                                                <div class='row'>
+                                                    <div class='col-md-4'>Pharmacie :</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En russe :</div>
+                                                    <div class='col-md-8 col-55'>3500 $</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En anglais :</div>
+                                                    <div class='col-md-8 col-55'>4000 $</div>
+                                                </div>
+                                            </div>
+                                            <div class='row wrapper'>
+                                                <div class='row'>
+                                                    <div class='col-md-4'>Résidanat /Doctorat :</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En russe :</div>
+                                                    <div class='col-md-8 col-55'>4000 $</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='row'>
+                                            <div class='col-md-12'>Frais d’hébergement: 1200 $ (par ans);</div>
+                                        </div>
+                                        <div class='row'>
+                                            <div class='col-md-12'>Autres dépenses: 300 $ par ans (Assurance maladie 150$; Extension de visa 100 $; Visite médicale 50 $)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='tool-container'>
+                        <div class='tool-header fa-plus'>
+                            <div class='row'>
+                                <div class='col-sm-12'>
+                                    <h3 class='capitalize'>
+                                    Université d'État de Soumy  (ville de Soumy)
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='tool-category'>
+                        <div class='row'>
+                            <div class='col-md-12 col-sm-12'>
+                                <div class='tool-txt'>
+                                    <div class='tool-descr'>
+                                        <div class='row'>
+                                            <div class='col-md-4'>L’année préparatoire: 2500 $</div>
+                                            <div class='col-md-8'>Le pack complet inclut: étude, hébergement, séjour, assurance médicale…</div>
+                                        </div>
+                                        <div class='row wrapper'>
+                                            <div class='row'>
+                                                <div class='col-md-4'>Médecine générale: </div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En russe :</div>
+                                                <div class='col-md-8 col-55'>4000 $</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En anglais :</div>
+                                                <div class='col-md-8 col-55'>4500 $</div>
+                                            </div>
+                                        </div>
+                                        <div class='row wrapper'>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-55'>Médecine dentaire :</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En russe :</div>
+                                                <div class='col-md-8 col-55'>4200 $</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En anglais :</div>
+                                                <div class='col-md-8 col-55'>4800 $</div>
+                                            </div>
+                                        </div>
+                                        <div class='row wrapper'>
+                                            <div class='row'>
+                                                <div class='col-md-4'>Résidanat /Doctorat :</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En russe :</div>
+                                                <div class='col-md-8 col-55'>4000 $</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='row'>
+                                        <div class='col-md-12'>Frais d’hébergement: 1200 $ (par ans);</div>
+                                    </div>
+                                    <div class='row'>
+                                        <div class='col-md-12'>Autres dépenses: 300 $ par ans (Assurance maladie 150$; Extension de visa 100 $; Visite médicale 50 $)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='tool-container'>
+                        <div class='tool-header last-child fa-plus'>
+                            <div class='row'>
+                                <div class='col-sm-12'>
+                                    <h3 class='capitalize'>
+                                    Académie Nationale de Médecine de Dnipropetrovsk  (ville de Dnipro)
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='tool-category'>
+                        <div class='row'>
+                            <div class='col-md-12 col-sm-12'>
+                                <div class='tool-txt'>
+                                    <div class='tool-descr'>
+                                        <div class='row'>
+                                            <div class='col-md-4'>L’année préparatoire: 2500 $</div>
+                                            <div class='col-md-8'>Le pack complet inclut: étude, hébergement, séjour
+                                                assurance médicale…</div>
+                                        </div>
+                                        <div class='row wrapper'>
+                                            <div class='row'>
+                                                <div class='col-md-4'>Médecine générale: </div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En russe :</div>
+                                                <div class='col-md-8 col-55'>3700 $</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En anglais :</div>
+                                                <div class='col-md-8 col-55'>4200 $</div>
+                                            </div>
+                                        </div>
+                                        <div class='row wrapper'>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-55'>Médecine dentaire :</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En russe :</div>
+                                                <div class='col-md-8 col-55'>4000 $</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En anglais :</div>
+                                                <div class='col-md-8 col-55'>4500 $</div>
+                                            </div>
+                                        </div>
+                                        <div class='row wrapper'>
+                                            <div class='row'>
+                                                <div class='col-md-4'>Pharmacie :</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En russe :</div>
+                                                <div class='col-md-8 col-55'>3000 $</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En anglais :</div>
+                                                <div class='col-md-8 col-55'>3500 $</div>
+                                            </div>
+                                        </div>
+                                        <div class='row wrapper'>
+                                            <div class='row'>
+                                                <div class='col-md-4'>Résidanat /Doctorat :</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-4 col-45'>En russe :</div>
+                                                <div class='col-md-8 col-55'>3700 $</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='row'>
+                                        <div class='col-md-12'>Frais d’hébergement: 1200 $ (par ans);</div>
+                                    </div>
+                                    <div class='row'>
+                                        <div class='col-md-12'>Autres dépenses: 300 $ par ans (Assurance maladie 150
+                                            $; Extension de visa 100 $; Visite médicale 50 $)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -4074,7 +4304,7 @@
                         </div>
                     </div>
                     <div class='tool-container'>
-                        <div class='tool-header last-child fa-plus'>
+                        <div class='tool-header fa-plus'>
                             <div class='row'>
                                 <div class='col-sm-12'>
                                     <h3 class='capitalize'>
@@ -4102,6 +4332,129 @@
                                                 <div class='col-md-12'>Autres dépenses: 1ère année 500 $ ; 2-4ème année
                                                     300
                                                     $ par ans (Assurance maladie 150 $; Extension de visa 100 $; Visite
+                                                    médicale 50 $)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class='tool-container'>
+                        <div class='tool-header fa-plus'>
+                            <div class='row'>
+                                <div class='col-sm-12'>
+                                    <h3 class='capitalize'>
+                                    Université Technique d'État de Moscou nom de N.E. Bauman (Université nationale de recherche), ville de Moscou  
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='tool-category'>
+                            <div class='row'>
+                                <div class='col-md-12 col-sm-12'>
+                                    <div class='tool-txt'>
+                                        <div class='tool-descr'>
+                                            <div class='row'>
+                                                <div class='col-md-4'>L’année préparatoire: 5500 $</div>
+                                                <div class='col-md-8'></div>
+                                            </div>
+                                            <div class='row wrapper'>
+                                                <div class='row'>
+                                                    <div class='col-md-4'>Licence: </div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En russe 1-4ème année:</div>
+                                                    <div class='col-md-8 col-55'>5500 $</div>
+                                                </div>
+                                            </div>
+                                            <div class='row wrapper'>
+                                                <div class='row'>
+                                                    <div class='col-md-4'>Master</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En russe 1-2ème année:</div>
+                                                    <div class='col-md-8 col-55'>5000 $</div>
+                                                </div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>Doctorat 1-3éme année: 6000 $</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>Frais d’hébergement: 1000 $ (par ans);</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>Autres dépenses: 1ère année 500 $ ; 2-4ème année 300 $ par ans (Assurance maladie 150 $; Extension de visa 100 $; Visite médicale 50 $)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='tool-container'>
+                        <div class='tool-header last-child fa-plus'>
+                            <div class='row'>
+                                <div class='col-sm-12'>
+                                    <h3 class='capitalize'>
+                                    Université Technique d'État du Pétrole de Grozny, d'après l'académicien M.D Millionshchikov  (ville de Grozny)
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='tool-category'>
+                            <div class='row'>
+                                <div class='col-md-12 col-sm-12'>
+                                    <div class='tool-txt'>
+                                        <div class='tool-descr'>
+                                            <div class='row'>
+                                                <div class='col-md-4'>L’année préparatoire: 2800 $</div>
+                                                <div class='col-md-8'></div>
+                                            </div>
+                                            <div class='row wrapper'>
+                                                <div class='row'>
+                                                    <div class='col-md-4'>Licence: </div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En russe 1-4ème année:</div>
+                                                    <div class='col-md-8 col-55'>3200 $</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En anglais 1ère année:</div>
+                                                    <div class='col-md-8 col-55'>5200 $</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En anglais 2-4ème année:</div>
+                                                    <div class='col-md-8 col-55'>4200 $</div>
+                                                </div>
+                                            </div>
+                                            <div class='row wrapper'>
+                                                <div class='row'>
+                                                    <div class='col-md-4'>Master</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En russe 1-2ème année:</div>
+                                                    <div class='col-md-8 col-55'>3700 $</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En anglais 1ère année :</div>
+                                                    <div class='col-md-8 col-55'>5200 $</div>
+                                                </div>
+                                                <div class='row'>
+                                                    <div class='col-md-4 col-45'>En anglais 2ème année :</div>
+                                                    <div class='col-md-8 col-55'>4200 $</div>
+                                                </div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>Doctorat 1-3éme année: 3700 $</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>Frais d’hébergement: 600 $ (par ans);</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-md-12'>Autres dépenses: 1ère année 500 $ ; 2-4ème année 300 $ par ans (Assurance maladie 150 $; Extension de visa 100 $; Visite
                                                     médicale 50 $)</div>
                                             </div>
                                         </div>
