@@ -5,10 +5,10 @@
         <li class="list-group-item"><a href="https://api.whatsapp.com/send?phone=212662187074" target="_blank">
             <img src="/images/social/Whatsapp.png" alt="">
         </a></li>
-        <li class="list-group-item"><a href="https://facebook.com/messages" target="_blank">
+        <li class="list-group-item"><a href="https://facebook.com/messages/t/Etudierletranger.Ukraine.Russie" target="_blank">
             <img src="/images/social/F-Messenger.png" alt="">
         </a></li>
-        <li class="list-group-item"><a href="https://facebook.com/" target="_blank">
+        <li class="list-group-item"><a href="https://facebook.com/Etudierletranger.Ukraine.Russie/" target="_blank">
             <img src="/images/social/facebook.png" alt="">
         </a></li>
     </ul>
@@ -24,7 +24,7 @@
 </div>
 <!-- #endregion -->
 
-<div class="message-container" id="message-container">
+<div class="message-container hidden" id="message-container">
     <i class="far fa-times-circle"></i>
     <div class="container">
         <div class="message-body">
