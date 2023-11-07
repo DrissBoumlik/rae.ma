@@ -1096,7 +1096,7 @@
                                                 <div class='col-md-12'>Doctorate in Russian: $ 4000</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1200 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1200 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $ 150,
@@ -1142,7 +1142,7 @@
                                                 </div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1200 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1200 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $ 150,
@@ -1227,7 +1227,7 @@
                                                 </div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1200 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1200 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $ 150, visa extension $ 100, medical visit $ 50)</div>
@@ -1325,7 +1325,7 @@
                                             </div>
                                         </div>
                                         <div class='row'>
-                                            <div class='col-md-12'>Accommodation fee: $ 1,000 (في السنة);</div>
+                                            <div class='col-md-12'>Accommodation fee: $ 1,000 (per year);</div>
                                         </div>
                                         <div class='row'>
                                             <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $ 150, visa
@@ -1385,7 +1385,7 @@
                                             </div>
                                         </div>
                                         <div class='row'>
-                                            <div class='col-md-12'>Accommodation fee: $ 1200 (في السنة);</div>
+                                            <div class='col-md-12'>Accommodation fee: $ 1200 (per year);</div>
                                         </div>
                                         <div class='row'>
                                             <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $ 150, visa
@@ -1465,10 +1465,10 @@
                                                 </div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: 1200 $ (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: 1200 $ (per year);</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Other expenses: 300 $ في السنة (Health insurance 150$; visa extension 100 $; medical visit 50 $)</div>
+                                                <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance 150$; visa extension 100 $; medical visit 50 $)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -1531,10 +1531,10 @@
                                                 </div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: 1200 $ (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: 1200 $ (per year);</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Other expenses: 300 $ في السنة (Health insurance 150$; visa extension 100 $; medical visit 50 $)</div>
+                                                <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance 150$; visa extension 100 $; medical visit 50 $)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -1610,10 +1610,10 @@
                                                 </div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: 1200 $ (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: 1200 $ (per year);</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Other expenses: 300 $ في السنة (Health insurance 150 $; visa extension 100 $; medical visit 50 $)</div>
+                                                <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance 150 $; visa extension 100 $; medical visit 50 $)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -1689,7 +1689,7 @@
                                                 </div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1,000 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1,000 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $ 150,
@@ -1753,7 +1753,7 @@
                                                 </div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1200 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1200 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $ 150,
@@ -1812,7 +1812,7 @@
                                                 </div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1200 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1200 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $ 150,
@@ -1871,7 +1871,7 @@
                                                 </div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1200 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1200 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $ 150,
@@ -1940,7 +1940,7 @@
                                                     </div>
                                                 </div>
                                                 <div class='row'>
-                                                    <div class='col-md-12'>Accommodation fee: $ 1200 (في السنة);</div>
+                                                    <div class='col-md-12'>Accommodation fee: $ 1200 (per year);</div>
                                                 </div>
                                                 <div class='row'>
                                                     <div class='col-md-12'>Other expenses: 300 $ per year (Health insurance $
@@ -3794,7 +3794,7 @@
                                                 <div class='col-md-12'>Residency / Doctorate: $ 7700</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1200 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1200 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-5 / 6th year $ 300 per
@@ -3848,7 +3848,7 @@
                                                 <div class='col-md-12'>Residency / Ph.D. 1-3 year: $ 4000</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation costs: $ 800 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation costs: $ 800 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-5 / 6th year $ 300 per
@@ -3904,7 +3904,7 @@
                                                 <div class='col-md-12'>Residency / Ph.D. 1-3 year: $ 4000</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 400 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 400 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-5 / 6th year $ 300 per
@@ -3989,7 +3989,7 @@
                                                 <div class='col-md-12'>1st year doctorate: $ 5000</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1,000 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1,000 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-4th year 300 $ per year
@@ -4060,7 +4060,7 @@
                                             <div class='col-md-4'>Doctorate: 1st year: $ 3700</div>
                                         </div>
                                         <div class='row'>
-                                            <div class='col-md-12'>Accommodation fee: $ 1,000 (في السنة);</div>
+                                            <div class='col-md-12'>Accommodation fee: $ 1,000 (per year);</div>
                                         </div>
                                         <div class='row'>
                                             <div class='col-md-12'>Other expenses: 1st year $ 500; 2-4th year 300 $ per year
@@ -4121,7 +4121,7 @@
                                                 <div class='col-md-12'>1st year doctorate: $ 4500</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 500 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 500 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-4th year 300 $ per year
@@ -4191,7 +4191,7 @@
                                                 <div class='col-md-12'>1st year doctorate: $ 3500</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation costs: $ 800 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation costs: $ 800 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-4th year 300 $ per year
@@ -4261,7 +4261,7 @@
                                                 <div class='col-md-12'>1st year doctorate: $ 4000</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 1,000 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 1,000 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-4th year 300 $ per year
@@ -4296,7 +4296,7 @@
                                                 <div class='col-md-12'>The preparatory year: 2500 $</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: $ 500 (في السنة);</div>
+                                                <div class='col-md-12'>Accommodation fee: $ 500 (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-4th year 300 $ per year
@@ -4351,7 +4351,7 @@
                                                 <div class='col-md-12'>Doctorate 1-3éme année: 6000 $</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: 1000 $ (par ans);</div>
+                                                <div class='col-md-12'>Accommodation fee: 1000 $ (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-4th year 300 $ per year (Health insurance $ 150, Visa extension $ 100, Medical visit $ 50)</div>
@@ -4419,7 +4419,7 @@
                                                 <div class='col-md-12'>Doctorate 1-3éme année: 3700 $</div>
                                             </div>
                                             <div class='row'>
-                                                <div class='col-md-12'>Accommodation fee: 600 $ (par ans);</div>
+                                                <div class='col-md-12'>Accommodation fee: 600 $ (per year);</div>
                                             </div>
                                             <div class='row'>
                                                 <div class='col-md-12'>Other expenses: 1st year $ 500; 2-4th year 300 $ per year (Health insurance $ 150, Visa extension $ 100, Medical visit $ 50)</div>
