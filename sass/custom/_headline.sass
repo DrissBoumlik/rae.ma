@@ -9,10 +9,10 @@
     $index: 1
     @while $index <= 5
         .item:nth-child(#{$index})
-            background-image: url(/images/headline/#{$index}.jpg)
+            background-image: url(images/headline/#{$index}.jpg)
         &.ukraine .item:nth-child(#{$index})
-            background-image: url(/images/headline/ukraine/#{$index}.jpg)
+            background-image: url(images/headline/ukraine/#{$index}.jpg)
         &.russia .item:nth-child(#{$index})
-            background-image: url(/images/headline/russia/#{$index}.jpg)
+            background-image: url(images/headline/russia/#{$index}.jpg)
         $index: $index + 1
 
