@@ -5,9 +5,9 @@
 	<link rel="icon" href="./img/teacode.png" sizes="32x32" />
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='./css/animate.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='https://projects.drissboumlik.com/rae.ma/css/animate.css' type='text/css' media='all' />
 
-    <link href="./css/app.css" rel="stylesheet">
+    <link href="https://projects.drissboumlik.com/rae.ma/css/app.css" rel="stylesheet">
     <script src="/code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="/maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
