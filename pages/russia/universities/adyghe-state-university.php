@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة أديغيا الحكومية ، مدينة مايكوب","Adygea State University, Maïkop City","Université d’Etat Adyguée, ville Maïkop");
     title_page($title);

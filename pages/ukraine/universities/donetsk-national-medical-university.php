@@ -1,5 +1,5 @@
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة دونيتسك الطبية الوطنية (حرم كيروفوهراد)","Donetsk National Medical University (Kirovohrad Campus)","Université Nationale de Médecine de Donetsk (Kirovohrad Campus)");
     title_page($title);

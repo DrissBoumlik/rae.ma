@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("معهد موسكو للفيزياء والتكنولوجيا ، مدينة موسكو","Moscow Institute of Physics and Technology, Moscow City","Institut de Physique et de Technologie de Moscou, ville Moscou");
     title_page($title);

@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("أكاديمية خيرسون البحرية، مدينة خيرسون","Kherson State Maritime Academy, Kherson City","Académie Maritime d'État de Kherson, ville de Kherson");
     title_page($title);

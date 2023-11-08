@@ -1,4 +1,4 @@
-<?php $path = $_SERVER['DOCUMENT_ROOT'];
+<?php $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("تأشيرة دخول", "visa","Visa");
     title_page($title,6)

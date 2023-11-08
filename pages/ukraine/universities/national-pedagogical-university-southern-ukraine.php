@@ -1,7 +1,7 @@
 
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("الجامعة الوطنية التربوية في جنوب أوكرانيا التي عينتها ك. أو. Ushynsky ، مدينة أوديسا","National Pedagogical University of Southern Ukraine appointed by K.D. Ushynsky, City of Odessa","Université pédagogique nationale d'Ukraine du Sud nommée par K.D. Ushynsky, ville d'Odessa");
     title_page($title);

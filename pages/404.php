@@ -1,4 +1,4 @@
-<?php $path = $_SERVER['DOCUMENT_ROOT'];
+<?php $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php';
     $url_query = parse_url($_SERVER["REQUEST_URI"], PHP_URL_QUERY);
     $_lang = $url_query == null ? 'fr' : explode('=',parse_url($_SERVER["REQUEST_URI"], PHP_URL_QUERY))[1];

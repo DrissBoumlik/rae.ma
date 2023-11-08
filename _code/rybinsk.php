@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة التقنية التقنية في Rybinsk Aviation بمدينة Rybinsk","State Technical University of Rybinsk Aviation, Rybinsk City","Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk");
     title_page($title);

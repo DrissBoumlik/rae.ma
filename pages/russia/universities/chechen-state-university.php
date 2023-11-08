@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة ولاية الشيشان ، مدينة غروزني","Chechen State University, Grozny city","Université d'État Tchétchéne, ville Grozny");
     title_page($title);

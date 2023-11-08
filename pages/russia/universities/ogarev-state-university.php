@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة Mordovia State NPOgaraev ، مدينة سارانسك","Mordovia State University NPOgaraev, Saransk city","Université d’Etat N.P. Ogarev Mordovia");
     title_page($title);

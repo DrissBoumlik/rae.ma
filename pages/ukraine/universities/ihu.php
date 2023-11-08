@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("الجامعة الإنسانية الدولية ، مدينة أوديسا","International Humanitarian University, Odessa City","Université Internationale Humanitaire, ville d'Odessa");
     title_page($title);

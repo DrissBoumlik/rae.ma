@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     title_page("Académie de Vol d'État de l’Ukraine, ville Kropyvnytsky (Kirovohrad)")
 ?>

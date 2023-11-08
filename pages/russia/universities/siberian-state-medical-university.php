@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة سيبيريا ستيت الطبية ، مدينة تومسك","Siberian State Medical University, Tomsk City","Université Médicale d'État DE Sibérie, ville Tomsk");
     title_page($title);

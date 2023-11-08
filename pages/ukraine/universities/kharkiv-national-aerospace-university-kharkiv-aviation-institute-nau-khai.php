@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة الفضاء الوطنية في خاركيف ، مدينة خاركوف","National Aerospace University of Kharkiv, Kharkiv City","Université nationale de l'aérospatiale de Kharkiv, ville de Kharkiv");
     title_page($title);

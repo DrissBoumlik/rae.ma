@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة البوليتكنيك في تومسك ، تومسك سيتي","Polytechnic University of Tomsk, Tomsk City","Université Polytechnique de Tomsk");
     title_page($title);

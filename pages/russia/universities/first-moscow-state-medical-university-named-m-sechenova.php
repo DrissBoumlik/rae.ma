@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("أول جامعة موسكو الطبية الحكومية ، مدينة موسكو","First Moscow State Medical University, Moscow City","Première Université d'État de Médecine de Moscou, ville Moscou");
     title_page($title);

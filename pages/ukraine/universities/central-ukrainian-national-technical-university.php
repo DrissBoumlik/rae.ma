@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("الجامعة الوطنية المركزية الأوكرانية التقنية ، مدينة كروبيفنيتسكي (كيروفوهراد)","National Central Technical Ukrainian University, Kropyvnytsky (Kirovohrad)","Université Nationale Central Technique Ukrainienne, ville Kropyvnytsky (Kirovohrad)");
     title_page($title);

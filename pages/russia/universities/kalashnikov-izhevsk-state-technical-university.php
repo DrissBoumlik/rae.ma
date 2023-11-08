@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة كلاشينكوف التقنية الحكومية ، مدينة إيجيفسك","Kalashnikov Technical State University, Izhevsk city","Université d'État Technique Kalachnikov, ville Izhevsk");
     title_page($title);

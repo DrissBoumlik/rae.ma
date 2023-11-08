@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("جامعة داغستان الطبية الحكومية ، مدينة ماخاتشكالا","Dagestan State Medical University, Makhachkala City","Université d'État de Médecine du Daghestan, ville Makhatchkala");
     title_page($title);

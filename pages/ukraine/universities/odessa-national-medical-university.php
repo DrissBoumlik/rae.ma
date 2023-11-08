@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("الجامعة الوطنية للطب في أوديسا ، مدينة أوديسا","National University of Medicine of Odessa, Odessa city","Université Nationale de Médecine d'Odessa, ville Odessa");
     title_page($title);

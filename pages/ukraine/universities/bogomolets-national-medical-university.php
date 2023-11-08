@@ -1,6 +1,6 @@
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("الجامعة الطبية الوطنية O.O. Bogomolets من كييف","National Medical University O.O. Bogomolets of Kiev","Université médicale nationale O.O. Bogomolets de Kiev");;
     title_page($title);

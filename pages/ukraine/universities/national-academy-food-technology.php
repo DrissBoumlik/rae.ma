@@ -1,7 +1,7 @@
 
 
 <?php 
-    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("الأكاديمية الوطنية لتكنولوجيات الأغذية أوديسا","National Academy of Food Technologies Odessa","Académie Nationale Des Technologies Alimentaires D’Odessa");
     title_page($title);
