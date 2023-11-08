@@ -16,7 +16,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/ukraine/universities/donetsk-national-medical-university.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/ukraine/universities/donetsk-national-medical-university.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/ukraine/universities/central-ukrainian-national-technical-university.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/ukraine/universities/central-ukrainian-national-technical-university.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/ukraine/universities/kharkiv-national-aerospace-university-kharkiv-aviation-institute-nau-khai.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/ukraine/universities/kharkiv-national-aerospace-university-kharkiv-aviation-institute-nau-khai.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/ukraine/universities/national-academy-food-technology.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/ukraine/universities/national-academy-food-technology.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/ukraine/universities/kherson-state-maritime-academy.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/ukraine/universities/kherson-state-maritime-academy.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/ukraine/universities/state-academy-civil-engineering-architecture.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/ukraine/universities/state-academy-civil-engineering-architecture.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/russia/universities/first-moscow-state-medical-university-named-m-sechenova.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/russia/universities/first-moscow-state-medical-university-named-m-sechenova.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/russia/universities/russian-national-research-medical-university-named-ni-pirogov.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/russia/universities/russian-national-research-medical-university-named-ni-pirogov.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -184,7 +184,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/russia/universities/Polytechnic-University-Tomsk.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/russia/universities/Polytechnic-University-Tomsk.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/russia/universities/rybinsk-state-aviation-technical-university.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/russia/universities/rybinsk-state-aviation-technical-university.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/russia/universities/chechen-state-university.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/russia/universities/chechen-state-university.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
@@ -246,7 +246,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 read-more">
-                            <a href="/pages/russia/universities/moscow-institute-physics-technology.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
+                            <a href="pages/russia/universities/moscow-institute-physics-technology.php?lang=<?php echo $lang;?>" class="btn btn-lg btn-block btn-default"><?php echo (($lang == 'en') ? 'See more ...' : (($lang == 'ar') ? 'شاهد المزيد ...' : 'Voir plus ...'))?></a>
                         </div>
                     </div>
                 </div>
