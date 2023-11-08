@@ -17,7 +17,7 @@ function main_menu($active_page, $_lang = null)
                             <li class="list-inline-item"><a href="?lang=fr">
                                 <img src="https://projects.drissboumlik.com/rae.ma/images/flags/fr.png" alt="">
                             </a></li>
-                            <li class="list-inline-item"><a href="hp?lang=en">
+                            <li class="list-inline-item"><a href="?lang=en">
                                 <img src="https://projects.drissboumlik.com/rae.ma/images/flags/uk.png" alt="">
                             </a></li>
                         </ul>
