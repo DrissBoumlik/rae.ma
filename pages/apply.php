@@ -1,4 +1,4 @@
-<?php $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
+<?php $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("تقديم الطلب عبر الإنترنت","Apply online","Postuler en ligne");
     title_page($title)

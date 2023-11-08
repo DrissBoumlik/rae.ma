@@ -1,4 +1,4 @@
-<?php $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
+<?php $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("الدراسات العليا في أوكرانيا","Graduate studies in Ukraine","Les études supérieures en Ukraine");
     title_page($title,3)

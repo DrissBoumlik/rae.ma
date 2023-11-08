@@ -1,4 +1,4 @@
-<?php $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
+<?php $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
     include $path.'/layouts/header.php'  ;
     $title = get_lang_text("رسوم الدراسة", "Study Fees","FRAIS D'ÉTUDES");
     title_page($title)
