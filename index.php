@@ -1,4 +1,4 @@
-<?php $path = $_SERVER['DOCUMENT_ROOT']; // . "/rae.ma";
+<?php $path = $_SERVER['DOCUMENT_ROOT'] . "/rae.ma";
 include $path.'/layouts/header.php'  ;
 $title = get_lang_text("إستقبال","Home","Accueil");
 title_page($title, 1)
