@@ -22,7 +22,7 @@
                     </h2>
                 </div>
                 <div class="form-container">
-                    <form class="form" action="/pages/contact?lang=<?php echo $lang ?>" method="POST">
+                    <form class="form" action="/pages/contact.php?lang=<?php echo $lang ?>" method="POST">
                         <div class="form-group">
                             <input name="name" required="" type="text" class="form-control" id="contact-name" placeholder="<?php echo (($lang == 'ar') ? 'الإسم' : (($lang == 'en') ? 'Name' : 'Nom')); ?>">
                         </div>

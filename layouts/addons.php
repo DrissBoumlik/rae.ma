@@ -65,13 +65,13 @@
         <div class="sl-container languages" id="sl-container-languages">
             <!-- <div class="arrow hidden"></div> -->
             <ul class="list-group">
-                <li class="list-group-item"><a href="?lang=ar">
+                <li class="list-group-item"><a href=".php?lang=ar">
                     <img src="images/flags/ar.png" alt="">
                 </a></li>
-                <li class="list-group-item"><a href="?lang=fr">
+                <li class="list-group-item"><a href=".php?lang=fr">
                     <img src="images/flags/fr.png" alt="">
                 </a></li>
-                <li class="list-group-item"><a href="?lang=en">
+                <li class="list-group-item"><a href=".php?lang=en">
                     <img src="images/flags/uk.png" alt="">
                 </a></li>
             </ul>
