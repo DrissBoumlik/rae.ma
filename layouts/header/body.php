@@ -23,7 +23,7 @@ function main_menu($active_page, $_lang = null)
                         </ul>
                     </div>
                     <div class="col-md-5 logo">
-                        <a href="?lang=' . $lang . '"><img src="https://projects.drissboumlik.com/rae.ma/images/logo.png" alt="RAE"></a>
+                        <a href="https://projects.drissboumlik.com/rae.ma?lang=' . $lang . '"><img src="https://projects.drissboumlik.com/rae.ma/images/logo.png" alt="RAE"></a>
                     </div>
                     <div class="col-md-4 contact">
                         <div class="row">
@@ -59,7 +59,7 @@ function main_menu($active_page, $_lang = null)
                     <div id="navbar">
                     <!-- . // class="navbar-collapse collapse"> -->
                         <ul id="menu-main-menu" class="nav navbar-nav">
-                            <li class="' . ($active_page == '1' ? 'active' : '') .'"><a href="?lang='. $lang .'">'. (($lang == 'ar') ? 'إستقبال' : (($lang == 'en') ? 'Home' : 'Accueil')) .'</a></li><li class="' . ($active_page == '2' ? 'active' : '') .'"><a class="has-submenu" >'.(($lang == 'ar') ? 'في ما يخصنا' : (($lang == 'en') ? 'About us' : 'A propos de nous')).'</a>
+                            <li class="' . ($active_page == '1' ? 'active' : '') .'"><a href="https://projects.drissboumlik.com/rae.ma?lang='. $lang .'">'. (($lang == 'ar') ? 'إستقبال' : (($lang == 'en') ? 'Home' : 'Accueil')) .'</a></li><li class="' . ($active_page == '2' ? 'active' : '') .'"><a class="has-submenu" >'.(($lang == 'ar') ? 'في ما يخصنا' : (($lang == 'en') ? 'About us' : 'A propos de nous')).'</a>
                                 <ul class="submenu">
                                     <li><a href="https://projects.drissboumlik.com/rae.ma/pages/who-are-we.php?lang='. $lang .'">'.(($lang == 'ar') ? 'من نحن' : (($lang == 'en') ? 'Who are we' : 'Qui Somme nous')).'</a></li>
                                     <li><a href="https://projects.drissboumlik.com/rae.ma/pages/our-services.php?lang='. $lang .'">'.(($lang == 'ar') ? 'خدماتنا' : (($lang == 'en') ? 'Our services' : 'Nos Services')).'</a></li>
