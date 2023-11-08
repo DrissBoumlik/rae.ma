@@ -15,7 +15,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "جامعة دونيتسك الطبية الوطنية (حرم كيروفوهراد)" : (($lang == 'en') ? "Donetsk National Medical University (Kirovohrad Campus)" : "Université Nationale de Médecine de Donetsk (Kirovohrad Campus)")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="/images/universities/ukraine/Donetsk-National-Medical-University-4.jpg" alt=""></div>
+    <div class="post-img"><img src="mages/universities/ukraine/Donetsk-National-Medical-University-4.jpg" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p>كانت جامعة دونيتسك الطبية الوطنية أول جامعة طبية في أوكرانيا وأوروبا الشرقية التي بدأت كليات الطب وطب الأسنان في اللغة الإنجليزية للطلاب الأجانب.</p>
     <p>جامعة دونيتسك الطبية الوطنية لديها مستوى <strong>IVth (أعلى) من الاعتماد</strong> في أوكرانيا وساهمت بشكل كبير في تطوير نظام التعليم العالي في أوكرانيا ، والعلوم الطبية والخدمات الصحية. في الوقت الحاضر ، يعمل أكثر من 1120 مدرسًا في 82 قسمًا في جامعة دونيتسك الطبية الوطنية (DNMU).</p>
     <p><span style='color: #800000;'><strong>تحتل جامعة دونيتسك الطبية الوطنية الجامعة الطبية الأوكرانية رقم واحد والتي تنتج كل عام الأطباء العظام والعلماء في المستقبل. </strong></span></p>

@@ -16,7 +16,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "جامعة سيبيريا ستيت الطبية ، مدينة تومسك" : (($lang == 'en') ? "Siberian State Medical University, Tomsk City" : "Université Médicale d'État DE Sibérie, ville Tomsk")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="/images/universities/russia/SIBERIAN_STATE_MEDICAL_UNIVERSITY.jpg" alt=""></div>
+    <div class="post-img"><img src="mages/universities/russia/SIBERIAN_STATE_MEDICAL_UNIVERSITY.jpg" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p><strong>تقوم جامعة سيبيريا ستيت الطبية بتدريب الجيل القادم من الأطباء عن طريق إجراء أبحاث طبية عالية الجودة وتقديم تعليم ممتاز.</strong>&nbsp;</p>
 <p>أنشئت في عام 1878 ،&nbsp; <strong>جامعة سيبيريا الطبية الحكومية</strong> &nbsp;هي واحدة من أكثر المدارس الطبية شهرة وذات سمعة عالية في روسيا بسبب الهيئة الأكاديمية والعلمية من كبار أقطابها ، والأطباء من ذوي الخبرة والأساتذة.</p>
 <p>من بين الخريجين هما رئيسا للأكاديمية الروسية للعلوم الطبية ، و 25 عضوا منتسبين في الأكاديمية الروسية للعلوم الطبية ، و 42 أكاديميا.</p>

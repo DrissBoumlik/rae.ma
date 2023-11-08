@@ -14,7 +14,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class="">Sumy State University</h2>
     </div></div>
-    <div class="post-img"><img src="/images/universities/ukraine/Sumy-State-University.jpg" alt=""></div>
+    <div class="post-img"><img src="images/universities/ukraine/Sumy-State-University.jpg" alt=""></div>
     <div class="post-txt">
     <p></p><p><strong>Sumy State University</strong>&nbsp;is located in Sumy city in the North-East of Ukraine. Its history began in 1948. Today, SSU is a leading university of a classical type with the III-IV accreditation level in the region.</p>
 <p>The University currently serves about&nbsp;16,000 students&nbsp;who are pursuing pre bachelor, bachelor, specialist and master degrees in&nbsp;46 majors&nbsp;and&nbsp;22 fields of knowledge. About&nbsp;1300&nbsp;students represent almost&nbsp;50&nbsp;countries worldwide.</p>

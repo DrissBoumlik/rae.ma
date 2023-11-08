@@ -16,7 +16,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "الجامعة الوطنية المركزية الأوكرانية التقنية ، مدينة كروبيفنيتسكي (كيروفوهراد)" : (($lang == 'en') ? "National Central Technical Ukrainian University, Kropyvnytsky (Kirovohrad)" : "Université Nationale Central Technique Ukrainienne, ville Kropyvnytsky (Kirovohrad)")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="/images/universities/ukraine/kntu_01.jpg" alt=""></div>
+    <div class="post-img"><img src="mages/universities/ukraine/kntu_01.jpg" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p>في جامعة التقنية الوطنية الأوكرانية الوسطى ، تقدم كيروفوهراد مجالات الدراسة المتعلقة بالهندسة والكهرباء وميكنة الزراعة ، الهندسة الزراعية ، البناء ، النقل ، الطاقة ، الحواسيب ، الاقتصاد ، الضرائب ، الأنشطة المصرفية والمالية ، الصناعات الغذائية ، معالجة المنتجات الزراعية. .</p>
 <p>الجامعة الوطنية الأوكرانية التقنية المركزية هي مؤسسة للتعليم العالي في مستويين - بكالوريوس وماجستير في المجالات التالية: الهندسة الزراعية ، الهندسة الكهربائية ، هندسة الطاقة الزراعية ، الأتمتة ، بناء المنازل وبناء الطرق ، هندسة اللحام ، المعادن ، برمجية رقمية السيطرة ، هندسة الكمبيوتر.</p>
 <h4 style='text-align: center;'><span style='color: #800000;'><strong>كلية الأتمتة والطاقة</strong></span></h4>

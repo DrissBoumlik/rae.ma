@@ -16,7 +16,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "جامعة التقنية التقنية في Rybinsk Aviation بمدينة Rybinsk" : (($lang == 'en') ? "State Technical University of Rybinsk Aviation, Rybinsk City" : "Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="/images/universities/russia/40.jpg" alt=""></div>
+    <div class="post-img"><img src="ages/universities/russia/40.jpg" alt=""></div>
     <div class="post-txt">
     <?php echo (($lang == 'ar') ? "<p></p><p><strong>الجامعة التقنية الحكومية في ريبينسك للطيران ، التي</strong> سميت باسم PA Soloviev ، هي مؤسسة التعليم العالي الحكومية الفيدرالية التي توفر إمكانية التعليم المستمر ، بما في ذلك التعليم قبل الخدمة. - الجامعة ، التعليم الابتدائي والثانوي والعالي ، التدريب المهني وإعادة التدريب ، الدراسات العليا والدكتوراه ، حماية رسائل الماجستير والدكتوراه في المجالس الجامعية.</p>
 <p>تعتبر الجامعة التقنية الحكومية في ريبينسك للطيران من أفضل الجامعات في منطقة ياروسلافل. تأسست الجامعة التقنية الحكومية في ريبنسك للطيران في عام 1932 باسم معهد ريبنسك للطيران في إس. أوردجونيكيدز.&nbsp;</p>

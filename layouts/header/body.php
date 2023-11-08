@@ -12,18 +12,18 @@ function main_menu($active_page, $_lang = null)
                     <div class="col-md-3 languages">
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="?lang=ar">
-                                <img src="/images/flags/ar.png" alt="">
+                                <img src="images/flags/ar.png" alt="">
                             </a></li>
                             <li class="list-inline-item"><a href="?lang=fr">
-                                <img src="/images/flags/fr.png" alt="">
+                                <img src="images/flags/fr.png" alt="">
                             </a></li>
                             <li class="list-inline-item"><a href="?lang=en">
-                                <img src="/images/flags/uk.png" alt="">
+                                <img src="images/flags/uk.png" alt="">
                             </a></li>
                         </ul>
                     </div>
                     <div class="col-md-5 logo">
-                        <a href="/?lang=' . $lang . '"><img src="/images/logo.png" alt="RAE"></a>
+                        <a href="/?lang=' . $lang . '"><img src="images/logo.png" alt="RAE"></a>
                     </div>
                     <div class="col-md-4 contact">
                         <div class="row">

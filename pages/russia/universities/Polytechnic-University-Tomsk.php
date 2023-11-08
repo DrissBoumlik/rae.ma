@@ -16,7 +16,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "جامعة البوليتكنيك في تومسك ، تومسك سيتي" : (($lang == 'en') ? "Polytechnic University of Tomsk, Tomsk City" : "Université Polytechnique de Tomsk")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="/images/universities/russia/3.png" alt=""></div>
+    <div class="post-img"><img src="mages/universities/russia/3.png" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p>جامعة Tomsk Polytechnic هي أقدم جامعة تقنية روسية تقع شرق الأورال.</p>
         <p>تأسست UPT في عام 1896 وافتتحت في عام 1900 باسم معهد Tomsk التكنولوجي. في عام 1923 ، أعيدت تسميتها 'معهد سيبيريا التكنولوجي' ، وفي عام 1930 ، تم تقسيم المعهد إلى خمسة أقسام ، ثلاثة منها ظلت في تومسك. في عام 1934 ، اتحدت معاهد تومسك الثلاثة لتشكيل معهد جديد يسمى 'معهد البوليتكنيك في تومسك'.</p>
         <p>تعلِّم جامعة UPT أكثر من 22000 طالبًا ولديها أكثر من 130 ألف خريج من الخريجين في مختلف التخصصات التقنية. تقدم UPT 25 وجهة و 86 تخصصًا. يعمل في موظفي UPT 2300 متخصص ، من بينهم 2000 أساتذة.</p>

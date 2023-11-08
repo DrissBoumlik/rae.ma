@@ -14,7 +14,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class="">Académie de Vol d'État de l’Ukraine, ville Kropyvnytsky (Kirovohrad)</h2>
     </div></div>
-    <div class="post-img"><img src="/images/universities/ukraine/State-Flight-Academy-of-Ukraine-Kirovograd-700x450.jpg" alt=""></div>
+    <div class="post-img"><img src="mages/universities/ukraine/State-Flight-Academy-of-Ukraine-Kirovograd-700x450.jpg" alt=""></div>
     <div class="post-txt">
         
 <p>

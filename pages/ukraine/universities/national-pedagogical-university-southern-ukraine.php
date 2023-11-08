@@ -17,7 +17,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "الجامعة الوطنية التربوية في جنوب أوكرانيا التي عينتها ك. أو. Ushynsky ، مدينة أوديسا" : (($lang == 'en') ? "National Pedagogical University of Southern Ukraine appointed by K.D. Ushynsky, City of Odessa" : "Université pédagogique nationale d'Ukraine du Sud nommée par K.D. Ushynsky, ville d'Odessa")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="/images/universities/ukraine/23.png" alt=""></div>
+    <div class="post-img"><img src="mages/universities/ukraine/23.png" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p>الجامعة الحديثة هي عماد التعليم التربوي في جنوب أوكرانيا ، حيث تقوم بإعداد الطلاب وطلاب الدراسات العليا وطلاب الدكتوراه بنجاح في 47 تخصصًا وتخصصًا.</p>
         <p>على مر السنين ، تم تدريب أكثر من 100000 متخصص لنظام التعليم في بلادنا و 30 ولاية أخرى. من بين الخريجين والمدرسين بالجامعة وزراء ونواب من مختلف المستويات ورؤساء المدن ورؤساء مؤسسات كبرى وعلماء مشهورين ومدراء معاهد البحوث والمدارس ورؤساء الجامعات. مؤسسات التعليم العالي والمدربين والماجستير في مجال الرياضة والحائزين على جوائز الأولمبياد والأرقام الثقافية والفنية المعترف بها والذين قدموا إسهامات قيمة في تطوير التعليم والعلوم على المستوى العالمي.</p>
         <h3>تاريخ</h3>

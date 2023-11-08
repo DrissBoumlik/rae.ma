@@ -24,7 +24,7 @@
                     <?php for($i=1;$i<=9;$i++){ ?>
                         <div class="col-sm-6 col-md-4">
                             <a class="lightbox" href="/images/gallery/1 (<?php echo $i; ?>).jpg">
-                                <img src="/images/gallery/1 (<?php echo $i; ?>).jpg" alt="">
+                                <img src="images/gallery/1 (<?php echo $i; ?>).jpg" alt="">
                             </a>
                         </div>
                     <?php } ?>
@@ -41,7 +41,7 @@
                     <?php for($i=1;$i<=17;$i++){ ?>
                         <div class="col-sm-6 col-md-4">
                             <a class="lightbox" href="/images/Hebergement/1 (<?php echo $i; ?>).jpg">
-                                <img src="/images/Hebergement/1 (<?php echo $i; ?>).jpg" alt="">
+                                <img src="images/Hebergement/1 (<?php echo $i; ?>).jpg" alt="">
                             </a>
                         </div>
                     <?php } ?>

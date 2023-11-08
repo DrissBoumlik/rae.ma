@@ -19,7 +19,7 @@
                             <div class="not-found-header"></div>
                             <div class="not-found-body">'.
                             (!$sent ? '<div class="row"><i class="far fa-dizzy"></i></div>' 
-                            : '<div class="row"><img src="/images/owl.png"/></div>')
+                            : '<div class="row"><img src="images/owl.png"/></div>')
                                 .'<div class="row">
                                     <p>' . $message . '</p>
                                     <!-- <p>Click anywhere to close this window !!</p> -->

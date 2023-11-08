@@ -15,7 +15,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "أكاديمية الدولة للهندسة المدنية والهندسة المعمارية في أوديسا" : (($lang == 'en') ? "State Academy of Civil Engineering and Architecture of Odessa" : "Académie d'état de génie civil et d'architecture d’Odessa")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="/images/universities/ukraine/25.png" alt=""></div>
+    <div class="post-img"><img src="mages/universities/ukraine/25.png" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p> أكاديمية الدولة للهندسة المدنية والهندسة المعمارية في أوديسا هي خليفة للتقاليد المجيدة لمدرسة عمال البناء في أوديسا التابعة لإدارة أوديسا (نوفوروسيسك) بالجمعية الفنية الروسية الإمبراطورية منذ عام 1891. </p>
         <p>في عام 1918 ، لإعداد المهندسين والبنائين ، تم إنشاء كلية الهندسة في معهد البوليتكنيك.</p>
         <p>افتتحت في قاعدتها في عام 1930 جامعة في قطاع البناء ، ومعهد الهندسة والبناء في أوديسا (OISI) ، والتي غيرت اسمها على مر السنين. القرار رقم 244 المؤرخ 24 نيسان / أبريل 1994 لمجلس وزراء أوكرانيا الذي أنشأ أكاديمية الدولة للهندسة المدنية والهندسة في أوديسا على أساس معهد الهندسة والبناء في أوديسا.</p>
