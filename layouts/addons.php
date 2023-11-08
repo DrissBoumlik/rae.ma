@@ -3,13 +3,13 @@
     <!-- <div class="arrow hidden"></div> -->
     <ul class="list-group">
         <li class="list-group-item"><a href="https://api.whatsapp.com/send?phone=212662187074" target="_blank">
-            <img src="images/social/Whatsapp.png" alt="">
+            <img src="https://projects.drissboumlik.com/rae.ma/images/social/Whatsapp.png" alt="">
         </a></li>
         <li class="list-group-item"><a href="https://facebook.com/messages/t/Etudierletranger.Ukraine.Russie" target="_blank">
-            <img src="images/social/F-Messenger.png" alt="">
+            <img src="https://projects.drissboumlik.com/rae.ma/images/social/F-Messenger.png" alt="">
         </a></li>
         <li class="list-group-item"><a href="https://facebook.com/Etudierletranger.Ukraine.Russie/" target="_blank">
-            <img src="images/social/facebook.png" alt="">
+            <img src="https://projects.drissboumlik.com/rae.ma/images/social/facebook.png" alt="">
         </a></li>
     </ul>
     
@@ -65,14 +65,14 @@
         <div class="sl-container languages" id="sl-container-languages">
             <!-- <div class="arrow hidden"></div> -->
             <ul class="list-group">
-                <li class="list-group-item"><a href=".php?lang=ar">
-                    <img src="images/flags/ar.png" alt="">
+                <li class="list-group-item"><a href="?lang=ar">
+                    <img src="https://projects.drissboumlik.com/rae.ma/images/flags/ar.png" alt="">
                 </a></li>
-                <li class="list-group-item"><a href=".php?lang=fr">
-                    <img src="images/flags/fr.png" alt="">
+                <li class="list-group-item"><a href="?lang=fr">
+                    <img src="https://projects.drissboumlik.com/rae.ma/images/flags/fr.png" alt="">
                 </a></li>
-                <li class="list-group-item"><a href=".php?lang=en">
-                    <img src="images/flags/uk.png" alt="">
+                <li class="list-group-item"><a href="?lang=en">
+                    <img src="https://projects.drissboumlik.com/rae.ma/images/flags/uk.png" alt="">
                 </a></li>
             </ul>
             

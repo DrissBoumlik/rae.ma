@@ -15,7 +15,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class="">Institut des Arts et de la Culture de Belgorod, ville Belgorod</h2>
     </div></div>
-    <div class="post-img"><img src="images/universities/russia/4.png" alt=""></div>
+    <div class="post-img"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/russia/4.png" alt=""></div>
     <div class="post-txt">
         <p>L’éducation est un facteur important dans le développement de l’État, renforçant sa position internationale. Vous avez une grande chance d'obtenir l'éducation de haut niveau! Notre université vous aidera à développer vos compétences, à mettre en lumière vos talents, à devenir des spécialistes performants et hautement qualifiés dans le domaine de la culture et des arts.</p>
         <p>L'Université des Arts et de la Culture de Belgorod est un pont entre votre expérience scolaire et votre carrière future. L’Université d’Etat des Arts et de la Culture de Belgorod est l’une des principales institutions éducatives de la région. Elle a pour objectif principal de former des spécialistes hautement qualifiés de la sphère sociale et culturelle sur la base d’un modèle d’éducation ethnique et culturelle scientifiquement développé et certifié. les types suivants: école d'art, école supérieure d'art et d'arts, université des arts et de la culture, conservatoire de musique, programme de maîtrise, département de formation postdoctorale avec succession de curriculums et de programmes.</p>
@@ -33,7 +33,7 @@
         <p>L'Université des Arts et de la Culture de Belgorod est admise dans les facultés et les zones d'enseignement suivantes:</p>
         <h3>FACULTÉ DE L'ACTIVITÉ SOCIALE-CULTURELLE ET D'INFORMATION BIBLIOTHÈQUE: </h3>
         <div class="row">
-            <div class="col-md-5 col-xs-5"><img src="images/universities/univ-ukrain (1).jpg" alt=""></div>
+            <div class="col-md-5 col-xs-5"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/univ-ukrain (1).jpg" alt=""></div>
             <div class="col-md-7 col-xs-7">
                 <p>Enseignement professionnel supérieur: programmes de licence
                 071800.62 Activité socioculturelle, gestion de l'activité socioculturelle 
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-xs-5"><img src="images/universities/univ-ukrain (1).jpg" alt=""></div>
+            <div class="col-md-5 col-xs-5"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/univ-ukrain (1).jpg" alt=""></div>
             <div class="col-md-7 col-xs-7">
                 <p>Enseignement professionnel supérieur: programmes de
                 maîtrise 071900.68 Activités de bibliothèque et d’information. 
@@ -63,7 +63,7 @@
         </div>
         <h3>LA FACULTE DE LA MUSIQUE ART: </h3>
         <div class="row">
-            <div class="col-md-5 col-xs-5"><img src="images/universities/univ-ukrain (1).jpg" alt=""></div>
+            <div class="col-md-5 col-xs-5"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/univ-ukrain (1).jpg" alt=""></div>
             <div class="col-md-7 col-xs-7">
                 <p>Enseignement professionnel supérieur:
                     Programmes de bachelor Programme: "Education musicale" 
@@ -86,7 +86,7 @@
         </div>
         <h3>LA FACULTÉ DU DESIGN:</h3>
         <div class="row">
-            <div class="col-md-5 col-xs-5"><img src="images/universities/univ-ukrain (1).jpg" alt=""></div>
+            <div class="col-md-5 col-xs-5"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/univ-ukrain (1).jpg" alt=""></div>
             <div class="col-md-7 col-xs-7">
                 <p>Enseignement professionnel supérieur: programmes de licence
                     Arts et métiers populaires (enseignement à temps partiel) 
@@ -116,7 +116,7 @@
         </div>
         <h3>FACULTÉ DE LA DIRECTION, DE LA TECHNIQUE D'ACTION ET DE LA CHORÉGRAPHIE: </h3>
         <div class="row">
-            <div class="col-md-5 col-xs-5"><img src="images/universities/univ-ukrain (1).jpg" alt=""></div>
+            <div class="col-md-5 col-xs-5"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/univ-ukrain (1).jpg" alt=""></div>
             <div class="col-md-7 col-xs-7">
                 <p>Enseignement professionnel supérieur: Programmes de
                     licence ,Activités littorales 
@@ -137,7 +137,7 @@
         </div>
         <h3>FACULTÉ D'ÉTUDES DE L'ART ET DE LA COMMUNICATION INTERCULTURELLE: </h3>
         <div class="row">
-            <div class="col-md-5 col-xs-5"><img src="images/universities/univ-ukrain (1).jpg" alt=""></div>
+            <div class="col-md-5 col-xs-5"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/univ-ukrain (1).jpg" alt=""></div>
             <div class="col-md-7 col-xs-7">
                 <p>Enseignement professionnel supérieur: Programmes de licence
                 Arts et sciences humaines 

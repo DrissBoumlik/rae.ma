@@ -21,7 +21,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "جامعة ولاية البحرية الأدميرال أوشاكوف ، مدينة نوفوروسيي" : (($lang == 'en') ? "Maritime State University of Admiral Ushakov, Novorossiysh City" : "Université Maritime d'État Admiral Ushakov, ville de Novorossiysk")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="images/universities/russia/2.png" alt=""></div>
+    <div class="post-img"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/russia/2.png" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p>الأكاديمية البحرية للدولة التي تحمل اسم الأدميرال أوشاكوف هي أكبر مؤسسة لنقل المياه ومؤسسة التعليم العالي الوحيدة في جنوب روسيا. تأسست الأكاديمية البحرية للدولة في عام 1975 في نوفوروسيسك. تعد الأكاديمية البحرية بالولاية أخصائيين للأسطول المدني والتجاري. أكاديمية الولاية البحرية لديها حاليا 7 كليات ، 36 إدارة. تضم هيئة التدريس بالأكاديمية البحرية الحكومية أكثر من 300 معلم. من بينها 29 طبيبا وأستاذة و 198 مرشحا للعلوم وأساتذة مشاركين. واليوم ، تدرب الأكاديمية البحرية الحكومية أكثر من 4000 طالب. خلال وجودها ، دربت أكاديمية الولاية البحرية أكثر من 20000 محترف.</p>
         <hr>
         <h3>كليات </h3>

@@ -16,7 +16,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "جامعة ولاية الشيشان ، مدينة غروزني" : (($lang == 'en') ? "Chechen State University, Grozny city" : "Université d'État Tchétchéne, ville Grozny")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="images/universities/russia/edugain_chesu.jpg" alt=""></div>
+    <div class="post-img"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/russia/edugain_chesu.jpg" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p><strong>حول CheSU</strong></p><strong>
                     </strong><p><strong></strong></p>
                     <p>يعود تاريخ جامعة الشيشان إلى 7 فبراير عام 1938 ، وهو عام تأسيس معهد تدريب المعلم غروزني ، والذي استمر عامين. أعيد تنظيم المعهد في جامعة الشيشان إنغوش الحكومية في 9 مارس 1971 ، واسمه الجديد ليف نيكولاييفيتش تولستوي. وفي ٢٨ شباط / فبراير ١٩٩٥ ، أعيدت تسمية جامعة وﻻية الشيشان - إنغوش ، التي سميت باسم ليف نيكولاييفيتش تولستوي ، بجامعة ولاية الشيشان.&nbsp;<br>

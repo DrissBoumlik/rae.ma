@@ -50,7 +50,7 @@
                                                 <li>'.(($lang == 'en') ? 'Hospitals with modern technology' : (($lang == 'ar') ? 'المستشفيات ذات التكنولوجيا الحديثة' : 'Hôpitaux à la technologie moderne')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Advanced level of education' : (($lang == 'ar') ? 'مستوى متقدم من التعليم' : 'Niveau d\'éducation avancé')).'</li>
                                             </ul>
-                                            <a href="pages/universities.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
+                                            <a href="https://projects.drissboumlik.com/rae.ma/pages/universities.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@
                                                 <li>'.(($lang == 'en') ? 'Higher education that usually costs several times cheaper here than in the West' : (($lang == 'ar') ? 'التعليم العالي الذي عادة ما يكلف هنا عدة مرات أرخص مما هو عليه في الغرب' : 'Enseignement supérieur qui coûte en général plusieurs fois moins cher ici qu’en Occident.')).'</li>
                                                 <!-- <li>La qualité de l’enseignement dans les principales universités des pays (Ukraine/ Russie)</li> -->
                                             </ul>
-                                            <a href="pages/study-fees.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
+                                            <a href="https://projects.drissboumlik.com/rae.ma/pages/study-fees.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>
@@ -78,7 +78,7 @@
                                                 <li>'.(($lang == 'en') ? 'Advanced laboratories ' : (($lang == 'ar') ? 'معامل متقدمة' : 'Laboratoires avancés')).'</li>
                                                 <li>'.(($lang == 'en') ? 'Better relationship between price and quality of education' : (($lang == 'ar') ? 'علاقة أفضل بين السعر وجودة التعليم' : 'Meilleur rapport entre le prix et la qualité d\'enseignement')).'</li>
                                             </ul>
-                                            <a href="pages/courses.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
+                                            <a href="https://projects.drissboumlik.com/rae.ma/pages/courses.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@
                                                 <li>'.(($lang == 'en') ? 'Important links' : (($lang == 'ar') ? 'روابط مهمة' : 'Liens importants')).'</li>
                                                 <li>'.(($lang == 'en') ? 'FAQ' : (($lang == 'ar') ? 'التعليمات' : 'FAQ')).'</li>
                                             </ul>
-                                            <a href="pages/additional-infos.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
+                                            <a href="https://projects.drissboumlik.com/rae.ma/pages/additional-infos.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>
@@ -108,7 +108,7 @@
                                                 <li>'.(($lang == 'en') ? 'Accommodation' : (($lang == 'ar') ? 'الإقامة' : 'Hebergement')).' </li>
                                                 <li>'.(($lang == 'en') ? 'Videos ' : (($lang == 'ar') ? 'فيديو' : 'Vidéos')).'</li>
                                             </ul>
-                                            <a href="pages/gallery.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
+                                            <a href="https://projects.drissboumlik.com/rae.ma/pages/gallery.php?lang='.$lang.'" class="btn btn-primary">'.(($lang == 'en') ? 'See more' : (($lang == 'ar') ? 'شاهد المزيد' : 'Voir plus')).'</a>
                                         </div>
                                     </div>
                                 </div>'.

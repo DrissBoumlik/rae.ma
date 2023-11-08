@@ -16,7 +16,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "جامعة التقنية التقنية في Rybinsk Aviation بمدينة Rybinsk" : (($lang == 'en') ? "State Technical University of Rybinsk Aviation, Rybinsk City" : "Université d'État Technique de l'Aviation de Rybinsk, ville Rybinsk")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="images/universities/russia/40.jpg" alt=""></div>
+    <div class="post-img"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/russia/40.jpg" alt=""></div>
     <div class="post-txt">
     <?php echo (($lang == 'ar') ? "<p></p><p><strong>جامعة Rybinsk State Aviation Technical</strong> المسماة بعد PA Solovyov هي مؤسسة تعليمية فدرالية لميزانية الدولة للتعليم المهني العالي ، توفر إمكانية التعليم المستمر ، بما في ذلك التعليم قبل الجامعي والتعليم الابتدائي والثانوي والعالي المهني والتدريب وإعادة التدريب المهني ، وظيفة الدراسات العليا والدكتوراه ، وحماية الماجستير والأطروحات الدكتوراه في مجالس الجامعة.</p>
 <p>تعتبر جامعة Rybinsk State Aviation Technical University أفضل جامعة في منطقة ياروسلافل. تأسست جامعة Rybinsk State Aviation Technical في عام 1932 كمعهد Rybinsk Aviation. س. أوردزهونيكيدزه.&nbsp;</p>

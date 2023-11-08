@@ -16,7 +16,7 @@
     <div class="post-header"><div class="col-sm-12 col-md-12">
         <h2 class=""><?php echo (($lang == 'ar') ? "أول جامعة موسكو الطبية الحكومية ، مدينة موسكو" : (($lang == 'en') ? "First Moscow State Medical University, Moscow City" : "Première Université d'État de Médecine de Moscou, ville Moscou")); ?></h2>
     </div></div>
-    <div class="post-img"><img src="images/universities/russia/55.jpg" alt=""></div>
+    <div class="post-img"><img src="https://projects.drissboumlik.com/rae.ma/images/universities/russia/55.jpg" alt=""></div>
     <div class="post-txt"><?php echo (($lang == 'ar') ? "<p></p><p><strong>IM Sechenov</strong> تقع <strong>جامعة موسكو الطبية الأولى</strong> في مدينة موسكو وتمثل أكبر مجمع طبي وعلمي وسريري في روسيا. تحتل الجامعة بفخر مركز إحدى الجامعات الطبية المرموقة في روسيا. IM Sechenov جامعة موسكو الطبية الأولى هي واحدة من الجامعات الطبية لروسيا المعترف بها من قبل MCI ، منظمة الصحة العالمية ، المملكة المتحدة ، الولايات المتحدة الأمريكية والدول الرئيسية الأخرى.</p>
 <p><strong></strong>تغطي اتفاقيات <strong>التعاون الدولي</strong> مجموعة واسعة من الجامعات والمؤسسات الأجنبية ، بما في ذلك:</p>
 <ul>
